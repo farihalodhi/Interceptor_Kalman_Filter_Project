@@ -2,8 +2,17 @@
 import math
 import pygame
 from settings import WIDTH, HEIGHT, FPS, DRONE_RADIUS, PROJECTILE_RADIUS
-from drone import Drone
-from turret import Turret
+from game_manager import GameManager
+
+
+def draw_turret(screen, turret, color):
+    tip_x = turret.x + 30 * math.cos(turret.angle)
+    tip_y = turret.y + 30 * math.sin(turret.angle)
+    pygame.draw.line(screen, color, (turret.x, turret.y), (tip_x, tip_y), 6)
+    pygame.draw.circle(screen, color, (turret.x, turret.y), 14)
+    for p in turret.projectiles:
+        pygame.draw.circle(screen, color, (int(p.x), int(p.y)),
+                           PROJECTILE_RADIUS)
 
 
 def main():
@@ -11,13 +20,9 @@ def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Interceptor")
     clock = pygame.time.Clock()
-    font = pygame.font.SysFont(None, 28)
+    font = pygame.font.SysFont(None, 26)
 
-    drone = Drone(-DRONE_RADIUS, 150, 120, 30)
-    player = Turret(WIDTH // 2, HEIGHT - 40)
-    projectiles = []
-    hits = 0
-    shots = 0
+    game = GameManager(noise=15, seed=42)
 
     running = True
     while running:
@@ -28,46 +33,41 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                bullet = player.fire()
-                if bullet is not None:
-                    projectiles.append(bullet)
-                    shots += 1
+                game.player_fire()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_UP:
+                    game.change_noise(5)
+                if event.key == pygame.K_DOWN:
+                    game.change_noise(-5)
 
         mouse_x, mouse_y = pygame.mouse.get_pos()
-        player.aim_at(mouse_x, mouse_y)
+        game.aim_player(mouse_x, mouse_y)
 
         # 2. update
-        player.update(dt)
-        drone.update(dt)
-        for p in projectiles:
-            p.update(dt)
-            if p.alive and p.hits(drone):
-                p.alive = False
-                hits += 1
-                drone.reset()
-        projectiles = [p for p in projectiles if p.alive]
-        if drone.is_out():
-            drone.reset()
+        game.update(dt)
 
         # 3. draw
         screen.fill((20, 20, 30))
+
+        for rx, ry in game.radar_dots:
+            pygame.draw.circle(screen, (90, 160, 255),
+                               (int(rx), int(ry)), 3)
         pygame.draw.circle(screen, (220, 60, 60),
-                           (int(drone.x), int(drone.y)), DRONE_RADIUS)
+                           (int(game.drone.x), int(game.drone.y)),
+                           DRONE_RADIUS)
 
-        tip_x = player.x + 30 * math.cos(player.angle)
-        tip_y = player.y + 30 * math.sin(player.angle)
-        pygame.draw.line(screen, (80, 200, 120),
-                         (player.x, player.y), (tip_x, tip_y), 6)
-        pygame.draw.circle(screen, (80, 200, 120),
-                           (player.x, player.y), 14)
+        draw_turret(screen, game.player, (80, 200, 120))
+        draw_turret(screen, game.raw_turret, (240, 170, 60))
 
-        for p in projectiles:
-            pygame.draw.circle(screen, (255, 255, 120),
-                               (int(p.x), int(p.y)), PROJECTILE_RADIUS)
+        y = 10
+        for turret in (game.player, game.raw_turret):
+            line = (f"{turret.name}: {turret.hits}/{turret.shots} hits "
+                    f"({turret.hit_rate():.0f}%)")
+            screen.blit(font.render(line, True, (240, 240, 240)), (10, y))
+            y += 24
+        noise_text = f"Radar noise: {game.radar.noise}  (Up/Down keys)"
+        screen.blit(font.render(noise_text, True, (240, 240, 240)), (10, y))
 
-        text = font.render(f"Hits: {hits}   Shots: {shots}",
-                           True, (240, 240, 240))
-        screen.blit(text, (10, 10))
         pygame.display.flip()
 
     pygame.quit()
