@@ -2,3 +2,6 @@ WIDTH = 900
 HEIGHT = 600
 FPS = 60
 DRONE_RADIUS = 15
+PROJECTILE_RADIUS = 4
+PROJECTILE_SPEED = 400      # pixels per second
+TURRET_COOLDOWN = 0.5       # seconds between shots
