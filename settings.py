@@ -6,3 +6,6 @@ PROJECTILE_RADIUS = 4
 PROJECTILE_SPEED = 400      # pixels per second
 TURRET_COOLDOWN = 0.5    # seconds between shots
 KALMAN_WARMUP_FRAMES = 20
+DRONE_SPEED = 130           # pixels per second
+TURN_TIME = 3.0             # seconds of flight before the sudden turn
+TURN_ANGLE = 25             # degrees the heading changes at the turn
