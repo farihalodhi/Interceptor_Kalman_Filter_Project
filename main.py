@@ -71,6 +71,16 @@ def main():
                            (int(game.drone.x), int(game.drone.y)),
                            DRONE_RADIUS)
 
+        # Kalman estimate (ring) and predicted interception point (cross),
+        # drawn after the drone so they stay visible on top of it
+        if game.kalman.initialized:
+            ex, ey = game.kalman.position()
+            pygame.draw.circle(screen, (200, 120, 255),
+                               (int(ex), int(ey)), DRONE_RADIUS + 4, 2)
+        if game.aim_point is not None:
+            draw_cross(screen, (255, 255, 255),
+                       int(game.aim_point[0]), int(game.aim_point[1]))
+
         draw_turret(screen, game.player, (80, 200, 120))
         draw_turret(screen, game.raw_turret, (240, 170, 60))
         draw_turret(screen, game.kalman_turret, (200, 120, 255))
