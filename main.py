@@ -44,6 +44,8 @@ def main():
                     game.change_noise(5)
                 if event.key == pygame.K_DOWN:
                     game.change_noise(-5)
+                if event.key == pygame.K_t:
+                    game.next_pattern()
 
         mouse_x, mouse_y = pygame.mouse.get_pos()
         game.aim_player(mouse_x, mouse_y)
@@ -92,6 +94,8 @@ def main():
             screen.blit(font.render(line, True, (240, 240, 240)), (10, y))
             y += 24
         noise_text = f"Radar noise: {game.radar.noise}  (Up/Down keys)"
+        path_text = f"Path: {game.drone.pattern}  (T key)"
+        screen.blit(font.render(path_text, True, (240, 240, 240)), (10, y + 24))
         screen.blit(font.render(noise_text, True, (240, 240, 240)), (10, y))
 
         pygame.display.flip()

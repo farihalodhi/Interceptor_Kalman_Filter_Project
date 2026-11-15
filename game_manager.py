@@ -1,16 +1,15 @@
 # game_manager.py
 import math
-from settings import (WIDTH, HEIGHT, DRONE_RADIUS, PROJECTILE_SPEED,
-                      KALMAN_WARMUP_FRAMES)
-from drone import Drone
+from settings import WIDTH, HEIGHT, PROJECTILE_SPEED, KALMAN_WARMUP_FRAMES
+from drone import Drone, PATTERNS
 from turret import Turret
 from radar_sensor import RadarSensor
 from kalman_filter import KalmanFilter
 
 
 class GameManager:
-    def __init__(self, noise=15, seed=42):
-        self.drone = Drone(-DRONE_RADIUS, 150, 120, 30)
+    def __init__(self, noise=15, seed=42, pattern="straight"):
+        self.drone = Drone(pattern)
         self.radar = RadarSensor(noise, seed)
         self.kalman = KalmanFilter(noise)
         self.player = Turret(WIDTH // 2, HEIGHT - 40, "Player")
@@ -30,6 +29,22 @@ class GameManager:
         noise = max(0, self.radar.noise + amount)
         self.radar.set_noise(noise)
         self.kalman.set_noise(noise)
+        self.reset_scores()
+
+    def reset_scores(self):
+        for turret in (self.player, self.raw_turret, self.kalman_turret):
+            turret.shots = 0
+            turret.hits = 0
+            turret.projectiles = []
+
+    def set_pattern(self, pattern):
+        self.drone.set_pattern(pattern)
+        self.reset_round()
+        self.reset_scores()
+
+    def next_pattern(self):
+        i = PATTERNS.index(self.drone.pattern)
+        self.set_pattern(PATTERNS[(i + 1) % len(PATTERNS)])
 
     def reset_round(self):
         self.drone.reset()
