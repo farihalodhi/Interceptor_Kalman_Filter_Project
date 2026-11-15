@@ -4,4 +4,5 @@ FPS = 60
 DRONE_RADIUS = 15
 PROJECTILE_RADIUS = 4
 PROJECTILE_SPEED = 400      # pixels per second
-TURRET_COOLDOWN = 0.5       # seconds between shots
+TURRET_COOLDOWN = 0.5    # seconds between shots
+KALMAN_WARMUP_FRAMES = 20

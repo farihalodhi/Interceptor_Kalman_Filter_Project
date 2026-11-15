@@ -15,6 +15,11 @@ def draw_turret(screen, turret, color):
                            PROJECTILE_RADIUS)
 
 
+def draw_cross(screen, color, x, y, size=8):
+    pygame.draw.line(screen, color, (x - size, y), (x + size, y), 2)
+    pygame.draw.line(screen, color, (x, y - size), (x, y + size), 2)
+
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -52,15 +57,26 @@ def main():
         for rx, ry in game.radar_dots:
             pygame.draw.circle(screen, (90, 160, 255),
                                (int(rx), int(ry)), 3)
+
+        # Kalman estimate (ring) and predicted interception point (cross)
+        if game.kalman.initialized:
+            ex, ey = game.kalman.position()
+            pygame.draw.circle(screen, (200, 120, 255),
+                               (int(ex), int(ey)), 10, 2)
+        if game.aim_point is not None:
+            draw_cross(screen, (255, 255, 255),
+                       int(game.aim_point[0]), int(game.aim_point[1]))
+
         pygame.draw.circle(screen, (220, 60, 60),
                            (int(game.drone.x), int(game.drone.y)),
                            DRONE_RADIUS)
 
         draw_turret(screen, game.player, (80, 200, 120))
         draw_turret(screen, game.raw_turret, (240, 170, 60))
+        draw_turret(screen, game.kalman_turret, (200, 120, 255))
 
         y = 10
-        for turret in (game.player, game.raw_turret):
+        for turret in (game.player, game.raw_turret, game.kalman_turret):
             line = (f"{turret.name}: {turret.hits}/{turret.shots} hits "
                     f"({turret.hit_rate():.0f}%)")
             screen.blit(font.render(line, True, (240, 240, 240)), (10, y))
@@ -71,5 +87,6 @@ def main():
         pygame.display.flip()
 
     pygame.quit()
+
 
 main()
