@@ -22,12 +22,18 @@ class GameManager:
         self.radar_dots = []          # recent noisy readings, for drawing
         self.aim_point = None         # Kalman turret's predicted intercept point
         self.warmup_frames = 0
+        self.record_events = False #main.py turns this on to play sound
+        self.events = []
 
+    def _event(self,kind,who):
+        if self.record_events:
+            self.events.append((kind,who))
     def aim_player(self, x, y):
         self.player.aim_at(x, y)
 
     def player_fire(self):
-        self.player.fire()
+        if self.player.fire():
+            self._event("fire",self.player.name)
 
     def change_noise(self, amount):
         noise = max(0, self.radar.noise + amount)
@@ -83,20 +89,22 @@ class GameManager:
 
         # raw-radar turret: aim at the latest noisy reading
         self.raw_turret.aim_at(reading[0], reading[1])
-        if self.drone.x > 0:
-            self.raw_turret.fire()
+        if self.drone.x > 0 and self.raw_turret.fire():
+            self._event("fire",self.raw_turret.name)
 
         # Kalman turret: aim ahead of the estimated position
         if self.warmup_frames >= KALMAN_WARMUP_FRAMES:
             self.aim_point = self.lead_point()
             self.kalman_turret.aim_at(self.aim_point[0], self.aim_point[1])
-            if self.drone.x > 0:
-                self.kalman_turret.fire()
+            if self.drone.x > 0 and self.kalman_turret.fire():
+                self._event("fire",self.kalman_turret.name)
 
         for turret in (self.player, self.raw_turret, self.kalman_turret):
             turret.update(dt)
-            if turret.check_hit(self.drone) and self.auto_reset:
-                self.reset_round()
+            if turret.check_hit(self.drone):
+                self._event("hit",turret.name)
+                if self.auto_reset:
+                    self.reset_round()
 
         if self.drone.is_out() and self.auto_reset:
             self.reset_round()

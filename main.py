@@ -5,8 +5,8 @@ from settings import (WIDTH, HEIGHT, FPS, DRONE_RADIUS, PROJECTILE_RADIUS,
                       HUD_HEIGHT)
 from drone import PATTERNS
 from game_manager import GameManager
+from sounds import SoundFX
 from ui import Slider, Button, draw_hud_background, TEXT
-
 
 def draw_turret(screen, turret, color):
     tip_x = turret.x + 30 * math.cos(turret.angle)
@@ -17,11 +17,9 @@ def draw_turret(screen, turret, color):
         pygame.draw.circle(screen, color, (int(p.x), int(p.y)),
                            PROJECTILE_RADIUS)
 
-
 def draw_cross(screen, color, x, y, size=8):
     pygame.draw.line(screen, color, (x - size, y), (x + size, y), 2)
     pygame.draw.line(screen, color, (x, y - size), (x, y + size), 2)
-
 
 def main():
     pygame.init()
@@ -32,6 +30,8 @@ def main():
     small_font = pygame.font.SysFont(None, 22)
 
     game = GameManager(noise=15, seed=42)
+    game.record_events = True      # so we can play a sound for each event
+    sfx = SoundFX()
 
     # controls in the strip below the arena
     slider = Slider(40, HEIGHT + 46, 260, 0, 100, 15, 5, "Radar noise")
@@ -75,6 +75,8 @@ def main():
                     game.change_noise(-5)
                 if event.key == pygame.K_t:
                     game.next_pattern()
+                if event.key == pygame.K_m:
+                    sfx.toggle_mute()
 
         # keep the slider in step with the noise when keys change it
         if not slider.dragging:
@@ -85,6 +87,11 @@ def main():
 
         # 2. update
         game.update(dt)
+
+        # play a sound for everything that happened this frame
+        for kind, who in game.events:
+            sfx.play(kind, who)
+        game.events.clear()
 
         # 3. draw
         screen.fill((20, 20, 30))
@@ -129,6 +136,8 @@ def main():
                     (730, HEIGHT + 20))
         screen.blit(small_font.render("Up/Down: noise", True, TEXT),
                     (730, HEIGHT + 42))
+        screen.blit(small_font.render("M: sound " + ("off" if sfx.muted else "on"),
+                                      True, TEXT), (730, HEIGHT + 2))
 
         pygame.display.flip()
 
