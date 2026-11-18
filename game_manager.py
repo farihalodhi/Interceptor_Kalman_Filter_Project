@@ -9,11 +9,11 @@ from kalman_filter import KalmanFilter
 
 class GameManager:
     def __init__(self, noise=15, seed=42, pattern="straight",
-                 start_y=None, auto_reset=True):
+                 start_y=None, auto_reset=True, speed=None):
         # auto_reset=True: a hit or the drone leaving restarts the round (game)
         # auto_reset=False: the drone always flies its full path (experiments)
         self.auto_reset = auto_reset
-        self.drone = Drone(pattern, start_y)
+        self.drone = Drone(pattern, start_y, speed)
         self.radar = RadarSensor(noise, seed)
         self.kalman = KalmanFilter(noise)
         self.player = Turret(WIDTH // 2, HEIGHT - 40, "Player")

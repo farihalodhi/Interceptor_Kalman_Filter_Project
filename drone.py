@@ -6,11 +6,12 @@ PATTERNS = ("straight", "diagonal", "turning")
 
 
 class Drone:
-    def __init__(self, pattern="straight", start_y=None):
+    def __init__(self, pattern="straight", start_y=None, speed=None):
         if pattern not in PATTERNS:
             raise ValueError("pattern must be one of " + str(PATTERNS))
         self.pattern = pattern
         self.start_y = start_y      # None = use the pattern's default height
+        self.speed = DRONE_SPEED if speed is None else speed
         self.reset()
 
     def set_pattern(self, pattern):
@@ -36,8 +37,8 @@ class Drone:
 
     def set_heading(self, angle_degrees):
         angle = math.radians(angle_degrees)
-        self.vx = DRONE_SPEED * math.cos(angle)
-        self.vy = DRONE_SPEED * math.sin(angle)
+        self.vx = self.speed * math.cos(angle)
+        self.vy = self.speed * math.sin(angle)
 
     def update(self, dt):
         self.time += dt
