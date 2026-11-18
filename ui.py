@@ -86,3 +86,43 @@ class Button:
         text_color = ACTIVE_TEXT if active else TEXT
         label = font.render(self.text, True, text_color)
         screen.blit(label, label.get_rect(center=self.rect.center))
+
+
+class TextBox:
+    def __init__(self, x, y, width, height, max_chars=14, text=""):
+        self.rect = pygame.Rect(x, y, width, height)
+        self.max_chars = max_chars
+        self.text = text
+        self.timer = 0.0              # drives the blinking cursor
+
+    def handle_event(self, event):
+        # returns True when Enter is pressed
+        if event.type == pygame.KEYDOWN:
+            if event.key in (pygame.K_RETURN, pygame.K_KP_ENTER):
+                return True
+            if event.key == pygame.K_BACKSPACE:
+                self.text = self.text[:-1]
+            elif (event.unicode and len(self.text) < self.max_chars
+                    and (event.unicode.isalnum() or event.unicode in " _-.")):
+                self.text += event.unicode
+        return False
+
+    def update(self, dt):
+        self.timer += dt
+
+    def value(self):
+        return self.text.strip()
+
+    def draw(self, screen, font):
+        pygame.draw.rect(screen, BUTTON, self.rect, border_radius=8)
+        pygame.draw.rect(screen, ACCENT, self.rect, 2, border_radius=8)
+        x = self.rect.x + 14
+        if self.text:
+            label = font.render(self.text, True, TEXT)
+        else:
+            label = font.render("Type your name here", True, (120, 124, 150))
+        screen.blit(label, (x, self.rect.centery - label.get_height() // 2))
+        if int(self.timer * 2) % 2 == 0:          # blinking cursor
+            cursor_x = x + (font.size(self.text)[0] if self.text else 0) + 2
+            pygame.draw.line(screen, TEXT, (cursor_x, self.rect.y + 10),
+                             (cursor_x, self.rect.bottom - 10), 2)
