@@ -2,11 +2,12 @@
 import math
 import pygame
 from settings import (WIDTH, HEIGHT, FPS, DRONE_RADIUS, PROJECTILE_RADIUS,
-                      HUD_HEIGHT)
+                      HUD_HEIGHT, LEVELS)
 from drone import PATTERNS
 from game_manager import GameManager
 from sounds import SoundFX
 from ui import Slider, Button, draw_hud_background, TEXT
+from screens import show_menu, show_loading, show_levels, LEVEL_COLORS
 
 def draw_turret(screen, turret, color):
     tip_x = turret.x + 30 * math.cos(turret.angle)
@@ -21,33 +22,34 @@ def draw_cross(screen, color, x, y, size=8):
     pygame.draw.line(screen, color, (x - size, y), (x + size, y), 2)
     pygame.draw.line(screen, color, (x, y - size), (x, y + size), 2)
 
-def main():
-    pygame.init()
-    screen = pygame.display.set_mode((WIDTH, HEIGHT + HUD_HEIGHT))
-    pygame.display.set_caption("Interceptor")
-    clock = pygame.time.Clock()
+def play_level(screen, clock, sfx, name, level):
+    """Runs one game at the chosen level.
+    Returns "levels" (Esc, back to level select) or "quit" (window closed)."""
     font = pygame.font.SysFont(None, 26)
     small_font = pygame.font.SysFont(None, 22)
 
-    game = GameManager(noise=15, seed=42)
+    # the level decides the drone's path, speed and the radar noise
+    cfg = LEVELS[level]
+    game = GameManager(noise=cfg["noise"], seed=42, pattern=cfg["pattern"],
+                       speed=cfg["speed"])
     game.record_events = True      # so we can play a sound for each event
-    sfx = SoundFX()
 
     # controls in the strip below the arena
-    slider = Slider(40, HEIGHT + 46, 260, 0, 100, 15, 5, "Radar noise")
+    slider = Slider(40, HEIGHT + 46, 260, 0, 100, cfg["noise"], 5, "Radar noise")
     buttons = []
-    for i, name in enumerate(PATTERNS):
+    for i, pattern in enumerate(PATTERNS):
         buttons.append(Button(400 + i * 98, HEIGHT + 36, 90, 26,
-                              name.capitalize()))
+                              pattern.capitalize()))
 
-    running = True
-    while running:
+    while True:
         dt = clock.tick(FPS) / 1000
 
         # 1. input
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                running = False
+                return "quit"
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                return "levels"
 
             # the slider and buttons get first use of mouse events
             if slider.handle_event(event):
@@ -125,6 +127,12 @@ def main():
             screen.blit(font.render(line, True, TEXT), (10, y))
             y += 24
 
+        # player name and level, top right
+        who = font.render(f"{name}  |  {level}", True, LEVEL_COLORS[level])
+        screen.blit(who, (WIDTH - who.get_width() - 10, 10))
+        hint = small_font.render("Esc: level select", True, (150, 155, 180))
+        screen.blit(hint, (WIDTH - hint.get_width() - 10, 34))
+
         # control strip
         draw_hud_background(screen, HEIGHT, WIDTH, HUD_HEIGHT)
         slider.draw(screen, font)
@@ -141,7 +149,39 @@ def main():
 
         pygame.display.flip()
 
+def main():
+    pygame.init()
+    screen = pygame.display.set_mode((WIDTH, HEIGHT + HUD_HEIGHT))
+    pygame.display.set_caption("Interceptor")
+    clock = pygame.time.Clock()
+    sfx = SoundFX()
+
+    name = ""
+    running = True
+    while running:
+        # 1. main page: big title + enter your name
+        name = show_menu(screen, clock, name)
+        if name is None:
+            break
+
+        # 2. loading bar
+        if not show_loading(screen, clock, name):
+            break
+
+        # 3. title + level select (Easy / Medium / Hard), then play
+        while True:
+            level = show_levels(screen, clock, name)
+            if level is None:            # window closed
+                running = False
+                break
+            if level == "back":          # Esc: change name
+                break
+            if play_level(screen, clock, sfx, name, level) == "quit":
+                running = False
+                break
+
     pygame.quit()
 
 
-main()
+if __name__ == "__main__":
+    main()
