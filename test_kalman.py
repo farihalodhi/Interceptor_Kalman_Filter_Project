@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from settings import DRONE_RADIUS
 from drone import Drone
 from radar_sensor import RadarSensor
 from kalman_filter import KalmanFilter
@@ -10,7 +9,7 @@ NOISE = 15
 SEED = 42
 DT = 1 / 60
 
-drone = Drone(-DRONE_RADIUS, 150, 120, 30)      # same start as GameManager
+drone = Drone("straight")                       # same path as the Easy level
 radar = RadarSensor(NOISE, SEED)
 kf = KalmanFilter(NOISE)
 
