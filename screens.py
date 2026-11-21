@@ -9,7 +9,8 @@ MUTED = (150, 155, 180)
 SCREEN_H = HEIGHT + HUD_HEIGHT
 LEVEL_COLORS = {"Easy": (80, 200, 120),
                 "Medium": (240, 170, 60),
-                "Hard": (230, 80, 80)}
+                "Hard": (230, 80, 80),
+                "Lab": (200, 120, 255)}
 
 
 def make_fonts():
@@ -145,14 +146,30 @@ def show_loading(screen, clock, name, duration=3.0):
     return True
 
 
+def wrap_text(font, text, max_width):
+    # split text into lines that each fit inside max_width pixels
+    lines = []
+    current = ""
+    for word in text.split():
+        trial = word if not current else current + " " + word
+        if font.size(trial)[0] <= max_width:
+            current = trial
+        else:
+            lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return lines
+
+
 def show_levels(screen, clock, name):
-    """Level select. Returns "Easy"/"Medium"/"Hard", "back" or None (quit)."""
+    """Level select. Returns "Easy"/"Medium"/"Hard"/"Lab", "back" or None (quit)."""
     fonts = make_fonts()
     backdrop = Backdrop()
     names = list(LEVELS)
     cards = []
     for i, level in enumerate(names):
-        cards.append(pygame.Rect(60 + i * 270, 270, 240, 240))
+        cards.append(pygame.Rect(27 + i * 215, 270, 200, 240))
 
     while True:
         dt = clock.tick(FPS) / 1000
@@ -162,7 +179,7 @@ def show_levels(screen, clock, name):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     return "back"
-                if event.key in (pygame.K_1, pygame.K_2, pygame.K_3):
+                if pygame.K_1 <= event.key < pygame.K_1 + len(names):
                     return names[event.key - pygame.K_1]
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 for level, card in zip(names, cards):
@@ -178,26 +195,37 @@ def show_levels(screen, clock, name):
 
         mouse = pygame.mouse.get_pos()
         for i, (level, card) in enumerate(zip(names, cards)):
+            cfg = LEVELS[level]
+            locked = cfg.get("locked", True)
             color = LEVEL_COLORS[level]
             hovered = card.collidepoint(mouse)
             pygame.draw.rect(screen, BUTTON_HOVER if hovered else BUTTON,
                              card, border_radius=12)
             pygame.draw.rect(screen, color, card, 4 if hovered else 2,
                              border_radius=12)
-            cfg = LEVELS[level]
             draw_text(screen, fonts["big"], level.upper(), color,
-                      (card.centerx, card.y + 40))
-            draw_text(screen, fonts["small"], cfg["info"], MUTED,
-                      (card.centerx, card.y + 80))
-            lines = [f"Path: {cfg['pattern'].capitalize()}",
-                     f"Drone speed: {cfg['speed']}",
-                     f"Radar noise: {cfg['noise']}"]
+                      (card.centerx, card.y + 38))
+
+            info_lines = wrap_text(fonts["small"], cfg["info"], card.width - 20)
+            for j, line in enumerate(info_lines):
+                draw_text(screen, fonts["small"], line, MUTED,
+                          (card.centerx, card.y + 78 + j * 20))
+
+            if locked:
+                lines = [f"Path: {cfg['pattern'].capitalize()}",
+                         f"Speed: {cfg['speed']}",
+                         f"Noise: {cfg['noise']}"]
+            else:
+                lines = ["Path: your choice",
+                         f"Speed: {cfg['speed']}",
+                         "Noise: your choice"]
             for j, line in enumerate(lines):
                 draw_text(screen, fonts["small"], line, TEXT,
-                          (card.centerx, card.y + 125 + j * 28))
+                          (card.centerx, card.y + 135 + j * 26))
             draw_text(screen, fonts["small"], f"Press {i + 1}", MUTED,
                       (card.centerx, card.bottom - 22))
 
-        draw_text(screen, fonts["small"], "Click a level or press 1, 2, 3     Esc: change name",
+        draw_text(screen, fonts["small"],
+                  f"Click a level or press 1-{len(names)}     Esc: change name",
                   MUTED, (WIDTH // 2, 545))
         pygame.display.flip()
