@@ -1,0 +1,1801 @@
+turret,trajectory,noise,seed,shots,hits,hit_rate
+Raw radar,straight,5,1,14,0,0.0
+Raw radar (same position),straight,5,1,14,0,0.0
+Raw + lead,straight,5,1,14,5,35.71
+Kalman,straight,5,1,14,11,78.57
+Raw radar,straight,5,2,14,0,0.0
+Raw radar (same position),straight,5,2,14,0,0.0
+Raw + lead,straight,5,2,14,10,71.43
+Kalman,straight,5,2,14,11,78.57
+Raw radar,straight,5,3,14,0,0.0
+Raw radar (same position),straight,5,3,14,0,0.0
+Raw + lead,straight,5,3,14,8,57.14
+Kalman,straight,5,3,14,11,78.57
+Raw radar,straight,5,4,14,0,0.0
+Raw radar (same position),straight,5,4,14,0,0.0
+Raw + lead,straight,5,4,14,5,35.71
+Kalman,straight,5,4,14,10,71.43
+Raw radar,straight,5,5,14,0,0.0
+Raw radar (same position),straight,5,5,14,0,0.0
+Raw + lead,straight,5,5,14,7,50.0
+Kalman,straight,5,5,14,10,71.43
+Raw radar,straight,5,6,14,0,0.0
+Raw radar (same position),straight,5,6,14,0,0.0
+Raw + lead,straight,5,6,14,6,42.86
+Kalman,straight,5,6,14,11,78.57
+Raw radar,straight,5,7,14,0,0.0
+Raw radar (same position),straight,5,7,14,0,0.0
+Raw + lead,straight,5,7,14,7,50.0
+Kalman,straight,5,7,14,11,78.57
+Raw radar,straight,5,8,14,0,0.0
+Raw radar (same position),straight,5,8,14,0,0.0
+Raw + lead,straight,5,8,14,5,35.71
+Kalman,straight,5,8,14,11,78.57
+Raw radar,straight,5,9,14,0,0.0
+Raw radar (same position),straight,5,9,14,0,0.0
+Raw + lead,straight,5,9,14,6,42.86
+Kalman,straight,5,9,14,10,71.43
+Raw radar,straight,5,10,14,0,0.0
+Raw radar (same position),straight,5,10,14,0,0.0
+Raw + lead,straight,5,10,14,6,42.86
+Kalman,straight,5,10,14,11,78.57
+Raw radar,straight,5,11,14,0,0.0
+Raw radar (same position),straight,5,11,14,0,0.0
+Raw + lead,straight,5,11,14,6,42.86
+Kalman,straight,5,11,14,11,78.57
+Raw radar,straight,5,12,14,0,0.0
+Raw radar (same position),straight,5,12,14,0,0.0
+Raw + lead,straight,5,12,14,9,64.29
+Kalman,straight,5,12,14,11,78.57
+Raw radar,straight,5,13,14,0,0.0
+Raw radar (same position),straight,5,13,14,0,0.0
+Raw + lead,straight,5,13,14,6,42.86
+Kalman,straight,5,13,14,11,78.57
+Raw radar,straight,5,14,14,0,0.0
+Raw radar (same position),straight,5,14,14,0,0.0
+Raw + lead,straight,5,14,14,9,64.29
+Kalman,straight,5,14,14,11,78.57
+Raw radar,straight,5,15,14,0,0.0
+Raw radar (same position),straight,5,15,14,0,0.0
+Raw + lead,straight,5,15,14,6,42.86
+Kalman,straight,5,15,14,10,71.43
+Raw radar,straight,5,16,14,0,0.0
+Raw radar (same position),straight,5,16,14,0,0.0
+Raw + lead,straight,5,16,14,6,42.86
+Kalman,straight,5,16,14,10,71.43
+Raw radar,straight,5,17,14,0,0.0
+Raw radar (same position),straight,5,17,14,0,0.0
+Raw + lead,straight,5,17,14,5,35.71
+Kalman,straight,5,17,14,11,78.57
+Raw radar,straight,5,18,14,0,0.0
+Raw radar (same position),straight,5,18,14,0,0.0
+Raw + lead,straight,5,18,14,8,57.14
+Kalman,straight,5,18,14,11,78.57
+Raw radar,straight,5,19,14,0,0.0
+Raw radar (same position),straight,5,19,14,0,0.0
+Raw + lead,straight,5,19,14,8,57.14
+Kalman,straight,5,19,14,10,71.43
+Raw radar,straight,5,20,14,0,0.0
+Raw radar (same position),straight,5,20,14,0,0.0
+Raw + lead,straight,5,20,14,7,50.0
+Kalman,straight,5,20,14,11,78.57
+Raw radar,straight,5,21,14,0,0.0
+Raw radar (same position),straight,5,21,14,0,0.0
+Raw + lead,straight,5,21,14,9,64.29
+Kalman,straight,5,21,14,11,78.57
+Raw radar,straight,5,22,14,0,0.0
+Raw radar (same position),straight,5,22,14,0,0.0
+Raw + lead,straight,5,22,14,7,50.0
+Kalman,straight,5,22,14,10,71.43
+Raw radar,straight,5,23,14,0,0.0
+Raw radar (same position),straight,5,23,14,0,0.0
+Raw + lead,straight,5,23,14,5,35.71
+Kalman,straight,5,23,14,11,78.57
+Raw radar,straight,5,24,14,0,0.0
+Raw radar (same position),straight,5,24,14,0,0.0
+Raw + lead,straight,5,24,14,4,28.57
+Kalman,straight,5,24,14,10,71.43
+Raw radar,straight,5,25,14,0,0.0
+Raw radar (same position),straight,5,25,14,0,0.0
+Raw + lead,straight,5,25,14,5,35.71
+Kalman,straight,5,25,14,11,78.57
+Raw radar,straight,5,26,14,0,0.0
+Raw radar (same position),straight,5,26,14,0,0.0
+Raw + lead,straight,5,26,14,8,57.14
+Kalman,straight,5,26,14,11,78.57
+Raw radar,straight,5,27,14,0,0.0
+Raw radar (same position),straight,5,27,14,0,0.0
+Raw + lead,straight,5,27,14,8,57.14
+Kalman,straight,5,27,14,11,78.57
+Raw radar,straight,5,28,14,0,0.0
+Raw radar (same position),straight,5,28,14,0,0.0
+Raw + lead,straight,5,28,14,4,28.57
+Kalman,straight,5,28,14,10,71.43
+Raw radar,straight,5,29,14,0,0.0
+Raw radar (same position),straight,5,29,14,0,0.0
+Raw + lead,straight,5,29,14,7,50.0
+Kalman,straight,5,29,14,11,78.57
+Raw radar,straight,5,30,14,0,0.0
+Raw radar (same position),straight,5,30,14,0,0.0
+Raw + lead,straight,5,30,14,10,71.43
+Kalman,straight,5,30,14,11,78.57
+Raw radar,straight,15,1,14,0,0.0
+Raw radar (same position),straight,15,1,14,0,0.0
+Raw + lead,straight,15,1,14,0,0.0
+Kalman,straight,15,1,14,11,78.57
+Raw radar,straight,15,2,14,0,0.0
+Raw radar (same position),straight,15,2,14,0,0.0
+Raw + lead,straight,15,2,14,6,42.86
+Kalman,straight,15,2,14,10,71.43
+Raw radar,straight,15,3,14,0,0.0
+Raw radar (same position),straight,15,3,14,0,0.0
+Raw + lead,straight,15,3,14,5,35.71
+Kalman,straight,15,3,14,11,78.57
+Raw radar,straight,15,4,14,0,0.0
+Raw radar (same position),straight,15,4,14,0,0.0
+Raw + lead,straight,15,4,14,2,14.29
+Kalman,straight,15,4,14,10,71.43
+Raw radar,straight,15,5,14,0,0.0
+Raw radar (same position),straight,15,5,14,0,0.0
+Raw + lead,straight,15,5,14,3,21.43
+Kalman,straight,15,5,14,10,71.43
+Raw radar,straight,15,6,14,0,0.0
+Raw radar (same position),straight,15,6,14,0,0.0
+Raw + lead,straight,15,6,14,2,14.29
+Kalman,straight,15,6,14,11,78.57
+Raw radar,straight,15,7,14,0,0.0
+Raw radar (same position),straight,15,7,14,0,0.0
+Raw + lead,straight,15,7,14,2,14.29
+Kalman,straight,15,7,14,11,78.57
+Raw radar,straight,15,8,14,0,0.0
+Raw radar (same position),straight,15,8,14,0,0.0
+Raw + lead,straight,15,8,14,3,21.43
+Kalman,straight,15,8,14,10,71.43
+Raw radar,straight,15,9,14,0,0.0
+Raw radar (same position),straight,15,9,14,0,0.0
+Raw + lead,straight,15,9,14,1,7.14
+Kalman,straight,15,9,14,10,71.43
+Raw radar,straight,15,10,14,0,0.0
+Raw radar (same position),straight,15,10,14,0,0.0
+Raw + lead,straight,15,10,14,3,21.43
+Kalman,straight,15,10,14,10,71.43
+Raw radar,straight,15,11,14,0,0.0
+Raw radar (same position),straight,15,11,14,0,0.0
+Raw + lead,straight,15,11,14,2,14.29
+Kalman,straight,15,11,14,10,71.43
+Raw radar,straight,15,12,14,0,0.0
+Raw radar (same position),straight,15,12,14,0,0.0
+Raw + lead,straight,15,12,14,3,21.43
+Kalman,straight,15,12,14,10,71.43
+Raw radar,straight,15,13,14,0,0.0
+Raw radar (same position),straight,15,13,14,0,0.0
+Raw + lead,straight,15,13,14,3,21.43
+Kalman,straight,15,13,14,10,71.43
+Raw radar,straight,15,14,14,0,0.0
+Raw radar (same position),straight,15,14,14,0,0.0
+Raw + lead,straight,15,14,14,3,21.43
+Kalman,straight,15,14,14,10,71.43
+Raw radar,straight,15,15,14,0,0.0
+Raw radar (same position),straight,15,15,14,0,0.0
+Raw + lead,straight,15,15,14,4,28.57
+Kalman,straight,15,15,14,10,71.43
+Raw radar,straight,15,16,14,0,0.0
+Raw radar (same position),straight,15,16,14,0,0.0
+Raw + lead,straight,15,16,14,1,7.14
+Kalman,straight,15,16,14,10,71.43
+Raw radar,straight,15,17,14,0,0.0
+Raw radar (same position),straight,15,17,14,0,0.0
+Raw + lead,straight,15,17,14,4,28.57
+Kalman,straight,15,17,14,11,78.57
+Raw radar,straight,15,18,14,0,0.0
+Raw radar (same position),straight,15,18,14,0,0.0
+Raw + lead,straight,15,18,14,3,21.43
+Kalman,straight,15,18,14,9,64.29
+Raw radar,straight,15,19,14,0,0.0
+Raw radar (same position),straight,15,19,14,0,0.0
+Raw + lead,straight,15,19,14,4,28.57
+Kalman,straight,15,19,14,9,64.29
+Raw radar,straight,15,20,14,0,0.0
+Raw radar (same position),straight,15,20,14,0,0.0
+Raw + lead,straight,15,20,14,2,14.29
+Kalman,straight,15,20,14,10,71.43
+Raw radar,straight,15,21,14,0,0.0
+Raw radar (same position),straight,15,21,14,0,0.0
+Raw + lead,straight,15,21,14,2,14.29
+Kalman,straight,15,21,14,11,78.57
+Raw radar,straight,15,22,14,0,0.0
+Raw radar (same position),straight,15,22,14,0,0.0
+Raw + lead,straight,15,22,14,3,21.43
+Kalman,straight,15,22,14,10,71.43
+Raw radar,straight,15,23,14,0,0.0
+Raw radar (same position),straight,15,23,14,0,0.0
+Raw + lead,straight,15,23,14,2,14.29
+Kalman,straight,15,23,14,10,71.43
+Raw radar,straight,15,24,14,0,0.0
+Raw radar (same position),straight,15,24,14,0,0.0
+Raw + lead,straight,15,24,14,2,14.29
+Kalman,straight,15,24,14,10,71.43
+Raw radar,straight,15,25,14,0,0.0
+Raw radar (same position),straight,15,25,14,0,0.0
+Raw + lead,straight,15,25,14,3,21.43
+Kalman,straight,15,25,14,11,78.57
+Raw radar,straight,15,26,14,0,0.0
+Raw radar (same position),straight,15,26,14,0,0.0
+Raw + lead,straight,15,26,14,0,0.0
+Kalman,straight,15,26,14,11,78.57
+Raw radar,straight,15,27,14,0,0.0
+Raw radar (same position),straight,15,27,14,0,0.0
+Raw + lead,straight,15,27,14,3,21.43
+Kalman,straight,15,27,14,10,71.43
+Raw radar,straight,15,28,14,0,0.0
+Raw radar (same position),straight,15,28,14,0,0.0
+Raw + lead,straight,15,28,14,1,7.14
+Kalman,straight,15,28,14,10,71.43
+Raw radar,straight,15,29,14,0,0.0
+Raw radar (same position),straight,15,29,14,0,0.0
+Raw + lead,straight,15,29,14,1,7.14
+Kalman,straight,15,29,14,9,64.29
+Raw radar,straight,15,30,14,0,0.0
+Raw radar (same position),straight,15,30,14,0,0.0
+Raw + lead,straight,15,30,14,2,14.29
+Kalman,straight,15,30,14,10,71.43
+Raw radar,straight,30,1,14,0,0.0
+Raw radar (same position),straight,30,1,14,0,0.0
+Raw + lead,straight,30,1,14,0,0.0
+Kalman,straight,30,1,14,10,71.43
+Raw radar,straight,30,2,14,0,0.0
+Raw radar (same position),straight,30,2,14,0,0.0
+Raw + lead,straight,30,2,14,3,21.43
+Kalman,straight,30,2,14,9,64.29
+Raw radar,straight,30,3,14,0,0.0
+Raw radar (same position),straight,30,3,14,0,0.0
+Raw + lead,straight,30,3,14,2,14.29
+Kalman,straight,30,3,14,11,78.57
+Raw radar,straight,30,4,14,0,0.0
+Raw radar (same position),straight,30,4,14,0,0.0
+Raw + lead,straight,30,4,14,0,0.0
+Kalman,straight,30,4,14,8,57.14
+Raw radar,straight,30,5,14,0,0.0
+Raw radar (same position),straight,30,5,14,0,0.0
+Raw + lead,straight,30,5,14,1,7.14
+Kalman,straight,30,5,14,9,64.29
+Raw radar,straight,30,6,14,0,0.0
+Raw radar (same position),straight,30,6,14,0,0.0
+Raw + lead,straight,30,6,14,0,0.0
+Kalman,straight,30,6,14,9,64.29
+Raw radar,straight,30,7,14,0,0.0
+Raw radar (same position),straight,30,7,14,0,0.0
+Raw + lead,straight,30,7,14,0,0.0
+Kalman,straight,30,7,14,9,64.29
+Raw radar,straight,30,8,14,0,0.0
+Raw radar (same position),straight,30,8,14,0,0.0
+Raw + lead,straight,30,8,14,2,14.29
+Kalman,straight,30,8,14,7,50.0
+Raw radar,straight,30,9,14,0,0.0
+Raw radar (same position),straight,30,9,14,0,0.0
+Raw + lead,straight,30,9,14,0,0.0
+Kalman,straight,30,9,14,9,64.29
+Raw radar,straight,30,10,14,0,0.0
+Raw radar (same position),straight,30,10,14,0,0.0
+Raw + lead,straight,30,10,14,3,21.43
+Kalman,straight,30,10,14,8,57.14
+Raw radar,straight,30,11,14,0,0.0
+Raw radar (same position),straight,30,11,14,0,0.0
+Raw + lead,straight,30,11,14,0,0.0
+Kalman,straight,30,11,14,10,71.43
+Raw radar,straight,30,12,14,0,0.0
+Raw radar (same position),straight,30,12,14,0,0.0
+Raw + lead,straight,30,12,14,1,7.14
+Kalman,straight,30,12,14,10,71.43
+Raw radar,straight,30,13,14,0,0.0
+Raw radar (same position),straight,30,13,14,0,0.0
+Raw + lead,straight,30,13,14,1,7.14
+Kalman,straight,30,13,14,8,57.14
+Raw radar,straight,30,14,14,0,0.0
+Raw radar (same position),straight,30,14,14,0,0.0
+Raw + lead,straight,30,14,14,1,7.14
+Kalman,straight,30,14,14,10,71.43
+Raw radar,straight,30,15,14,0,0.0
+Raw radar (same position),straight,30,15,14,0,0.0
+Raw + lead,straight,30,15,14,3,21.43
+Kalman,straight,30,15,14,9,64.29
+Raw radar,straight,30,16,14,0,0.0
+Raw radar (same position),straight,30,16,14,0,0.0
+Raw + lead,straight,30,16,14,1,7.14
+Kalman,straight,30,16,14,10,71.43
+Raw radar,straight,30,17,14,0,0.0
+Raw radar (same position),straight,30,17,14,0,0.0
+Raw + lead,straight,30,17,14,3,21.43
+Kalman,straight,30,17,14,9,64.29
+Raw radar,straight,30,18,14,0,0.0
+Raw radar (same position),straight,30,18,14,0,0.0
+Raw + lead,straight,30,18,14,2,14.29
+Kalman,straight,30,18,14,9,64.29
+Raw radar,straight,30,19,14,0,0.0
+Raw radar (same position),straight,30,19,14,0,0.0
+Raw + lead,straight,30,19,14,1,7.14
+Kalman,straight,30,19,14,8,57.14
+Raw radar,straight,30,20,14,0,0.0
+Raw radar (same position),straight,30,20,14,0,0.0
+Raw + lead,straight,30,20,14,1,7.14
+Kalman,straight,30,20,14,8,57.14
+Raw radar,straight,30,21,14,0,0.0
+Raw radar (same position),straight,30,21,14,0,0.0
+Raw + lead,straight,30,21,14,0,0.0
+Kalman,straight,30,21,14,9,64.29
+Raw radar,straight,30,22,14,0,0.0
+Raw radar (same position),straight,30,22,14,0,0.0
+Raw + lead,straight,30,22,14,3,21.43
+Kalman,straight,30,22,14,8,57.14
+Raw radar,straight,30,23,14,0,0.0
+Raw radar (same position),straight,30,23,14,0,0.0
+Raw + lead,straight,30,23,14,1,7.14
+Kalman,straight,30,23,14,8,57.14
+Raw radar,straight,30,24,14,0,0.0
+Raw radar (same position),straight,30,24,14,0,0.0
+Raw + lead,straight,30,24,14,1,7.14
+Kalman,straight,30,24,14,10,71.43
+Raw radar,straight,30,25,14,0,0.0
+Raw radar (same position),straight,30,25,14,0,0.0
+Raw + lead,straight,30,25,14,3,21.43
+Kalman,straight,30,25,14,10,71.43
+Raw radar,straight,30,26,14,0,0.0
+Raw radar (same position),straight,30,26,14,0,0.0
+Raw + lead,straight,30,26,14,0,0.0
+Kalman,straight,30,26,14,10,71.43
+Raw radar,straight,30,27,14,0,0.0
+Raw radar (same position),straight,30,27,14,0,0.0
+Raw + lead,straight,30,27,14,0,0.0
+Kalman,straight,30,27,14,9,64.29
+Raw radar,straight,30,28,14,0,0.0
+Raw radar (same position),straight,30,28,14,0,0.0
+Raw + lead,straight,30,28,14,0,0.0
+Kalman,straight,30,28,14,7,50.0
+Raw radar,straight,30,29,14,0,0.0
+Raw radar (same position),straight,30,29,14,0,0.0
+Raw + lead,straight,30,29,14,0,0.0
+Kalman,straight,30,29,14,9,64.29
+Raw radar,straight,30,30,14,0,0.0
+Raw radar (same position),straight,30,30,14,0,0.0
+Raw + lead,straight,30,30,14,0,0.0
+Kalman,straight,30,30,14,10,71.43
+Raw radar,straight,60,1,14,0,0.0
+Raw radar (same position),straight,60,1,14,0,0.0
+Raw + lead,straight,60,1,14,0,0.0
+Kalman,straight,60,1,14,8,57.14
+Raw radar,straight,60,2,14,1,7.14
+Raw radar (same position),straight,60,2,14,2,14.29
+Raw + lead,straight,60,2,14,1,7.14
+Kalman,straight,60,2,14,7,50.0
+Raw radar,straight,60,3,14,0,0.0
+Raw radar (same position),straight,60,3,14,0,0.0
+Raw + lead,straight,60,3,14,0,0.0
+Kalman,straight,60,3,14,9,64.29
+Raw radar,straight,60,4,14,0,0.0
+Raw radar (same position),straight,60,4,14,0,0.0
+Raw + lead,straight,60,4,14,0,0.0
+Kalman,straight,60,4,14,6,42.86
+Raw radar,straight,60,5,14,0,0.0
+Raw radar (same position),straight,60,5,14,0,0.0
+Raw + lead,straight,60,5,14,0,0.0
+Kalman,straight,60,5,14,7,50.0
+Raw radar,straight,60,6,14,0,0.0
+Raw radar (same position),straight,60,6,14,0,0.0
+Raw + lead,straight,60,6,14,0,0.0
+Kalman,straight,60,6,14,7,50.0
+Raw radar,straight,60,7,14,0,0.0
+Raw radar (same position),straight,60,7,14,0,0.0
+Raw + lead,straight,60,7,14,0,0.0
+Kalman,straight,60,7,14,8,57.14
+Raw radar,straight,60,8,14,0,0.0
+Raw radar (same position),straight,60,8,14,0,0.0
+Raw + lead,straight,60,8,14,1,7.14
+Kalman,straight,60,8,14,5,35.71
+Raw radar,straight,60,9,14,0,0.0
+Raw radar (same position),straight,60,9,14,0,0.0
+Raw + lead,straight,60,9,14,0,0.0
+Kalman,straight,60,9,14,6,42.86
+Raw radar,straight,60,10,14,1,7.14
+Raw radar (same position),straight,60,10,14,0,0.0
+Raw + lead,straight,60,10,14,2,14.29
+Kalman,straight,60,10,14,8,57.14
+Raw radar,straight,60,11,14,0,0.0
+Raw radar (same position),straight,60,11,14,0,0.0
+Raw + lead,straight,60,11,14,1,7.14
+Kalman,straight,60,11,14,8,57.14
+Raw radar,straight,60,12,14,0,0.0
+Raw radar (same position),straight,60,12,14,0,0.0
+Raw + lead,straight,60,12,14,1,7.14
+Kalman,straight,60,12,14,10,71.43
+Raw radar,straight,60,13,14,0,0.0
+Raw radar (same position),straight,60,13,14,0,0.0
+Raw + lead,straight,60,13,14,1,7.14
+Kalman,straight,60,13,14,7,50.0
+Raw radar,straight,60,14,14,0,0.0
+Raw radar (same position),straight,60,14,14,0,0.0
+Raw + lead,straight,60,14,14,1,7.14
+Kalman,straight,60,14,14,9,64.29
+Raw radar,straight,60,15,14,1,7.14
+Raw radar (same position),straight,60,15,14,0,0.0
+Raw + lead,straight,60,15,14,1,7.14
+Kalman,straight,60,15,14,6,42.86
+Raw radar,straight,60,16,14,0,0.0
+Raw radar (same position),straight,60,16,14,0,0.0
+Raw + lead,straight,60,16,14,0,0.0
+Kalman,straight,60,16,14,9,64.29
+Raw radar,straight,60,17,14,1,7.14
+Raw radar (same position),straight,60,17,14,0,0.0
+Raw + lead,straight,60,17,14,2,14.29
+Kalman,straight,60,17,14,9,64.29
+Raw radar,straight,60,18,14,0,0.0
+Raw radar (same position),straight,60,18,14,0,0.0
+Raw + lead,straight,60,18,14,2,14.29
+Kalman,straight,60,18,14,4,28.57
+Raw radar,straight,60,19,14,0,0.0
+Raw radar (same position),straight,60,19,14,0,0.0
+Raw + lead,straight,60,19,14,0,0.0
+Kalman,straight,60,19,14,8,57.14
+Raw radar,straight,60,20,14,0,0.0
+Raw radar (same position),straight,60,20,14,0,0.0
+Raw + lead,straight,60,20,14,1,7.14
+Kalman,straight,60,20,14,7,50.0
+Raw radar,straight,60,21,14,0,0.0
+Raw radar (same position),straight,60,21,14,0,0.0
+Raw + lead,straight,60,21,14,0,0.0
+Kalman,straight,60,21,14,8,57.14
+Raw radar,straight,60,22,14,0,0.0
+Raw radar (same position),straight,60,22,14,0,0.0
+Raw + lead,straight,60,22,14,1,7.14
+Kalman,straight,60,22,14,6,42.86
+Raw radar,straight,60,23,14,0,0.0
+Raw radar (same position),straight,60,23,14,0,0.0
+Raw + lead,straight,60,23,14,1,7.14
+Kalman,straight,60,23,14,5,35.71
+Raw radar,straight,60,24,14,0,0.0
+Raw radar (same position),straight,60,24,14,1,7.14
+Raw + lead,straight,60,24,14,2,14.29
+Kalman,straight,60,24,14,10,71.43
+Raw radar,straight,60,25,14,0,0.0
+Raw radar (same position),straight,60,25,14,1,7.14
+Raw + lead,straight,60,25,14,3,21.43
+Kalman,straight,60,25,14,8,57.14
+Raw radar,straight,60,26,14,0,0.0
+Raw radar (same position),straight,60,26,14,1,7.14
+Raw + lead,straight,60,26,14,0,0.0
+Kalman,straight,60,26,14,6,42.86
+Raw radar,straight,60,27,14,0,0.0
+Raw radar (same position),straight,60,27,14,0,0.0
+Raw + lead,straight,60,27,14,0,0.0
+Kalman,straight,60,27,14,9,64.29
+Raw radar,straight,60,28,14,0,0.0
+Raw radar (same position),straight,60,28,14,0,0.0
+Raw + lead,straight,60,28,14,0,0.0
+Kalman,straight,60,28,14,4,28.57
+Raw radar,straight,60,29,14,0,0.0
+Raw radar (same position),straight,60,29,14,0,0.0
+Raw + lead,straight,60,29,14,0,0.0
+Kalman,straight,60,29,14,9,64.29
+Raw radar,straight,60,30,14,0,0.0
+Raw radar (same position),straight,60,30,14,0,0.0
+Raw + lead,straight,60,30,14,0,0.0
+Kalman,straight,60,30,14,8,57.14
+Raw radar,straight,100,1,14,0,0.0
+Raw radar (same position),straight,100,1,14,0,0.0
+Raw + lead,straight,100,1,14,0,0.0
+Kalman,straight,100,1,14,5,35.71
+Raw radar,straight,100,2,14,0,0.0
+Raw radar (same position),straight,100,2,14,1,7.14
+Raw + lead,straight,100,2,14,0,0.0
+Kalman,straight,100,2,14,6,42.86
+Raw radar,straight,100,3,14,0,0.0
+Raw radar (same position),straight,100,3,14,0,0.0
+Raw + lead,straight,100,3,14,0,0.0
+Kalman,straight,100,3,14,8,57.14
+Raw radar,straight,100,4,14,2,14.29
+Raw radar (same position),straight,100,4,14,1,7.14
+Raw + lead,straight,100,4,14,0,0.0
+Kalman,straight,100,4,14,5,35.71
+Raw radar,straight,100,5,14,1,7.14
+Raw radar (same position),straight,100,5,14,2,14.29
+Raw + lead,straight,100,5,14,0,0.0
+Kalman,straight,100,5,14,7,50.0
+Raw radar,straight,100,6,14,2,14.29
+Raw radar (same position),straight,100,6,14,1,7.14
+Raw + lead,straight,100,6,14,0,0.0
+Kalman,straight,100,6,14,2,14.29
+Raw radar,straight,100,7,14,0,0.0
+Raw radar (same position),straight,100,7,14,0,0.0
+Raw + lead,straight,100,7,14,0,0.0
+Kalman,straight,100,7,14,8,57.14
+Raw radar,straight,100,8,14,0,0.0
+Raw radar (same position),straight,100,8,14,1,7.14
+Raw + lead,straight,100,8,14,0,0.0
+Kalman,straight,100,8,14,3,21.43
+Raw radar,straight,100,9,14,1,7.14
+Raw radar (same position),straight,100,9,14,0,0.0
+Raw + lead,straight,100,9,14,0,0.0
+Kalman,straight,100,9,14,3,21.43
+Raw radar,straight,100,10,14,1,7.14
+Raw radar (same position),straight,100,10,14,0,0.0
+Raw + lead,straight,100,10,14,1,7.14
+Kalman,straight,100,10,14,7,50.0
+Raw radar,straight,100,11,14,1,7.14
+Raw radar (same position),straight,100,11,14,2,14.29
+Raw + lead,straight,100,11,14,0,0.0
+Kalman,straight,100,11,14,8,57.14
+Raw radar,straight,100,12,14,0,0.0
+Raw radar (same position),straight,100,12,14,2,14.29
+Raw + lead,straight,100,12,14,0,0.0
+Kalman,straight,100,12,14,8,57.14
+Raw radar,straight,100,13,14,1,7.14
+Raw radar (same position),straight,100,13,14,0,0.0
+Raw + lead,straight,100,13,14,1,7.14
+Kalman,straight,100,13,14,6,42.86
+Raw radar,straight,100,14,14,2,14.29
+Raw radar (same position),straight,100,14,14,0,0.0
+Raw + lead,straight,100,14,14,1,7.14
+Kalman,straight,100,14,14,9,64.29
+Raw radar,straight,100,15,14,0,0.0
+Raw radar (same position),straight,100,15,14,1,7.14
+Raw + lead,straight,100,15,14,1,7.14
+Kalman,straight,100,15,14,5,35.71
+Raw radar,straight,100,16,14,0,0.0
+Raw radar (same position),straight,100,16,14,1,7.14
+Raw + lead,straight,100,16,14,0,0.0
+Kalman,straight,100,16,14,7,50.0
+Raw radar,straight,100,17,14,1,7.14
+Raw radar (same position),straight,100,17,14,0,0.0
+Raw + lead,straight,100,17,14,2,14.29
+Kalman,straight,100,17,14,7,50.0
+Raw radar,straight,100,18,14,0,0.0
+Raw radar (same position),straight,100,18,14,0,0.0
+Raw + lead,straight,100,18,14,0,0.0
+Kalman,straight,100,18,14,5,35.71
+Raw radar,straight,100,19,14,1,7.14
+Raw radar (same position),straight,100,19,14,1,7.14
+Raw + lead,straight,100,19,14,0,0.0
+Kalman,straight,100,19,14,7,50.0
+Raw radar,straight,100,20,14,1,7.14
+Raw radar (same position),straight,100,20,14,1,7.14
+Raw + lead,straight,100,20,14,1,7.14
+Kalman,straight,100,20,14,4,28.57
+Raw radar,straight,100,21,14,0,0.0
+Raw radar (same position),straight,100,21,14,0,0.0
+Raw + lead,straight,100,21,14,0,0.0
+Kalman,straight,100,21,14,4,28.57
+Raw radar,straight,100,22,14,0,0.0
+Raw radar (same position),straight,100,22,14,0,0.0
+Raw + lead,straight,100,22,14,0,0.0
+Kalman,straight,100,22,14,1,7.14
+Raw radar,straight,100,23,14,1,7.14
+Raw radar (same position),straight,100,23,14,1,7.14
+Raw + lead,straight,100,23,14,1,7.14
+Kalman,straight,100,23,14,4,28.57
+Raw radar,straight,100,24,14,4,28.57
+Raw radar (same position),straight,100,24,14,0,0.0
+Raw + lead,straight,100,24,14,1,7.14
+Kalman,straight,100,24,14,5,35.71
+Raw radar,straight,100,25,14,1,7.14
+Raw radar (same position),straight,100,25,14,1,7.14
+Raw + lead,straight,100,25,14,3,21.43
+Kalman,straight,100,25,14,6,42.86
+Raw radar,straight,100,26,14,0,0.0
+Raw radar (same position),straight,100,26,14,1,7.14
+Raw + lead,straight,100,26,14,0,0.0
+Kalman,straight,100,26,14,6,42.86
+Raw radar,straight,100,27,14,0,0.0
+Raw radar (same position),straight,100,27,14,0,0.0
+Raw + lead,straight,100,27,14,0,0.0
+Kalman,straight,100,27,14,8,57.14
+Raw radar,straight,100,28,14,0,0.0
+Raw radar (same position),straight,100,28,14,0,0.0
+Raw + lead,straight,100,28,14,0,0.0
+Kalman,straight,100,28,14,0,0.0
+Raw radar,straight,100,29,14,1,7.14
+Raw radar (same position),straight,100,29,14,1,7.14
+Raw + lead,straight,100,29,14,0,0.0
+Kalman,straight,100,29,14,8,57.14
+Raw radar,straight,100,30,14,0,0.0
+Raw radar (same position),straight,100,30,14,3,21.43
+Raw + lead,straight,100,30,14,0,0.0
+Kalman,straight,100,30,14,4,28.57
+Raw radar,diagonal,5,1,15,0,0.0
+Raw radar (same position),diagonal,5,1,15,0,0.0
+Raw + lead,diagonal,5,1,14,8,57.14
+Kalman,diagonal,5,1,14,13,92.86
+Raw radar,diagonal,5,2,15,0,0.0
+Raw radar (same position),diagonal,5,2,15,0,0.0
+Raw + lead,diagonal,5,2,14,12,85.71
+Kalman,diagonal,5,2,14,13,92.86
+Raw radar,diagonal,5,3,15,0,0.0
+Raw radar (same position),diagonal,5,3,15,0,0.0
+Raw + lead,diagonal,5,3,14,9,64.29
+Kalman,diagonal,5,3,14,13,92.86
+Raw radar,diagonal,5,4,15,0,0.0
+Raw radar (same position),diagonal,5,4,15,0,0.0
+Raw + lead,diagonal,5,4,14,9,64.29
+Kalman,diagonal,5,4,14,12,85.71
+Raw radar,diagonal,5,5,15,0,0.0
+Raw radar (same position),diagonal,5,5,15,0,0.0
+Raw + lead,diagonal,5,5,14,10,71.43
+Kalman,diagonal,5,5,14,12,85.71
+Raw radar,diagonal,5,6,15,0,0.0
+Raw radar (same position),diagonal,5,6,15,0,0.0
+Raw + lead,diagonal,5,6,14,10,71.43
+Kalman,diagonal,5,6,14,13,92.86
+Raw radar,diagonal,5,7,15,0,0.0
+Raw radar (same position),diagonal,5,7,15,0,0.0
+Raw + lead,diagonal,5,7,14,9,64.29
+Kalman,diagonal,5,7,14,13,92.86
+Raw radar,diagonal,5,8,15,0,0.0
+Raw radar (same position),diagonal,5,8,15,0,0.0
+Raw + lead,diagonal,5,8,14,9,64.29
+Kalman,diagonal,5,8,14,13,92.86
+Raw radar,diagonal,5,9,15,0,0.0
+Raw radar (same position),diagonal,5,9,15,0,0.0
+Raw + lead,diagonal,5,9,14,10,71.43
+Kalman,diagonal,5,9,14,12,85.71
+Raw radar,diagonal,5,10,15,0,0.0
+Raw radar (same position),diagonal,5,10,15,0,0.0
+Raw + lead,diagonal,5,10,14,8,57.14
+Kalman,diagonal,5,10,14,13,92.86
+Raw radar,diagonal,5,11,15,0,0.0
+Raw radar (same position),diagonal,5,11,15,0,0.0
+Raw + lead,diagonal,5,11,14,9,64.29
+Kalman,diagonal,5,11,14,13,92.86
+Raw radar,diagonal,5,12,15,0,0.0
+Raw radar (same position),diagonal,5,12,15,0,0.0
+Raw + lead,diagonal,5,12,14,11,78.57
+Kalman,diagonal,5,12,14,13,92.86
+Raw radar,diagonal,5,13,15,0,0.0
+Raw radar (same position),diagonal,5,13,15,0,0.0
+Raw + lead,diagonal,5,13,14,10,71.43
+Kalman,diagonal,5,13,14,13,92.86
+Raw radar,diagonal,5,14,15,0,0.0
+Raw radar (same position),diagonal,5,14,15,0,0.0
+Raw + lead,diagonal,5,14,14,11,78.57
+Kalman,diagonal,5,14,14,13,92.86
+Raw radar,diagonal,5,15,15,0,0.0
+Raw radar (same position),diagonal,5,15,15,0,0.0
+Raw + lead,diagonal,5,15,14,8,57.14
+Kalman,diagonal,5,15,14,12,85.71
+Raw radar,diagonal,5,16,15,0,0.0
+Raw radar (same position),diagonal,5,16,15,0,0.0
+Raw + lead,diagonal,5,16,14,11,78.57
+Kalman,diagonal,5,16,14,12,85.71
+Raw radar,diagonal,5,17,15,0,0.0
+Raw radar (same position),diagonal,5,17,15,0,0.0
+Raw + lead,diagonal,5,17,14,8,57.14
+Kalman,diagonal,5,17,14,13,92.86
+Raw radar,diagonal,5,18,15,0,0.0
+Raw radar (same position),diagonal,5,18,15,0,0.0
+Raw + lead,diagonal,5,18,14,11,78.57
+Kalman,diagonal,5,18,14,13,92.86
+Raw radar,diagonal,5,19,15,0,0.0
+Raw radar (same position),diagonal,5,19,15,0,0.0
+Raw + lead,diagonal,5,19,14,9,64.29
+Kalman,diagonal,5,19,14,12,85.71
+Raw radar,diagonal,5,20,15,0,0.0
+Raw radar (same position),diagonal,5,20,15,0,0.0
+Raw + lead,diagonal,5,20,14,10,71.43
+Kalman,diagonal,5,20,14,13,92.86
+Raw radar,diagonal,5,21,15,0,0.0
+Raw radar (same position),diagonal,5,21,15,0,0.0
+Raw + lead,diagonal,5,21,14,10,71.43
+Kalman,diagonal,5,21,14,13,92.86
+Raw radar,diagonal,5,22,15,0,0.0
+Raw radar (same position),diagonal,5,22,15,0,0.0
+Raw + lead,diagonal,5,22,14,10,71.43
+Kalman,diagonal,5,22,14,12,85.71
+Raw radar,diagonal,5,23,15,0,0.0
+Raw radar (same position),diagonal,5,23,15,0,0.0
+Raw + lead,diagonal,5,23,14,7,50.0
+Kalman,diagonal,5,23,14,13,92.86
+Raw radar,diagonal,5,24,15,0,0.0
+Raw radar (same position),diagonal,5,24,15,0,0.0
+Raw + lead,diagonal,5,24,14,6,42.86
+Kalman,diagonal,5,24,14,12,85.71
+Raw radar,diagonal,5,25,15,0,0.0
+Raw radar (same position),diagonal,5,25,15,0,0.0
+Raw + lead,diagonal,5,25,14,10,71.43
+Kalman,diagonal,5,25,14,13,92.86
+Raw radar,diagonal,5,26,15,0,0.0
+Raw radar (same position),diagonal,5,26,15,0,0.0
+Raw + lead,diagonal,5,26,14,11,78.57
+Kalman,diagonal,5,26,14,13,92.86
+Raw radar,diagonal,5,27,15,0,0.0
+Raw radar (same position),diagonal,5,27,15,0,0.0
+Raw + lead,diagonal,5,27,14,10,71.43
+Kalman,diagonal,5,27,14,13,92.86
+Raw radar,diagonal,5,28,15,0,0.0
+Raw radar (same position),diagonal,5,28,15,0,0.0
+Raw + lead,diagonal,5,28,14,6,42.86
+Kalman,diagonal,5,28,14,12,85.71
+Raw radar,diagonal,5,29,15,0,0.0
+Raw radar (same position),diagonal,5,29,15,0,0.0
+Raw + lead,diagonal,5,29,14,10,71.43
+Kalman,diagonal,5,29,14,13,92.86
+Raw radar,diagonal,5,30,15,0,0.0
+Raw radar (same position),diagonal,5,30,15,0,0.0
+Raw + lead,diagonal,5,30,14,12,85.71
+Kalman,diagonal,5,30,14,13,92.86
+Raw radar,diagonal,15,1,15,0,0.0
+Raw radar (same position),diagonal,15,1,15,0,0.0
+Raw + lead,diagonal,15,1,14,1,7.14
+Kalman,diagonal,15,1,14,13,92.86
+Raw radar,diagonal,15,2,15,0,0.0
+Raw radar (same position),diagonal,15,2,15,1,6.67
+Raw + lead,diagonal,15,2,14,9,64.29
+Kalman,diagonal,15,2,14,12,85.71
+Raw radar,diagonal,15,3,15,0,0.0
+Raw radar (same position),diagonal,15,3,15,0,0.0
+Raw + lead,diagonal,15,3,14,4,28.57
+Kalman,diagonal,15,3,14,13,92.86
+Raw radar,diagonal,15,4,15,0,0.0
+Raw radar (same position),diagonal,15,4,15,0,0.0
+Raw + lead,diagonal,15,4,14,2,14.29
+Kalman,diagonal,15,4,14,12,85.71
+Raw radar,diagonal,15,5,15,0,0.0
+Raw radar (same position),diagonal,15,5,15,0,0.0
+Raw + lead,diagonal,15,5,14,4,28.57
+Kalman,diagonal,15,5,14,12,85.71
+Raw radar,diagonal,15,6,15,0,0.0
+Raw radar (same position),diagonal,15,6,15,0,0.0
+Raw + lead,diagonal,15,6,14,2,14.29
+Kalman,diagonal,15,6,14,13,92.86
+Raw radar,diagonal,15,7,15,0,0.0
+Raw radar (same position),diagonal,15,7,15,0,0.0
+Raw + lead,diagonal,15,7,14,4,28.57
+Kalman,diagonal,15,7,14,13,92.86
+Raw radar,diagonal,15,8,15,0,0.0
+Raw radar (same position),diagonal,15,8,15,0,0.0
+Raw + lead,diagonal,15,8,14,5,35.71
+Kalman,diagonal,15,8,14,12,85.71
+Raw radar,diagonal,15,9,15,0,0.0
+Raw radar (same position),diagonal,15,9,15,0,0.0
+Raw + lead,diagonal,15,9,14,3,21.43
+Kalman,diagonal,15,9,14,12,85.71
+Raw radar,diagonal,15,10,15,0,0.0
+Raw radar (same position),diagonal,15,10,15,0,0.0
+Raw + lead,diagonal,15,10,14,4,28.57
+Kalman,diagonal,15,10,14,12,85.71
+Raw radar,diagonal,15,11,15,0,0.0
+Raw radar (same position),diagonal,15,11,15,0,0.0
+Raw + lead,diagonal,15,11,14,2,14.29
+Kalman,diagonal,15,11,14,12,85.71
+Raw radar,diagonal,15,12,15,0,0.0
+Raw radar (same position),diagonal,15,12,15,0,0.0
+Raw + lead,diagonal,15,12,14,6,42.86
+Kalman,diagonal,15,12,14,12,85.71
+Raw radar,diagonal,15,13,15,0,0.0
+Raw radar (same position),diagonal,15,13,15,0,0.0
+Raw + lead,diagonal,15,13,14,4,28.57
+Kalman,diagonal,15,13,14,12,85.71
+Raw radar,diagonal,15,14,15,0,0.0
+Raw radar (same position),diagonal,15,14,15,0,0.0
+Raw + lead,diagonal,15,14,14,4,28.57
+Kalman,diagonal,15,14,14,12,85.71
+Raw radar,diagonal,15,15,15,0,0.0
+Raw radar (same position),diagonal,15,15,15,0,0.0
+Raw + lead,diagonal,15,15,14,4,28.57
+Kalman,diagonal,15,15,14,12,85.71
+Raw radar,diagonal,15,16,15,0,0.0
+Raw radar (same position),diagonal,15,16,15,0,0.0
+Raw + lead,diagonal,15,16,14,3,21.43
+Kalman,diagonal,15,16,14,12,85.71
+Raw radar,diagonal,15,17,15,0,0.0
+Raw radar (same position),diagonal,15,17,15,0,0.0
+Raw + lead,diagonal,15,17,14,3,21.43
+Kalman,diagonal,15,17,14,13,92.86
+Raw radar,diagonal,15,18,15,0,0.0
+Raw radar (same position),diagonal,15,18,15,0,0.0
+Raw + lead,diagonal,15,18,14,3,21.43
+Kalman,diagonal,15,18,14,12,85.71
+Raw radar,diagonal,15,19,15,0,0.0
+Raw radar (same position),diagonal,15,19,15,0,0.0
+Raw + lead,diagonal,15,19,14,4,28.57
+Kalman,diagonal,15,19,14,11,78.57
+Raw radar,diagonal,15,20,15,0,0.0
+Raw radar (same position),diagonal,15,20,15,1,6.67
+Raw + lead,diagonal,15,20,14,4,28.57
+Kalman,diagonal,15,20,14,12,85.71
+Raw radar,diagonal,15,21,15,0,0.0
+Raw radar (same position),diagonal,15,21,15,0,0.0
+Raw + lead,diagonal,15,21,14,4,28.57
+Kalman,diagonal,15,21,14,13,92.86
+Raw radar,diagonal,15,22,15,0,0.0
+Raw radar (same position),diagonal,15,22,15,0,0.0
+Raw + lead,diagonal,15,22,14,4,28.57
+Kalman,diagonal,15,22,14,12,85.71
+Raw radar,diagonal,15,23,15,0,0.0
+Raw radar (same position),diagonal,15,23,15,0,0.0
+Raw + lead,diagonal,15,23,14,5,35.71
+Kalman,diagonal,15,23,14,12,85.71
+Raw radar,diagonal,15,24,15,0,0.0
+Raw radar (same position),diagonal,15,24,15,0,0.0
+Raw + lead,diagonal,15,24,14,2,14.29
+Kalman,diagonal,15,24,14,12,85.71
+Raw radar,diagonal,15,25,15,0,0.0
+Raw radar (same position),diagonal,15,25,15,0,0.0
+Raw + lead,diagonal,15,25,14,3,21.43
+Kalman,diagonal,15,25,14,13,92.86
+Raw radar,diagonal,15,26,15,0,0.0
+Raw radar (same position),diagonal,15,26,15,0,0.0
+Raw + lead,diagonal,15,26,14,3,21.43
+Kalman,diagonal,15,26,14,13,92.86
+Raw radar,diagonal,15,27,15,0,0.0
+Raw radar (same position),diagonal,15,27,15,0,0.0
+Raw + lead,diagonal,15,27,14,5,35.71
+Kalman,diagonal,15,27,14,12,85.71
+Raw radar,diagonal,15,28,15,0,0.0
+Raw radar (same position),diagonal,15,28,15,0,0.0
+Raw + lead,diagonal,15,28,14,3,21.43
+Kalman,diagonal,15,28,14,12,85.71
+Raw radar,diagonal,15,29,15,0,0.0
+Raw radar (same position),diagonal,15,29,15,0,0.0
+Raw + lead,diagonal,15,29,14,2,14.29
+Kalman,diagonal,15,29,14,11,78.57
+Raw radar,diagonal,15,30,15,0,0.0
+Raw radar (same position),diagonal,15,30,15,0,0.0
+Raw + lead,diagonal,15,30,14,4,28.57
+Kalman,diagonal,15,30,14,12,85.71
+Raw radar,diagonal,30,1,15,0,0.0
+Raw radar (same position),diagonal,30,1,15,0,0.0
+Raw + lead,diagonal,30,1,14,1,7.14
+Kalman,diagonal,30,1,14,12,85.71
+Raw radar,diagonal,30,2,15,0,0.0
+Raw radar (same position),diagonal,30,2,15,1,6.67
+Raw + lead,diagonal,30,2,14,7,50.0
+Kalman,diagonal,30,2,14,11,78.57
+Raw radar,diagonal,30,3,15,0,0.0
+Raw radar (same position),diagonal,30,3,15,0,0.0
+Raw + lead,diagonal,30,3,14,2,14.29
+Kalman,diagonal,30,3,14,13,92.86
+Raw radar,diagonal,30,4,15,0,0.0
+Raw radar (same position),diagonal,30,4,15,1,6.67
+Raw + lead,diagonal,30,4,14,0,0.0
+Kalman,diagonal,30,4,14,10,71.43
+Raw radar,diagonal,30,5,15,0,0.0
+Raw radar (same position),diagonal,30,5,15,0,0.0
+Raw + lead,diagonal,30,5,14,3,21.43
+Kalman,diagonal,30,5,14,10,71.43
+Raw radar,diagonal,30,6,15,0,0.0
+Raw radar (same position),diagonal,30,6,15,2,13.33
+Raw + lead,diagonal,30,6,14,1,7.14
+Kalman,diagonal,30,6,14,12,85.71
+Raw radar,diagonal,30,7,15,0,0.0
+Raw radar (same position),diagonal,30,7,15,0,0.0
+Raw + lead,diagonal,30,7,14,2,14.29
+Kalman,diagonal,30,7,14,12,85.71
+Raw radar,diagonal,30,8,15,0,0.0
+Raw radar (same position),diagonal,30,8,15,0,0.0
+Raw + lead,diagonal,30,8,14,3,21.43
+Kalman,diagonal,30,8,14,10,71.43
+Raw radar,diagonal,30,9,15,0,0.0
+Raw radar (same position),diagonal,30,9,15,1,6.67
+Raw + lead,diagonal,30,9,14,1,7.14
+Kalman,diagonal,30,9,14,12,85.71
+Raw radar,diagonal,30,10,15,0,0.0
+Raw radar (same position),diagonal,30,10,15,0,0.0
+Raw + lead,diagonal,30,10,14,2,14.29
+Kalman,diagonal,30,10,14,10,71.43
+Raw radar,diagonal,30,11,15,0,0.0
+Raw radar (same position),diagonal,30,11,15,1,6.67
+Raw + lead,diagonal,30,11,14,0,0.0
+Kalman,diagonal,30,11,14,12,85.71
+Raw radar,diagonal,30,12,15,0,0.0
+Raw radar (same position),diagonal,30,12,15,0,0.0
+Raw + lead,diagonal,30,12,14,3,21.43
+Kalman,diagonal,30,12,14,12,85.71
+Raw radar,diagonal,30,13,15,0,0.0
+Raw radar (same position),diagonal,30,13,15,1,6.67
+Raw + lead,diagonal,30,13,14,2,14.29
+Kalman,diagonal,30,13,14,11,78.57
+Raw radar,diagonal,30,14,15,0,0.0
+Raw radar (same position),diagonal,30,14,15,0,0.0
+Raw + lead,diagonal,30,14,14,1,7.14
+Kalman,diagonal,30,14,14,12,85.71
+Raw radar,diagonal,30,15,15,0,0.0
+Raw radar (same position),diagonal,30,15,15,2,13.33
+Raw + lead,diagonal,30,15,14,2,14.29
+Kalman,diagonal,30,15,14,12,85.71
+Raw radar,diagonal,30,16,15,0,0.0
+Raw radar (same position),diagonal,30,16,15,2,13.33
+Raw + lead,diagonal,30,16,14,1,7.14
+Kalman,diagonal,30,16,14,11,78.57
+Raw radar,diagonal,30,17,15,0,0.0
+Raw radar (same position),diagonal,30,17,15,1,6.67
+Raw + lead,diagonal,30,17,14,2,14.29
+Kalman,diagonal,30,17,14,12,85.71
+Raw radar,diagonal,30,18,15,0,0.0
+Raw radar (same position),diagonal,30,18,15,1,6.67
+Raw + lead,diagonal,30,18,14,2,14.29
+Kalman,diagonal,30,18,14,11,78.57
+Raw radar,diagonal,30,19,15,0,0.0
+Raw radar (same position),diagonal,30,19,15,1,6.67
+Raw + lead,diagonal,30,19,14,0,0.0
+Kalman,diagonal,30,19,14,10,71.43
+Raw radar,diagonal,30,20,15,0,0.0
+Raw radar (same position),diagonal,30,20,15,2,13.33
+Raw + lead,diagonal,30,20,14,2,14.29
+Kalman,diagonal,30,20,14,10,71.43
+Raw radar,diagonal,30,21,15,0,0.0
+Raw radar (same position),diagonal,30,21,15,0,0.0
+Raw + lead,diagonal,30,21,14,1,7.14
+Kalman,diagonal,30,21,14,11,78.57
+Raw radar,diagonal,30,22,15,0,0.0
+Raw radar (same position),diagonal,30,22,15,4,26.67
+Raw + lead,diagonal,30,22,14,3,21.43
+Kalman,diagonal,30,22,14,10,71.43
+Raw radar,diagonal,30,23,15,0,0.0
+Raw radar (same position),diagonal,30,23,15,1,6.67
+Raw + lead,diagonal,30,23,14,3,21.43
+Kalman,diagonal,30,23,14,11,78.57
+Raw radar,diagonal,30,24,15,0,0.0
+Raw radar (same position),diagonal,30,24,15,3,20.0
+Raw + lead,diagonal,30,24,14,2,14.29
+Kalman,diagonal,30,24,14,12,85.71
+Raw radar,diagonal,30,25,15,0,0.0
+Raw radar (same position),diagonal,30,25,15,1,6.67
+Raw + lead,diagonal,30,25,14,3,21.43
+Kalman,diagonal,30,25,14,12,85.71
+Raw radar,diagonal,30,26,15,0,0.0
+Raw radar (same position),diagonal,30,26,15,1,6.67
+Raw + lead,diagonal,30,26,14,2,14.29
+Kalman,diagonal,30,26,14,12,85.71
+Raw radar,diagonal,30,27,15,0,0.0
+Raw radar (same position),diagonal,30,27,15,1,6.67
+Raw + lead,diagonal,30,27,14,1,7.14
+Kalman,diagonal,30,27,14,11,78.57
+Raw radar,diagonal,30,28,15,0,0.0
+Raw radar (same position),diagonal,30,28,15,0,0.0
+Raw + lead,diagonal,30,28,14,2,14.29
+Kalman,diagonal,30,28,14,10,71.43
+Raw radar,diagonal,30,29,15,0,0.0
+Raw radar (same position),diagonal,30,29,15,0,0.0
+Raw + lead,diagonal,30,29,14,1,7.14
+Kalman,diagonal,30,29,14,11,78.57
+Raw radar,diagonal,30,30,15,0,0.0
+Raw radar (same position),diagonal,30,30,15,1,6.67
+Raw + lead,diagonal,30,30,14,2,14.29
+Kalman,diagonal,30,30,14,12,85.71
+Raw radar,diagonal,60,1,15,0,0.0
+Raw radar (same position),diagonal,60,1,15,1,6.67
+Raw + lead,diagonal,60,1,14,0,0.0
+Kalman,diagonal,60,1,14,11,78.57
+Raw radar,diagonal,60,2,15,0,0.0
+Raw radar (same position),diagonal,60,2,15,4,26.67
+Raw + lead,diagonal,60,2,14,4,28.57
+Kalman,diagonal,60,2,14,10,71.43
+Raw radar,diagonal,60,3,15,0,0.0
+Raw radar (same position),diagonal,60,3,15,2,13.33
+Raw + lead,diagonal,60,3,14,1,7.14
+Kalman,diagonal,60,3,14,11,78.57
+Raw radar,diagonal,60,4,15,2,13.33
+Raw radar (same position),diagonal,60,4,15,3,20.0
+Raw + lead,diagonal,60,4,14,0,0.0
+Kalman,diagonal,60,4,14,8,57.14
+Raw radar,diagonal,60,5,15,0,0.0
+Raw radar (same position),diagonal,60,5,15,1,6.67
+Raw + lead,diagonal,60,5,14,2,14.29
+Kalman,diagonal,60,5,14,9,64.29
+Raw radar,diagonal,60,6,15,0,0.0
+Raw radar (same position),diagonal,60,6,15,4,26.67
+Raw + lead,diagonal,60,6,14,1,7.14
+Kalman,diagonal,60,6,14,9,64.29
+Raw radar,diagonal,60,7,15,0,0.0
+Raw radar (same position),diagonal,60,7,15,2,13.33
+Raw + lead,diagonal,60,7,14,1,7.14
+Kalman,diagonal,60,7,14,10,71.43
+Raw radar,diagonal,60,8,15,0,0.0
+Raw radar (same position),diagonal,60,8,15,2,13.33
+Raw + lead,diagonal,60,8,14,2,14.29
+Kalman,diagonal,60,8,14,7,50.0
+Raw radar,diagonal,60,9,15,0,0.0
+Raw radar (same position),diagonal,60,9,15,3,20.0
+Raw + lead,diagonal,60,9,14,0,0.0
+Kalman,diagonal,60,9,14,8,57.14
+Raw radar,diagonal,60,10,15,0,0.0
+Raw radar (same position),diagonal,60,10,15,4,26.67
+Raw + lead,diagonal,60,10,14,2,14.29
+Kalman,diagonal,60,10,14,10,71.43
+Raw radar,diagonal,60,11,15,0,0.0
+Raw radar (same position),diagonal,60,11,15,0,0.0
+Raw + lead,diagonal,60,11,14,0,0.0
+Kalman,diagonal,60,11,14,10,71.43
+Raw radar,diagonal,60,12,15,0,0.0
+Raw radar (same position),diagonal,60,12,15,1,6.67
+Raw + lead,diagonal,60,12,14,3,21.43
+Kalman,diagonal,60,12,14,11,78.57
+Raw radar,diagonal,60,13,15,1,6.67
+Raw radar (same position),diagonal,60,13,15,2,13.33
+Raw + lead,diagonal,60,13,14,2,14.29
+Kalman,diagonal,60,13,14,10,71.43
+Raw radar,diagonal,60,14,15,0,0.0
+Raw radar (same position),diagonal,60,14,15,1,6.67
+Raw + lead,diagonal,60,14,14,0,0.0
+Kalman,diagonal,60,14,14,11,78.57
+Raw radar,diagonal,60,15,15,2,13.33
+Raw radar (same position),diagonal,60,15,15,4,26.67
+Raw + lead,diagonal,60,15,14,1,7.14
+Kalman,diagonal,60,15,14,7,50.0
+Raw radar,diagonal,60,16,15,1,6.67
+Raw radar (same position),diagonal,60,16,15,2,13.33
+Raw + lead,diagonal,60,16,14,1,7.14
+Kalman,diagonal,60,16,14,11,78.57
+Raw radar,diagonal,60,17,15,1,6.67
+Raw radar (same position),diagonal,60,17,15,2,13.33
+Raw + lead,diagonal,60,17,14,1,7.14
+Kalman,diagonal,60,17,14,11,78.57
+Raw radar,diagonal,60,18,15,1,6.67
+Raw radar (same position),diagonal,60,18,15,1,6.67
+Raw + lead,diagonal,60,18,14,1,7.14
+Kalman,diagonal,60,18,14,7,50.0
+Raw radar,diagonal,60,19,15,0,0.0
+Raw radar (same position),diagonal,60,19,15,1,6.67
+Raw + lead,diagonal,60,19,14,0,0.0
+Kalman,diagonal,60,19,14,9,64.29
+Raw radar,diagonal,60,20,15,1,6.67
+Raw radar (same position),diagonal,60,20,15,2,13.33
+Raw + lead,diagonal,60,20,14,1,7.14
+Kalman,diagonal,60,20,14,9,64.29
+Raw radar,diagonal,60,21,15,1,6.67
+Raw radar (same position),diagonal,60,21,15,3,20.0
+Raw + lead,diagonal,60,21,14,1,7.14
+Kalman,diagonal,60,21,14,10,71.43
+Raw radar,diagonal,60,22,15,0,0.0
+Raw radar (same position),diagonal,60,22,15,3,20.0
+Raw + lead,diagonal,60,22,14,1,7.14
+Kalman,diagonal,60,22,14,8,57.14
+Raw radar,diagonal,60,23,15,1,6.67
+Raw radar (same position),diagonal,60,23,15,7,46.67
+Raw + lead,diagonal,60,23,14,2,14.29
+Kalman,diagonal,60,23,14,7,50.0
+Raw radar,diagonal,60,24,15,3,20.0
+Raw radar (same position),diagonal,60,24,15,2,13.33
+Raw + lead,diagonal,60,24,14,0,0.0
+Kalman,diagonal,60,24,14,12,85.71
+Raw radar,diagonal,60,25,15,0,0.0
+Raw radar (same position),diagonal,60,25,15,6,40.0
+Raw + lead,diagonal,60,25,14,1,7.14
+Kalman,diagonal,60,25,14,10,71.43
+Raw radar,diagonal,60,26,15,2,13.33
+Raw radar (same position),diagonal,60,26,15,1,6.67
+Raw + lead,diagonal,60,26,14,1,7.14
+Kalman,diagonal,60,26,14,11,78.57
+Raw radar,diagonal,60,27,15,1,6.67
+Raw radar (same position),diagonal,60,27,15,0,0.0
+Raw + lead,diagonal,60,27,14,1,7.14
+Kalman,diagonal,60,27,14,11,78.57
+Raw radar,diagonal,60,28,15,2,13.33
+Raw radar (same position),diagonal,60,28,15,1,6.67
+Raw + lead,diagonal,60,28,14,1,7.14
+Kalman,diagonal,60,28,14,5,35.71
+Raw radar,diagonal,60,29,15,1,6.67
+Raw radar (same position),diagonal,60,29,15,2,13.33
+Raw + lead,diagonal,60,29,14,0,0.0
+Kalman,diagonal,60,29,14,10,71.43
+Raw radar,diagonal,60,30,15,2,13.33
+Raw radar (same position),diagonal,60,30,15,4,26.67
+Raw + lead,diagonal,60,30,14,1,7.14
+Kalman,diagonal,60,30,14,10,71.43
+Raw radar,diagonal,100,1,15,0,0.0
+Raw radar (same position),diagonal,100,1,15,1,6.67
+Raw + lead,diagonal,100,1,14,0,0.0
+Kalman,diagonal,100,1,14,9,64.29
+Raw radar,diagonal,100,2,15,1,6.67
+Raw radar (same position),diagonal,100,2,15,3,20.0
+Raw + lead,diagonal,100,2,14,2,14.29
+Kalman,diagonal,100,2,14,8,57.14
+Raw radar,diagonal,100,3,15,0,0.0
+Raw radar (same position),diagonal,100,3,15,1,6.67
+Raw + lead,diagonal,100,3,14,1,7.14
+Kalman,diagonal,100,3,14,11,78.57
+Raw radar,diagonal,100,4,15,1,6.67
+Raw radar (same position),diagonal,100,4,15,1,6.67
+Raw + lead,diagonal,100,4,14,0,0.0
+Kalman,diagonal,100,4,14,7,50.0
+Raw radar,diagonal,100,5,15,2,13.33
+Raw radar (same position),diagonal,100,5,15,1,6.67
+Raw + lead,diagonal,100,5,14,2,14.29
+Kalman,diagonal,100,5,14,9,64.29
+Raw radar,diagonal,100,6,15,2,13.33
+Raw radar (same position),diagonal,100,6,15,3,20.0
+Raw + lead,diagonal,100,6,14,0,0.0
+Kalman,diagonal,100,6,14,4,28.57
+Raw radar,diagonal,100,7,15,0,0.0
+Raw radar (same position),diagonal,100,7,15,0,0.0
+Raw + lead,diagonal,100,7,14,0,0.0
+Kalman,diagonal,100,7,14,10,71.43
+Raw radar,diagonal,100,8,15,0,0.0
+Raw radar (same position),diagonal,100,8,15,1,6.67
+Raw + lead,diagonal,100,8,14,1,7.14
+Kalman,diagonal,100,8,14,4,28.57
+Raw radar,diagonal,100,9,15,1,6.67
+Raw radar (same position),diagonal,100,9,15,1,6.67
+Raw + lead,diagonal,100,9,14,0,0.0
+Kalman,diagonal,100,9,14,6,42.86
+Raw radar,diagonal,100,10,15,2,13.33
+Raw radar (same position),diagonal,100,10,15,2,13.33
+Raw + lead,diagonal,100,10,14,1,7.14
+Kalman,diagonal,100,10,14,9,64.29
+Raw radar,diagonal,100,11,15,0,0.0
+Raw radar (same position),diagonal,100,11,15,2,13.33
+Raw + lead,diagonal,100,11,14,0,0.0
+Kalman,diagonal,100,11,14,10,71.43
+Raw radar,diagonal,100,12,15,1,6.67
+Raw radar (same position),diagonal,100,12,15,2,13.33
+Raw + lead,diagonal,100,12,14,1,7.14
+Kalman,diagonal,100,12,14,10,71.43
+Raw radar,diagonal,100,13,15,1,6.67
+Raw radar (same position),diagonal,100,13,15,3,20.0
+Raw + lead,diagonal,100,13,14,1,7.14
+Kalman,diagonal,100,13,14,9,64.29
+Raw radar,diagonal,100,14,15,1,6.67
+Raw radar (same position),diagonal,100,14,15,4,26.67
+Raw + lead,diagonal,100,14,14,0,0.0
+Kalman,diagonal,100,14,14,10,71.43
+Raw radar,diagonal,100,15,15,1,6.67
+Raw radar (same position),diagonal,100,15,15,4,26.67
+Raw + lead,diagonal,100,15,14,1,7.14
+Kalman,diagonal,100,15,14,5,35.71
+Raw radar,diagonal,100,16,15,1,6.67
+Raw radar (same position),diagonal,100,16,15,3,20.0
+Raw + lead,diagonal,100,16,14,1,7.14
+Kalman,diagonal,100,16,14,9,64.29
+Raw radar,diagonal,100,17,15,2,13.33
+Raw radar (same position),diagonal,100,17,15,2,13.33
+Raw + lead,diagonal,100,17,14,0,0.0
+Kalman,diagonal,100,17,14,10,71.43
+Raw radar,diagonal,100,18,15,0,0.0
+Raw radar (same position),diagonal,100,18,15,1,6.67
+Raw + lead,diagonal,100,18,14,1,7.14
+Kalman,diagonal,100,18,14,5,35.71
+Raw radar,diagonal,100,19,15,0,0.0
+Raw radar (same position),diagonal,100,19,15,0,0.0
+Raw + lead,diagonal,100,19,14,1,7.14
+Kalman,diagonal,100,19,14,9,64.29
+Raw radar,diagonal,100,20,15,2,13.33
+Raw radar (same position),diagonal,100,20,15,2,13.33
+Raw + lead,diagonal,100,20,14,0,0.0
+Kalman,diagonal,100,20,14,7,50.0
+Raw radar,diagonal,100,21,15,1,6.67
+Raw radar (same position),diagonal,100,21,15,5,33.33
+Raw + lead,diagonal,100,21,14,1,7.14
+Kalman,diagonal,100,21,14,8,57.14
+Raw radar,diagonal,100,22,15,0,0.0
+Raw radar (same position),diagonal,100,22,15,6,40.0
+Raw + lead,diagonal,100,22,14,0,0.0
+Kalman,diagonal,100,22,14,1,7.14
+Raw radar,diagonal,100,23,15,1,6.67
+Raw radar (same position),diagonal,100,23,15,5,33.33
+Raw + lead,diagonal,100,23,14,1,7.14
+Kalman,diagonal,100,23,14,6,42.86
+Raw radar,diagonal,100,24,15,1,6.67
+Raw radar (same position),diagonal,100,24,15,0,0.0
+Raw + lead,diagonal,100,24,14,1,7.14
+Kalman,diagonal,100,24,14,10,71.43
+Raw radar,diagonal,100,25,15,2,13.33
+Raw radar (same position),diagonal,100,25,15,1,6.67
+Raw + lead,diagonal,100,25,14,1,7.14
+Kalman,diagonal,100,25,14,10,71.43
+Raw radar,diagonal,100,26,15,1,6.67
+Raw radar (same position),diagonal,100,26,15,2,13.33
+Raw + lead,diagonal,100,26,14,1,7.14
+Kalman,diagonal,100,26,14,9,64.29
+Raw radar,diagonal,100,27,15,0,0.0
+Raw radar (same position),diagonal,100,27,15,2,13.33
+Raw + lead,diagonal,100,27,14,0,0.0
+Kalman,diagonal,100,27,14,10,71.43
+Raw radar,diagonal,100,28,15,1,6.67
+Raw radar (same position),diagonal,100,28,15,2,13.33
+Raw + lead,diagonal,100,28,14,0,0.0
+Kalman,diagonal,100,28,14,1,7.14
+Raw radar,diagonal,100,29,15,0,0.0
+Raw radar (same position),diagonal,100,29,15,5,33.33
+Raw + lead,diagonal,100,29,14,0,0.0
+Kalman,diagonal,100,29,14,9,64.29
+Raw radar,diagonal,100,30,15,1,6.67
+Raw radar (same position),diagonal,100,30,15,3,20.0
+Raw + lead,diagonal,100,30,14,1,7.14
+Kalman,diagonal,100,30,14,8,57.14
+Raw radar,turning,5,1,15,0,0.0
+Raw radar (same position),turning,5,1,15,0,0.0
+Raw + lead,turning,5,1,15,7,46.67
+Kalman,turning,5,1,15,10,66.67
+Raw radar,turning,5,2,15,0,0.0
+Raw radar (same position),turning,5,2,15,0,0.0
+Raw + lead,turning,5,2,15,10,66.67
+Kalman,turning,5,2,15,11,73.33
+Raw radar,turning,5,3,15,0,0.0
+Raw radar (same position),turning,5,3,15,0,0.0
+Raw + lead,turning,5,3,15,7,46.67
+Kalman,turning,5,3,15,10,66.67
+Raw radar,turning,5,4,15,0,0.0
+Raw radar (same position),turning,5,4,15,0,0.0
+Raw + lead,turning,5,4,15,6,40.0
+Kalman,turning,5,4,15,9,60.0
+Raw radar,turning,5,5,15,0,0.0
+Raw radar (same position),turning,5,5,15,0,0.0
+Raw + lead,turning,5,5,15,7,46.67
+Kalman,turning,5,5,15,9,60.0
+Raw radar,turning,5,6,15,0,0.0
+Raw radar (same position),turning,5,6,15,0,0.0
+Raw + lead,turning,5,6,15,6,40.0
+Kalman,turning,5,6,15,10,66.67
+Raw radar,turning,5,7,15,0,0.0
+Raw radar (same position),turning,5,7,15,0,0.0
+Raw + lead,turning,5,7,15,8,53.33
+Kalman,turning,5,7,15,10,66.67
+Raw radar,turning,5,8,15,0,0.0
+Raw radar (same position),turning,5,8,15,0,0.0
+Raw + lead,turning,5,8,15,7,46.67
+Kalman,turning,5,8,15,9,60.0
+Raw radar,turning,5,9,15,0,0.0
+Raw radar (same position),turning,5,9,15,0,0.0
+Raw + lead,turning,5,9,15,9,60.0
+Kalman,turning,5,9,15,9,60.0
+Raw radar,turning,5,10,15,0,0.0
+Raw radar (same position),turning,5,10,15,0,0.0
+Raw + lead,turning,5,10,15,5,33.33
+Kalman,turning,5,10,15,10,66.67
+Raw radar,turning,5,11,15,0,0.0
+Raw radar (same position),turning,5,11,15,0,0.0
+Raw + lead,turning,5,11,15,8,53.33
+Kalman,turning,5,11,15,10,66.67
+Raw radar,turning,5,12,15,0,0.0
+Raw radar (same position),turning,5,12,15,0,0.0
+Raw + lead,turning,5,12,15,10,66.67
+Kalman,turning,5,12,15,10,66.67
+Raw radar,turning,5,13,15,0,0.0
+Raw radar (same position),turning,5,13,15,0,0.0
+Raw + lead,turning,5,13,15,9,60.0
+Kalman,turning,5,13,15,10,66.67
+Raw radar,turning,5,14,15,0,0.0
+Raw radar (same position),turning,5,14,15,0,0.0
+Raw + lead,turning,5,14,15,11,73.33
+Kalman,turning,5,14,15,10,66.67
+Raw radar,turning,5,15,15,0,0.0
+Raw radar (same position),turning,5,15,15,0,0.0
+Raw + lead,turning,5,15,15,6,40.0
+Kalman,turning,5,15,15,10,66.67
+Raw radar,turning,5,16,15,0,0.0
+Raw radar (same position),turning,5,16,15,0,0.0
+Raw + lead,turning,5,16,15,9,60.0
+Kalman,turning,5,16,15,9,60.0
+Raw radar,turning,5,17,15,0,0.0
+Raw radar (same position),turning,5,17,15,0,0.0
+Raw + lead,turning,5,17,15,9,60.0
+Kalman,turning,5,17,15,10,66.67
+Raw radar,turning,5,18,15,0,0.0
+Raw radar (same position),turning,5,18,15,0,0.0
+Raw + lead,turning,5,18,15,10,66.67
+Kalman,turning,5,18,15,10,66.67
+Raw radar,turning,5,19,15,0,0.0
+Raw radar (same position),turning,5,19,15,0,0.0
+Raw + lead,turning,5,19,15,6,40.0
+Kalman,turning,5,19,15,8,53.33
+Raw radar,turning,5,20,15,0,0.0
+Raw radar (same position),turning,5,20,15,0,0.0
+Raw + lead,turning,5,20,15,8,53.33
+Kalman,turning,5,20,15,10,66.67
+Raw radar,turning,5,21,15,0,0.0
+Raw radar (same position),turning,5,21,15,0,0.0
+Raw + lead,turning,5,21,15,10,66.67
+Kalman,turning,5,21,15,10,66.67
+Raw radar,turning,5,22,15,0,0.0
+Raw radar (same position),turning,5,22,15,0,0.0
+Raw + lead,turning,5,22,15,11,73.33
+Kalman,turning,5,22,15,9,60.0
+Raw radar,turning,5,23,15,0,0.0
+Raw radar (same position),turning,5,23,15,0,0.0
+Raw + lead,turning,5,23,15,7,46.67
+Kalman,turning,5,23,15,10,66.67
+Raw radar,turning,5,24,15,0,0.0
+Raw radar (same position),turning,5,24,15,0,0.0
+Raw + lead,turning,5,24,15,7,46.67
+Kalman,turning,5,24,15,9,60.0
+Raw radar,turning,5,25,15,0,0.0
+Raw radar (same position),turning,5,25,15,0,0.0
+Raw + lead,turning,5,25,15,6,40.0
+Kalman,turning,5,25,15,10,66.67
+Raw radar,turning,5,26,15,0,0.0
+Raw radar (same position),turning,5,26,15,0,0.0
+Raw + lead,turning,5,26,15,10,66.67
+Kalman,turning,5,26,15,10,66.67
+Raw radar,turning,5,27,15,0,0.0
+Raw radar (same position),turning,5,27,15,0,0.0
+Raw + lead,turning,5,27,15,10,66.67
+Kalman,turning,5,27,15,10,66.67
+Raw radar,turning,5,28,15,0,0.0
+Raw radar (same position),turning,5,28,15,0,0.0
+Raw + lead,turning,5,28,15,7,46.67
+Kalman,turning,5,28,15,9,60.0
+Raw radar,turning,5,29,15,0,0.0
+Raw radar (same position),turning,5,29,15,0,0.0
+Raw + lead,turning,5,29,15,7,46.67
+Kalman,turning,5,29,15,10,66.67
+Raw radar,turning,5,30,15,0,0.0
+Raw radar (same position),turning,5,30,15,0,0.0
+Raw + lead,turning,5,30,15,9,60.0
+Kalman,turning,5,30,15,10,66.67
+Raw radar,turning,15,1,15,0,0.0
+Raw radar (same position),turning,15,1,15,0,0.0
+Raw + lead,turning,15,1,15,1,6.67
+Kalman,turning,15,1,15,10,66.67
+Raw radar,turning,15,2,15,0,0.0
+Raw radar (same position),turning,15,2,15,0,0.0
+Raw + lead,turning,15,2,15,7,46.67
+Kalman,turning,15,2,15,9,60.0
+Raw radar,turning,15,3,15,0,0.0
+Raw radar (same position),turning,15,3,15,0,0.0
+Raw + lead,turning,15,3,15,6,40.0
+Kalman,turning,15,3,15,10,66.67
+Raw radar,turning,15,4,15,0,0.0
+Raw radar (same position),turning,15,4,15,0,0.0
+Raw + lead,turning,15,4,15,3,20.0
+Kalman,turning,15,4,15,9,60.0
+Raw radar,turning,15,5,15,0,0.0
+Raw radar (same position),turning,15,5,15,0,0.0
+Raw + lead,turning,15,5,15,3,20.0
+Kalman,turning,15,5,15,9,60.0
+Raw radar,turning,15,6,15,0,0.0
+Raw radar (same position),turning,15,6,15,0,0.0
+Raw + lead,turning,15,6,15,3,20.0
+Kalman,turning,15,6,15,10,66.67
+Raw radar,turning,15,7,15,0,0.0
+Raw radar (same position),turning,15,7,15,0,0.0
+Raw + lead,turning,15,7,15,4,26.67
+Kalman,turning,15,7,15,10,66.67
+Raw radar,turning,15,8,15,0,0.0
+Raw radar (same position),turning,15,8,15,0,0.0
+Raw + lead,turning,15,8,15,4,26.67
+Kalman,turning,15,8,15,9,60.0
+Raw radar,turning,15,9,15,0,0.0
+Raw radar (same position),turning,15,9,15,0,0.0
+Raw + lead,turning,15,9,15,0,0.0
+Kalman,turning,15,9,15,9,60.0
+Raw radar,turning,15,10,15,0,0.0
+Raw radar (same position),turning,15,10,15,0,0.0
+Raw + lead,turning,15,10,15,4,26.67
+Kalman,turning,15,10,15,8,53.33
+Raw radar,turning,15,11,15,0,0.0
+Raw radar (same position),turning,15,11,15,0,0.0
+Raw + lead,turning,15,11,15,2,13.33
+Kalman,turning,15,11,15,9,60.0
+Raw radar,turning,15,12,15,0,0.0
+Raw radar (same position),turning,15,12,15,0,0.0
+Raw + lead,turning,15,12,15,3,20.0
+Kalman,turning,15,12,15,8,53.33
+Raw radar,turning,15,13,15,0,0.0
+Raw radar (same position),turning,15,13,15,0,0.0
+Raw + lead,turning,15,13,15,5,33.33
+Kalman,turning,15,13,15,9,60.0
+Raw radar,turning,15,14,15,0,0.0
+Raw radar (same position),turning,15,14,15,0,0.0
+Raw + lead,turning,15,14,15,4,26.67
+Kalman,turning,15,14,15,9,60.0
+Raw radar,turning,15,15,15,0,0.0
+Raw radar (same position),turning,15,15,15,0,0.0
+Raw + lead,turning,15,15,15,6,40.0
+Kalman,turning,15,15,15,9,60.0
+Raw radar,turning,15,16,15,0,0.0
+Raw radar (same position),turning,15,16,15,0,0.0
+Raw + lead,turning,15,16,15,1,6.67
+Kalman,turning,15,16,15,9,60.0
+Raw radar,turning,15,17,15,0,0.0
+Raw radar (same position),turning,15,17,15,0,0.0
+Raw + lead,turning,15,17,15,4,26.67
+Kalman,turning,15,17,15,10,66.67
+Raw radar,turning,15,18,15,0,0.0
+Raw radar (same position),turning,15,18,15,0,0.0
+Raw + lead,turning,15,18,15,5,33.33
+Kalman,turning,15,18,15,8,53.33
+Raw radar,turning,15,19,15,0,0.0
+Raw radar (same position),turning,15,19,15,0,0.0
+Raw + lead,turning,15,19,15,4,26.67
+Kalman,turning,15,19,15,7,46.67
+Raw radar,turning,15,20,15,0,0.0
+Raw radar (same position),turning,15,20,15,0,0.0
+Raw + lead,turning,15,20,15,2,13.33
+Kalman,turning,15,20,15,8,53.33
+Raw radar,turning,15,21,15,0,0.0
+Raw radar (same position),turning,15,21,15,0,0.0
+Raw + lead,turning,15,21,15,2,13.33
+Kalman,turning,15,21,15,10,66.67
+Raw radar,turning,15,22,15,0,0.0
+Raw radar (same position),turning,15,22,15,0,0.0
+Raw + lead,turning,15,22,15,4,26.67
+Kalman,turning,15,22,15,9,60.0
+Raw radar,turning,15,23,15,0,0.0
+Raw radar (same position),turning,15,23,15,0,0.0
+Raw + lead,turning,15,23,15,3,20.0
+Kalman,turning,15,23,15,8,53.33
+Raw radar,turning,15,24,15,0,0.0
+Raw radar (same position),turning,15,24,15,0,0.0
+Raw + lead,turning,15,24,15,3,20.0
+Kalman,turning,15,24,15,8,53.33
+Raw radar,turning,15,25,15,0,0.0
+Raw radar (same position),turning,15,25,15,0,0.0
+Raw + lead,turning,15,25,15,4,26.67
+Kalman,turning,15,25,15,10,66.67
+Raw radar,turning,15,26,15,0,0.0
+Raw radar (same position),turning,15,26,15,0,0.0
+Raw + lead,turning,15,26,15,2,13.33
+Kalman,turning,15,26,15,9,60.0
+Raw radar,turning,15,27,15,0,0.0
+Raw radar (same position),turning,15,27,15,0,0.0
+Raw + lead,turning,15,27,15,5,33.33
+Kalman,turning,15,27,15,9,60.0
+Raw radar,turning,15,28,15,0,0.0
+Raw radar (same position),turning,15,28,15,0,0.0
+Raw + lead,turning,15,28,15,3,20.0
+Kalman,turning,15,28,15,8,53.33
+Raw radar,turning,15,29,15,0,0.0
+Raw radar (same position),turning,15,29,15,0,0.0
+Raw + lead,turning,15,29,15,1,6.67
+Kalman,turning,15,29,15,7,46.67
+Raw radar,turning,15,30,15,0,0.0
+Raw radar (same position),turning,15,30,15,0,0.0
+Raw + lead,turning,15,30,15,3,20.0
+Kalman,turning,15,30,15,8,53.33
+Raw radar,turning,30,1,15,0,0.0
+Raw radar (same position),turning,30,1,15,0,0.0
+Raw + lead,turning,30,1,15,0,0.0
+Kalman,turning,30,1,15,8,53.33
+Raw radar,turning,30,2,15,0,0.0
+Raw radar (same position),turning,30,2,15,1,6.67
+Raw + lead,turning,30,2,15,5,33.33
+Kalman,turning,30,2,15,7,46.67
+Raw radar,turning,30,3,15,0,0.0
+Raw radar (same position),turning,30,3,15,0,0.0
+Raw + lead,turning,30,3,15,2,13.33
+Kalman,turning,30,3,15,10,66.67
+Raw radar,turning,30,4,15,0,0.0
+Raw radar (same position),turning,30,4,15,0,0.0
+Raw + lead,turning,30,4,15,1,6.67
+Kalman,turning,30,4,15,6,40.0
+Raw radar,turning,30,5,15,0,0.0
+Raw radar (same position),turning,30,5,15,0,0.0
+Raw + lead,turning,30,5,15,2,13.33
+Kalman,turning,30,5,15,7,46.67
+Raw radar,turning,30,6,15,0,0.0
+Raw radar (same position),turning,30,6,15,0,0.0
+Raw + lead,turning,30,6,15,2,13.33
+Kalman,turning,30,6,15,8,53.33
+Raw radar,turning,30,7,15,0,0.0
+Raw radar (same position),turning,30,7,15,0,0.0
+Raw + lead,turning,30,7,15,1,6.67
+Kalman,turning,30,7,15,7,46.67
+Raw radar,turning,30,8,15,0,0.0
+Raw radar (same position),turning,30,8,15,0,0.0
+Raw + lead,turning,30,8,15,2,13.33
+Kalman,turning,30,8,15,7,46.67
+Raw radar,turning,30,9,15,0,0.0
+Raw radar (same position),turning,30,9,15,0,0.0
+Raw + lead,turning,30,9,15,0,0.0
+Kalman,turning,30,9,15,7,46.67
+Raw radar,turning,30,10,15,0,0.0
+Raw radar (same position),turning,30,10,15,0,0.0
+Raw + lead,turning,30,10,15,3,20.0
+Kalman,turning,30,10,15,6,40.0
+Raw radar,turning,30,11,15,0,0.0
+Raw radar (same position),turning,30,11,15,1,6.67
+Raw + lead,turning,30,11,15,0,0.0
+Kalman,turning,30,11,15,8,53.33
+Raw radar,turning,30,12,15,0,0.0
+Raw radar (same position),turning,30,12,15,0,0.0
+Raw + lead,turning,30,12,15,4,26.67
+Kalman,turning,30,12,15,8,53.33
+Raw radar,turning,30,13,15,0,0.0
+Raw radar (same position),turning,30,13,15,0,0.0
+Raw + lead,turning,30,13,15,2,13.33
+Kalman,turning,30,13,15,7,46.67
+Raw radar,turning,30,14,15,0,0.0
+Raw radar (same position),turning,30,14,15,0,0.0
+Raw + lead,turning,30,14,15,3,20.0
+Kalman,turning,30,14,15,8,53.33
+Raw radar,turning,30,15,15,0,0.0
+Raw radar (same position),turning,30,15,15,0,0.0
+Raw + lead,turning,30,15,15,3,20.0
+Kalman,turning,30,15,15,7,46.67
+Raw radar,turning,30,16,15,0,0.0
+Raw radar (same position),turning,30,16,15,0,0.0
+Raw + lead,turning,30,16,15,1,6.67
+Kalman,turning,30,16,15,9,60.0
+Raw radar,turning,30,17,15,0,0.0
+Raw radar (same position),turning,30,17,15,0,0.0
+Raw + lead,turning,30,17,15,3,20.0
+Kalman,turning,30,17,15,8,53.33
+Raw radar,turning,30,18,15,0,0.0
+Raw radar (same position),turning,30,18,15,0,0.0
+Raw + lead,turning,30,18,15,2,13.33
+Kalman,turning,30,18,15,7,46.67
+Raw radar,turning,30,19,15,0,0.0
+Raw radar (same position),turning,30,19,15,1,6.67
+Raw + lead,turning,30,19,15,2,13.33
+Kalman,turning,30,19,15,6,40.0
+Raw radar,turning,30,20,15,0,0.0
+Raw radar (same position),turning,30,20,15,0,0.0
+Raw + lead,turning,30,20,15,1,6.67
+Kalman,turning,30,20,15,7,46.67
+Raw radar,turning,30,21,15,0,0.0
+Raw radar (same position),turning,30,21,15,0,0.0
+Raw + lead,turning,30,21,15,0,0.0
+Kalman,turning,30,21,15,8,53.33
+Raw radar,turning,30,22,15,0,0.0
+Raw radar (same position),turning,30,22,15,0,0.0
+Raw + lead,turning,30,22,15,3,20.0
+Kalman,turning,30,22,15,6,40.0
+Raw radar,turning,30,23,15,0,0.0
+Raw radar (same position),turning,30,23,15,0,0.0
+Raw + lead,turning,30,23,15,2,13.33
+Kalman,turning,30,23,15,5,33.33
+Raw radar,turning,30,24,15,0,0.0
+Raw radar (same position),turning,30,24,15,1,6.67
+Raw + lead,turning,30,24,15,2,13.33
+Kalman,turning,30,24,15,8,53.33
+Raw radar,turning,30,25,15,0,0.0
+Raw radar (same position),turning,30,25,15,0,0.0
+Raw + lead,turning,30,25,15,3,20.0
+Kalman,turning,30,25,15,7,46.67
+Raw radar,turning,30,26,15,0,0.0
+Raw radar (same position),turning,30,26,15,0,0.0
+Raw + lead,turning,30,26,15,1,6.67
+Kalman,turning,30,26,15,8,53.33
+Raw radar,turning,30,27,15,0,0.0
+Raw radar (same position),turning,30,27,15,0,0.0
+Raw + lead,turning,30,27,15,2,13.33
+Kalman,turning,30,27,15,7,46.67
+Raw radar,turning,30,28,15,0,0.0
+Raw radar (same position),turning,30,28,15,0,0.0
+Raw + lead,turning,30,28,15,1,6.67
+Kalman,turning,30,28,15,5,33.33
+Raw radar,turning,30,29,15,0,0.0
+Raw radar (same position),turning,30,29,15,0,0.0
+Raw + lead,turning,30,29,15,0,0.0
+Kalman,turning,30,29,15,7,46.67
+Raw radar,turning,30,30,15,0,0.0
+Raw radar (same position),turning,30,30,15,0,0.0
+Raw + lead,turning,30,30,15,2,13.33
+Kalman,turning,30,30,15,8,53.33
+Raw radar,turning,60,1,15,0,0.0
+Raw radar (same position),turning,60,1,15,0,0.0
+Raw + lead,turning,60,1,15,0,0.0
+Kalman,turning,60,1,15,7,46.67
+Raw radar,turning,60,2,15,1,6.67
+Raw radar (same position),turning,60,2,15,2,13.33
+Raw + lead,turning,60,2,15,3,20.0
+Kalman,turning,60,2,15,5,33.33
+Raw radar,turning,60,3,15,0,0.0
+Raw radar (same position),turning,60,3,15,0,0.0
+Raw + lead,turning,60,3,15,1,6.67
+Kalman,turning,60,3,15,9,60.0
+Raw radar,turning,60,4,15,0,0.0
+Raw radar (same position),turning,60,4,15,1,6.67
+Raw + lead,turning,60,4,15,0,0.0
+Kalman,turning,60,4,15,5,33.33
+Raw radar,turning,60,5,15,0,0.0
+Raw radar (same position),turning,60,5,15,0,0.0
+Raw + lead,turning,60,5,15,2,13.33
+Kalman,turning,60,5,15,4,26.67
+Raw radar,turning,60,6,15,0,0.0
+Raw radar (same position),turning,60,6,15,0,0.0
+Raw + lead,turning,60,6,15,0,0.0
+Kalman,turning,60,6,15,6,40.0
+Raw radar,turning,60,7,15,0,0.0
+Raw radar (same position),turning,60,7,15,0,0.0
+Raw + lead,turning,60,7,15,0,0.0
+Kalman,turning,60,7,15,5,33.33
+Raw radar,turning,60,8,15,0,0.0
+Raw radar (same position),turning,60,8,15,1,6.67
+Raw + lead,turning,60,8,15,1,6.67
+Kalman,turning,60,8,15,6,40.0
+Raw radar,turning,60,9,15,0,0.0
+Raw radar (same position),turning,60,9,15,1,6.67
+Raw + lead,turning,60,9,15,0,0.0
+Kalman,turning,60,9,15,4,26.67
+Raw radar,turning,60,10,15,0,0.0
+Raw radar (same position),turning,60,10,15,0,0.0
+Raw + lead,turning,60,10,15,2,13.33
+Kalman,turning,60,10,15,5,33.33
+Raw radar,turning,60,11,15,0,0.0
+Raw radar (same position),turning,60,11,15,3,20.0
+Raw + lead,turning,60,11,15,0,0.0
+Kalman,turning,60,11,15,5,33.33
+Raw radar,turning,60,12,15,0,0.0
+Raw radar (same position),turning,60,12,15,1,6.67
+Raw + lead,turning,60,12,15,1,6.67
+Kalman,turning,60,12,15,7,46.67
+Raw radar,turning,60,13,15,0,0.0
+Raw radar (same position),turning,60,13,15,0,0.0
+Raw + lead,turning,60,13,15,1,6.67
+Kalman,turning,60,13,15,7,46.67
+Raw radar,turning,60,14,15,0,0.0
+Raw radar (same position),turning,60,14,15,0,0.0
+Raw + lead,turning,60,14,15,0,0.0
+Kalman,turning,60,14,15,8,53.33
+Raw radar,turning,60,15,15,1,6.67
+Raw radar (same position),turning,60,15,15,1,6.67
+Raw + lead,turning,60,15,15,2,13.33
+Kalman,turning,60,15,15,3,20.0
+Raw radar,turning,60,16,15,0,0.0
+Raw radar (same position),turning,60,16,15,1,6.67
+Raw + lead,turning,60,16,15,1,6.67
+Kalman,turning,60,16,15,6,40.0
+Raw radar,turning,60,17,15,1,6.67
+Raw radar (same position),turning,60,17,15,2,13.33
+Raw + lead,turning,60,17,15,2,13.33
+Kalman,turning,60,17,15,6,40.0
+Raw radar,turning,60,18,15,0,0.0
+Raw radar (same position),turning,60,18,15,1,6.67
+Raw + lead,turning,60,18,15,0,0.0
+Kalman,turning,60,18,15,5,33.33
+Raw radar,turning,60,19,15,0,0.0
+Raw radar (same position),turning,60,19,15,1,6.67
+Raw + lead,turning,60,19,15,0,0.0
+Kalman,turning,60,19,15,6,40.0
+Raw radar,turning,60,20,15,0,0.0
+Raw radar (same position),turning,60,20,15,0,0.0
+Raw + lead,turning,60,20,15,0,0.0
+Kalman,turning,60,20,15,3,20.0
+Raw radar,turning,60,21,15,0,0.0
+Raw radar (same position),turning,60,21,15,1,6.67
+Raw + lead,turning,60,21,15,1,6.67
+Kalman,turning,60,21,15,9,60.0
+Raw radar,turning,60,22,15,0,0.0
+Raw radar (same position),turning,60,22,15,1,6.67
+Raw + lead,turning,60,22,15,2,13.33
+Kalman,turning,60,22,15,8,53.33
+Raw radar,turning,60,23,15,0,0.0
+Raw radar (same position),turning,60,23,15,0,0.0
+Raw + lead,turning,60,23,15,1,6.67
+Kalman,turning,60,23,15,4,26.67
+Raw radar,turning,60,24,15,0,0.0
+Raw radar (same position),turning,60,24,15,1,6.67
+Raw + lead,turning,60,24,15,2,13.33
+Kalman,turning,60,24,15,8,53.33
+Raw radar,turning,60,25,15,0,0.0
+Raw radar (same position),turning,60,25,15,1,6.67
+Raw + lead,turning,60,25,15,3,20.0
+Kalman,turning,60,25,15,6,40.0
+Raw radar,turning,60,26,15,0,0.0
+Raw radar (same position),turning,60,26,15,1,6.67
+Raw + lead,turning,60,26,15,1,6.67
+Kalman,turning,60,26,15,7,46.67
+Raw radar,turning,60,27,15,0,0.0
+Raw radar (same position),turning,60,27,15,1,6.67
+Raw + lead,turning,60,27,15,0,0.0
+Kalman,turning,60,27,15,5,33.33
+Raw radar,turning,60,28,15,0,0.0
+Raw radar (same position),turning,60,28,15,0,0.0
+Raw + lead,turning,60,28,15,0,0.0
+Kalman,turning,60,28,15,1,6.67
+Raw radar,turning,60,29,15,0,0.0
+Raw radar (same position),turning,60,29,15,2,13.33
+Raw + lead,turning,60,29,15,0,0.0
+Kalman,turning,60,29,15,6,40.0
+Raw radar,turning,60,30,15,0,0.0
+Raw radar (same position),turning,60,30,15,2,13.33
+Raw + lead,turning,60,30,15,2,13.33
+Kalman,turning,60,30,15,5,33.33
+Raw radar,turning,100,1,15,0,0.0
+Raw radar (same position),turning,100,1,15,0,0.0
+Raw + lead,turning,100,1,15,0,0.0
+Kalman,turning,100,1,15,4,26.67
+Raw radar,turning,100,2,15,1,6.67
+Raw radar (same position),turning,100,2,15,1,6.67
+Raw + lead,turning,100,2,15,1,6.67
+Kalman,turning,100,2,15,3,20.0
+Raw radar,turning,100,3,15,0,0.0
+Raw radar (same position),turning,100,3,15,0,0.0
+Raw + lead,turning,100,3,15,1,6.67
+Kalman,turning,100,3,15,8,53.33
+Raw radar,turning,100,4,15,2,13.33
+Raw radar (same position),turning,100,4,15,1,6.67
+Raw + lead,turning,100,4,15,0,0.0
+Kalman,turning,100,4,15,5,33.33
+Raw radar,turning,100,5,15,1,6.67
+Raw radar (same position),turning,100,5,15,1,6.67
+Raw + lead,turning,100,5,15,1,6.67
+Kalman,turning,100,5,15,5,33.33
+Raw radar,turning,100,6,15,2,13.33
+Raw radar (same position),turning,100,6,15,3,20.0
+Raw + lead,turning,100,6,15,0,0.0
+Kalman,turning,100,6,15,2,13.33
+Raw radar,turning,100,7,15,0,0.0
+Raw radar (same position),turning,100,7,15,2,13.33
+Raw + lead,turning,100,7,15,0,0.0
+Kalman,turning,100,7,15,5,33.33
+Raw radar,turning,100,8,15,1,6.67
+Raw radar (same position),turning,100,8,15,3,20.0
+Raw + lead,turning,100,8,15,0,0.0
+Kalman,turning,100,8,15,3,20.0
+Raw radar,turning,100,9,15,1,6.67
+Raw radar (same position),turning,100,9,15,1,6.67
+Raw + lead,turning,100,9,15,0,0.0
+Kalman,turning,100,9,15,2,13.33
+Raw radar,turning,100,10,15,1,6.67
+Raw radar (same position),turning,100,10,15,1,6.67
+Raw + lead,turning,100,10,15,1,6.67
+Kalman,turning,100,10,15,3,20.0
+Raw radar,turning,100,11,15,1,6.67
+Raw radar (same position),turning,100,11,15,0,0.0
+Raw + lead,turning,100,11,15,0,0.0
+Kalman,turning,100,11,15,5,33.33
+Raw radar,turning,100,12,15,0,0.0
+Raw radar (same position),turning,100,12,15,0,0.0
+Raw + lead,turning,100,12,15,0,0.0
+Kalman,turning,100,12,15,6,40.0
+Raw radar,turning,100,13,15,1,6.67
+Raw radar (same position),turning,100,13,15,0,0.0
+Raw + lead,turning,100,13,15,1,6.67
+Kalman,turning,100,13,15,6,40.0
+Raw radar,turning,100,14,15,2,13.33
+Raw radar (same position),turning,100,14,15,2,13.33
+Raw + lead,turning,100,14,15,2,13.33
+Kalman,turning,100,14,15,6,40.0
+Raw radar,turning,100,15,15,0,0.0
+Raw radar (same position),turning,100,15,15,0,0.0
+Raw + lead,turning,100,15,15,0,0.0
+Kalman,turning,100,15,15,2,13.33
+Raw radar,turning,100,16,15,0,0.0
+Raw radar (same position),turning,100,16,15,1,6.67
+Raw + lead,turning,100,16,15,0,0.0
+Kalman,turning,100,16,15,5,33.33
+Raw radar,turning,100,17,15,1,6.67
+Raw radar (same position),turning,100,17,15,1,6.67
+Raw + lead,turning,100,17,15,0,0.0
+Kalman,turning,100,17,15,5,33.33
+Raw radar,turning,100,18,15,0,0.0
+Raw radar (same position),turning,100,18,15,2,13.33
+Raw + lead,turning,100,18,15,0,0.0
+Kalman,turning,100,18,15,4,26.67
+Raw radar,turning,100,19,15,1,6.67
+Raw radar (same position),turning,100,19,15,4,26.67
+Raw + lead,turning,100,19,15,0,0.0
+Kalman,turning,100,19,15,5,33.33
+Raw radar,turning,100,20,15,1,6.67
+Raw radar (same position),turning,100,20,15,1,6.67
+Raw + lead,turning,100,20,15,0,0.0
+Kalman,turning,100,20,15,2,13.33
+Raw radar,turning,100,21,15,0,0.0
+Raw radar (same position),turning,100,21,15,1,6.67
+Raw + lead,turning,100,21,15,0,0.0
+Kalman,turning,100,21,15,7,46.67
+Raw radar,turning,100,22,15,1,6.67
+Raw radar (same position),turning,100,22,15,3,20.0
+Raw + lead,turning,100,22,15,0,0.0
+Kalman,turning,100,22,15,6,40.0
+Raw radar,turning,100,23,15,1,6.67
+Raw radar (same position),turning,100,23,15,1,6.67
+Raw + lead,turning,100,23,15,0,0.0
+Kalman,turning,100,23,15,2,13.33
+Raw radar,turning,100,24,15,2,13.33
+Raw radar (same position),turning,100,24,15,0,0.0
+Raw + lead,turning,100,24,15,1,6.67
+Kalman,turning,100,24,15,6,40.0
+Raw radar,turning,100,25,15,1,6.67
+Raw radar (same position),turning,100,25,15,3,20.0
+Raw + lead,turning,100,25,15,1,6.67
+Kalman,turning,100,25,15,5,33.33
+Raw radar,turning,100,26,15,0,0.0
+Raw radar (same position),turning,100,26,15,1,6.67
+Raw + lead,turning,100,26,15,0,0.0
+Kalman,turning,100,26,15,6,40.0
+Raw radar,turning,100,27,15,0,0.0
+Raw radar (same position),turning,100,27,15,1,6.67
+Raw + lead,turning,100,27,15,0,0.0
+Kalman,turning,100,27,15,4,26.67
+Raw radar,turning,100,28,15,0,0.0
+Raw radar (same position),turning,100,28,15,1,6.67
+Raw + lead,turning,100,28,15,0,0.0
+Kalman,turning,100,28,15,1,6.67
+Raw radar,turning,100,29,15,1,6.67
+Raw radar (same position),turning,100,29,15,1,6.67
+Raw + lead,turning,100,29,15,0,0.0
+Kalman,turning,100,29,15,5,33.33
+Raw radar,turning,100,30,15,0,0.0
+Raw radar (same position),turning,100,30,15,2,13.33
+Raw + lead,turning,100,30,15,0,0.0
+Kalman,turning,100,30,15,3,20.0
