@@ -3,9 +3,12 @@ import random
 import pygame
 from settings import WIDTH, HEIGHT, HUD_HEIGHT, FPS, DRONE_RADIUS, LEVELS
 from ui import TextBox, Button, TEXT, ACCENT, BUTTON, BUTTON_HOVER, TRACK
+from overlay import PLAYER_COLOR, RAW_COLOR, KALMAN_COLOR
+from scores import load_scores
 
 BACKGROUND = (20, 20, 30)
 MUTED = (150, 155, 180)
+GOLD = (255, 210, 80)
 SCREEN_H = HEIGHT + HUD_HEIGHT
 LEVEL_COLORS = {"Easy": (80, 200, 120),
                 "Medium": (240, 170, 60),
@@ -166,10 +169,11 @@ def show_levels(screen, clock, name):
     """Level select. Returns "Easy"/"Medium"/"Hard"/"Lab", "back" or None (quit)."""
     fonts = make_fonts()
     backdrop = Backdrop()
+    scores = load_scores()
     names = list(LEVELS)
     cards = []
     for i, level in enumerate(names):
-        cards.append(pygame.Rect(27 + i * 215, 270, 200, 240))
+        cards.append(pygame.Rect(27 + i * 215, 270, 200, 270))
 
     while True:
         dt = clock.tick(FPS) / 1000
@@ -214,18 +218,129 @@ def show_levels(screen, clock, name):
             if locked:
                 lines = [f"Path: {cfg['pattern'].capitalize()}",
                          f"Speed: {cfg['speed']}",
-                         f"Noise: {cfg['noise']}"]
+                         f"Noise: {cfg['noise']}",
+                         f"Time: {cfg['time']} s"]
             else:
                 lines = ["Path: your choice",
                          f"Speed: {cfg['speed']}",
-                         "Noise: your choice"]
+                         "Noise: your choice",
+                         "Time: unlimited"]
             for j, line in enumerate(lines):
                 draw_text(screen, fonts["small"], line, TEXT,
-                          (card.centerx, card.y + 135 + j * 26))
+                          (card.centerx, card.y + 130 + j * 24))
+
+            if cfg.get("time"):
+                record = scores.get(level)
+                if record:
+                    best_text = (f"Best: {record.get('hits', 0)} - "
+                                 f"{str(record.get('name', ''))[:8]}")
+                    best_color = GOLD
+                else:
+                    best_text = "Best: none yet"
+                    best_color = MUTED
+                draw_text(screen, fonts["small"], best_text, best_color,
+                          (card.centerx, card.y + 226))
+
             draw_text(screen, fonts["small"], f"Press {i + 1}", MUTED,
-                      (card.centerx, card.bottom - 22))
+                      (card.centerx, card.bottom - 16))
 
         draw_text(screen, fonts["small"],
                   f"Click a level or press 1-{len(names)}     Esc: change name",
-                  MUTED, (WIDTH // 2, 545))
+                  MUTED, (WIDTH // 2, 562))
+        pygame.display.flip()
+
+
+def verdict_text(player, raw, kalman):
+    # what the round meant, judged by hits scored
+    if player == 0 and raw == 0 and kalman == 0:
+        return "Nobody scored a hit this round."
+    if player > kalman:
+        return "You outsmarted the Kalman filter!"
+    if player == kalman and player > 0:
+        return "Level with the Kalman filter!"
+    if player > raw:
+        return "You beat the raw radar. The Kalman turret is still ahead."
+    if player == raw and player > 0:
+        return "Tied with the raw radar turret."
+    return "The automated turrets won this round. Try again!"
+
+
+def show_results(screen, clock, name, level, result, record, best):
+    """Shown when the timer runs out. result holds (hits, shots) for the
+    player, the raw turret and the Kalman turret. Returns "again", "levels"
+    or None (window closed)."""
+    fonts = make_fonts()
+    backdrop = Backdrop()
+    again = Button(WIDTH // 2 - 190, 500, 170, 44, "Play again")
+    back = Button(WIDTH // 2 + 20, 500, 170, 44, "Level select")
+    entries = (("YOU", PLAYER_COLOR, "player"),
+               ("RAW RADAR", RAW_COLOR, "raw"),
+               ("KALMAN", KALMAN_COLOR, "kalman"))
+    cards = [pygame.Rect(80 + i * 255, 190, 230, 200) for i in range(3)]
+
+    player_hits = result["player"][0]
+    raw_hits = result["raw"][0]
+    kalman_hits = result["kalman"][0]
+    most = max(player_hits, raw_hits, kalman_hits)
+    verdict = verdict_text(player_hits, raw_hits, kalman_hits)
+    verdict_color = GOLD if player_hits >= kalman_hits and player_hits > 0 else TEXT
+
+    while True:
+        dt = clock.tick(FPS) / 1000
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return None
+            if event.type == pygame.KEYDOWN:
+                if event.key in (pygame.K_RETURN, pygame.K_KP_ENTER, pygame.K_r):
+                    return "again"
+                if event.key == pygame.K_ESCAPE:
+                    return "levels"
+            if again.handle_event(event):
+                return "again"
+            if back.handle_event(event):
+                return "levels"
+        backdrop.update(dt)
+
+        screen.fill(BACKGROUND)
+        backdrop.draw(screen)
+        draw_text(screen, fonts["title"], "TIME'S UP", ACCENT, (WIDTH // 2, 75))
+        draw_text(screen, fonts["normal"], f"{name}  |  {level}",
+                  LEVEL_COLORS[level], (WIDTH // 2, 140))
+
+        for card, (label, color, key) in zip(cards, entries):
+            hits, shots = result[key]
+            accuracy = 100 * hits / shots if shots > 0 else 0.0
+            winner = hits == most and most > 0
+            pygame.draw.rect(screen, BUTTON, card, border_radius=12)
+            pygame.draw.rect(screen, color, card, 4 if winner else 2,
+                             border_radius=12)
+            draw_text(screen, fonts["normal"], label, color,
+                      (card.centerx, card.y + 28))
+            draw_text(screen, fonts["title"], str(hits), TEXT,
+                      (card.centerx, card.y + 95))
+            draw_text(screen, fonts["small"], "hits", MUTED,
+                      (card.centerx, card.y + 148))
+            draw_text(screen, fonts["small"],
+                      f"{hits}/{shots} shots ({accuracy:.0f}%)", TEXT,
+                      (card.centerx, card.y + 175))
+            if winner:
+                draw_text(screen, fonts["small"], "MOST HITS", color,
+                          (card.centerx, card.y - 12))
+
+        draw_text(screen, fonts["normal"], verdict, verdict_color,
+                  (WIDTH // 2, 425))
+        if record:
+            draw_text(screen, fonts["small"], f"New best score on {level}!",
+                      GOLD, (WIDTH // 2, 458))
+        elif best:
+            draw_text(screen, fonts["small"],
+                      f"Best on {level}: {best.get('hits', 0)} hits "
+                      f"({str(best.get('name', ''))[:14]})",
+                      MUTED, (WIDTH // 2, 458))
+
+        again.draw(screen, fonts["normal"], active=True)
+        back.draw(screen, fonts["normal"])
+        draw_text(screen, fonts["small"],
+                  "R or Enter: play again     Esc: level select",
+                  MUTED, (WIDTH // 2, 570))
         pygame.display.flip()

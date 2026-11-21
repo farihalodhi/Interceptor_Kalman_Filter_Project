@@ -12,14 +12,14 @@ TURN_ANGLE = 25             # degrees the heading changes at the turn
 HUD_HEIGHT = 70             # height of the control strip below the arena
 
 # difficulty levels chosen on the level-select screen.
-# Levels are locked by default (settings fixed); "Lab" is free play.
+# Levels are locked and timed by default; "Lab" is untimed free play.
 LEVELS = {
-    "Easy":   {"pattern": "straight", "speed": 100, "noise": 15,
+    "Easy":   {"pattern": "straight", "speed": 100, "noise": 15, "time": 60,
                "info": "Straight path, low noise"},
-    "Medium": {"pattern": "diagonal", "speed": 130, "noise": 40,
+    "Medium": {"pattern": "diagonal", "speed": 130, "noise": 40, "time": 60,
                "info": "Diagonal path, more noise"},
-    "Hard":   {"pattern": "turning",  "speed": 180, "noise": 80,
+    "Hard":   {"pattern": "turning",  "speed": 180, "noise": 80, "time": 60,
                "info": "Fast, turning, very noisy"},
-    "Lab":    {"pattern": "straight", "speed": 130, "noise": 15,
+    "Lab":    {"pattern": "straight", "speed": 130, "noise": 15, "time": None,
                "info": "Free play: change everything", "locked": False},
 }
