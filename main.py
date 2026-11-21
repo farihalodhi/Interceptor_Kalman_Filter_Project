@@ -8,6 +8,12 @@ from game_manager import GameManager
 from sounds import SoundFX
 from ui import Slider, Button, draw_hud_background, TEXT
 from screens import show_menu, show_loading, show_levels, LEVEL_COLORS
+from overlay import (Trail, ErrorTracker, draw_stats, draw_legend,
+                     draw_uncertainty, DRONE_COLOR, RADAR_COLOR, KALMAN_COLOR,
+                     PLAYER_COLOR, RAW_COLOR)
+
+MUTED = (150, 155, 180)
+
 
 def draw_turret(screen, turret, color):
     tip_x = turret.x + 30 * math.cos(turret.angle)
@@ -18,9 +24,11 @@ def draw_turret(screen, turret, color):
         pygame.draw.circle(screen, color, (int(p.x), int(p.y)),
                            PROJECTILE_RADIUS)
 
+
 def draw_cross(screen, color, x, y, size=8):
     pygame.draw.line(screen, color, (x - size, y), (x + size, y), 2)
     pygame.draw.line(screen, color, (x, y - size), (x, y + size), 2)
+
 
 def play_level(screen, clock, sfx, name, level):
     """Runs one game at the chosen level.
@@ -30,16 +38,26 @@ def play_level(screen, clock, sfx, name, level):
 
     # the level decides the drone's path, speed and the radar noise
     cfg = LEVELS[level]
+    locked = cfg.get("locked", True)      # only the Lab lets you change them
     game = GameManager(noise=cfg["noise"], seed=42, pattern=cfg["pattern"],
                        speed=cfg["speed"])
     game.record_events = True      # so we can play a sound for each event
 
-    # controls in the strip below the arena
-    slider = Slider(40, HEIGHT + 46, 260, 0, 100, cfg["noise"], 5, "Radar noise")
+    # trails and the running error average (display only)
+    true_trail = Trail(DRONE_COLOR)
+    estimate_trail = Trail(KALMAN_COLOR)
+    tracker = ErrorTracker()
+    last_x = game.drone.x
+
+    # controls in the strip below the arena (Lab only)
+    slider = None
     buttons = []
-    for i, pattern in enumerate(PATTERNS):
-        buttons.append(Button(400 + i * 98, HEIGHT + 36, 90, 26,
-                              pattern.capitalize()))
+    if not locked:
+        slider = Slider(40, HEIGHT + 46, 260, 0, 100, cfg["noise"], 5,
+                        "Radar noise")
+        for i, pattern in enumerate(PATTERNS):
+            buttons.append(Button(400 + i * 98, HEIGHT + 36, 90, 26,
+                                  pattern.capitalize()))
 
     while True:
         dt = clock.tick(FPS) / 1000
@@ -51,19 +69,20 @@ def play_level(screen, clock, sfx, name, level):
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                 return "levels"
 
-            # the slider and buttons get first use of mouse events
-            if slider.handle_event(event):
-                if slider.value != game.radar.noise:
-                    game.change_noise(slider.value - game.radar.noise)
-                continue
+            if not locked:
+                # the slider and buttons get first use of mouse events
+                if slider.handle_event(event):
+                    if slider.value != game.radar.noise:
+                        game.change_noise(slider.value - game.radar.noise)
+                    continue
 
-            clicked_button = False
-            for i, button in enumerate(buttons):
-                if button.handle_event(event):
-                    game.set_pattern(PATTERNS[i])
-                    clicked_button = True
-            if clicked_button:
-                continue
+                clicked_button = False
+                for i, button in enumerate(buttons):
+                    if button.handle_event(event):
+                        game.set_pattern(PATTERNS[i])
+                        clicked_button = True
+                if clicked_button:
+                    continue
 
             # clicks inside the arena fire the player turret
             if (event.type == pygame.MOUSEBUTTONDOWN and event.button == 1
@@ -71,17 +90,18 @@ def play_level(screen, clock, sfx, name, level):
                 game.player_fire()
 
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_UP:
-                    game.change_noise(5)
-                if event.key == pygame.K_DOWN:
-                    game.change_noise(-5)
-                if event.key == pygame.K_t:
-                    game.next_pattern()
                 if event.key == pygame.K_m:
                     sfx.toggle_mute()
+                if not locked:
+                    if event.key == pygame.K_UP:
+                        game.change_noise(5)
+                    if event.key == pygame.K_DOWN:
+                        game.change_noise(-5)
+                    if event.key == pygame.K_t:
+                        game.next_pattern()
 
         # keep the slider in step with the noise when keys change it
-        if not slider.dragging:
+        if slider is not None and not slider.dragging:
             slider.value = game.radar.noise
 
         mouse_x, mouse_y = pygame.mouse.get_pos()
@@ -95,59 +115,84 @@ def play_level(screen, clock, sfx, name, level):
             sfx.play(kind, who)
         game.events.clear()
 
-        # 3. draw
+        # a new round has started when the drone jumps back to the left
+        if game.drone.x < last_x:
+            true_trail.clear()
+            estimate_trail.clear()
+            tracker.clear()
+        last_x = game.drone.x
+        true_trail.add(game.drone.x, game.drone.y)
+        if game.kalman.initialized:
+            ex, ey = game.kalman.position()
+            estimate_trail.add(ex, ey)
+        tracker.add(game)
+
+        # 3. draw (panels first, so the game objects stay on top of them)
         screen.fill((20, 20, 30))
+        draw_stats(screen, small_font, game, tracker)
+        draw_legend(screen, small_font, WIDTH - 200, 58)
+
+        true_trail.draw(screen)
+        estimate_trail.draw(screen)
 
         for rx, ry in game.radar_dots:
-            pygame.draw.circle(screen, (90, 160, 255),
+            pygame.draw.circle(screen, RADAR_COLOR,
                                (int(rx), int(ry)), 3)
 
-        pygame.draw.circle(screen, (220, 60, 60),
+        pygame.draw.circle(screen, DRONE_COLOR,
                            (int(game.drone.x), int(game.drone.y)),
                            DRONE_RADIUS)
 
-        # Kalman estimate (ring) and predicted interception point (cross),
-        # drawn after the drone so they stay visible on top of it
+        # Kalman estimate (ring), its uncertainty (ellipse) and the predicted
+        # interception point (cross), drawn after the drone so they stay visible
         if game.kalman.initialized:
             ex, ey = game.kalman.position()
-            pygame.draw.circle(screen, (200, 120, 255),
+            pygame.draw.circle(screen, KALMAN_COLOR,
                                (int(ex), int(ey)), DRONE_RADIUS + 4, 2)
+            draw_uncertainty(screen, game.kalman, KALMAN_COLOR)
         if game.aim_point is not None:
             draw_cross(screen, (255, 255, 255),
                        int(game.aim_point[0]), int(game.aim_point[1]))
 
-        draw_turret(screen, game.player, (80, 200, 120))
-        draw_turret(screen, game.raw_turret, (240, 170, 60))
-        draw_turret(screen, game.kalman_turret, (200, 120, 255))
-
-        y = 10
-        for turret in (game.player, game.raw_turret, game.kalman_turret):
-            line = (f"{turret.name}: {turret.hits}/{turret.shots} hits "
-                    f"({turret.hit_rate():.0f}%)")
-            screen.blit(font.render(line, True, TEXT), (10, y))
-            y += 24
+        draw_turret(screen, game.player, PLAYER_COLOR)
+        draw_turret(screen, game.raw_turret, RAW_COLOR)
+        draw_turret(screen, game.kalman_turret, KALMAN_COLOR)
 
         # player name and level, top right
         who = font.render(f"{name}  |  {level}", True, LEVEL_COLORS[level])
         screen.blit(who, (WIDTH - who.get_width() - 10, 10))
-        hint = small_font.render("Esc: level select", True, (150, 155, 180))
+        hint = small_font.render("Esc: level select", True, MUTED)
         screen.blit(hint, (WIDTH - hint.get_width() - 10, 34))
 
         # control strip
         draw_hud_background(screen, HEIGHT, WIDTH, HUD_HEIGHT)
-        slider.draw(screen, font)
-        screen.blit(font.render("Trajectory", True, TEXT), (400, HEIGHT + 8))
-        for i, button in enumerate(buttons):
-            button.draw(screen, small_font,
-                        active=(game.drone.pattern == PATTERNS[i]))
-        screen.blit(small_font.render("T: next path", True, TEXT),
-                    (730, HEIGHT + 20))
-        screen.blit(small_font.render("Up/Down: noise", True, TEXT),
-                    (730, HEIGHT + 42))
+        if locked:
+            title = font.render(f"{level} level", True, LEVEL_COLORS[level])
+            screen.blit(title, (40, HEIGHT + 8))
+            settings_text = (f"Path: {cfg['pattern'].capitalize()}    "
+                             f"Drone speed: {cfg['speed']}    "
+                             f"Radar noise: {cfg['noise']}")
+            screen.blit(small_font.render(settings_text, True, TEXT),
+                        (40, HEIGHT + 34))
+            screen.blit(small_font.render(
+                "Settings are fixed in this level. Choose Lab to change them.",
+                True, MUTED), (40, HEIGHT + 50))
+        else:
+            slider.draw(screen, font)
+            screen.blit(font.render("Trajectory", True, TEXT),
+                        (400, HEIGHT + 8))
+            for i, button in enumerate(buttons):
+                button.draw(screen, small_font,
+                            active=(game.drone.pattern == PATTERNS[i]))
+            screen.blit(small_font.render("T: next path", True, TEXT),
+                        (730, HEIGHT + 20))
+            screen.blit(small_font.render("Up/Down: noise", True, TEXT),
+                        (730, HEIGHT + 42))
         screen.blit(small_font.render("M: sound " + ("off" if sfx.muted else "on"),
                                       True, TEXT), (730, HEIGHT + 2))
 
         pygame.display.flip()
+
 
 def main():
     pygame.init()
@@ -168,7 +213,7 @@ def main():
         if not show_loading(screen, clock, name):
             break
 
-        # 3. title + level select (Easy / Medium / Hard), then play
+        # 3. level select (Easy / Medium / Hard / Lab), then play
         while True:
             level = show_levels(screen, clock, name)
             if level is None:            # window closed
