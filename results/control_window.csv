@@ -1,0 +1,4051 @@
+turret,trajectory,noise,seed,shots,hits,hit_rate
+Kalman,straight,5,1,14,11,78.57
+diff 0.25 s,straight,5,1,14,4,28.57
+diff 0.5 s,straight,5,1,14,5,35.71
+diff 1 s,straight,5,1,13,7,53.85
+diff 2 s,straight,5,1,12,9,75.0
+fit 0.25 s,straight,5,1,14,7,50.0
+fit 0.5 s,straight,5,1,14,11,78.57
+fit 1 s,straight,5,1,13,11,84.62
+fit 2 s,straight,5,1,12,10,83.33
+Kalman,straight,5,2,14,11,78.57
+diff 0.25 s,straight,5,2,14,8,57.14
+diff 0.5 s,straight,5,2,14,10,71.43
+diff 1 s,straight,5,2,13,10,76.92
+diff 2 s,straight,5,2,12,10,83.33
+fit 0.25 s,straight,5,2,14,5,35.71
+fit 0.5 s,straight,5,2,14,11,78.57
+fit 1 s,straight,5,2,13,11,84.62
+fit 2 s,straight,5,2,12,10,83.33
+Kalman,straight,5,3,14,11,78.57
+diff 0.25 s,straight,5,3,14,5,35.71
+diff 0.5 s,straight,5,3,14,8,57.14
+diff 1 s,straight,5,3,13,10,76.92
+diff 2 s,straight,5,3,12,10,83.33
+fit 0.25 s,straight,5,3,14,8,57.14
+fit 0.5 s,straight,5,3,14,11,78.57
+fit 1 s,straight,5,3,13,10,76.92
+fit 2 s,straight,5,3,12,10,83.33
+Kalman,straight,5,4,14,10,71.43
+diff 0.25 s,straight,5,4,14,3,21.43
+diff 0.5 s,straight,5,4,14,5,35.71
+diff 1 s,straight,5,4,13,8,61.54
+diff 2 s,straight,5,4,12,9,75.0
+fit 0.25 s,straight,5,4,14,5,35.71
+fit 0.5 s,straight,5,4,14,8,57.14
+fit 1 s,straight,5,4,13,11,84.62
+fit 2 s,straight,5,4,12,10,83.33
+Kalman,straight,5,5,14,10,71.43
+diff 0.25 s,straight,5,5,14,5,35.71
+diff 0.5 s,straight,5,5,14,7,50.0
+diff 1 s,straight,5,5,13,11,84.62
+diff 2 s,straight,5,5,12,10,83.33
+fit 0.25 s,straight,5,5,14,6,42.86
+fit 0.5 s,straight,5,5,14,10,71.43
+fit 1 s,straight,5,5,13,11,84.62
+fit 2 s,straight,5,5,12,10,83.33
+Kalman,straight,5,6,14,11,78.57
+diff 0.25 s,straight,5,6,14,3,21.43
+diff 0.5 s,straight,5,6,14,6,42.86
+diff 1 s,straight,5,6,13,10,76.92
+diff 2 s,straight,5,6,12,9,75.0
+fit 0.25 s,straight,5,6,14,3,21.43
+fit 0.5 s,straight,5,6,14,10,71.43
+fit 1 s,straight,5,6,13,11,84.62
+fit 2 s,straight,5,6,12,10,83.33
+Kalman,straight,5,7,14,11,78.57
+diff 0.25 s,straight,5,7,14,5,35.71
+diff 0.5 s,straight,5,7,14,7,50.0
+diff 1 s,straight,5,7,13,6,46.15
+diff 2 s,straight,5,7,12,10,83.33
+fit 0.25 s,straight,5,7,14,9,64.29
+fit 0.5 s,straight,5,7,14,11,78.57
+fit 1 s,straight,5,7,13,11,84.62
+fit 2 s,straight,5,7,12,10,83.33
+Kalman,straight,5,8,14,11,78.57
+diff 0.25 s,straight,5,8,14,4,28.57
+diff 0.5 s,straight,5,8,14,5,35.71
+diff 1 s,straight,5,8,13,8,61.54
+diff 2 s,straight,5,8,12,7,58.33
+fit 0.25 s,straight,5,8,14,7,50.0
+fit 0.5 s,straight,5,8,14,10,71.43
+fit 1 s,straight,5,8,13,11,84.62
+fit 2 s,straight,5,8,12,10,83.33
+Kalman,straight,5,9,14,10,71.43
+diff 0.25 s,straight,5,9,14,3,21.43
+diff 0.5 s,straight,5,9,14,6,42.86
+diff 1 s,straight,5,9,13,7,53.85
+diff 2 s,straight,5,9,12,8,66.67
+fit 0.25 s,straight,5,9,14,6,42.86
+fit 0.5 s,straight,5,9,14,10,71.43
+fit 1 s,straight,5,9,13,11,84.62
+fit 2 s,straight,5,9,12,10,83.33
+Kalman,straight,5,10,14,11,78.57
+diff 0.25 s,straight,5,10,14,2,14.29
+diff 0.5 s,straight,5,10,14,6,42.86
+diff 1 s,straight,5,10,13,11,84.62
+diff 2 s,straight,5,10,12,10,83.33
+fit 0.25 s,straight,5,10,14,8,57.14
+fit 0.5 s,straight,5,10,14,11,78.57
+fit 1 s,straight,5,10,13,11,84.62
+fit 2 s,straight,5,10,12,10,83.33
+Kalman,straight,5,11,14,11,78.57
+diff 0.25 s,straight,5,11,14,4,28.57
+diff 0.5 s,straight,5,11,14,6,42.86
+diff 1 s,straight,5,11,13,9,69.23
+diff 2 s,straight,5,11,12,9,75.0
+fit 0.25 s,straight,5,11,14,8,57.14
+fit 0.5 s,straight,5,11,14,10,71.43
+fit 1 s,straight,5,11,13,10,76.92
+fit 2 s,straight,5,11,12,10,83.33
+Kalman,straight,5,12,14,11,78.57
+diff 0.25 s,straight,5,12,14,7,50.0
+diff 0.5 s,straight,5,12,14,9,64.29
+diff 1 s,straight,5,12,13,9,69.23
+diff 2 s,straight,5,12,12,10,83.33
+fit 0.25 s,straight,5,12,14,8,57.14
+fit 0.5 s,straight,5,12,14,10,71.43
+fit 1 s,straight,5,12,13,11,84.62
+fit 2 s,straight,5,12,12,10,83.33
+Kalman,straight,5,13,14,11,78.57
+diff 0.25 s,straight,5,13,14,4,28.57
+diff 0.5 s,straight,5,13,14,6,42.86
+diff 1 s,straight,5,13,13,9,69.23
+diff 2 s,straight,5,13,12,9,75.0
+fit 0.25 s,straight,5,13,14,5,35.71
+fit 0.5 s,straight,5,13,14,10,71.43
+fit 1 s,straight,5,13,13,11,84.62
+fit 2 s,straight,5,13,12,10,83.33
+Kalman,straight,5,14,14,11,78.57
+diff 0.25 s,straight,5,14,14,5,35.71
+diff 0.5 s,straight,5,14,14,9,64.29
+diff 1 s,straight,5,14,13,10,76.92
+diff 2 s,straight,5,14,12,9,75.0
+fit 0.25 s,straight,5,14,14,7,50.0
+fit 0.5 s,straight,5,14,14,11,78.57
+fit 1 s,straight,5,14,13,11,84.62
+fit 2 s,straight,5,14,12,10,83.33
+Kalman,straight,5,15,14,10,71.43
+diff 0.25 s,straight,5,15,14,2,14.29
+diff 0.5 s,straight,5,15,14,6,42.86
+diff 1 s,straight,5,15,13,11,84.62
+diff 2 s,straight,5,15,12,10,83.33
+fit 0.25 s,straight,5,15,14,5,35.71
+fit 0.5 s,straight,5,15,14,10,71.43
+fit 1 s,straight,5,15,13,11,84.62
+fit 2 s,straight,5,15,12,10,83.33
+Kalman,straight,5,16,14,10,71.43
+diff 0.25 s,straight,5,16,14,3,21.43
+diff 0.5 s,straight,5,16,14,6,42.86
+diff 1 s,straight,5,16,13,9,69.23
+diff 2 s,straight,5,16,12,10,83.33
+fit 0.25 s,straight,5,16,14,5,35.71
+fit 0.5 s,straight,5,16,14,8,57.14
+fit 1 s,straight,5,16,13,11,84.62
+fit 2 s,straight,5,16,12,10,83.33
+Kalman,straight,5,17,14,11,78.57
+diff 0.25 s,straight,5,17,14,5,35.71
+diff 0.5 s,straight,5,17,14,5,35.71
+diff 1 s,straight,5,17,13,9,69.23
+diff 2 s,straight,5,17,12,10,83.33
+fit 0.25 s,straight,5,17,14,10,71.43
+fit 0.5 s,straight,5,17,14,10,71.43
+fit 1 s,straight,5,17,13,11,84.62
+fit 2 s,straight,5,17,12,10,83.33
+Kalman,straight,5,18,14,11,78.57
+diff 0.25 s,straight,5,18,14,2,14.29
+diff 0.5 s,straight,5,18,14,8,57.14
+diff 1 s,straight,5,18,13,10,76.92
+diff 2 s,straight,5,18,12,9,75.0
+fit 0.25 s,straight,5,18,14,3,21.43
+fit 0.5 s,straight,5,18,14,11,78.57
+fit 1 s,straight,5,18,13,10,76.92
+fit 2 s,straight,5,18,12,10,83.33
+Kalman,straight,5,19,14,10,71.43
+diff 0.25 s,straight,5,19,14,3,21.43
+diff 0.5 s,straight,5,19,14,8,57.14
+diff 1 s,straight,5,19,13,9,69.23
+diff 2 s,straight,5,19,12,10,83.33
+fit 0.25 s,straight,5,19,14,6,42.86
+fit 0.5 s,straight,5,19,14,9,64.29
+fit 1 s,straight,5,19,13,10,76.92
+fit 2 s,straight,5,19,12,10,83.33
+Kalman,straight,5,20,14,11,78.57
+diff 0.25 s,straight,5,20,14,4,28.57
+diff 0.5 s,straight,5,20,14,7,50.0
+diff 1 s,straight,5,20,13,10,76.92
+diff 2 s,straight,5,20,12,8,66.67
+fit 0.25 s,straight,5,20,14,7,50.0
+fit 0.5 s,straight,5,20,14,11,78.57
+fit 1 s,straight,5,20,13,11,84.62
+fit 2 s,straight,5,20,12,10,83.33
+Kalman,straight,5,21,14,11,78.57
+diff 0.25 s,straight,5,21,14,5,35.71
+diff 0.5 s,straight,5,21,14,9,64.29
+diff 1 s,straight,5,21,13,5,38.46
+diff 2 s,straight,5,21,12,9,75.0
+fit 0.25 s,straight,5,21,14,7,50.0
+fit 0.5 s,straight,5,21,14,11,78.57
+fit 1 s,straight,5,21,13,11,84.62
+fit 2 s,straight,5,21,12,10,83.33
+Kalman,straight,5,22,14,10,71.43
+diff 0.25 s,straight,5,22,14,4,28.57
+diff 0.5 s,straight,5,22,14,7,50.0
+diff 1 s,straight,5,22,13,10,76.92
+diff 2 s,straight,5,22,12,9,75.0
+fit 0.25 s,straight,5,22,14,5,35.71
+fit 0.5 s,straight,5,22,14,10,71.43
+fit 1 s,straight,5,22,13,10,76.92
+fit 2 s,straight,5,22,12,10,83.33
+Kalman,straight,5,23,14,11,78.57
+diff 0.25 s,straight,5,23,14,6,42.86
+diff 0.5 s,straight,5,23,14,5,35.71
+diff 1 s,straight,5,23,13,9,69.23
+diff 2 s,straight,5,23,12,9,75.0
+fit 0.25 s,straight,5,23,14,7,50.0
+fit 0.5 s,straight,5,23,14,11,78.57
+fit 1 s,straight,5,23,13,11,84.62
+fit 2 s,straight,5,23,12,10,83.33
+Kalman,straight,5,24,14,10,71.43
+diff 0.25 s,straight,5,24,14,5,35.71
+diff 0.5 s,straight,5,24,14,4,28.57
+diff 1 s,straight,5,24,13,9,69.23
+diff 2 s,straight,5,24,12,9,75.0
+fit 0.25 s,straight,5,24,14,8,57.14
+fit 0.5 s,straight,5,24,14,9,64.29
+fit 1 s,straight,5,24,13,11,84.62
+fit 2 s,straight,5,24,12,10,83.33
+Kalman,straight,5,25,14,11,78.57
+diff 0.25 s,straight,5,25,14,3,21.43
+diff 0.5 s,straight,5,25,14,5,35.71
+diff 1 s,straight,5,25,13,6,46.15
+diff 2 s,straight,5,25,12,9,75.0
+fit 0.25 s,straight,5,25,14,6,42.86
+fit 0.5 s,straight,5,25,14,11,78.57
+fit 1 s,straight,5,25,13,11,84.62
+fit 2 s,straight,5,25,12,10,83.33
+Kalman,straight,5,26,14,11,78.57
+diff 0.25 s,straight,5,26,14,6,42.86
+diff 0.5 s,straight,5,26,14,8,57.14
+diff 1 s,straight,5,26,13,10,76.92
+diff 2 s,straight,5,26,12,8,66.67
+fit 0.25 s,straight,5,26,14,5,35.71
+fit 0.5 s,straight,5,26,14,11,78.57
+fit 1 s,straight,5,26,13,11,84.62
+fit 2 s,straight,5,26,12,10,83.33
+Kalman,straight,5,27,14,11,78.57
+diff 0.25 s,straight,5,27,14,5,35.71
+diff 0.5 s,straight,5,27,14,8,57.14
+diff 1 s,straight,5,27,13,9,69.23
+diff 2 s,straight,5,27,12,9,75.0
+fit 0.25 s,straight,5,27,14,5,35.71
+fit 0.5 s,straight,5,27,14,11,78.57
+fit 1 s,straight,5,27,13,11,84.62
+fit 2 s,straight,5,27,12,10,83.33
+Kalman,straight,5,28,14,10,71.43
+diff 0.25 s,straight,5,28,14,6,42.86
+diff 0.5 s,straight,5,28,14,4,28.57
+diff 1 s,straight,5,28,13,7,53.85
+diff 2 s,straight,5,28,12,8,66.67
+fit 0.25 s,straight,5,28,14,4,28.57
+fit 0.5 s,straight,5,28,14,10,71.43
+fit 1 s,straight,5,28,13,11,84.62
+fit 2 s,straight,5,28,12,10,83.33
+Kalman,straight,5,29,14,11,78.57
+diff 0.25 s,straight,5,29,14,4,28.57
+diff 0.5 s,straight,5,29,14,7,50.0
+diff 1 s,straight,5,29,13,10,76.92
+diff 2 s,straight,5,29,12,8,66.67
+fit 0.25 s,straight,5,29,14,6,42.86
+fit 0.5 s,straight,5,29,14,11,78.57
+fit 1 s,straight,5,29,13,11,84.62
+fit 2 s,straight,5,29,12,10,83.33
+Kalman,straight,5,30,14,11,78.57
+diff 0.25 s,straight,5,30,14,7,50.0
+diff 0.5 s,straight,5,30,14,10,71.43
+diff 1 s,straight,5,30,13,11,84.62
+diff 2 s,straight,5,30,12,9,75.0
+fit 0.25 s,straight,5,30,14,7,50.0
+fit 0.5 s,straight,5,30,14,11,78.57
+fit 1 s,straight,5,30,13,11,84.62
+fit 2 s,straight,5,30,12,10,83.33
+Kalman,straight,15,1,14,11,78.57
+diff 0.25 s,straight,15,1,14,1,7.14
+diff 0.5 s,straight,15,1,14,0,0.0
+diff 1 s,straight,15,1,13,4,30.77
+diff 2 s,straight,15,1,12,4,33.33
+fit 0.25 s,straight,15,1,14,4,28.57
+fit 0.5 s,straight,15,1,14,8,57.14
+fit 1 s,straight,15,1,13,8,61.54
+fit 2 s,straight,15,1,12,10,83.33
+Kalman,straight,15,2,14,10,71.43
+diff 0.25 s,straight,15,2,14,1,7.14
+diff 0.5 s,straight,15,2,14,6,42.86
+diff 1 s,straight,15,2,13,5,38.46
+diff 2 s,straight,15,2,12,3,25.0
+fit 0.25 s,straight,15,2,14,2,14.29
+fit 0.5 s,straight,15,2,14,8,57.14
+fit 1 s,straight,15,2,13,10,76.92
+fit 2 s,straight,15,2,12,10,83.33
+Kalman,straight,15,3,14,11,78.57
+diff 0.25 s,straight,15,3,14,3,21.43
+diff 0.5 s,straight,15,3,14,5,35.71
+diff 1 s,straight,15,3,13,4,30.77
+diff 2 s,straight,15,3,12,4,33.33
+fit 0.25 s,straight,15,3,14,5,35.71
+fit 0.5 s,straight,15,3,14,7,50.0
+fit 1 s,straight,15,3,13,10,76.92
+fit 2 s,straight,15,3,12,10,83.33
+Kalman,straight,15,4,14,10,71.43
+diff 0.25 s,straight,15,4,14,2,14.29
+diff 0.5 s,straight,15,4,14,2,14.29
+diff 1 s,straight,15,4,13,4,30.77
+diff 2 s,straight,15,4,12,4,33.33
+fit 0.25 s,straight,15,4,14,1,7.14
+fit 0.5 s,straight,15,4,14,4,28.57
+fit 1 s,straight,15,4,13,7,53.85
+fit 2 s,straight,15,4,12,10,83.33
+Kalman,straight,15,5,14,10,71.43
+diff 0.25 s,straight,15,5,14,1,7.14
+diff 0.5 s,straight,15,5,14,3,21.43
+diff 1 s,straight,15,5,13,4,30.77
+diff 2 s,straight,15,5,12,5,41.67
+fit 0.25 s,straight,15,5,14,4,28.57
+fit 0.5 s,straight,15,5,14,3,21.43
+fit 1 s,straight,15,5,13,10,76.92
+fit 2 s,straight,15,5,12,10,83.33
+Kalman,straight,15,6,14,11,78.57
+diff 0.25 s,straight,15,6,14,0,0.0
+diff 0.5 s,straight,15,6,14,2,14.29
+diff 1 s,straight,15,6,13,6,46.15
+diff 2 s,straight,15,6,12,8,66.67
+fit 0.25 s,straight,15,6,14,1,7.14
+fit 0.5 s,straight,15,6,14,5,35.71
+fit 1 s,straight,15,6,13,10,76.92
+fit 2 s,straight,15,6,12,10,83.33
+Kalman,straight,15,7,14,11,78.57
+diff 0.25 s,straight,15,7,14,3,21.43
+diff 0.5 s,straight,15,7,14,2,14.29
+diff 1 s,straight,15,7,13,4,30.77
+diff 2 s,straight,15,7,12,3,25.0
+fit 0.25 s,straight,15,7,14,2,14.29
+fit 0.5 s,straight,15,7,14,9,64.29
+fit 1 s,straight,15,7,13,7,53.85
+fit 2 s,straight,15,7,12,10,83.33
+Kalman,straight,15,8,14,10,71.43
+diff 0.25 s,straight,15,8,14,1,7.14
+diff 0.5 s,straight,15,8,14,3,21.43
+diff 1 s,straight,15,8,13,5,38.46
+diff 2 s,straight,15,8,12,4,33.33
+fit 0.25 s,straight,15,8,14,3,21.43
+fit 0.5 s,straight,15,8,14,7,50.0
+fit 1 s,straight,15,8,13,7,53.85
+fit 2 s,straight,15,8,12,9,75.0
+Kalman,straight,15,9,14,10,71.43
+diff 0.25 s,straight,15,9,14,1,7.14
+diff 0.5 s,straight,15,9,14,1,7.14
+diff 1 s,straight,15,9,13,4,30.77
+diff 2 s,straight,15,9,12,7,58.33
+fit 0.25 s,straight,15,9,14,2,14.29
+fit 0.5 s,straight,15,9,14,5,35.71
+fit 1 s,straight,15,9,13,10,76.92
+fit 2 s,straight,15,9,12,10,83.33
+Kalman,straight,15,10,14,10,71.43
+diff 0.25 s,straight,15,10,14,0,0.0
+diff 0.5 s,straight,15,10,14,3,21.43
+diff 1 s,straight,15,10,13,7,53.85
+diff 2 s,straight,15,10,12,3,25.0
+fit 0.25 s,straight,15,10,14,2,14.29
+fit 0.5 s,straight,15,10,14,3,21.43
+fit 1 s,straight,15,10,13,9,69.23
+fit 2 s,straight,15,10,12,10,83.33
+Kalman,straight,15,11,14,10,71.43
+diff 0.25 s,straight,15,11,14,1,7.14
+diff 0.5 s,straight,15,11,14,2,14.29
+diff 1 s,straight,15,11,13,1,7.69
+diff 2 s,straight,15,11,12,8,66.67
+fit 0.25 s,straight,15,11,14,5,35.71
+fit 0.5 s,straight,15,11,14,6,42.86
+fit 1 s,straight,15,11,13,10,76.92
+fit 2 s,straight,15,11,12,10,83.33
+Kalman,straight,15,12,14,10,71.43
+diff 0.25 s,straight,15,12,14,2,14.29
+diff 0.5 s,straight,15,12,14,3,21.43
+diff 1 s,straight,15,12,13,6,46.15
+diff 2 s,straight,15,12,12,6,50.0
+fit 0.25 s,straight,15,12,14,3,21.43
+fit 0.5 s,straight,15,12,14,7,50.0
+fit 1 s,straight,15,12,13,10,76.92
+fit 2 s,straight,15,12,12,10,83.33
+Kalman,straight,15,13,14,10,71.43
+diff 0.25 s,straight,15,13,14,1,7.14
+diff 0.5 s,straight,15,13,14,3,21.43
+diff 1 s,straight,15,13,13,6,46.15
+diff 2 s,straight,15,13,12,4,33.33
+fit 0.25 s,straight,15,13,14,2,14.29
+fit 0.5 s,straight,15,13,14,4,28.57
+fit 1 s,straight,15,13,13,11,84.62
+fit 2 s,straight,15,13,12,10,83.33
+Kalman,straight,15,14,14,10,71.43
+diff 0.25 s,straight,15,14,14,1,7.14
+diff 0.5 s,straight,15,14,14,3,21.43
+diff 1 s,straight,15,14,13,5,38.46
+diff 2 s,straight,15,14,12,6,50.0
+fit 0.25 s,straight,15,14,14,2,14.29
+fit 0.5 s,straight,15,14,14,8,57.14
+fit 1 s,straight,15,14,13,10,76.92
+fit 2 s,straight,15,14,12,10,83.33
+Kalman,straight,15,15,14,10,71.43
+diff 0.25 s,straight,15,15,14,1,7.14
+diff 0.5 s,straight,15,15,14,4,28.57
+diff 1 s,straight,15,15,13,3,23.08
+diff 2 s,straight,15,15,12,6,50.0
+fit 0.25 s,straight,15,15,14,2,14.29
+fit 0.5 s,straight,15,15,14,7,50.0
+fit 1 s,straight,15,15,13,9,69.23
+fit 2 s,straight,15,15,12,10,83.33
+Kalman,straight,15,16,14,10,71.43
+diff 0.25 s,straight,15,16,14,1,7.14
+diff 0.5 s,straight,15,16,14,1,7.14
+diff 1 s,straight,15,16,13,5,38.46
+diff 2 s,straight,15,16,12,5,41.67
+fit 0.25 s,straight,15,16,14,3,21.43
+fit 0.5 s,straight,15,16,14,4,28.57
+fit 1 s,straight,15,16,13,9,69.23
+fit 2 s,straight,15,16,12,10,83.33
+Kalman,straight,15,17,14,11,78.57
+diff 0.25 s,straight,15,17,14,1,7.14
+diff 0.5 s,straight,15,17,14,4,28.57
+diff 1 s,straight,15,17,13,2,15.38
+diff 2 s,straight,15,17,12,4,33.33
+fit 0.25 s,straight,15,17,14,5,35.71
+fit 0.5 s,straight,15,17,14,5,35.71
+fit 1 s,straight,15,17,13,9,69.23
+fit 2 s,straight,15,17,12,10,83.33
+Kalman,straight,15,18,14,9,64.29
+diff 0.25 s,straight,15,18,14,1,7.14
+diff 0.5 s,straight,15,18,14,3,21.43
+diff 1 s,straight,15,18,13,4,30.77
+diff 2 s,straight,15,18,12,2,16.67
+fit 0.25 s,straight,15,18,14,0,0.0
+fit 0.5 s,straight,15,18,14,6,42.86
+fit 1 s,straight,15,18,13,9,69.23
+fit 2 s,straight,15,18,12,10,83.33
+Kalman,straight,15,19,14,9,64.29
+diff 0.25 s,straight,15,19,14,1,7.14
+diff 0.5 s,straight,15,19,14,4,28.57
+diff 1 s,straight,15,19,13,2,15.38
+diff 2 s,straight,15,19,12,5,41.67
+fit 0.25 s,straight,15,19,14,2,14.29
+fit 0.5 s,straight,15,19,14,2,14.29
+fit 1 s,straight,15,19,13,8,61.54
+fit 2 s,straight,15,19,12,10,83.33
+Kalman,straight,15,20,14,10,71.43
+diff 0.25 s,straight,15,20,14,3,21.43
+diff 0.5 s,straight,15,20,14,2,14.29
+diff 1 s,straight,15,20,13,5,38.46
+diff 2 s,straight,15,20,12,3,25.0
+fit 0.25 s,straight,15,20,14,1,7.14
+fit 0.5 s,straight,15,20,14,5,35.71
+fit 1 s,straight,15,20,13,9,69.23
+fit 2 s,straight,15,20,12,9,75.0
+Kalman,straight,15,21,14,11,78.57
+diff 0.25 s,straight,15,21,14,1,7.14
+diff 0.5 s,straight,15,21,14,2,14.29
+diff 1 s,straight,15,21,13,3,23.08
+diff 2 s,straight,15,21,12,2,16.67
+fit 0.25 s,straight,15,21,14,4,28.57
+fit 0.5 s,straight,15,21,14,7,50.0
+fit 1 s,straight,15,21,13,10,76.92
+fit 2 s,straight,15,21,12,10,83.33
+Kalman,straight,15,22,14,10,71.43
+diff 0.25 s,straight,15,22,14,1,7.14
+diff 0.5 s,straight,15,22,14,3,21.43
+diff 1 s,straight,15,22,13,6,46.15
+diff 2 s,straight,15,22,12,9,75.0
+fit 0.25 s,straight,15,22,14,1,7.14
+fit 0.5 s,straight,15,22,14,6,42.86
+fit 1 s,straight,15,22,13,8,61.54
+fit 2 s,straight,15,22,12,10,83.33
+Kalman,straight,15,23,14,10,71.43
+diff 0.25 s,straight,15,23,14,2,14.29
+diff 0.5 s,straight,15,23,14,2,14.29
+diff 1 s,straight,15,23,13,4,30.77
+diff 2 s,straight,15,23,12,7,58.33
+fit 0.25 s,straight,15,23,14,4,28.57
+fit 0.5 s,straight,15,23,14,4,28.57
+fit 1 s,straight,15,23,13,9,69.23
+fit 2 s,straight,15,23,12,10,83.33
+Kalman,straight,15,24,14,10,71.43
+diff 0.25 s,straight,15,24,14,3,21.43
+diff 0.5 s,straight,15,24,14,2,14.29
+diff 1 s,straight,15,24,13,6,46.15
+diff 2 s,straight,15,24,12,6,50.0
+fit 0.25 s,straight,15,24,14,3,21.43
+fit 0.5 s,straight,15,24,14,4,28.57
+fit 1 s,straight,15,24,13,10,76.92
+fit 2 s,straight,15,24,12,10,83.33
+Kalman,straight,15,25,14,11,78.57
+diff 0.25 s,straight,15,25,14,2,14.29
+diff 0.5 s,straight,15,25,14,3,21.43
+diff 1 s,straight,15,25,13,3,23.08
+diff 2 s,straight,15,25,12,6,50.0
+fit 0.25 s,straight,15,25,14,3,21.43
+fit 0.5 s,straight,15,25,14,5,35.71
+fit 1 s,straight,15,25,13,7,53.85
+fit 2 s,straight,15,25,12,10,83.33
+Kalman,straight,15,26,14,11,78.57
+diff 0.25 s,straight,15,26,14,1,7.14
+diff 0.5 s,straight,15,26,14,0,0.0
+diff 1 s,straight,15,26,13,5,38.46
+diff 2 s,straight,15,26,12,6,50.0
+fit 0.25 s,straight,15,26,14,2,14.29
+fit 0.5 s,straight,15,26,14,7,50.0
+fit 1 s,straight,15,26,13,11,84.62
+fit 2 s,straight,15,26,12,10,83.33
+Kalman,straight,15,27,14,10,71.43
+diff 0.25 s,straight,15,27,14,3,21.43
+diff 0.5 s,straight,15,27,14,3,21.43
+diff 1 s,straight,15,27,13,4,30.77
+diff 2 s,straight,15,27,12,5,41.67
+fit 0.25 s,straight,15,27,14,0,0.0
+fit 0.5 s,straight,15,27,14,6,42.86
+fit 1 s,straight,15,27,13,9,69.23
+fit 2 s,straight,15,27,12,10,83.33
+Kalman,straight,15,28,14,10,71.43
+diff 0.25 s,straight,15,28,14,3,21.43
+diff 0.5 s,straight,15,28,14,1,7.14
+diff 1 s,straight,15,28,13,3,23.08
+diff 2 s,straight,15,28,12,6,50.0
+fit 0.25 s,straight,15,28,14,3,21.43
+fit 0.5 s,straight,15,28,14,6,42.86
+fit 1 s,straight,15,28,13,8,61.54
+fit 2 s,straight,15,28,12,10,83.33
+Kalman,straight,15,29,14,9,64.29
+diff 0.25 s,straight,15,29,14,2,14.29
+diff 0.5 s,straight,15,29,14,1,7.14
+diff 1 s,straight,15,29,13,3,23.08
+diff 2 s,straight,15,29,12,5,41.67
+fit 0.25 s,straight,15,29,14,3,21.43
+fit 0.5 s,straight,15,29,14,6,42.86
+fit 1 s,straight,15,29,13,7,53.85
+fit 2 s,straight,15,29,12,10,83.33
+Kalman,straight,15,30,14,10,71.43
+diff 0.25 s,straight,15,30,14,2,14.29
+diff 0.5 s,straight,15,30,14,2,14.29
+diff 1 s,straight,15,30,13,7,53.85
+diff 2 s,straight,15,30,12,7,58.33
+fit 0.25 s,straight,15,30,14,5,35.71
+fit 0.5 s,straight,15,30,14,5,35.71
+fit 1 s,straight,15,30,13,10,76.92
+fit 2 s,straight,15,30,12,10,83.33
+Kalman,straight,30,1,14,10,71.43
+diff 0.25 s,straight,30,1,14,0,0.0
+diff 0.5 s,straight,30,1,14,0,0.0
+diff 1 s,straight,30,1,13,4,30.77
+diff 2 s,straight,30,1,12,0,0.0
+fit 0.25 s,straight,30,1,14,0,0.0
+fit 0.5 s,straight,30,1,14,4,28.57
+fit 1 s,straight,30,1,13,6,46.15
+fit 2 s,straight,30,1,12,10,83.33
+Kalman,straight,30,2,14,9,64.29
+diff 0.25 s,straight,30,2,14,2,14.29
+diff 0.5 s,straight,30,2,14,3,21.43
+diff 1 s,straight,30,2,13,1,7.69
+diff 2 s,straight,30,2,12,0,0.0
+fit 0.25 s,straight,30,2,14,1,7.14
+fit 0.5 s,straight,30,2,14,4,28.57
+fit 1 s,straight,30,2,13,8,61.54
+fit 2 s,straight,30,2,12,10,83.33
+Kalman,straight,30,3,14,11,78.57
+diff 0.25 s,straight,30,3,14,2,14.29
+diff 0.5 s,straight,30,3,14,2,14.29
+diff 1 s,straight,30,3,13,2,15.38
+diff 2 s,straight,30,3,12,1,8.33
+fit 0.25 s,straight,30,3,14,0,0.0
+fit 0.5 s,straight,30,3,14,3,21.43
+fit 1 s,straight,30,3,13,9,69.23
+fit 2 s,straight,30,3,12,9,75.0
+Kalman,straight,30,4,14,8,57.14
+diff 0.25 s,straight,30,4,14,2,14.29
+diff 0.5 s,straight,30,4,14,0,0.0
+diff 1 s,straight,30,4,13,3,23.08
+diff 2 s,straight,30,4,12,1,8.33
+fit 0.25 s,straight,30,4,14,0,0.0
+fit 0.5 s,straight,30,4,14,3,21.43
+fit 1 s,straight,30,4,13,3,23.08
+fit 2 s,straight,30,4,12,8,66.67
+Kalman,straight,30,5,14,9,64.29
+diff 0.25 s,straight,30,5,14,0,0.0
+diff 0.5 s,straight,30,5,14,1,7.14
+diff 1 s,straight,30,5,13,2,15.38
+diff 2 s,straight,30,5,12,1,8.33
+fit 0.25 s,straight,30,5,14,3,21.43
+fit 0.5 s,straight,30,5,14,1,7.14
+fit 1 s,straight,30,5,13,7,53.85
+fit 2 s,straight,30,5,12,10,83.33
+Kalman,straight,30,6,14,9,64.29
+diff 0.25 s,straight,30,6,14,0,0.0
+diff 0.5 s,straight,30,6,14,0,0.0
+diff 1 s,straight,30,6,13,2,15.38
+diff 2 s,straight,30,6,12,4,33.33
+fit 0.25 s,straight,30,6,14,1,7.14
+fit 0.5 s,straight,30,6,14,3,21.43
+fit 1 s,straight,30,6,13,8,61.54
+fit 2 s,straight,30,6,12,8,66.67
+Kalman,straight,30,7,14,9,64.29
+diff 0.25 s,straight,30,7,14,3,21.43
+diff 0.5 s,straight,30,7,14,0,0.0
+diff 1 s,straight,30,7,13,3,23.08
+diff 2 s,straight,30,7,12,1,8.33
+fit 0.25 s,straight,30,7,14,2,14.29
+fit 0.5 s,straight,30,7,14,5,35.71
+fit 1 s,straight,30,7,13,6,46.15
+fit 2 s,straight,30,7,12,9,75.0
+Kalman,straight,30,8,14,7,50.0
+diff 0.25 s,straight,30,8,14,1,7.14
+diff 0.5 s,straight,30,8,14,2,14.29
+diff 1 s,straight,30,8,13,1,7.69
+diff 2 s,straight,30,8,12,1,8.33
+fit 0.25 s,straight,30,8,14,1,7.14
+fit 0.5 s,straight,30,8,14,4,28.57
+fit 1 s,straight,30,8,13,5,38.46
+fit 2 s,straight,30,8,12,6,50.0
+Kalman,straight,30,9,14,9,64.29
+diff 0.25 s,straight,30,9,14,1,7.14
+diff 0.5 s,straight,30,9,14,0,0.0
+diff 1 s,straight,30,9,13,2,15.38
+diff 2 s,straight,30,9,12,2,16.67
+fit 0.25 s,straight,30,9,14,0,0.0
+fit 0.5 s,straight,30,9,14,3,21.43
+fit 1 s,straight,30,9,13,7,53.85
+fit 2 s,straight,30,9,12,9,75.0
+Kalman,straight,30,10,14,8,57.14
+diff 0.25 s,straight,30,10,14,0,0.0
+diff 0.5 s,straight,30,10,14,3,21.43
+diff 1 s,straight,30,10,13,2,15.38
+diff 2 s,straight,30,10,12,1,8.33
+fit 0.25 s,straight,30,10,14,2,14.29
+fit 0.5 s,straight,30,10,14,2,14.29
+fit 1 s,straight,30,10,13,5,38.46
+fit 2 s,straight,30,10,12,10,83.33
+Kalman,straight,30,11,14,10,71.43
+diff 0.25 s,straight,30,11,14,0,0.0
+diff 0.5 s,straight,30,11,14,0,0.0
+diff 1 s,straight,30,11,13,1,7.69
+diff 2 s,straight,30,11,12,6,50.0
+fit 0.25 s,straight,30,11,14,4,28.57
+fit 0.5 s,straight,30,11,14,5,35.71
+fit 1 s,straight,30,11,13,8,61.54
+fit 2 s,straight,30,11,12,10,83.33
+Kalman,straight,30,12,14,10,71.43
+diff 0.25 s,straight,30,12,14,1,7.14
+diff 0.5 s,straight,30,12,14,1,7.14
+diff 1 s,straight,30,12,13,4,30.77
+diff 2 s,straight,30,12,12,1,8.33
+fit 0.25 s,straight,30,12,14,2,14.29
+fit 0.5 s,straight,30,12,14,2,14.29
+fit 1 s,straight,30,12,13,7,53.85
+fit 2 s,straight,30,12,12,8,66.67
+Kalman,straight,30,13,14,8,57.14
+diff 0.25 s,straight,30,13,14,2,14.29
+diff 0.5 s,straight,30,13,14,1,7.14
+diff 1 s,straight,30,13,13,2,15.38
+diff 2 s,straight,30,13,12,2,16.67
+fit 0.25 s,straight,30,13,14,0,0.0
+fit 0.5 s,straight,30,13,14,2,14.29
+fit 1 s,straight,30,13,13,8,61.54
+fit 2 s,straight,30,13,12,9,75.0
+Kalman,straight,30,14,14,10,71.43
+diff 0.25 s,straight,30,14,14,1,7.14
+diff 0.5 s,straight,30,14,14,1,7.14
+diff 1 s,straight,30,14,13,2,15.38
+diff 2 s,straight,30,14,12,2,16.67
+fit 0.25 s,straight,30,14,14,0,0.0
+fit 0.5 s,straight,30,14,14,7,50.0
+fit 1 s,straight,30,14,13,6,46.15
+fit 2 s,straight,30,14,12,10,83.33
+Kalman,straight,30,15,14,9,64.29
+diff 0.25 s,straight,30,15,14,0,0.0
+diff 0.5 s,straight,30,15,14,3,21.43
+diff 1 s,straight,30,15,13,2,15.38
+diff 2 s,straight,30,15,12,4,33.33
+fit 0.25 s,straight,30,15,14,1,7.14
+fit 0.5 s,straight,30,15,14,4,28.57
+fit 1 s,straight,30,15,13,5,38.46
+fit 2 s,straight,30,15,12,8,66.67
+Kalman,straight,30,16,14,10,71.43
+diff 0.25 s,straight,30,16,14,1,7.14
+diff 0.5 s,straight,30,16,14,1,7.14
+diff 1 s,straight,30,16,13,3,23.08
+diff 2 s,straight,30,16,12,5,41.67
+fit 0.25 s,straight,30,16,14,2,14.29
+fit 0.5 s,straight,30,16,14,1,7.14
+fit 1 s,straight,30,16,13,6,46.15
+fit 2 s,straight,30,16,12,8,66.67
+Kalman,straight,30,17,14,9,64.29
+diff 0.25 s,straight,30,17,14,0,0.0
+diff 0.5 s,straight,30,17,14,3,21.43
+diff 1 s,straight,30,17,13,1,7.69
+diff 2 s,straight,30,17,12,3,25.0
+fit 0.25 s,straight,30,17,14,3,21.43
+fit 0.5 s,straight,30,17,14,3,21.43
+fit 1 s,straight,30,17,13,8,61.54
+fit 2 s,straight,30,17,12,10,83.33
+Kalman,straight,30,18,14,9,64.29
+diff 0.25 s,straight,30,18,14,0,0.0
+diff 0.5 s,straight,30,18,14,2,14.29
+diff 1 s,straight,30,18,13,1,7.69
+diff 2 s,straight,30,18,12,1,8.33
+fit 0.25 s,straight,30,18,14,0,0.0
+fit 0.5 s,straight,30,18,14,4,28.57
+fit 1 s,straight,30,18,13,6,46.15
+fit 2 s,straight,30,18,12,7,58.33
+Kalman,straight,30,19,14,8,57.14
+diff 0.25 s,straight,30,19,14,1,7.14
+diff 0.5 s,straight,30,19,14,1,7.14
+diff 1 s,straight,30,19,13,0,0.0
+diff 2 s,straight,30,19,12,3,25.0
+fit 0.25 s,straight,30,19,14,1,7.14
+fit 0.5 s,straight,30,19,14,1,7.14
+fit 1 s,straight,30,19,13,8,61.54
+fit 2 s,straight,30,19,12,9,75.0
+Kalman,straight,30,20,14,8,57.14
+diff 0.25 s,straight,30,20,14,1,7.14
+diff 0.5 s,straight,30,20,14,1,7.14
+diff 1 s,straight,30,20,13,3,23.08
+diff 2 s,straight,30,20,12,2,16.67
+fit 0.25 s,straight,30,20,14,0,0.0
+fit 0.5 s,straight,30,20,14,0,0.0
+fit 1 s,straight,30,20,13,4,30.77
+fit 2 s,straight,30,20,12,9,75.0
+Kalman,straight,30,21,14,9,64.29
+diff 0.25 s,straight,30,21,14,1,7.14
+diff 0.5 s,straight,30,21,14,0,0.0
+diff 1 s,straight,30,21,13,2,15.38
+diff 2 s,straight,30,21,12,1,8.33
+fit 0.25 s,straight,30,21,14,2,14.29
+fit 0.5 s,straight,30,21,14,4,28.57
+fit 1 s,straight,30,21,13,6,46.15
+fit 2 s,straight,30,21,12,9,75.0
+Kalman,straight,30,22,14,8,57.14
+diff 0.25 s,straight,30,22,14,1,7.14
+diff 0.5 s,straight,30,22,14,3,21.43
+diff 1 s,straight,30,22,13,2,15.38
+diff 2 s,straight,30,22,12,5,41.67
+fit 0.25 s,straight,30,22,14,1,7.14
+fit 0.5 s,straight,30,22,14,3,21.43
+fit 1 s,straight,30,22,13,6,46.15
+fit 2 s,straight,30,22,12,8,66.67
+Kalman,straight,30,23,14,8,57.14
+diff 0.25 s,straight,30,23,14,0,0.0
+diff 0.5 s,straight,30,23,14,1,7.14
+diff 1 s,straight,30,23,13,0,0.0
+diff 2 s,straight,30,23,12,6,50.0
+fit 0.25 s,straight,30,23,14,3,21.43
+fit 0.5 s,straight,30,23,14,2,14.29
+fit 1 s,straight,30,23,13,5,38.46
+fit 2 s,straight,30,23,12,7,58.33
+Kalman,straight,30,24,14,10,71.43
+diff 0.25 s,straight,30,24,14,0,0.0
+diff 0.5 s,straight,30,24,14,1,7.14
+diff 1 s,straight,30,24,13,4,30.77
+diff 2 s,straight,30,24,12,3,25.0
+fit 0.25 s,straight,30,24,14,1,7.14
+fit 0.5 s,straight,30,24,14,2,14.29
+fit 1 s,straight,30,24,13,6,46.15
+fit 2 s,straight,30,24,12,7,58.33
+Kalman,straight,30,25,14,10,71.43
+diff 0.25 s,straight,30,25,14,1,7.14
+diff 0.5 s,straight,30,25,14,3,21.43
+diff 1 s,straight,30,25,13,1,7.69
+diff 2 s,straight,30,25,12,2,16.67
+fit 0.25 s,straight,30,25,14,2,14.29
+fit 0.5 s,straight,30,25,14,1,7.14
+fit 1 s,straight,30,25,13,4,30.77
+fit 2 s,straight,30,25,12,9,75.0
+Kalman,straight,30,26,14,10,71.43
+diff 0.25 s,straight,30,26,14,0,0.0
+diff 0.5 s,straight,30,26,14,0,0.0
+diff 1 s,straight,30,26,13,3,23.08
+diff 2 s,straight,30,26,12,6,50.0
+fit 0.25 s,straight,30,26,14,1,7.14
+fit 0.5 s,straight,30,26,14,4,28.57
+fit 1 s,straight,30,26,13,5,38.46
+fit 2 s,straight,30,26,12,8,66.67
+Kalman,straight,30,27,14,9,64.29
+diff 0.25 s,straight,30,27,14,1,7.14
+diff 0.5 s,straight,30,27,14,0,0.0
+diff 1 s,straight,30,27,13,3,23.08
+diff 2 s,straight,30,27,12,4,33.33
+fit 0.25 s,straight,30,27,14,0,0.0
+fit 0.5 s,straight,30,27,14,4,28.57
+fit 1 s,straight,30,27,13,6,46.15
+fit 2 s,straight,30,27,12,10,83.33
+Kalman,straight,30,28,14,7,50.0
+diff 0.25 s,straight,30,28,14,3,21.43
+diff 0.5 s,straight,30,28,14,0,0.0
+diff 1 s,straight,30,28,13,2,15.38
+diff 2 s,straight,30,28,12,4,33.33
+fit 0.25 s,straight,30,28,14,3,21.43
+fit 0.5 s,straight,30,28,14,4,28.57
+fit 1 s,straight,30,28,13,4,30.77
+fit 2 s,straight,30,28,12,7,58.33
+Kalman,straight,30,29,14,9,64.29
+diff 0.25 s,straight,30,29,14,1,7.14
+diff 0.5 s,straight,30,29,14,0,0.0
+diff 1 s,straight,30,29,13,1,7.69
+diff 2 s,straight,30,29,12,2,16.67
+fit 0.25 s,straight,30,29,14,1,7.14
+fit 0.5 s,straight,30,29,14,1,7.14
+fit 1 s,straight,30,29,13,4,30.77
+fit 2 s,straight,30,29,12,9,75.0
+Kalman,straight,30,30,14,10,71.43
+diff 0.25 s,straight,30,30,14,1,7.14
+diff 0.5 s,straight,30,30,14,0,0.0
+diff 1 s,straight,30,30,13,3,23.08
+diff 2 s,straight,30,30,12,6,50.0
+fit 0.25 s,straight,30,30,14,1,7.14
+fit 0.5 s,straight,30,30,14,5,35.71
+fit 1 s,straight,30,30,13,5,38.46
+fit 2 s,straight,30,30,12,9,75.0
+Kalman,straight,60,1,14,8,57.14
+diff 0.25 s,straight,60,1,14,0,0.0
+diff 0.5 s,straight,60,1,14,0,0.0
+diff 1 s,straight,60,1,13,2,15.38
+diff 2 s,straight,60,1,12,0,0.0
+fit 0.25 s,straight,60,1,14,0,0.0
+fit 0.5 s,straight,60,1,14,4,28.57
+fit 1 s,straight,60,1,13,2,15.38
+fit 2 s,straight,60,1,12,8,66.67
+Kalman,straight,60,2,14,7,50.0
+diff 0.25 s,straight,60,2,14,1,7.14
+diff 0.5 s,straight,60,2,14,1,7.14
+diff 1 s,straight,60,2,13,1,7.69
+diff 2 s,straight,60,2,12,0,0.0
+fit 0.25 s,straight,60,2,14,0,0.0
+fit 0.5 s,straight,60,2,14,3,21.43
+fit 1 s,straight,60,2,13,4,30.77
+fit 2 s,straight,60,2,12,9,75.0
+Kalman,straight,60,3,14,9,64.29
+diff 0.25 s,straight,60,3,14,0,0.0
+diff 0.5 s,straight,60,3,14,0,0.0
+diff 1 s,straight,60,3,13,2,15.38
+diff 2 s,straight,60,3,12,0,0.0
+fit 0.25 s,straight,60,3,14,0,0.0
+fit 0.5 s,straight,60,3,14,2,14.29
+fit 1 s,straight,60,3,13,5,38.46
+fit 2 s,straight,60,3,12,8,66.67
+Kalman,straight,60,4,14,6,42.86
+diff 0.25 s,straight,60,4,14,2,14.29
+diff 0.5 s,straight,60,4,14,0,0.0
+diff 1 s,straight,60,4,13,2,15.38
+diff 2 s,straight,60,4,12,1,8.33
+fit 0.25 s,straight,60,4,14,0,0.0
+fit 0.5 s,straight,60,4,14,1,7.14
+fit 1 s,straight,60,4,13,0,0.0
+fit 2 s,straight,60,4,12,2,16.67
+Kalman,straight,60,5,14,7,50.0
+diff 0.25 s,straight,60,5,14,0,0.0
+diff 0.5 s,straight,60,5,14,0,0.0
+diff 1 s,straight,60,5,13,1,7.69
+diff 2 s,straight,60,5,12,1,8.33
+fit 0.25 s,straight,60,5,14,1,7.14
+fit 0.5 s,straight,60,5,14,1,7.14
+fit 1 s,straight,60,5,13,2,15.38
+fit 2 s,straight,60,5,12,6,50.0
+Kalman,straight,60,6,14,7,50.0
+diff 0.25 s,straight,60,6,14,0,0.0
+diff 0.5 s,straight,60,6,14,0,0.0
+diff 1 s,straight,60,6,13,2,15.38
+diff 2 s,straight,60,6,12,3,25.0
+fit 0.25 s,straight,60,6,14,1,7.14
+fit 0.5 s,straight,60,6,14,1,7.14
+fit 1 s,straight,60,6,13,4,30.77
+fit 2 s,straight,60,6,12,6,50.0
+Kalman,straight,60,7,14,8,57.14
+diff 0.25 s,straight,60,7,14,1,7.14
+diff 0.5 s,straight,60,7,14,0,0.0
+diff 1 s,straight,60,7,13,3,23.08
+diff 2 s,straight,60,7,12,1,8.33
+fit 0.25 s,straight,60,7,14,1,7.14
+fit 0.5 s,straight,60,7,14,3,21.43
+fit 1 s,straight,60,7,13,4,30.77
+fit 2 s,straight,60,7,12,7,58.33
+Kalman,straight,60,8,14,5,35.71
+diff 0.25 s,straight,60,8,14,1,7.14
+diff 0.5 s,straight,60,8,14,1,7.14
+diff 1 s,straight,60,8,13,0,0.0
+diff 2 s,straight,60,8,12,0,0.0
+fit 0.25 s,straight,60,8,14,1,7.14
+fit 0.5 s,straight,60,8,14,1,7.14
+fit 1 s,straight,60,8,13,4,30.77
+fit 2 s,straight,60,8,12,4,33.33
+Kalman,straight,60,9,14,6,42.86
+diff 0.25 s,straight,60,9,14,1,7.14
+diff 0.5 s,straight,60,9,14,0,0.0
+diff 1 s,straight,60,9,13,1,7.69
+diff 2 s,straight,60,9,12,2,16.67
+fit 0.25 s,straight,60,9,14,0,0.0
+fit 0.5 s,straight,60,9,14,3,21.43
+fit 1 s,straight,60,9,13,6,46.15
+fit 2 s,straight,60,9,12,6,50.0
+Kalman,straight,60,10,14,8,57.14
+diff 0.25 s,straight,60,10,14,0,0.0
+diff 0.5 s,straight,60,10,14,2,14.29
+diff 1 s,straight,60,10,13,0,0.0
+diff 2 s,straight,60,10,12,1,8.33
+fit 0.25 s,straight,60,10,14,1,7.14
+fit 0.5 s,straight,60,10,14,0,0.0
+fit 1 s,straight,60,10,13,4,30.77
+fit 2 s,straight,60,10,12,9,75.0
+Kalman,straight,60,11,14,8,57.14
+diff 0.25 s,straight,60,11,14,0,0.0
+diff 0.5 s,straight,60,11,14,1,7.14
+diff 1 s,straight,60,11,13,0,0.0
+diff 2 s,straight,60,11,12,2,16.67
+fit 0.25 s,straight,60,11,14,3,21.43
+fit 0.5 s,straight,60,11,14,3,21.43
+fit 1 s,straight,60,11,13,3,23.08
+fit 2 s,straight,60,11,12,9,75.0
+Kalman,straight,60,12,14,10,71.43
+diff 0.25 s,straight,60,12,14,0,0.0
+diff 0.5 s,straight,60,12,14,1,7.14
+diff 1 s,straight,60,12,13,1,7.69
+diff 2 s,straight,60,12,12,0,0.0
+fit 0.25 s,straight,60,12,14,1,7.14
+fit 0.5 s,straight,60,12,14,1,7.14
+fit 1 s,straight,60,12,13,5,38.46
+fit 2 s,straight,60,12,12,8,66.67
+Kalman,straight,60,13,14,7,50.0
+diff 0.25 s,straight,60,13,14,0,0.0
+diff 0.5 s,straight,60,13,14,1,7.14
+diff 1 s,straight,60,13,13,2,15.38
+diff 2 s,straight,60,13,12,0,0.0
+fit 0.25 s,straight,60,13,14,0,0.0
+fit 0.5 s,straight,60,13,14,1,7.14
+fit 1 s,straight,60,13,13,6,46.15
+fit 2 s,straight,60,13,12,5,41.67
+Kalman,straight,60,14,14,9,64.29
+diff 0.25 s,straight,60,14,14,0,0.0
+diff 0.5 s,straight,60,14,14,1,7.14
+diff 1 s,straight,60,14,13,1,7.69
+diff 2 s,straight,60,14,12,2,16.67
+fit 0.25 s,straight,60,14,14,0,0.0
+fit 0.5 s,straight,60,14,14,2,14.29
+fit 1 s,straight,60,14,13,3,23.08
+fit 2 s,straight,60,14,12,6,50.0
+Kalman,straight,60,15,14,6,42.86
+diff 0.25 s,straight,60,15,14,0,0.0
+diff 0.5 s,straight,60,15,14,1,7.14
+diff 1 s,straight,60,15,13,2,15.38
+diff 2 s,straight,60,15,12,2,16.67
+fit 0.25 s,straight,60,15,14,0,0.0
+fit 0.5 s,straight,60,15,14,1,7.14
+fit 1 s,straight,60,15,13,3,23.08
+fit 2 s,straight,60,15,12,4,33.33
+Kalman,straight,60,16,14,9,64.29
+diff 0.25 s,straight,60,16,14,1,7.14
+diff 0.5 s,straight,60,16,14,0,0.0
+diff 1 s,straight,60,16,13,2,15.38
+diff 2 s,straight,60,16,12,2,16.67
+fit 0.25 s,straight,60,16,14,0,0.0
+fit 0.5 s,straight,60,16,14,0,0.0
+fit 1 s,straight,60,16,13,3,23.08
+fit 2 s,straight,60,16,12,4,33.33
+Kalman,straight,60,17,14,9,64.29
+diff 0.25 s,straight,60,17,14,0,0.0
+diff 0.5 s,straight,60,17,14,2,14.29
+diff 1 s,straight,60,17,13,1,7.69
+diff 2 s,straight,60,17,12,1,8.33
+fit 0.25 s,straight,60,17,14,3,21.43
+fit 0.5 s,straight,60,17,14,0,0.0
+fit 1 s,straight,60,17,13,3,23.08
+fit 2 s,straight,60,17,12,9,75.0
+Kalman,straight,60,18,14,4,28.57
+diff 0.25 s,straight,60,18,14,0,0.0
+diff 0.5 s,straight,60,18,14,2,14.29
+diff 1 s,straight,60,18,13,0,0.0
+diff 2 s,straight,60,18,12,0,0.0
+fit 0.25 s,straight,60,18,14,0,0.0
+fit 0.5 s,straight,60,18,14,3,21.43
+fit 1 s,straight,60,18,13,2,15.38
+fit 2 s,straight,60,18,12,4,33.33
+Kalman,straight,60,19,14,8,57.14
+diff 0.25 s,straight,60,19,14,0,0.0
+diff 0.5 s,straight,60,19,14,0,0.0
+diff 1 s,straight,60,19,13,0,0.0
+diff 2 s,straight,60,19,12,1,8.33
+fit 0.25 s,straight,60,19,14,0,0.0
+fit 0.5 s,straight,60,19,14,1,7.14
+fit 1 s,straight,60,19,13,2,15.38
+fit 2 s,straight,60,19,12,6,50.0
+Kalman,straight,60,20,14,7,50.0
+diff 0.25 s,straight,60,20,14,2,14.29
+diff 0.5 s,straight,60,20,14,1,7.14
+diff 1 s,straight,60,20,13,0,0.0
+diff 2 s,straight,60,20,12,1,8.33
+fit 0.25 s,straight,60,20,14,0,0.0
+fit 0.5 s,straight,60,20,14,0,0.0
+fit 1 s,straight,60,20,13,1,7.69
+fit 2 s,straight,60,20,12,5,41.67
+Kalman,straight,60,21,14,8,57.14
+diff 0.25 s,straight,60,21,14,0,0.0
+diff 0.5 s,straight,60,21,14,0,0.0
+diff 1 s,straight,60,21,13,1,7.69
+diff 2 s,straight,60,21,12,1,8.33
+fit 0.25 s,straight,60,21,14,2,14.29
+fit 0.5 s,straight,60,21,14,0,0.0
+fit 1 s,straight,60,21,13,4,30.77
+fit 2 s,straight,60,21,12,4,33.33
+Kalman,straight,60,22,14,6,42.86
+diff 0.25 s,straight,60,22,14,0,0.0
+diff 0.5 s,straight,60,22,14,1,7.14
+diff 1 s,straight,60,22,13,2,15.38
+diff 2 s,straight,60,22,12,1,8.33
+fit 0.25 s,straight,60,22,14,0,0.0
+fit 0.5 s,straight,60,22,14,0,0.0
+fit 1 s,straight,60,22,13,2,15.38
+fit 2 s,straight,60,22,12,4,33.33
+Kalman,straight,60,23,14,5,35.71
+diff 0.25 s,straight,60,23,14,0,0.0
+diff 0.5 s,straight,60,23,14,1,7.14
+diff 1 s,straight,60,23,13,0,0.0
+diff 2 s,straight,60,23,12,5,41.67
+fit 0.25 s,straight,60,23,14,1,7.14
+fit 0.5 s,straight,60,23,14,0,0.0
+fit 1 s,straight,60,23,13,3,23.08
+fit 2 s,straight,60,23,12,6,50.0
+Kalman,straight,60,24,14,10,71.43
+diff 0.25 s,straight,60,24,14,0,0.0
+diff 0.5 s,straight,60,24,14,2,14.29
+diff 1 s,straight,60,24,13,1,7.69
+diff 2 s,straight,60,24,12,2,16.67
+fit 0.25 s,straight,60,24,14,0,0.0
+fit 0.5 s,straight,60,24,14,1,7.14
+fit 1 s,straight,60,24,13,6,46.15
+fit 2 s,straight,60,24,12,3,25.0
+Kalman,straight,60,25,14,8,57.14
+diff 0.25 s,straight,60,25,14,1,7.14
+diff 0.5 s,straight,60,25,14,3,21.43
+diff 1 s,straight,60,25,13,0,0.0
+diff 2 s,straight,60,25,12,1,8.33
+fit 0.25 s,straight,60,25,14,1,7.14
+fit 0.5 s,straight,60,25,14,1,7.14
+fit 1 s,straight,60,25,13,3,23.08
+fit 2 s,straight,60,25,12,5,41.67
+Kalman,straight,60,26,14,6,42.86
+diff 0.25 s,straight,60,26,14,0,0.0
+diff 0.5 s,straight,60,26,14,0,0.0
+diff 1 s,straight,60,26,13,3,23.08
+diff 2 s,straight,60,26,12,3,25.0
+fit 0.25 s,straight,60,26,14,1,7.14
+fit 0.5 s,straight,60,26,14,2,14.29
+fit 1 s,straight,60,26,13,1,7.69
+fit 2 s,straight,60,26,12,6,50.0
+Kalman,straight,60,27,14,9,64.29
+diff 0.25 s,straight,60,27,14,2,14.29
+diff 0.5 s,straight,60,27,14,0,0.0
+diff 1 s,straight,60,27,13,2,15.38
+diff 2 s,straight,60,27,12,1,8.33
+fit 0.25 s,straight,60,27,14,0,0.0
+fit 0.5 s,straight,60,27,14,2,14.29
+fit 1 s,straight,60,27,13,5,38.46
+fit 2 s,straight,60,27,12,7,58.33
+Kalman,straight,60,28,14,4,28.57
+diff 0.25 s,straight,60,28,14,1,7.14
+diff 0.5 s,straight,60,28,14,0,0.0
+diff 1 s,straight,60,28,13,2,15.38
+diff 2 s,straight,60,28,12,2,16.67
+fit 0.25 s,straight,60,28,14,1,7.14
+fit 0.5 s,straight,60,28,14,3,21.43
+fit 1 s,straight,60,28,13,2,15.38
+fit 2 s,straight,60,28,12,4,33.33
+Kalman,straight,60,29,14,9,64.29
+diff 0.25 s,straight,60,29,14,0,0.0
+diff 0.5 s,straight,60,29,14,0,0.0
+diff 1 s,straight,60,29,13,1,7.69
+diff 2 s,straight,60,29,12,1,8.33
+fit 0.25 s,straight,60,29,14,0,0.0
+fit 0.5 s,straight,60,29,14,1,7.14
+fit 1 s,straight,60,29,13,1,7.69
+fit 2 s,straight,60,29,12,7,58.33
+Kalman,straight,60,30,14,8,57.14
+diff 0.25 s,straight,60,30,14,1,7.14
+diff 0.5 s,straight,60,30,14,0,0.0
+diff 1 s,straight,60,30,13,2,15.38
+diff 2 s,straight,60,30,12,3,25.0
+fit 0.25 s,straight,60,30,14,0,0.0
+fit 0.5 s,straight,60,30,14,3,21.43
+fit 1 s,straight,60,30,13,2,15.38
+fit 2 s,straight,60,30,12,8,66.67
+Kalman,straight,100,1,14,5,35.71
+diff 0.25 s,straight,100,1,14,0,0.0
+diff 0.5 s,straight,100,1,14,0,0.0
+diff 1 s,straight,100,1,13,0,0.0
+diff 2 s,straight,100,1,12,0,0.0
+fit 0.25 s,straight,100,1,14,0,0.0
+fit 0.5 s,straight,100,1,14,4,28.57
+fit 1 s,straight,100,1,13,0,0.0
+fit 2 s,straight,100,1,12,4,33.33
+Kalman,straight,100,2,14,6,42.86
+diff 0.25 s,straight,100,2,14,0,0.0
+diff 0.5 s,straight,100,2,14,0,0.0
+diff 1 s,straight,100,2,13,0,0.0
+diff 2 s,straight,100,2,12,0,0.0
+fit 0.25 s,straight,100,2,14,0,0.0
+fit 0.5 s,straight,100,2,14,1,7.14
+fit 1 s,straight,100,2,13,2,15.38
+fit 2 s,straight,100,2,12,6,50.0
+Kalman,straight,100,3,14,8,57.14
+diff 0.25 s,straight,100,3,14,1,7.14
+diff 0.5 s,straight,100,3,14,0,0.0
+diff 1 s,straight,100,3,13,2,15.38
+diff 2 s,straight,100,3,12,0,0.0
+fit 0.25 s,straight,100,3,14,0,0.0
+fit 0.5 s,straight,100,3,14,1,7.14
+fit 1 s,straight,100,3,13,3,23.08
+fit 2 s,straight,100,3,12,3,25.0
+Kalman,straight,100,4,14,5,35.71
+diff 0.25 s,straight,100,4,14,2,14.29
+diff 0.5 s,straight,100,4,14,0,0.0
+diff 1 s,straight,100,4,13,1,7.69
+diff 2 s,straight,100,4,12,0,0.0
+fit 0.25 s,straight,100,4,14,0,0.0
+fit 0.5 s,straight,100,4,14,1,7.14
+fit 1 s,straight,100,4,13,0,0.0
+fit 2 s,straight,100,4,12,2,16.67
+Kalman,straight,100,5,14,7,50.0
+diff 0.25 s,straight,100,5,14,1,7.14
+diff 0.5 s,straight,100,5,14,0,0.0
+diff 1 s,straight,100,5,13,1,7.69
+diff 2 s,straight,100,5,12,1,8.33
+fit 0.25 s,straight,100,5,14,0,0.0
+fit 0.5 s,straight,100,5,14,0,0.0
+fit 1 s,straight,100,5,13,1,7.69
+fit 2 s,straight,100,5,12,5,41.67
+Kalman,straight,100,6,14,2,14.29
+diff 0.25 s,straight,100,6,14,0,0.0
+diff 0.5 s,straight,100,6,14,0,0.0
+diff 1 s,straight,100,6,13,1,7.69
+diff 2 s,straight,100,6,12,1,8.33
+fit 0.25 s,straight,100,6,14,1,7.14
+fit 0.5 s,straight,100,6,14,1,7.14
+fit 1 s,straight,100,6,13,2,15.38
+fit 2 s,straight,100,6,12,4,33.33
+Kalman,straight,100,7,14,8,57.14
+diff 0.25 s,straight,100,7,14,2,14.29
+diff 0.5 s,straight,100,7,14,0,0.0
+diff 1 s,straight,100,7,13,0,0.0
+diff 2 s,straight,100,7,12,1,8.33
+fit 0.25 s,straight,100,7,14,1,7.14
+fit 0.5 s,straight,100,7,14,2,14.29
+fit 1 s,straight,100,7,13,2,15.38
+fit 2 s,straight,100,7,12,4,33.33
+Kalman,straight,100,8,14,3,21.43
+diff 0.25 s,straight,100,8,14,0,0.0
+diff 0.5 s,straight,100,8,14,0,0.0
+diff 1 s,straight,100,8,13,0,0.0
+diff 2 s,straight,100,8,12,0,0.0
+fit 0.25 s,straight,100,8,14,0,0.0
+fit 0.5 s,straight,100,8,14,0,0.0
+fit 1 s,straight,100,8,13,3,23.08
+fit 2 s,straight,100,8,12,3,25.0
+Kalman,straight,100,9,14,3,21.43
+diff 0.25 s,straight,100,9,14,1,7.14
+diff 0.5 s,straight,100,9,14,0,0.0
+diff 1 s,straight,100,9,13,1,7.69
+diff 2 s,straight,100,9,12,1,8.33
+fit 0.25 s,straight,100,9,14,0,0.0
+fit 0.5 s,straight,100,9,14,1,7.14
+fit 1 s,straight,100,9,13,3,23.08
+fit 2 s,straight,100,9,12,5,41.67
+Kalman,straight,100,10,14,7,50.0
+diff 0.25 s,straight,100,10,14,0,0.0
+diff 0.5 s,straight,100,10,14,1,7.14
+diff 1 s,straight,100,10,13,0,0.0
+diff 2 s,straight,100,10,12,0,0.0
+fit 0.25 s,straight,100,10,14,1,7.14
+fit 0.5 s,straight,100,10,14,0,0.0
+fit 1 s,straight,100,10,13,3,23.08
+fit 2 s,straight,100,10,12,7,58.33
+Kalman,straight,100,11,14,8,57.14
+diff 0.25 s,straight,100,11,14,0,0.0
+diff 0.5 s,straight,100,11,14,0,0.0
+diff 1 s,straight,100,11,13,0,0.0
+diff 2 s,straight,100,11,12,1,8.33
+fit 0.25 s,straight,100,11,14,2,14.29
+fit 0.5 s,straight,100,11,14,2,14.29
+fit 1 s,straight,100,11,13,2,15.38
+fit 2 s,straight,100,11,12,9,75.0
+Kalman,straight,100,12,14,8,57.14
+diff 0.25 s,straight,100,12,14,0,0.0
+diff 0.5 s,straight,100,12,14,0,0.0
+diff 1 s,straight,100,12,13,1,7.69
+diff 2 s,straight,100,12,12,0,0.0
+fit 0.25 s,straight,100,12,14,0,0.0
+fit 0.5 s,straight,100,12,14,0,0.0
+fit 1 s,straight,100,12,13,5,38.46
+fit 2 s,straight,100,12,12,7,58.33
+Kalman,straight,100,13,14,6,42.86
+diff 0.25 s,straight,100,13,14,0,0.0
+diff 0.5 s,straight,100,13,14,1,7.14
+diff 1 s,straight,100,13,13,0,0.0
+diff 2 s,straight,100,13,12,0,0.0
+fit 0.25 s,straight,100,13,14,0,0.0
+fit 0.5 s,straight,100,13,14,1,7.14
+fit 1 s,straight,100,13,13,3,23.08
+fit 2 s,straight,100,13,12,4,33.33
+Kalman,straight,100,14,14,9,64.29
+diff 0.25 s,straight,100,14,14,0,0.0
+diff 0.5 s,straight,100,14,14,1,7.14
+diff 1 s,straight,100,14,13,0,0.0
+diff 2 s,straight,100,14,12,1,8.33
+fit 0.25 s,straight,100,14,14,0,0.0
+fit 0.5 s,straight,100,14,14,0,0.0
+fit 1 s,straight,100,14,13,1,7.69
+fit 2 s,straight,100,14,12,5,41.67
+Kalman,straight,100,15,14,5,35.71
+diff 0.25 s,straight,100,15,14,0,0.0
+diff 0.5 s,straight,100,15,14,1,7.14
+diff 1 s,straight,100,15,13,1,7.69
+diff 2 s,straight,100,15,12,2,16.67
+fit 0.25 s,straight,100,15,14,0,0.0
+fit 0.5 s,straight,100,15,14,1,7.14
+fit 1 s,straight,100,15,13,1,7.69
+fit 2 s,straight,100,15,12,4,33.33
+Kalman,straight,100,16,14,7,50.0
+diff 0.25 s,straight,100,16,14,1,7.14
+diff 0.5 s,straight,100,16,14,0,0.0
+diff 1 s,straight,100,16,13,2,15.38
+diff 2 s,straight,100,16,12,1,8.33
+fit 0.25 s,straight,100,16,14,0,0.0
+fit 0.5 s,straight,100,16,14,0,0.0
+fit 1 s,straight,100,16,13,3,23.08
+fit 2 s,straight,100,16,12,4,33.33
+Kalman,straight,100,17,14,7,50.0
+diff 0.25 s,straight,100,17,14,0,0.0
+diff 0.5 s,straight,100,17,14,2,14.29
+diff 1 s,straight,100,17,13,0,0.0
+diff 2 s,straight,100,17,12,0,0.0
+fit 0.25 s,straight,100,17,14,1,7.14
+fit 0.5 s,straight,100,17,14,0,0.0
+fit 1 s,straight,100,17,13,3,23.08
+fit 2 s,straight,100,17,12,5,41.67
+Kalman,straight,100,18,14,5,35.71
+diff 0.25 s,straight,100,18,14,0,0.0
+diff 0.5 s,straight,100,18,14,0,0.0
+diff 1 s,straight,100,18,13,0,0.0
+diff 2 s,straight,100,18,12,0,0.0
+fit 0.25 s,straight,100,18,14,0,0.0
+fit 0.5 s,straight,100,18,14,2,14.29
+fit 1 s,straight,100,18,13,2,15.38
+fit 2 s,straight,100,18,12,1,8.33
+Kalman,straight,100,19,14,7,50.0
+diff 0.25 s,straight,100,19,14,0,0.0
+diff 0.5 s,straight,100,19,14,0,0.0
+diff 1 s,straight,100,19,13,0,0.0
+diff 2 s,straight,100,19,12,0,0.0
+fit 0.25 s,straight,100,19,14,0,0.0
+fit 0.5 s,straight,100,19,14,1,7.14
+fit 1 s,straight,100,19,13,1,7.69
+fit 2 s,straight,100,19,12,3,25.0
+Kalman,straight,100,20,14,4,28.57
+diff 0.25 s,straight,100,20,14,0,0.0
+diff 0.5 s,straight,100,20,14,1,7.14
+diff 1 s,straight,100,20,13,0,0.0
+diff 2 s,straight,100,20,12,1,8.33
+fit 0.25 s,straight,100,20,14,0,0.0
+fit 0.5 s,straight,100,20,14,0,0.0
+fit 1 s,straight,100,20,13,0,0.0
+fit 2 s,straight,100,20,12,5,41.67
+Kalman,straight,100,21,14,4,28.57
+diff 0.25 s,straight,100,21,14,0,0.0
+diff 0.5 s,straight,100,21,14,0,0.0
+diff 1 s,straight,100,21,13,0,0.0
+diff 2 s,straight,100,21,12,1,8.33
+fit 0.25 s,straight,100,21,14,0,0.0
+fit 0.5 s,straight,100,21,14,0,0.0
+fit 1 s,straight,100,21,13,3,23.08
+fit 2 s,straight,100,21,12,3,25.0
+Kalman,straight,100,22,14,1,7.14
+diff 0.25 s,straight,100,22,14,0,0.0
+diff 0.5 s,straight,100,22,14,0,0.0
+diff 1 s,straight,100,22,13,1,7.69
+diff 2 s,straight,100,22,12,1,8.33
+fit 0.25 s,straight,100,22,14,0,0.0
+fit 0.5 s,straight,100,22,14,0,0.0
+fit 1 s,straight,100,22,13,0,0.0
+fit 2 s,straight,100,22,12,3,25.0
+Kalman,straight,100,23,14,4,28.57
+diff 0.25 s,straight,100,23,14,1,7.14
+diff 0.5 s,straight,100,23,14,1,7.14
+diff 1 s,straight,100,23,13,0,0.0
+diff 2 s,straight,100,23,12,3,25.0
+fit 0.25 s,straight,100,23,14,1,7.14
+fit 0.5 s,straight,100,23,14,0,0.0
+fit 1 s,straight,100,23,13,2,15.38
+fit 2 s,straight,100,23,12,4,33.33
+Kalman,straight,100,24,14,5,35.71
+diff 0.25 s,straight,100,24,14,0,0.0
+diff 0.5 s,straight,100,24,14,1,7.14
+diff 1 s,straight,100,24,13,1,7.69
+diff 2 s,straight,100,24,12,2,16.67
+fit 0.25 s,straight,100,24,14,0,0.0
+fit 0.5 s,straight,100,24,14,1,7.14
+fit 1 s,straight,100,24,13,6,46.15
+fit 2 s,straight,100,24,12,0,0.0
+Kalman,straight,100,25,14,6,42.86
+diff 0.25 s,straight,100,25,14,0,0.0
+diff 0.5 s,straight,100,25,14,3,21.43
+diff 1 s,straight,100,25,13,0,0.0
+diff 2 s,straight,100,25,12,0,0.0
+fit 0.25 s,straight,100,25,14,1,7.14
+fit 0.5 s,straight,100,25,14,0,0.0
+fit 1 s,straight,100,25,13,3,23.08
+fit 2 s,straight,100,25,12,2,16.67
+Kalman,straight,100,26,14,6,42.86
+diff 0.25 s,straight,100,26,14,1,7.14
+diff 0.5 s,straight,100,26,14,0,0.0
+diff 1 s,straight,100,26,13,1,7.69
+diff 2 s,straight,100,26,12,3,25.0
+fit 0.25 s,straight,100,26,14,1,7.14
+fit 0.5 s,straight,100,26,14,2,14.29
+fit 1 s,straight,100,26,13,0,0.0
+fit 2 s,straight,100,26,12,2,16.67
+Kalman,straight,100,27,14,8,57.14
+diff 0.25 s,straight,100,27,14,0,0.0
+diff 0.5 s,straight,100,27,14,0,0.0
+diff 1 s,straight,100,27,13,2,15.38
+diff 2 s,straight,100,27,12,1,8.33
+fit 0.25 s,straight,100,27,14,0,0.0
+fit 0.5 s,straight,100,27,14,0,0.0
+fit 1 s,straight,100,27,13,2,15.38
+fit 2 s,straight,100,27,12,5,41.67
+Kalman,straight,100,28,14,0,0.0
+diff 0.25 s,straight,100,28,14,0,0.0
+diff 0.5 s,straight,100,28,14,0,0.0
+diff 1 s,straight,100,28,13,1,7.69
+diff 2 s,straight,100,28,12,2,16.67
+fit 0.25 s,straight,100,28,14,0,0.0
+fit 0.5 s,straight,100,28,14,3,21.43
+fit 1 s,straight,100,28,13,1,7.69
+fit 2 s,straight,100,28,12,3,25.0
+Kalman,straight,100,29,14,8,57.14
+diff 0.25 s,straight,100,29,14,0,0.0
+diff 0.5 s,straight,100,29,14,0,0.0
+diff 1 s,straight,100,29,13,0,0.0
+diff 2 s,straight,100,29,12,0,0.0
+fit 0.25 s,straight,100,29,14,0,0.0
+fit 0.5 s,straight,100,29,14,1,7.14
+fit 1 s,straight,100,29,13,1,7.69
+fit 2 s,straight,100,29,12,5,41.67
+Kalman,straight,100,30,14,4,28.57
+diff 0.25 s,straight,100,30,14,0,0.0
+diff 0.5 s,straight,100,30,14,0,0.0
+diff 1 s,straight,100,30,13,0,0.0
+diff 2 s,straight,100,30,12,2,16.67
+fit 0.25 s,straight,100,30,14,0,0.0
+fit 0.5 s,straight,100,30,14,2,14.29
+fit 1 s,straight,100,30,13,2,15.38
+fit 2 s,straight,100,30,12,1,8.33
+Kalman,diagonal,5,1,14,13,92.86
+diff 0.25 s,diagonal,5,1,14,5,35.71
+diff 0.5 s,diagonal,5,1,14,8,57.14
+diff 1 s,diagonal,5,1,14,11,78.57
+diff 2 s,diagonal,5,1,13,11,84.62
+fit 0.25 s,diagonal,5,1,14,9,64.29
+fit 0.5 s,diagonal,5,1,14,13,92.86
+fit 1 s,diagonal,5,1,14,13,92.86
+fit 2 s,diagonal,5,1,13,12,92.31
+Kalman,diagonal,5,2,14,13,92.86
+diff 0.25 s,diagonal,5,2,14,10,71.43
+diff 0.5 s,diagonal,5,2,14,12,85.71
+diff 1 s,diagonal,5,2,14,12,85.71
+diff 2 s,diagonal,5,2,13,12,92.31
+fit 0.25 s,diagonal,5,2,14,10,71.43
+fit 0.5 s,diagonal,5,2,14,13,92.86
+fit 1 s,diagonal,5,2,14,13,92.86
+fit 2 s,diagonal,5,2,13,12,92.31
+Kalman,diagonal,5,3,14,13,92.86
+diff 0.25 s,diagonal,5,3,14,6,42.86
+diff 0.5 s,diagonal,5,3,14,9,64.29
+diff 1 s,diagonal,5,3,14,12,85.71
+diff 2 s,diagonal,5,3,13,12,92.31
+fit 0.25 s,diagonal,5,3,14,10,71.43
+fit 0.5 s,diagonal,5,3,14,13,92.86
+fit 1 s,diagonal,5,3,14,12,85.71
+fit 2 s,diagonal,5,3,13,12,92.31
+Kalman,diagonal,5,4,14,12,85.71
+diff 0.25 s,diagonal,5,4,14,7,50.0
+diff 0.5 s,diagonal,5,4,14,9,64.29
+diff 1 s,diagonal,5,4,14,12,85.71
+diff 2 s,diagonal,5,4,13,11,84.62
+fit 0.25 s,diagonal,5,4,14,9,64.29
+fit 0.5 s,diagonal,5,4,14,12,85.71
+fit 1 s,diagonal,5,4,14,13,92.86
+fit 2 s,diagonal,5,4,13,12,92.31
+Kalman,diagonal,5,5,14,12,85.71
+diff 0.25 s,diagonal,5,5,14,7,50.0
+diff 0.5 s,diagonal,5,5,14,10,71.43
+diff 1 s,diagonal,5,5,14,13,92.86
+diff 2 s,diagonal,5,5,13,12,92.31
+fit 0.25 s,diagonal,5,5,14,11,78.57
+fit 0.5 s,diagonal,5,5,14,12,85.71
+fit 1 s,diagonal,5,5,14,13,92.86
+fit 2 s,diagonal,5,5,13,12,92.31
+Kalman,diagonal,5,6,14,13,92.86
+diff 0.25 s,diagonal,5,6,14,5,35.71
+diff 0.5 s,diagonal,5,6,14,10,71.43
+diff 1 s,diagonal,5,6,14,11,78.57
+diff 2 s,diagonal,5,6,13,11,84.62
+fit 0.25 s,diagonal,5,6,14,7,50.0
+fit 0.5 s,diagonal,5,6,14,12,85.71
+fit 1 s,diagonal,5,6,14,13,92.86
+fit 2 s,diagonal,5,6,13,12,92.31
+Kalman,diagonal,5,7,14,13,92.86
+diff 0.25 s,diagonal,5,7,14,5,35.71
+diff 0.5 s,diagonal,5,7,14,9,64.29
+diff 1 s,diagonal,5,7,14,11,78.57
+diff 2 s,diagonal,5,7,13,12,92.31
+fit 0.25 s,diagonal,5,7,14,12,85.71
+fit 0.5 s,diagonal,5,7,14,13,92.86
+fit 1 s,diagonal,5,7,14,13,92.86
+fit 2 s,diagonal,5,7,13,12,92.31
+Kalman,diagonal,5,8,14,13,92.86
+diff 0.25 s,diagonal,5,8,14,7,50.0
+diff 0.5 s,diagonal,5,8,14,9,64.29
+diff 1 s,diagonal,5,8,14,12,85.71
+diff 2 s,diagonal,5,8,13,10,76.92
+fit 0.25 s,diagonal,5,8,14,10,71.43
+fit 0.5 s,diagonal,5,8,14,13,92.86
+fit 1 s,diagonal,5,8,14,13,92.86
+fit 2 s,diagonal,5,8,13,12,92.31
+Kalman,diagonal,5,9,14,12,85.71
+diff 0.25 s,diagonal,5,9,14,6,42.86
+diff 0.5 s,diagonal,5,9,14,10,71.43
+diff 1 s,diagonal,5,9,14,12,85.71
+diff 2 s,diagonal,5,9,13,11,84.62
+fit 0.25 s,diagonal,5,9,14,8,57.14
+fit 0.5 s,diagonal,5,9,14,12,85.71
+fit 1 s,diagonal,5,9,14,13,92.86
+fit 2 s,diagonal,5,9,13,12,92.31
+Kalman,diagonal,5,10,14,13,92.86
+diff 0.25 s,diagonal,5,10,14,6,42.86
+diff 0.5 s,diagonal,5,10,14,8,57.14
+diff 1 s,diagonal,5,10,14,12,85.71
+diff 2 s,diagonal,5,10,13,12,92.31
+fit 0.25 s,diagonal,5,10,14,10,71.43
+fit 0.5 s,diagonal,5,10,14,13,92.86
+fit 1 s,diagonal,5,10,14,13,92.86
+fit 2 s,diagonal,5,10,13,12,92.31
+Kalman,diagonal,5,11,14,13,92.86
+diff 0.25 s,diagonal,5,11,14,7,50.0
+diff 0.5 s,diagonal,5,11,14,9,64.29
+diff 1 s,diagonal,5,11,14,12,85.71
+diff 2 s,diagonal,5,11,13,11,84.62
+fit 0.25 s,diagonal,5,11,14,11,78.57
+fit 0.5 s,diagonal,5,11,14,12,85.71
+fit 1 s,diagonal,5,11,14,12,85.71
+fit 2 s,diagonal,5,11,13,12,92.31
+Kalman,diagonal,5,12,14,13,92.86
+diff 0.25 s,diagonal,5,12,14,8,57.14
+diff 0.5 s,diagonal,5,12,14,11,78.57
+diff 1 s,diagonal,5,12,14,12,85.71
+diff 2 s,diagonal,5,12,13,12,92.31
+fit 0.25 s,diagonal,5,12,14,10,71.43
+fit 0.5 s,diagonal,5,12,14,12,85.71
+fit 1 s,diagonal,5,12,14,13,92.86
+fit 2 s,diagonal,5,12,13,12,92.31
+Kalman,diagonal,5,13,14,13,92.86
+diff 0.25 s,diagonal,5,13,14,9,64.29
+diff 0.5 s,diagonal,5,13,14,10,71.43
+diff 1 s,diagonal,5,13,14,11,78.57
+diff 2 s,diagonal,5,13,13,12,92.31
+fit 0.25 s,diagonal,5,13,14,10,71.43
+fit 0.5 s,diagonal,5,13,14,12,85.71
+fit 1 s,diagonal,5,13,14,13,92.86
+fit 2 s,diagonal,5,13,13,12,92.31
+Kalman,diagonal,5,14,14,13,92.86
+diff 0.25 s,diagonal,5,14,14,7,50.0
+diff 0.5 s,diagonal,5,14,14,11,78.57
+diff 1 s,diagonal,5,14,14,11,78.57
+diff 2 s,diagonal,5,14,13,10,76.92
+fit 0.25 s,diagonal,5,14,14,9,64.29
+fit 0.5 s,diagonal,5,14,14,13,92.86
+fit 1 s,diagonal,5,14,14,12,85.71
+fit 2 s,diagonal,5,14,13,12,92.31
+Kalman,diagonal,5,15,14,12,85.71
+diff 0.25 s,diagonal,5,15,14,6,42.86
+diff 0.5 s,diagonal,5,15,14,8,57.14
+diff 1 s,diagonal,5,15,14,13,92.86
+diff 2 s,diagonal,5,15,13,12,92.31
+fit 0.25 s,diagonal,5,15,14,9,64.29
+fit 0.5 s,diagonal,5,15,14,12,85.71
+fit 1 s,diagonal,5,15,14,13,92.86
+fit 2 s,diagonal,5,15,13,12,92.31
+Kalman,diagonal,5,16,14,12,85.71
+diff 0.25 s,diagonal,5,16,14,6,42.86
+diff 0.5 s,diagonal,5,16,14,11,78.57
+diff 1 s,diagonal,5,16,14,12,85.71
+diff 2 s,diagonal,5,16,13,12,92.31
+fit 0.25 s,diagonal,5,16,14,7,50.0
+fit 0.5 s,diagonal,5,16,14,12,85.71
+fit 1 s,diagonal,5,16,14,13,92.86
+fit 2 s,diagonal,5,16,13,12,92.31
+Kalman,diagonal,5,17,14,13,92.86
+diff 0.25 s,diagonal,5,17,14,10,71.43
+diff 0.5 s,diagonal,5,17,14,8,57.14
+diff 1 s,diagonal,5,17,14,11,78.57
+diff 2 s,diagonal,5,17,13,12,92.31
+fit 0.25 s,diagonal,5,17,14,12,85.71
+fit 0.5 s,diagonal,5,17,14,12,85.71
+fit 1 s,diagonal,5,17,14,13,92.86
+fit 2 s,diagonal,5,17,13,12,92.31
+Kalman,diagonal,5,18,14,13,92.86
+diff 0.25 s,diagonal,5,18,14,6,42.86
+diff 0.5 s,diagonal,5,18,14,11,78.57
+diff 1 s,diagonal,5,18,14,12,85.71
+diff 2 s,diagonal,5,18,13,11,84.62
+fit 0.25 s,diagonal,5,18,14,7,50.0
+fit 0.5 s,diagonal,5,18,14,13,92.86
+fit 1 s,diagonal,5,18,14,13,92.86
+fit 2 s,diagonal,5,18,13,12,92.31
+Kalman,diagonal,5,19,14,12,85.71
+diff 0.25 s,diagonal,5,19,14,6,42.86
+diff 0.5 s,diagonal,5,19,14,9,64.29
+diff 1 s,diagonal,5,19,14,12,85.71
+diff 2 s,diagonal,5,19,13,12,92.31
+fit 0.25 s,diagonal,5,19,14,9,64.29
+fit 0.5 s,diagonal,5,19,14,11,78.57
+fit 1 s,diagonal,5,19,14,12,85.71
+fit 2 s,diagonal,5,19,13,12,92.31
+Kalman,diagonal,5,20,14,13,92.86
+diff 0.25 s,diagonal,5,20,14,9,64.29
+diff 0.5 s,diagonal,5,20,14,10,71.43
+diff 1 s,diagonal,5,20,14,13,92.86
+diff 2 s,diagonal,5,20,13,11,84.62
+fit 0.25 s,diagonal,5,20,14,9,64.29
+fit 0.5 s,diagonal,5,20,14,13,92.86
+fit 1 s,diagonal,5,20,14,13,92.86
+fit 2 s,diagonal,5,20,13,12,92.31
+Kalman,diagonal,5,21,14,13,92.86
+diff 0.25 s,diagonal,5,21,14,8,57.14
+diff 0.5 s,diagonal,5,21,14,10,71.43
+diff 1 s,diagonal,5,21,14,8,57.14
+diff 2 s,diagonal,5,21,13,11,84.62
+fit 0.25 s,diagonal,5,21,14,10,71.43
+fit 0.5 s,diagonal,5,21,14,13,92.86
+fit 1 s,diagonal,5,21,14,13,92.86
+fit 2 s,diagonal,5,21,13,12,92.31
+Kalman,diagonal,5,22,14,12,85.71
+diff 0.25 s,diagonal,5,22,14,8,57.14
+diff 0.5 s,diagonal,5,22,14,10,71.43
+diff 1 s,diagonal,5,22,14,11,78.57
+diff 2 s,diagonal,5,22,13,11,84.62
+fit 0.25 s,diagonal,5,22,14,8,57.14
+fit 0.5 s,diagonal,5,22,14,12,85.71
+fit 1 s,diagonal,5,22,14,12,85.71
+fit 2 s,diagonal,5,22,13,12,92.31
+Kalman,diagonal,5,23,14,13,92.86
+diff 0.25 s,diagonal,5,23,14,7,50.0
+diff 0.5 s,diagonal,5,23,14,7,50.0
+diff 1 s,diagonal,5,23,14,11,78.57
+diff 2 s,diagonal,5,23,13,12,92.31
+fit 0.25 s,diagonal,5,23,14,10,71.43
+fit 0.5 s,diagonal,5,23,14,13,92.86
+fit 1 s,diagonal,5,23,14,13,92.86
+fit 2 s,diagonal,5,23,13,12,92.31
+Kalman,diagonal,5,24,14,12,85.71
+diff 0.25 s,diagonal,5,24,14,8,57.14
+diff 0.5 s,diagonal,5,24,14,6,42.86
+diff 1 s,diagonal,5,24,14,12,85.71
+diff 2 s,diagonal,5,24,13,11,84.62
+fit 0.25 s,diagonal,5,24,14,11,78.57
+fit 0.5 s,diagonal,5,24,14,11,78.57
+fit 1 s,diagonal,5,24,14,13,92.86
+fit 2 s,diagonal,5,24,13,12,92.31
+Kalman,diagonal,5,25,14,13,92.86
+diff 0.25 s,diagonal,5,25,14,5,35.71
+diff 0.5 s,diagonal,5,25,14,10,71.43
+diff 1 s,diagonal,5,25,14,10,71.43
+diff 2 s,diagonal,5,25,13,11,84.62
+fit 0.25 s,diagonal,5,25,14,10,71.43
+fit 0.5 s,diagonal,5,25,14,13,92.86
+fit 1 s,diagonal,5,25,14,13,92.86
+fit 2 s,diagonal,5,25,13,12,92.31
+Kalman,diagonal,5,26,14,13,92.86
+diff 0.25 s,diagonal,5,26,14,10,71.43
+diff 0.5 s,diagonal,5,26,14,11,78.57
+diff 1 s,diagonal,5,26,14,12,85.71
+diff 2 s,diagonal,5,26,13,11,84.62
+fit 0.25 s,diagonal,5,26,14,10,71.43
+fit 0.5 s,diagonal,5,26,14,13,92.86
+fit 1 s,diagonal,5,26,14,13,92.86
+fit 2 s,diagonal,5,26,13,12,92.31
+Kalman,diagonal,5,27,14,13,92.86
+diff 0.25 s,diagonal,5,27,14,8,57.14
+diff 0.5 s,diagonal,5,27,14,10,71.43
+diff 1 s,diagonal,5,27,14,11,78.57
+diff 2 s,diagonal,5,27,13,11,84.62
+fit 0.25 s,diagonal,5,27,14,7,50.0
+fit 0.5 s,diagonal,5,27,14,13,92.86
+fit 1 s,diagonal,5,27,14,13,92.86
+fit 2 s,diagonal,5,27,13,12,92.31
+Kalman,diagonal,5,28,14,12,85.71
+diff 0.25 s,diagonal,5,28,14,7,50.0
+diff 0.5 s,diagonal,5,28,14,6,42.86
+diff 1 s,diagonal,5,28,14,10,71.43
+diff 2 s,diagonal,5,28,13,11,84.62
+fit 0.25 s,diagonal,5,28,14,6,42.86
+fit 0.5 s,diagonal,5,28,14,12,85.71
+fit 1 s,diagonal,5,28,14,13,92.86
+fit 2 s,diagonal,5,28,13,12,92.31
+Kalman,diagonal,5,29,14,13,92.86
+diff 0.25 s,diagonal,5,29,14,8,57.14
+diff 0.5 s,diagonal,5,29,14,10,71.43
+diff 1 s,diagonal,5,29,14,12,85.71
+diff 2 s,diagonal,5,29,13,10,76.92
+fit 0.25 s,diagonal,5,29,14,9,64.29
+fit 0.5 s,diagonal,5,29,14,13,92.86
+fit 1 s,diagonal,5,29,14,13,92.86
+fit 2 s,diagonal,5,29,13,12,92.31
+Kalman,diagonal,5,30,14,13,92.86
+diff 0.25 s,diagonal,5,30,14,10,71.43
+diff 0.5 s,diagonal,5,30,14,12,85.71
+diff 1 s,diagonal,5,30,14,13,92.86
+diff 2 s,diagonal,5,30,13,12,92.31
+fit 0.25 s,diagonal,5,30,14,11,78.57
+fit 0.5 s,diagonal,5,30,14,13,92.86
+fit 1 s,diagonal,5,30,14,13,92.86
+fit 2 s,diagonal,5,30,13,12,92.31
+Kalman,diagonal,15,1,14,13,92.86
+diff 0.25 s,diagonal,15,1,14,2,14.29
+diff 0.5 s,diagonal,15,1,14,1,7.14
+diff 1 s,diagonal,15,1,14,9,64.29
+diff 2 s,diagonal,15,1,13,6,46.15
+fit 0.25 s,diagonal,15,1,14,5,35.71
+fit 0.5 s,diagonal,15,1,14,11,78.57
+fit 1 s,diagonal,15,1,14,10,71.43
+fit 2 s,diagonal,15,1,13,12,92.31
+Kalman,diagonal,15,2,14,12,85.71
+diff 0.25 s,diagonal,15,2,14,5,35.71
+diff 0.5 s,diagonal,15,2,14,9,64.29
+diff 1 s,diagonal,15,2,14,6,42.86
+diff 2 s,diagonal,15,2,13,3,23.08
+fit 0.25 s,diagonal,15,2,14,3,21.43
+fit 0.5 s,diagonal,15,2,14,10,71.43
+fit 1 s,diagonal,15,2,14,12,85.71
+fit 2 s,diagonal,15,2,13,12,92.31
+Kalman,diagonal,15,3,14,13,92.86
+diff 0.25 s,diagonal,15,3,14,3,21.43
+diff 0.5 s,diagonal,15,3,14,4,28.57
+diff 1 s,diagonal,15,3,14,7,50.0
+diff 2 s,diagonal,15,3,13,7,53.85
+fit 0.25 s,diagonal,15,3,14,5,35.71
+fit 0.5 s,diagonal,15,3,14,10,71.43
+fit 1 s,diagonal,15,3,14,12,85.71
+fit 2 s,diagonal,15,3,13,12,92.31
+Kalman,diagonal,15,4,14,12,85.71
+diff 0.25 s,diagonal,15,4,14,3,21.43
+diff 0.5 s,diagonal,15,4,14,2,14.29
+diff 1 s,diagonal,15,4,14,5,35.71
+diff 2 s,diagonal,15,4,13,9,69.23
+fit 0.25 s,diagonal,15,4,14,2,14.29
+fit 0.5 s,diagonal,15,4,14,6,42.86
+fit 1 s,diagonal,15,4,14,10,71.43
+fit 2 s,diagonal,15,4,13,12,92.31
+Kalman,diagonal,15,5,14,12,85.71
+diff 0.25 s,diagonal,15,5,14,1,7.14
+diff 0.5 s,diagonal,15,5,14,4,28.57
+diff 1 s,diagonal,15,5,14,7,50.0
+diff 2 s,diagonal,15,5,13,6,46.15
+fit 0.25 s,diagonal,15,5,14,6,42.86
+fit 0.5 s,diagonal,15,5,14,3,21.43
+fit 1 s,diagonal,15,5,14,12,85.71
+fit 2 s,diagonal,15,5,13,12,92.31
+Kalman,diagonal,15,6,14,13,92.86
+diff 0.25 s,diagonal,15,6,14,2,14.29
+diff 0.5 s,diagonal,15,6,14,2,14.29
+diff 1 s,diagonal,15,6,14,7,50.0
+diff 2 s,diagonal,15,6,13,10,76.92
+fit 0.25 s,diagonal,15,6,14,4,28.57
+fit 0.5 s,diagonal,15,6,14,9,64.29
+fit 1 s,diagonal,15,6,14,13,92.86
+fit 2 s,diagonal,15,6,13,12,92.31
+Kalman,diagonal,15,7,14,13,92.86
+diff 0.25 s,diagonal,15,7,14,1,7.14
+diff 0.5 s,diagonal,15,7,14,4,28.57
+diff 1 s,diagonal,15,7,14,6,42.86
+diff 2 s,diagonal,15,7,13,5,38.46
+fit 0.25 s,diagonal,15,7,14,3,21.43
+fit 0.5 s,diagonal,15,7,14,11,78.57
+fit 1 s,diagonal,15,7,14,12,85.71
+fit 2 s,diagonal,15,7,13,12,92.31
+Kalman,diagonal,15,8,14,12,85.71
+diff 0.25 s,diagonal,15,8,14,4,28.57
+diff 0.5 s,diagonal,15,8,14,5,35.71
+diff 1 s,diagonal,15,8,14,8,57.14
+diff 2 s,diagonal,15,8,13,5,38.46
+fit 0.25 s,diagonal,15,8,14,4,28.57
+fit 0.5 s,diagonal,15,8,14,8,57.14
+fit 1 s,diagonal,15,8,14,10,71.43
+fit 2 s,diagonal,15,8,13,12,92.31
+Kalman,diagonal,15,9,14,12,85.71
+diff 0.25 s,diagonal,15,9,14,4,28.57
+diff 0.5 s,diagonal,15,9,14,3,21.43
+diff 1 s,diagonal,15,9,14,6,42.86
+diff 2 s,diagonal,15,9,13,8,61.54
+fit 0.25 s,diagonal,15,9,14,2,14.29
+fit 0.5 s,diagonal,15,9,14,8,57.14
+fit 1 s,diagonal,15,9,14,12,85.71
+fit 2 s,diagonal,15,9,13,12,92.31
+Kalman,diagonal,15,10,14,12,85.71
+diff 0.25 s,diagonal,15,10,14,1,7.14
+diff 0.5 s,diagonal,15,10,14,4,28.57
+diff 1 s,diagonal,15,10,14,10,71.43
+diff 2 s,diagonal,15,10,13,5,38.46
+fit 0.25 s,diagonal,15,10,14,3,21.43
+fit 0.5 s,diagonal,15,10,14,8,57.14
+fit 1 s,diagonal,15,10,14,12,85.71
+fit 2 s,diagonal,15,10,13,12,92.31
+Kalman,diagonal,15,11,14,12,85.71
+diff 0.25 s,diagonal,15,11,14,2,14.29
+diff 0.5 s,diagonal,15,11,14,2,14.29
+diff 1 s,diagonal,15,11,14,6,42.86
+diff 2 s,diagonal,15,11,13,8,61.54
+fit 0.25 s,diagonal,15,11,14,7,50.0
+fit 0.5 s,diagonal,15,11,14,7,50.0
+fit 1 s,diagonal,15,11,14,12,85.71
+fit 2 s,diagonal,15,11,13,12,92.31
+Kalman,diagonal,15,12,14,12,85.71
+diff 0.25 s,diagonal,15,12,14,4,28.57
+diff 0.5 s,diagonal,15,12,14,6,42.86
+diff 1 s,diagonal,15,12,14,7,50.0
+diff 2 s,diagonal,15,12,13,7,53.85
+fit 0.25 s,diagonal,15,12,14,3,21.43
+fit 0.5 s,diagonal,15,12,14,11,78.57
+fit 1 s,diagonal,15,12,14,11,78.57
+fit 2 s,diagonal,15,12,13,12,92.31
+Kalman,diagonal,15,13,14,12,85.71
+diff 0.25 s,diagonal,15,13,14,1,7.14
+diff 0.5 s,diagonal,15,13,14,4,28.57
+diff 1 s,diagonal,15,13,14,8,57.14
+diff 2 s,diagonal,15,13,13,8,61.54
+fit 0.25 s,diagonal,15,13,14,4,28.57
+fit 0.5 s,diagonal,15,13,14,7,50.0
+fit 1 s,diagonal,15,13,14,12,85.71
+fit 2 s,diagonal,15,13,13,12,92.31
+Kalman,diagonal,15,14,14,12,85.71
+diff 0.25 s,diagonal,15,14,14,2,14.29
+diff 0.5 s,diagonal,15,14,14,4,28.57
+diff 1 s,diagonal,15,14,14,6,42.86
+diff 2 s,diagonal,15,14,13,8,61.54
+fit 0.25 s,diagonal,15,14,14,4,28.57
+fit 0.5 s,diagonal,15,14,14,11,78.57
+fit 1 s,diagonal,15,14,14,12,85.71
+fit 2 s,diagonal,15,14,13,11,84.62
+Kalman,diagonal,15,15,14,12,85.71
+diff 0.25 s,diagonal,15,15,14,0,0.0
+diff 0.5 s,diagonal,15,15,14,4,28.57
+diff 1 s,diagonal,15,15,14,6,42.86
+diff 2 s,diagonal,15,15,13,6,46.15
+fit 0.25 s,diagonal,15,15,14,4,28.57
+fit 0.5 s,diagonal,15,15,14,9,64.29
+fit 1 s,diagonal,15,15,14,12,85.71
+fit 2 s,diagonal,15,15,13,12,92.31
+Kalman,diagonal,15,16,14,12,85.71
+diff 0.25 s,diagonal,15,16,14,2,14.29
+diff 0.5 s,diagonal,15,16,14,3,21.43
+diff 1 s,diagonal,15,16,14,8,57.14
+diff 2 s,diagonal,15,16,13,8,61.54
+fit 0.25 s,diagonal,15,16,14,4,28.57
+fit 0.5 s,diagonal,15,16,14,5,35.71
+fit 1 s,diagonal,15,16,14,11,78.57
+fit 2 s,diagonal,15,16,13,12,92.31
+Kalman,diagonal,15,17,14,13,92.86
+diff 0.25 s,diagonal,15,17,14,3,21.43
+diff 0.5 s,diagonal,15,17,14,3,21.43
+diff 1 s,diagonal,15,17,14,4,28.57
+diff 2 s,diagonal,15,17,13,8,61.54
+fit 0.25 s,diagonal,15,17,14,7,50.0
+fit 0.5 s,diagonal,15,17,14,10,71.43
+fit 1 s,diagonal,15,17,14,12,85.71
+fit 2 s,diagonal,15,17,13,12,92.31
+Kalman,diagonal,15,18,14,12,85.71
+diff 0.25 s,diagonal,15,18,14,1,7.14
+diff 0.5 s,diagonal,15,18,14,3,21.43
+diff 1 s,diagonal,15,18,14,6,42.86
+diff 2 s,diagonal,15,18,13,4,30.77
+fit 0.25 s,diagonal,15,18,14,2,14.29
+fit 0.5 s,diagonal,15,18,14,10,71.43
+fit 1 s,diagonal,15,18,14,12,85.71
+fit 2 s,diagonal,15,18,13,12,92.31
+Kalman,diagonal,15,19,14,11,78.57
+diff 0.25 s,diagonal,15,19,14,2,14.29
+diff 0.5 s,diagonal,15,19,14,4,28.57
+diff 1 s,diagonal,15,19,14,6,42.86
+diff 2 s,diagonal,15,19,13,7,53.85
+fit 0.25 s,diagonal,15,19,14,4,28.57
+fit 0.5 s,diagonal,15,19,14,5,35.71
+fit 1 s,diagonal,15,19,14,10,71.43
+fit 2 s,diagonal,15,19,13,12,92.31
+Kalman,diagonal,15,20,14,12,85.71
+diff 0.25 s,diagonal,15,20,14,6,42.86
+diff 0.5 s,diagonal,15,20,14,4,28.57
+diff 1 s,diagonal,15,20,14,5,35.71
+diff 2 s,diagonal,15,20,13,5,38.46
+fit 0.25 s,diagonal,15,20,14,4,28.57
+fit 0.5 s,diagonal,15,20,14,7,50.0
+fit 1 s,diagonal,15,20,14,11,78.57
+fit 2 s,diagonal,15,20,13,11,84.62
+Kalman,diagonal,15,21,14,13,92.86
+diff 0.25 s,diagonal,15,21,14,1,7.14
+diff 0.5 s,diagonal,15,21,14,4,28.57
+diff 1 s,diagonal,15,21,14,6,42.86
+diff 2 s,diagonal,15,21,13,4,30.77
+fit 0.25 s,diagonal,15,21,14,4,28.57
+fit 0.5 s,diagonal,15,21,14,12,85.71
+fit 1 s,diagonal,15,21,14,12,85.71
+fit 2 s,diagonal,15,21,13,12,92.31
+Kalman,diagonal,15,22,14,12,85.71
+diff 0.25 s,diagonal,15,22,14,1,7.14
+diff 0.5 s,diagonal,15,22,14,4,28.57
+diff 1 s,diagonal,15,22,14,5,35.71
+diff 2 s,diagonal,15,22,13,9,69.23
+fit 0.25 s,diagonal,15,22,14,4,28.57
+fit 0.5 s,diagonal,15,22,14,10,71.43
+fit 1 s,diagonal,15,22,14,11,78.57
+fit 2 s,diagonal,15,22,13,12,92.31
+Kalman,diagonal,15,23,14,12,85.71
+diff 0.25 s,diagonal,15,23,14,3,21.43
+diff 0.5 s,diagonal,15,23,14,5,35.71
+diff 1 s,diagonal,15,23,14,6,42.86
+diff 2 s,diagonal,15,23,13,8,61.54
+fit 0.25 s,diagonal,15,23,14,4,28.57
+fit 0.5 s,diagonal,15,23,14,9,64.29
+fit 1 s,diagonal,15,23,14,12,85.71
+fit 2 s,diagonal,15,23,13,12,92.31
+Kalman,diagonal,15,24,14,12,85.71
+diff 0.25 s,diagonal,15,24,14,3,21.43
+diff 0.5 s,diagonal,15,24,14,2,14.29
+diff 1 s,diagonal,15,24,14,8,57.14
+diff 2 s,diagonal,15,24,13,7,53.85
+fit 0.25 s,diagonal,15,24,14,7,50.0
+fit 0.5 s,diagonal,15,24,14,7,50.0
+fit 1 s,diagonal,15,24,14,12,85.71
+fit 2 s,diagonal,15,24,13,12,92.31
+Kalman,diagonal,15,25,14,13,92.86
+diff 0.25 s,diagonal,15,25,14,2,14.29
+diff 0.5 s,diagonal,15,25,14,3,21.43
+diff 1 s,diagonal,15,25,14,4,28.57
+diff 2 s,diagonal,15,25,13,8,61.54
+fit 0.25 s,diagonal,15,25,14,4,28.57
+fit 0.5 s,diagonal,15,25,14,7,50.0
+fit 1 s,diagonal,15,25,14,12,85.71
+fit 2 s,diagonal,15,25,13,12,92.31
+Kalman,diagonal,15,26,14,13,92.86
+diff 0.25 s,diagonal,15,26,14,1,7.14
+diff 0.5 s,diagonal,15,26,14,3,21.43
+diff 1 s,diagonal,15,26,14,7,50.0
+diff 2 s,diagonal,15,26,13,7,53.85
+fit 0.25 s,diagonal,15,26,14,3,21.43
+fit 0.5 s,diagonal,15,26,14,10,71.43
+fit 1 s,diagonal,15,26,14,13,92.86
+fit 2 s,diagonal,15,26,13,12,92.31
+Kalman,diagonal,15,27,14,12,85.71
+diff 0.25 s,diagonal,15,27,14,6,42.86
+diff 0.5 s,diagonal,15,27,14,5,35.71
+diff 1 s,diagonal,15,27,14,4,28.57
+diff 2 s,diagonal,15,27,13,8,61.54
+fit 0.25 s,diagonal,15,27,14,2,14.29
+fit 0.5 s,diagonal,15,27,14,7,50.0
+fit 1 s,diagonal,15,27,14,11,78.57
+fit 2 s,diagonal,15,27,13,12,92.31
+Kalman,diagonal,15,28,14,12,85.71
+diff 0.25 s,diagonal,15,28,14,2,14.29
+diff 0.5 s,diagonal,15,28,14,3,21.43
+diff 1 s,diagonal,15,28,14,3,21.43
+diff 2 s,diagonal,15,28,13,7,53.85
+fit 0.25 s,diagonal,15,28,14,3,21.43
+fit 0.5 s,diagonal,15,28,14,9,64.29
+fit 1 s,diagonal,15,28,14,10,71.43
+fit 2 s,diagonal,15,28,13,12,92.31
+Kalman,diagonal,15,29,14,11,78.57
+diff 0.25 s,diagonal,15,29,14,4,28.57
+diff 0.5 s,diagonal,15,29,14,2,14.29
+diff 1 s,diagonal,15,29,14,6,42.86
+diff 2 s,diagonal,15,29,13,7,53.85
+fit 0.25 s,diagonal,15,29,14,6,42.86
+fit 0.5 s,diagonal,15,29,14,10,71.43
+fit 1 s,diagonal,15,29,14,11,78.57
+fit 2 s,diagonal,15,29,13,12,92.31
+Kalman,diagonal,15,30,14,12,85.71
+diff 0.25 s,diagonal,15,30,14,2,14.29
+diff 0.5 s,diagonal,15,30,14,4,28.57
+diff 1 s,diagonal,15,30,14,8,57.14
+diff 2 s,diagonal,15,30,13,10,76.92
+fit 0.25 s,diagonal,15,30,14,7,50.0
+fit 0.5 s,diagonal,15,30,14,8,57.14
+fit 1 s,diagonal,15,30,14,12,85.71
+fit 2 s,diagonal,15,30,13,12,92.31
+Kalman,diagonal,30,1,14,12,85.71
+diff 0.25 s,diagonal,30,1,14,0,0.0
+diff 0.5 s,diagonal,30,1,14,1,7.14
+diff 1 s,diagonal,30,1,14,4,28.57
+diff 2 s,diagonal,30,1,13,2,15.38
+fit 0.25 s,diagonal,30,1,14,1,7.14
+fit 0.5 s,diagonal,30,1,14,8,57.14
+fit 1 s,diagonal,30,1,14,9,64.29
+fit 2 s,diagonal,30,1,13,12,92.31
+Kalman,diagonal,30,2,14,11,78.57
+diff 0.25 s,diagonal,30,2,14,2,14.29
+diff 0.5 s,diagonal,30,2,14,7,50.0
+diff 1 s,diagonal,30,2,14,1,7.14
+diff 2 s,diagonal,30,2,13,2,15.38
+fit 0.25 s,diagonal,30,2,14,1,7.14
+fit 0.5 s,diagonal,30,2,14,6,42.86
+fit 1 s,diagonal,30,2,14,10,71.43
+fit 2 s,diagonal,30,2,13,12,92.31
+Kalman,diagonal,30,3,14,13,92.86
+diff 0.25 s,diagonal,30,3,14,2,14.29
+diff 0.5 s,diagonal,30,3,14,2,14.29
+diff 1 s,diagonal,30,3,14,1,7.14
+diff 2 s,diagonal,30,3,13,4,30.77
+fit 0.25 s,diagonal,30,3,14,4,28.57
+fit 0.5 s,diagonal,30,3,14,6,42.86
+fit 1 s,diagonal,30,3,14,11,78.57
+fit 2 s,diagonal,30,3,13,12,92.31
+Kalman,diagonal,30,4,14,10,71.43
+diff 0.25 s,diagonal,30,4,14,2,14.29
+diff 0.5 s,diagonal,30,4,14,0,0.0
+diff 1 s,diagonal,30,4,14,4,28.57
+diff 2 s,diagonal,30,4,13,2,15.38
+fit 0.25 s,diagonal,30,4,14,0,0.0
+fit 0.5 s,diagonal,30,4,14,3,21.43
+fit 1 s,diagonal,30,4,14,5,35.71
+fit 2 s,diagonal,30,4,13,11,84.62
+Kalman,diagonal,30,5,14,10,71.43
+diff 0.25 s,diagonal,30,5,14,0,0.0
+diff 0.5 s,diagonal,30,5,14,3,21.43
+diff 1 s,diagonal,30,5,14,3,21.43
+diff 2 s,diagonal,30,5,13,4,30.77
+fit 0.25 s,diagonal,30,5,14,3,21.43
+fit 0.5 s,diagonal,30,5,14,2,14.29
+fit 1 s,diagonal,30,5,14,10,71.43
+fit 2 s,diagonal,30,5,13,12,92.31
+Kalman,diagonal,30,6,14,12,85.71
+diff 0.25 s,diagonal,30,6,14,0,0.0
+diff 0.5 s,diagonal,30,6,14,1,7.14
+diff 1 s,diagonal,30,6,14,5,35.71
+diff 2 s,diagonal,30,6,13,7,53.85
+fit 0.25 s,diagonal,30,6,14,1,7.14
+fit 0.5 s,diagonal,30,6,14,6,42.86
+fit 1 s,diagonal,30,6,14,10,71.43
+fit 2 s,diagonal,30,6,13,11,84.62
+Kalman,diagonal,30,7,14,12,85.71
+diff 0.25 s,diagonal,30,7,14,1,7.14
+diff 0.5 s,diagonal,30,7,14,2,14.29
+diff 1 s,diagonal,30,7,14,5,35.71
+diff 2 s,diagonal,30,7,13,1,7.69
+fit 0.25 s,diagonal,30,7,14,1,7.14
+fit 0.5 s,diagonal,30,7,14,7,50.0
+fit 1 s,diagonal,30,7,14,8,57.14
+fit 2 s,diagonal,30,7,13,12,92.31
+Kalman,diagonal,30,8,14,10,71.43
+diff 0.25 s,diagonal,30,8,14,1,7.14
+diff 0.5 s,diagonal,30,8,14,3,21.43
+diff 1 s,diagonal,30,8,14,3,21.43
+diff 2 s,diagonal,30,8,13,1,7.69
+fit 0.25 s,diagonal,30,8,14,2,14.29
+fit 0.5 s,diagonal,30,8,14,7,50.0
+fit 1 s,diagonal,30,8,14,6,42.86
+fit 2 s,diagonal,30,8,13,8,61.54
+Kalman,diagonal,30,9,14,12,85.71
+diff 0.25 s,diagonal,30,9,14,2,14.29
+diff 0.5 s,diagonal,30,9,14,1,7.14
+diff 1 s,diagonal,30,9,14,4,28.57
+diff 2 s,diagonal,30,9,13,4,30.77
+fit 0.25 s,diagonal,30,9,14,0,0.0
+fit 0.5 s,diagonal,30,9,14,4,28.57
+fit 1 s,diagonal,30,9,14,10,71.43
+fit 2 s,diagonal,30,9,13,11,84.62
+Kalman,diagonal,30,10,14,10,71.43
+diff 0.25 s,diagonal,30,10,14,1,7.14
+diff 0.5 s,diagonal,30,10,14,2,14.29
+diff 1 s,diagonal,30,10,14,3,21.43
+diff 2 s,diagonal,30,10,13,3,23.08
+fit 0.25 s,diagonal,30,10,14,2,14.29
+fit 0.5 s,diagonal,30,10,14,5,35.71
+fit 1 s,diagonal,30,10,14,7,50.0
+fit 2 s,diagonal,30,10,13,12,92.31
+Kalman,diagonal,30,11,14,12,85.71
+diff 0.25 s,diagonal,30,11,14,1,7.14
+diff 0.5 s,diagonal,30,11,14,0,0.0
+diff 1 s,diagonal,30,11,14,2,14.29
+diff 2 s,diagonal,30,11,13,7,53.85
+fit 0.25 s,diagonal,30,11,14,4,28.57
+fit 0.5 s,diagonal,30,11,14,6,42.86
+fit 1 s,diagonal,30,11,14,10,71.43
+fit 2 s,diagonal,30,11,13,12,92.31
+Kalman,diagonal,30,12,14,12,85.71
+diff 0.25 s,diagonal,30,12,14,2,14.29
+diff 0.5 s,diagonal,30,12,14,3,21.43
+diff 1 s,diagonal,30,12,14,4,28.57
+diff 2 s,diagonal,30,12,13,3,23.08
+fit 0.25 s,diagonal,30,12,14,2,14.29
+fit 0.5 s,diagonal,30,12,14,2,14.29
+fit 1 s,diagonal,30,12,14,8,57.14
+fit 2 s,diagonal,30,12,13,10,76.92
+Kalman,diagonal,30,13,14,11,78.57
+diff 0.25 s,diagonal,30,13,14,1,7.14
+diff 0.5 s,diagonal,30,13,14,2,14.29
+diff 1 s,diagonal,30,13,14,4,28.57
+diff 2 s,diagonal,30,13,13,4,30.77
+fit 0.25 s,diagonal,30,13,14,1,7.14
+fit 0.5 s,diagonal,30,13,14,4,28.57
+fit 1 s,diagonal,30,13,14,9,64.29
+fit 2 s,diagonal,30,13,13,11,84.62
+Kalman,diagonal,30,14,14,12,85.71
+diff 0.25 s,diagonal,30,14,14,2,14.29
+diff 0.5 s,diagonal,30,14,14,1,7.14
+diff 1 s,diagonal,30,14,14,2,14.29
+diff 2 s,diagonal,30,14,13,4,30.77
+fit 0.25 s,diagonal,30,14,14,3,21.43
+fit 0.5 s,diagonal,30,14,14,9,64.29
+fit 1 s,diagonal,30,14,14,9,64.29
+fit 2 s,diagonal,30,14,13,11,84.62
+Kalman,diagonal,30,15,14,12,85.71
+diff 0.25 s,diagonal,30,15,14,0,0.0
+diff 0.5 s,diagonal,30,15,14,2,14.29
+diff 1 s,diagonal,30,15,14,4,28.57
+diff 2 s,diagonal,30,15,13,4,30.77
+fit 0.25 s,diagonal,30,15,14,2,14.29
+fit 0.5 s,diagonal,30,15,14,5,35.71
+fit 1 s,diagonal,30,15,14,7,50.0
+fit 2 s,diagonal,30,15,13,11,84.62
+Kalman,diagonal,30,16,14,11,78.57
+diff 0.25 s,diagonal,30,16,14,1,7.14
+diff 0.5 s,diagonal,30,16,14,1,7.14
+diff 1 s,diagonal,30,16,14,4,28.57
+diff 2 s,diagonal,30,16,13,7,53.85
+fit 0.25 s,diagonal,30,16,14,2,14.29
+fit 0.5 s,diagonal,30,16,14,3,21.43
+fit 1 s,diagonal,30,16,14,8,57.14
+fit 2 s,diagonal,30,16,13,10,76.92
+Kalman,diagonal,30,17,14,12,85.71
+diff 0.25 s,diagonal,30,17,14,0,0.0
+diff 0.5 s,diagonal,30,17,14,2,14.29
+diff 1 s,diagonal,30,17,14,1,7.14
+diff 2 s,diagonal,30,17,13,5,38.46
+fit 0.25 s,diagonal,30,17,14,4,28.57
+fit 0.5 s,diagonal,30,17,14,4,28.57
+fit 1 s,diagonal,30,17,14,11,78.57
+fit 2 s,diagonal,30,17,13,12,92.31
+Kalman,diagonal,30,18,14,11,78.57
+diff 0.25 s,diagonal,30,18,14,0,0.0
+diff 0.5 s,diagonal,30,18,14,2,14.29
+diff 1 s,diagonal,30,18,14,2,14.29
+diff 2 s,diagonal,30,18,13,2,15.38
+fit 0.25 s,diagonal,30,18,14,0,0.0
+fit 0.5 s,diagonal,30,18,14,5,35.71
+fit 1 s,diagonal,30,18,14,8,57.14
+fit 2 s,diagonal,30,18,13,10,76.92
+Kalman,diagonal,30,19,14,10,71.43
+diff 0.25 s,diagonal,30,19,14,2,14.29
+diff 0.5 s,diagonal,30,19,14,0,0.0
+diff 1 s,diagonal,30,19,14,1,7.14
+diff 2 s,diagonal,30,19,13,3,23.08
+fit 0.25 s,diagonal,30,19,14,1,7.14
+fit 0.5 s,diagonal,30,19,14,2,14.29
+fit 1 s,diagonal,30,19,14,10,71.43
+fit 2 s,diagonal,30,19,13,11,84.62
+Kalman,diagonal,30,20,14,10,71.43
+diff 0.25 s,diagonal,30,20,14,4,28.57
+diff 0.5 s,diagonal,30,20,14,2,14.29
+diff 1 s,diagonal,30,20,14,4,28.57
+diff 2 s,diagonal,30,20,13,4,30.77
+fit 0.25 s,diagonal,30,20,14,2,14.29
+fit 0.5 s,diagonal,30,20,14,5,35.71
+fit 1 s,diagonal,30,20,14,7,50.0
+fit 2 s,diagonal,30,20,13,11,84.62
+Kalman,diagonal,30,21,14,11,78.57
+diff 0.25 s,diagonal,30,21,14,0,0.0
+diff 0.5 s,diagonal,30,21,14,1,7.14
+diff 1 s,diagonal,30,21,14,5,35.71
+diff 2 s,diagonal,30,21,13,2,15.38
+fit 0.25 s,diagonal,30,21,14,2,14.29
+fit 0.5 s,diagonal,30,21,14,6,42.86
+fit 1 s,diagonal,30,21,14,10,71.43
+fit 2 s,diagonal,30,21,13,11,84.62
+Kalman,diagonal,30,22,14,10,71.43
+diff 0.25 s,diagonal,30,22,14,1,7.14
+diff 0.5 s,diagonal,30,22,14,3,21.43
+diff 1 s,diagonal,30,22,14,3,21.43
+diff 2 s,diagonal,30,22,13,6,46.15
+fit 0.25 s,diagonal,30,22,14,1,7.14
+fit 0.5 s,diagonal,30,22,14,4,28.57
+fit 1 s,diagonal,30,22,14,9,64.29
+fit 2 s,diagonal,30,22,13,11,84.62
+Kalman,diagonal,30,23,14,11,78.57
+diff 0.25 s,diagonal,30,23,14,2,14.29
+diff 0.5 s,diagonal,30,23,14,3,21.43
+diff 1 s,diagonal,30,23,14,2,14.29
+diff 2 s,diagonal,30,23,13,7,53.85
+fit 0.25 s,diagonal,30,23,14,2,14.29
+fit 0.5 s,diagonal,30,23,14,4,28.57
+fit 1 s,diagonal,30,23,14,10,71.43
+fit 2 s,diagonal,30,23,13,11,84.62
+Kalman,diagonal,30,24,14,12,85.71
+diff 0.25 s,diagonal,30,24,14,0,0.0
+diff 0.5 s,diagonal,30,24,14,2,14.29
+diff 1 s,diagonal,30,24,14,4,28.57
+diff 2 s,diagonal,30,24,13,5,38.46
+fit 0.25 s,diagonal,30,24,14,4,28.57
+fit 0.5 s,diagonal,30,24,14,4,28.57
+fit 1 s,diagonal,30,24,14,11,78.57
+fit 2 s,diagonal,30,24,13,11,84.62
+Kalman,diagonal,30,25,14,12,85.71
+diff 0.25 s,diagonal,30,25,14,1,7.14
+diff 0.5 s,diagonal,30,25,14,3,21.43
+diff 1 s,diagonal,30,25,14,3,21.43
+diff 2 s,diagonal,30,25,13,5,38.46
+fit 0.25 s,diagonal,30,25,14,2,14.29
+fit 0.5 s,diagonal,30,25,14,5,35.71
+fit 1 s,diagonal,30,25,14,9,64.29
+fit 2 s,diagonal,30,25,13,11,84.62
+Kalman,diagonal,30,26,14,12,85.71
+diff 0.25 s,diagonal,30,26,14,1,7.14
+diff 0.5 s,diagonal,30,26,14,2,14.29
+diff 1 s,diagonal,30,26,14,3,21.43
+diff 2 s,diagonal,30,26,13,5,38.46
+fit 0.25 s,diagonal,30,26,14,2,14.29
+fit 0.5 s,diagonal,30,26,14,6,42.86
+fit 1 s,diagonal,30,26,14,7,50.0
+fit 2 s,diagonal,30,26,13,11,84.62
+Kalman,diagonal,30,27,14,11,78.57
+diff 0.25 s,diagonal,30,27,14,3,21.43
+diff 0.5 s,diagonal,30,27,14,1,7.14
+diff 1 s,diagonal,30,27,14,3,21.43
+diff 2 s,diagonal,30,27,13,4,30.77
+fit 0.25 s,diagonal,30,27,14,0,0.0
+fit 0.5 s,diagonal,30,27,14,4,28.57
+fit 1 s,diagonal,30,27,14,10,71.43
+fit 2 s,diagonal,30,27,13,12,92.31
+Kalman,diagonal,30,28,14,10,71.43
+diff 0.25 s,diagonal,30,28,14,2,14.29
+diff 0.5 s,diagonal,30,28,14,2,14.29
+diff 1 s,diagonal,30,28,14,2,14.29
+diff 2 s,diagonal,30,28,13,5,38.46
+fit 0.25 s,diagonal,30,28,14,2,14.29
+fit 0.5 s,diagonal,30,28,14,6,42.86
+fit 1 s,diagonal,30,28,14,7,50.0
+fit 2 s,diagonal,30,28,13,10,76.92
+Kalman,diagonal,30,29,14,11,78.57
+diff 0.25 s,diagonal,30,29,14,2,14.29
+diff 0.5 s,diagonal,30,29,14,1,7.14
+diff 1 s,diagonal,30,29,14,3,21.43
+diff 2 s,diagonal,30,29,13,5,38.46
+fit 0.25 s,diagonal,30,29,14,4,28.57
+fit 0.5 s,diagonal,30,29,14,5,35.71
+fit 1 s,diagonal,30,29,14,7,50.0
+fit 2 s,diagonal,30,29,13,11,84.62
+Kalman,diagonal,30,30,14,12,85.71
+diff 0.25 s,diagonal,30,30,14,1,7.14
+diff 0.5 s,diagonal,30,30,14,2,14.29
+diff 1 s,diagonal,30,30,14,4,28.57
+diff 2 s,diagonal,30,30,13,9,69.23
+fit 0.25 s,diagonal,30,30,14,4,28.57
+fit 0.5 s,diagonal,30,30,14,6,42.86
+fit 1 s,diagonal,30,30,14,9,64.29
+fit 2 s,diagonal,30,30,13,11,84.62
+Kalman,diagonal,60,1,14,11,78.57
+diff 0.25 s,diagonal,60,1,14,0,0.0
+diff 0.5 s,diagonal,60,1,14,0,0.0
+diff 1 s,diagonal,60,1,14,2,14.29
+diff 2 s,diagonal,60,1,13,0,0.0
+fit 0.25 s,diagonal,60,1,14,0,0.0
+fit 0.5 s,diagonal,60,1,14,5,35.71
+fit 1 s,diagonal,60,1,14,4,28.57
+fit 2 s,diagonal,60,1,13,8,61.54
+Kalman,diagonal,60,2,14,10,71.43
+diff 0.25 s,diagonal,60,2,14,1,7.14
+diff 0.5 s,diagonal,60,2,14,4,28.57
+diff 1 s,diagonal,60,2,14,1,7.14
+diff 2 s,diagonal,60,2,13,1,7.69
+fit 0.25 s,diagonal,60,2,14,0,0.0
+fit 0.5 s,diagonal,60,2,14,3,21.43
+fit 1 s,diagonal,60,2,14,8,57.14
+fit 2 s,diagonal,60,2,13,10,76.92
+Kalman,diagonal,60,3,14,11,78.57
+diff 0.25 s,diagonal,60,3,14,0,0.0
+diff 0.5 s,diagonal,60,3,14,1,7.14
+diff 1 s,diagonal,60,3,14,0,0.0
+diff 2 s,diagonal,60,3,13,1,7.69
+fit 0.25 s,diagonal,60,3,14,1,7.14
+fit 0.5 s,diagonal,60,3,14,5,35.71
+fit 1 s,diagonal,60,3,14,8,57.14
+fit 2 s,diagonal,60,3,13,9,69.23
+Kalman,diagonal,60,4,14,8,57.14
+diff 0.25 s,diagonal,60,4,14,2,14.29
+diff 0.5 s,diagonal,60,4,14,0,0.0
+diff 1 s,diagonal,60,4,14,3,21.43
+diff 2 s,diagonal,60,4,13,1,7.69
+fit 0.25 s,diagonal,60,4,14,0,0.0
+fit 0.5 s,diagonal,60,4,14,2,14.29
+fit 1 s,diagonal,60,4,14,1,7.14
+fit 2 s,diagonal,60,4,13,5,38.46
+Kalman,diagonal,60,5,14,9,64.29
+diff 0.25 s,diagonal,60,5,14,0,0.0
+diff 0.5 s,diagonal,60,5,14,2,14.29
+diff 1 s,diagonal,60,5,14,2,14.29
+diff 2 s,diagonal,60,5,13,2,15.38
+fit 0.25 s,diagonal,60,5,14,1,7.14
+fit 0.5 s,diagonal,60,5,14,0,0.0
+fit 1 s,diagonal,60,5,14,5,35.71
+fit 2 s,diagonal,60,5,13,11,84.62
+Kalman,diagonal,60,6,14,9,64.29
+diff 0.25 s,diagonal,60,6,14,0,0.0
+diff 0.5 s,diagonal,60,6,14,1,7.14
+diff 1 s,diagonal,60,6,14,4,28.57
+diff 2 s,diagonal,60,6,13,5,38.46
+fit 0.25 s,diagonal,60,6,14,0,0.0
+fit 0.5 s,diagonal,60,6,14,1,7.14
+fit 1 s,diagonal,60,6,14,6,42.86
+fit 2 s,diagonal,60,6,13,8,61.54
+Kalman,diagonal,60,7,14,10,71.43
+diff 0.25 s,diagonal,60,7,14,0,0.0
+diff 0.5 s,diagonal,60,7,14,1,7.14
+diff 1 s,diagonal,60,7,14,2,14.29
+diff 2 s,diagonal,60,7,13,1,7.69
+fit 0.25 s,diagonal,60,7,14,1,7.14
+fit 0.5 s,diagonal,60,7,14,4,28.57
+fit 1 s,diagonal,60,7,14,5,35.71
+fit 2 s,diagonal,60,7,13,8,61.54
+Kalman,diagonal,60,8,14,7,50.0
+diff 0.25 s,diagonal,60,8,14,0,0.0
+diff 0.5 s,diagonal,60,8,14,2,14.29
+diff 1 s,diagonal,60,8,14,0,0.0
+diff 2 s,diagonal,60,8,13,0,0.0
+fit 0.25 s,diagonal,60,8,14,1,7.14
+fit 0.5 s,diagonal,60,8,14,1,7.14
+fit 1 s,diagonal,60,8,14,3,21.43
+fit 2 s,diagonal,60,8,13,5,38.46
+Kalman,diagonal,60,9,14,8,57.14
+diff 0.25 s,diagonal,60,9,14,1,7.14
+diff 0.5 s,diagonal,60,9,14,0,0.0
+diff 1 s,diagonal,60,9,14,1,7.14
+diff 2 s,diagonal,60,9,13,2,15.38
+fit 0.25 s,diagonal,60,9,14,0,0.0
+fit 0.5 s,diagonal,60,9,14,2,14.29
+fit 1 s,diagonal,60,9,14,7,50.0
+fit 2 s,diagonal,60,9,13,8,61.54
+Kalman,diagonal,60,10,14,10,71.43
+diff 0.25 s,diagonal,60,10,14,0,0.0
+diff 0.5 s,diagonal,60,10,14,2,14.29
+diff 1 s,diagonal,60,10,14,1,7.14
+diff 2 s,diagonal,60,10,13,2,15.38
+fit 0.25 s,diagonal,60,10,14,2,14.29
+fit 0.5 s,diagonal,60,10,14,2,14.29
+fit 1 s,diagonal,60,10,14,4,28.57
+fit 2 s,diagonal,60,10,13,11,84.62
+Kalman,diagonal,60,11,14,10,71.43
+diff 0.25 s,diagonal,60,11,14,1,7.14
+diff 0.5 s,diagonal,60,11,14,0,0.0
+diff 1 s,diagonal,60,11,14,2,14.29
+diff 2 s,diagonal,60,11,13,3,23.08
+fit 0.25 s,diagonal,60,11,14,3,21.43
+fit 0.5 s,diagonal,60,11,14,6,42.86
+fit 1 s,diagonal,60,11,14,5,35.71
+fit 2 s,diagonal,60,11,13,11,84.62
+Kalman,diagonal,60,12,14,11,78.57
+diff 0.25 s,diagonal,60,12,14,2,14.29
+diff 0.5 s,diagonal,60,12,14,3,21.43
+diff 1 s,diagonal,60,12,14,2,14.29
+diff 2 s,diagonal,60,12,13,0,0.0
+fit 0.25 s,diagonal,60,12,14,1,7.14
+fit 0.5 s,diagonal,60,12,14,2,14.29
+fit 1 s,diagonal,60,12,14,6,42.86
+fit 2 s,diagonal,60,12,13,10,76.92
+Kalman,diagonal,60,13,14,10,71.43
+diff 0.25 s,diagonal,60,13,14,1,7.14
+diff 0.5 s,diagonal,60,13,14,2,14.29
+diff 1 s,diagonal,60,13,14,2,14.29
+diff 2 s,diagonal,60,13,13,3,23.08
+fit 0.25 s,diagonal,60,13,14,1,7.14
+fit 0.5 s,diagonal,60,13,14,2,14.29
+fit 1 s,diagonal,60,13,14,7,50.0
+fit 2 s,diagonal,60,13,13,5,38.46
+Kalman,diagonal,60,14,14,11,78.57
+diff 0.25 s,diagonal,60,14,14,1,7.14
+diff 0.5 s,diagonal,60,14,14,0,0.0
+diff 1 s,diagonal,60,14,14,2,14.29
+diff 2 s,diagonal,60,14,13,4,30.77
+fit 0.25 s,diagonal,60,14,14,1,7.14
+fit 0.5 s,diagonal,60,14,14,6,42.86
+fit 1 s,diagonal,60,14,14,5,35.71
+fit 2 s,diagonal,60,14,13,7,53.85
+Kalman,diagonal,60,15,14,7,50.0
+diff 0.25 s,diagonal,60,15,14,0,0.0
+diff 0.5 s,diagonal,60,15,14,1,7.14
+diff 1 s,diagonal,60,15,14,1,7.14
+diff 2 s,diagonal,60,15,13,3,23.08
+fit 0.25 s,diagonal,60,15,14,2,14.29
+fit 0.5 s,diagonal,60,15,14,2,14.29
+fit 1 s,diagonal,60,15,14,4,28.57
+fit 2 s,diagonal,60,15,13,6,46.15
+Kalman,diagonal,60,16,14,11,78.57
+diff 0.25 s,diagonal,60,16,14,1,7.14
+diff 0.5 s,diagonal,60,16,14,1,7.14
+diff 1 s,diagonal,60,16,14,2,14.29
+diff 2 s,diagonal,60,16,13,3,23.08
+fit 0.25 s,diagonal,60,16,14,2,14.29
+fit 0.5 s,diagonal,60,16,14,1,7.14
+fit 1 s,diagonal,60,16,14,4,28.57
+fit 2 s,diagonal,60,16,13,9,69.23
+Kalman,diagonal,60,17,14,11,78.57
+diff 0.25 s,diagonal,60,17,14,0,0.0
+diff 0.5 s,diagonal,60,17,14,1,7.14
+diff 1 s,diagonal,60,17,14,1,7.14
+diff 2 s,diagonal,60,17,13,2,15.38
+fit 0.25 s,diagonal,60,17,14,4,28.57
+fit 0.5 s,diagonal,60,17,14,2,14.29
+fit 1 s,diagonal,60,17,14,6,42.86
+fit 2 s,diagonal,60,17,13,11,84.62
+Kalman,diagonal,60,18,14,7,50.0
+diff 0.25 s,diagonal,60,18,14,0,0.0
+diff 0.5 s,diagonal,60,18,14,1,7.14
+diff 1 s,diagonal,60,18,14,1,7.14
+diff 2 s,diagonal,60,18,13,0,0.0
+fit 0.25 s,diagonal,60,18,14,0,0.0
+fit 0.5 s,diagonal,60,18,14,3,21.43
+fit 1 s,diagonal,60,18,14,5,35.71
+fit 2 s,diagonal,60,18,13,5,38.46
+Kalman,diagonal,60,19,14,9,64.29
+diff 0.25 s,diagonal,60,19,14,1,7.14
+diff 0.5 s,diagonal,60,19,14,0,0.0
+diff 1 s,diagonal,60,19,14,1,7.14
+diff 2 s,diagonal,60,19,13,2,15.38
+fit 0.25 s,diagonal,60,19,14,0,0.0
+fit 0.5 s,diagonal,60,19,14,1,7.14
+fit 1 s,diagonal,60,19,14,4,28.57
+fit 2 s,diagonal,60,19,13,8,61.54
+Kalman,diagonal,60,20,14,9,64.29
+diff 0.25 s,diagonal,60,20,14,1,7.14
+diff 0.5 s,diagonal,60,20,14,1,7.14
+diff 1 s,diagonal,60,20,14,0,0.0
+diff 2 s,diagonal,60,20,13,3,23.08
+fit 0.25 s,diagonal,60,20,14,2,14.29
+fit 0.5 s,diagonal,60,20,14,2,14.29
+fit 1 s,diagonal,60,20,14,2,14.29
+fit 2 s,diagonal,60,20,13,6,46.15
+Kalman,diagonal,60,21,14,10,71.43
+diff 0.25 s,diagonal,60,21,14,0,0.0
+diff 0.5 s,diagonal,60,21,14,1,7.14
+diff 1 s,diagonal,60,21,14,2,14.29
+diff 2 s,diagonal,60,21,13,1,7.69
+fit 0.25 s,diagonal,60,21,14,1,7.14
+fit 0.5 s,diagonal,60,21,14,3,21.43
+fit 1 s,diagonal,60,21,14,7,50.0
+fit 2 s,diagonal,60,21,13,7,53.85
+Kalman,diagonal,60,22,14,8,57.14
+diff 0.25 s,diagonal,60,22,14,1,7.14
+diff 0.5 s,diagonal,60,22,14,1,7.14
+diff 1 s,diagonal,60,22,14,2,14.29
+diff 2 s,diagonal,60,22,13,2,15.38
+fit 0.25 s,diagonal,60,22,14,0,0.0
+fit 0.5 s,diagonal,60,22,14,2,14.29
+fit 1 s,diagonal,60,22,14,4,28.57
+fit 2 s,diagonal,60,22,13,7,53.85
+Kalman,diagonal,60,23,14,7,50.0
+diff 0.25 s,diagonal,60,23,14,1,7.14
+diff 0.5 s,diagonal,60,23,14,2,14.29
+diff 1 s,diagonal,60,23,14,1,7.14
+diff 2 s,diagonal,60,23,13,4,30.77
+fit 0.25 s,diagonal,60,23,14,2,14.29
+fit 0.5 s,diagonal,60,23,14,2,14.29
+fit 1 s,diagonal,60,23,14,4,28.57
+fit 2 s,diagonal,60,23,13,7,53.85
+Kalman,diagonal,60,24,14,12,85.71
+diff 0.25 s,diagonal,60,24,14,0,0.0
+diff 0.5 s,diagonal,60,24,14,0,0.0
+diff 1 s,diagonal,60,24,14,2,14.29
+diff 2 s,diagonal,60,24,13,1,7.69
+fit 0.25 s,diagonal,60,24,14,2,14.29
+fit 0.5 s,diagonal,60,24,14,3,21.43
+fit 1 s,diagonal,60,24,14,7,50.0
+fit 2 s,diagonal,60,24,13,7,53.85
+Kalman,diagonal,60,25,14,10,71.43
+diff 0.25 s,diagonal,60,25,14,0,0.0
+diff 0.5 s,diagonal,60,25,14,1,7.14
+diff 1 s,diagonal,60,25,14,2,14.29
+diff 2 s,diagonal,60,25,13,2,15.38
+fit 0.25 s,diagonal,60,25,14,1,7.14
+fit 0.5 s,diagonal,60,25,14,3,21.43
+fit 1 s,diagonal,60,25,14,4,28.57
+fit 2 s,diagonal,60,25,13,8,61.54
+Kalman,diagonal,60,26,14,11,78.57
+diff 0.25 s,diagonal,60,26,14,0,0.0
+diff 0.5 s,diagonal,60,26,14,1,7.14
+diff 1 s,diagonal,60,26,14,2,14.29
+diff 2 s,diagonal,60,26,13,3,23.08
+fit 0.25 s,diagonal,60,26,14,2,14.29
+fit 0.5 s,diagonal,60,26,14,4,28.57
+fit 1 s,diagonal,60,26,14,3,21.43
+fit 2 s,diagonal,60,26,13,7,53.85
+Kalman,diagonal,60,27,14,11,78.57
+diff 0.25 s,diagonal,60,27,14,2,14.29
+diff 0.5 s,diagonal,60,27,14,1,7.14
+diff 1 s,diagonal,60,27,14,2,14.29
+diff 2 s,diagonal,60,27,13,2,15.38
+fit 0.25 s,diagonal,60,27,14,0,0.0
+fit 0.5 s,diagonal,60,27,14,3,21.43
+fit 1 s,diagonal,60,27,14,6,42.86
+fit 2 s,diagonal,60,27,13,10,76.92
+Kalman,diagonal,60,28,14,5,35.71
+diff 0.25 s,diagonal,60,28,14,2,14.29
+diff 0.5 s,diagonal,60,28,14,1,7.14
+diff 1 s,diagonal,60,28,14,2,14.29
+diff 2 s,diagonal,60,28,13,2,15.38
+fit 0.25 s,diagonal,60,28,14,2,14.29
+fit 0.5 s,diagonal,60,28,14,4,28.57
+fit 1 s,diagonal,60,28,14,2,14.29
+fit 2 s,diagonal,60,28,13,4,30.77
+Kalman,diagonal,60,29,14,10,71.43
+diff 0.25 s,diagonal,60,29,14,0,0.0
+diff 0.5 s,diagonal,60,29,14,0,0.0
+diff 1 s,diagonal,60,29,14,0,0.0
+diff 2 s,diagonal,60,29,13,3,23.08
+fit 0.25 s,diagonal,60,29,14,1,7.14
+fit 0.5 s,diagonal,60,29,14,1,7.14
+fit 1 s,diagonal,60,29,14,3,21.43
+fit 2 s,diagonal,60,29,13,10,76.92
+Kalman,diagonal,60,30,14,10,71.43
+diff 0.25 s,diagonal,60,30,14,1,7.14
+diff 0.5 s,diagonal,60,30,14,1,7.14
+diff 1 s,diagonal,60,30,14,1,7.14
+diff 2 s,diagonal,60,30,13,5,38.46
+fit 0.25 s,diagonal,60,30,14,1,7.14
+fit 0.5 s,diagonal,60,30,14,4,28.57
+fit 1 s,diagonal,60,30,14,6,42.86
+fit 2 s,diagonal,60,30,13,10,76.92
+Kalman,diagonal,100,1,14,9,64.29
+diff 0.25 s,diagonal,100,1,14,0,0.0
+diff 0.5 s,diagonal,100,1,14,0,0.0
+diff 1 s,diagonal,100,1,14,1,7.14
+diff 2 s,diagonal,100,1,13,0,0.0
+fit 0.25 s,diagonal,100,1,14,0,0.0
+fit 0.5 s,diagonal,100,1,14,5,35.71
+fit 1 s,diagonal,100,1,14,2,14.29
+fit 2 s,diagonal,100,1,13,6,46.15
+Kalman,diagonal,100,2,14,8,57.14
+diff 0.25 s,diagonal,100,2,14,0,0.0
+diff 0.5 s,diagonal,100,2,14,2,14.29
+diff 1 s,diagonal,100,2,14,1,7.14
+diff 2 s,diagonal,100,2,13,1,7.69
+fit 0.25 s,diagonal,100,2,14,0,0.0
+fit 0.5 s,diagonal,100,2,14,2,14.29
+fit 1 s,diagonal,100,2,14,5,35.71
+fit 2 s,diagonal,100,2,13,9,69.23
+Kalman,diagonal,100,3,14,11,78.57
+diff 0.25 s,diagonal,100,3,14,0,0.0
+diff 0.5 s,diagonal,100,3,14,1,7.14
+diff 1 s,diagonal,100,3,14,0,0.0
+diff 2 s,diagonal,100,3,13,1,7.69
+fit 0.25 s,diagonal,100,3,14,0,0.0
+fit 0.5 s,diagonal,100,3,14,4,28.57
+fit 1 s,diagonal,100,3,14,6,42.86
+fit 2 s,diagonal,100,3,13,4,30.77
+Kalman,diagonal,100,4,14,7,50.0
+diff 0.25 s,diagonal,100,4,14,1,7.14
+diff 0.5 s,diagonal,100,4,14,0,0.0
+diff 1 s,diagonal,100,4,14,1,7.14
+diff 2 s,diagonal,100,4,13,1,7.69
+fit 0.25 s,diagonal,100,4,14,0,0.0
+fit 0.5 s,diagonal,100,4,14,1,7.14
+fit 1 s,diagonal,100,4,14,1,7.14
+fit 2 s,diagonal,100,4,13,4,30.77
+Kalman,diagonal,100,5,14,9,64.29
+diff 0.25 s,diagonal,100,5,14,0,0.0
+diff 0.5 s,diagonal,100,5,14,2,14.29
+diff 1 s,diagonal,100,5,14,2,14.29
+diff 2 s,diagonal,100,5,13,0,0.0
+fit 0.25 s,diagonal,100,5,14,0,0.0
+fit 0.5 s,diagonal,100,5,14,0,0.0
+fit 1 s,diagonal,100,5,14,3,21.43
+fit 2 s,diagonal,100,5,13,6,46.15
+Kalman,diagonal,100,6,14,4,28.57
+diff 0.25 s,diagonal,100,6,14,0,0.0
+diff 0.5 s,diagonal,100,6,14,0,0.0
+diff 1 s,diagonal,100,6,14,2,14.29
+diff 2 s,diagonal,100,6,13,3,23.08
+fit 0.25 s,diagonal,100,6,14,0,0.0
+fit 0.5 s,diagonal,100,6,14,0,0.0
+fit 1 s,diagonal,100,6,14,4,28.57
+fit 2 s,diagonal,100,6,13,4,30.77
+Kalman,diagonal,100,7,14,10,71.43
+diff 0.25 s,diagonal,100,7,14,0,0.0
+diff 0.5 s,diagonal,100,7,14,0,0.0
+diff 1 s,diagonal,100,7,14,1,7.14
+diff 2 s,diagonal,100,7,13,1,7.69
+fit 0.25 s,diagonal,100,7,14,1,7.14
+fit 0.5 s,diagonal,100,7,14,4,28.57
+fit 1 s,diagonal,100,7,14,4,28.57
+fit 2 s,diagonal,100,7,13,7,53.85
+Kalman,diagonal,100,8,14,4,28.57
+diff 0.25 s,diagonal,100,8,14,0,0.0
+diff 0.5 s,diagonal,100,8,14,1,7.14
+diff 1 s,diagonal,100,8,14,0,0.0
+diff 2 s,diagonal,100,8,13,0,0.0
+fit 0.25 s,diagonal,100,8,14,1,7.14
+fit 0.5 s,diagonal,100,8,14,1,7.14
+fit 1 s,diagonal,100,8,14,2,14.29
+fit 2 s,diagonal,100,8,13,5,38.46
+Kalman,diagonal,100,9,14,6,42.86
+diff 0.25 s,diagonal,100,9,14,0,0.0
+diff 0.5 s,diagonal,100,9,14,0,0.0
+diff 1 s,diagonal,100,9,14,1,7.14
+diff 2 s,diagonal,100,9,13,2,15.38
+fit 0.25 s,diagonal,100,9,14,0,0.0
+fit 0.5 s,diagonal,100,9,14,1,7.14
+fit 1 s,diagonal,100,9,14,4,28.57
+fit 2 s,diagonal,100,9,13,8,61.54
+Kalman,diagonal,100,10,14,9,64.29
+diff 0.25 s,diagonal,100,10,14,0,0.0
+diff 0.5 s,diagonal,100,10,14,1,7.14
+diff 1 s,diagonal,100,10,14,1,7.14
+diff 2 s,diagonal,100,10,13,2,15.38
+fit 0.25 s,diagonal,100,10,14,2,14.29
+fit 0.5 s,diagonal,100,10,14,0,0.0
+fit 1 s,diagonal,100,10,14,3,21.43
+fit 2 s,diagonal,100,10,13,10,76.92
+Kalman,diagonal,100,11,14,10,71.43
+diff 0.25 s,diagonal,100,11,14,1,7.14
+diff 0.5 s,diagonal,100,11,14,0,0.0
+diff 1 s,diagonal,100,11,14,1,7.14
+diff 2 s,diagonal,100,11,13,1,7.69
+fit 0.25 s,diagonal,100,11,14,2,14.29
+fit 0.5 s,diagonal,100,11,14,4,28.57
+fit 1 s,diagonal,100,11,14,3,21.43
+fit 2 s,diagonal,100,11,13,9,69.23
+Kalman,diagonal,100,12,14,10,71.43
+diff 0.25 s,diagonal,100,12,14,0,0.0
+diff 0.5 s,diagonal,100,12,14,1,7.14
+diff 1 s,diagonal,100,12,14,1,7.14
+diff 2 s,diagonal,100,12,13,0,0.0
+fit 0.25 s,diagonal,100,12,14,0,0.0
+fit 0.5 s,diagonal,100,12,14,1,7.14
+fit 1 s,diagonal,100,12,14,6,42.86
+fit 2 s,diagonal,100,12,13,9,69.23
+Kalman,diagonal,100,13,14,9,64.29
+diff 0.25 s,diagonal,100,13,14,0,0.0
+diff 0.5 s,diagonal,100,13,14,1,7.14
+diff 1 s,diagonal,100,13,14,0,0.0
+diff 2 s,diagonal,100,13,13,2,15.38
+fit 0.25 s,diagonal,100,13,14,0,0.0
+fit 0.5 s,diagonal,100,13,14,2,14.29
+fit 1 s,diagonal,100,13,14,5,35.71
+fit 2 s,diagonal,100,13,13,5,38.46
+Kalman,diagonal,100,14,14,10,71.43
+diff 0.25 s,diagonal,100,14,14,1,7.14
+diff 0.5 s,diagonal,100,14,14,0,0.0
+diff 1 s,diagonal,100,14,14,2,14.29
+diff 2 s,diagonal,100,14,13,3,23.08
+fit 0.25 s,diagonal,100,14,14,0,0.0
+fit 0.5 s,diagonal,100,14,14,1,7.14
+fit 1 s,diagonal,100,14,14,4,28.57
+fit 2 s,diagonal,100,14,13,6,46.15
+Kalman,diagonal,100,15,14,5,35.71
+diff 0.25 s,diagonal,100,15,14,0,0.0
+diff 0.5 s,diagonal,100,15,14,1,7.14
+diff 1 s,diagonal,100,15,14,1,7.14
+diff 2 s,diagonal,100,15,13,1,7.69
+fit 0.25 s,diagonal,100,15,14,1,7.14
+fit 0.5 s,diagonal,100,15,14,1,7.14
+fit 1 s,diagonal,100,15,14,0,0.0
+fit 2 s,diagonal,100,15,13,5,38.46
+Kalman,diagonal,100,16,14,9,64.29
+diff 0.25 s,diagonal,100,16,14,1,7.14
+diff 0.5 s,diagonal,100,16,14,1,7.14
+diff 1 s,diagonal,100,16,14,1,7.14
+diff 2 s,diagonal,100,16,13,2,15.38
+fit 0.25 s,diagonal,100,16,14,1,7.14
+fit 0.5 s,diagonal,100,16,14,0,0.0
+fit 1 s,diagonal,100,16,14,3,21.43
+fit 2 s,diagonal,100,16,13,6,46.15
+Kalman,diagonal,100,17,14,10,71.43
+diff 0.25 s,diagonal,100,17,14,0,0.0
+diff 0.5 s,diagonal,100,17,14,0,0.0
+diff 1 s,diagonal,100,17,14,1,7.14
+diff 2 s,diagonal,100,17,13,2,15.38
+fit 0.25 s,diagonal,100,17,14,3,21.43
+fit 0.5 s,diagonal,100,17,14,1,7.14
+fit 1 s,diagonal,100,17,14,4,28.57
+fit 2 s,diagonal,100,17,13,6,46.15
+Kalman,diagonal,100,18,14,5,35.71
+diff 0.25 s,diagonal,100,18,14,0,0.0
+diff 0.5 s,diagonal,100,18,14,1,7.14
+diff 1 s,diagonal,100,18,14,0,0.0
+diff 2 s,diagonal,100,18,13,0,0.0
+fit 0.25 s,diagonal,100,18,14,0,0.0
+fit 0.5 s,diagonal,100,18,14,2,14.29
+fit 1 s,diagonal,100,18,14,2,14.29
+fit 2 s,diagonal,100,18,13,3,23.08
+Kalman,diagonal,100,19,14,9,64.29
+diff 0.25 s,diagonal,100,19,14,1,7.14
+diff 0.5 s,diagonal,100,19,14,1,7.14
+diff 1 s,diagonal,100,19,14,0,0.0
+diff 2 s,diagonal,100,19,13,1,7.69
+fit 0.25 s,diagonal,100,19,14,0,0.0
+fit 0.5 s,diagonal,100,19,14,0,0.0
+fit 1 s,diagonal,100,19,14,2,14.29
+fit 2 s,diagonal,100,19,13,6,46.15
+Kalman,diagonal,100,20,14,7,50.0
+diff 0.25 s,diagonal,100,20,14,1,7.14
+diff 0.5 s,diagonal,100,20,14,0,0.0
+diff 1 s,diagonal,100,20,14,0,0.0
+diff 2 s,diagonal,100,20,13,1,7.69
+fit 0.25 s,diagonal,100,20,14,1,7.14
+fit 0.5 s,diagonal,100,20,14,1,7.14
+fit 1 s,diagonal,100,20,14,1,7.14
+fit 2 s,diagonal,100,20,13,5,38.46
+Kalman,diagonal,100,21,14,8,57.14
+diff 0.25 s,diagonal,100,21,14,1,7.14
+diff 0.5 s,diagonal,100,21,14,1,7.14
+diff 1 s,diagonal,100,21,14,2,14.29
+diff 2 s,diagonal,100,21,13,1,7.69
+fit 0.25 s,diagonal,100,21,14,1,7.14
+fit 0.5 s,diagonal,100,21,14,2,14.29
+fit 1 s,diagonal,100,21,14,5,35.71
+fit 2 s,diagonal,100,21,13,6,46.15
+Kalman,diagonal,100,22,14,1,7.14
+diff 0.25 s,diagonal,100,22,14,0,0.0
+diff 0.5 s,diagonal,100,22,14,0,0.0
+diff 1 s,diagonal,100,22,14,1,7.14
+diff 2 s,diagonal,100,22,13,1,7.69
+fit 0.25 s,diagonal,100,22,14,0,0.0
+fit 0.5 s,diagonal,100,22,14,1,7.14
+fit 1 s,diagonal,100,22,14,2,14.29
+fit 2 s,diagonal,100,22,13,3,23.08
+Kalman,diagonal,100,23,14,6,42.86
+diff 0.25 s,diagonal,100,23,14,1,7.14
+diff 0.5 s,diagonal,100,23,14,1,7.14
+diff 1 s,diagonal,100,23,14,0,0.0
+diff 2 s,diagonal,100,23,13,3,23.08
+fit 0.25 s,diagonal,100,23,14,2,14.29
+fit 0.5 s,diagonal,100,23,14,1,7.14
+fit 1 s,diagonal,100,23,14,2,14.29
+fit 2 s,diagonal,100,23,13,7,53.85
+Kalman,diagonal,100,24,14,10,71.43
+diff 0.25 s,diagonal,100,24,14,0,0.0
+diff 0.5 s,diagonal,100,24,14,1,7.14
+diff 1 s,diagonal,100,24,14,1,7.14
+diff 2 s,diagonal,100,24,13,1,7.69
+fit 0.25 s,diagonal,100,24,14,1,7.14
+fit 0.5 s,diagonal,100,24,14,1,7.14
+fit 1 s,diagonal,100,24,14,6,42.86
+fit 2 s,diagonal,100,24,13,2,15.38
+Kalman,diagonal,100,25,14,10,71.43
+diff 0.25 s,diagonal,100,25,14,0,0.0
+diff 0.5 s,diagonal,100,25,14,1,7.14
+diff 1 s,diagonal,100,25,14,1,7.14
+diff 2 s,diagonal,100,25,13,1,7.69
+fit 0.25 s,diagonal,100,25,14,0,0.0
+fit 0.5 s,diagonal,100,25,14,2,14.29
+fit 1 s,diagonal,100,25,14,4,28.57
+fit 2 s,diagonal,100,25,13,5,38.46
+Kalman,diagonal,100,26,14,9,64.29
+diff 0.25 s,diagonal,100,26,14,0,0.0
+diff 0.5 s,diagonal,100,26,14,1,7.14
+diff 1 s,diagonal,100,26,14,2,14.29
+diff 2 s,diagonal,100,26,13,2,15.38
+fit 0.25 s,diagonal,100,26,14,1,7.14
+fit 0.5 s,diagonal,100,26,14,3,21.43
+fit 1 s,diagonal,100,26,14,1,7.14
+fit 2 s,diagonal,100,26,13,3,23.08
+Kalman,diagonal,100,27,14,10,71.43
+diff 0.25 s,diagonal,100,27,14,1,7.14
+diff 0.5 s,diagonal,100,27,14,0,0.0
+diff 1 s,diagonal,100,27,14,2,14.29
+diff 2 s,diagonal,100,27,13,1,7.69
+fit 0.25 s,diagonal,100,27,14,0,0.0
+fit 0.5 s,diagonal,100,27,14,2,14.29
+fit 1 s,diagonal,100,27,14,5,35.71
+fit 2 s,diagonal,100,27,13,8,61.54
+Kalman,diagonal,100,28,14,1,7.14
+diff 0.25 s,diagonal,100,28,14,2,14.29
+diff 0.5 s,diagonal,100,28,14,0,0.0
+diff 1 s,diagonal,100,28,14,2,14.29
+diff 2 s,diagonal,100,28,13,1,7.69
+fit 0.25 s,diagonal,100,28,14,1,7.14
+fit 0.5 s,diagonal,100,28,14,2,14.29
+fit 1 s,diagonal,100,28,14,1,7.14
+fit 2 s,diagonal,100,28,13,2,15.38
+Kalman,diagonal,100,29,14,9,64.29
+diff 0.25 s,diagonal,100,29,14,0,0.0
+diff 0.5 s,diagonal,100,29,14,0,0.0
+diff 1 s,diagonal,100,29,14,0,0.0
+diff 2 s,diagonal,100,29,13,2,15.38
+fit 0.25 s,diagonal,100,29,14,0,0.0
+fit 0.5 s,diagonal,100,29,14,1,7.14
+fit 1 s,diagonal,100,29,14,2,14.29
+fit 2 s,diagonal,100,29,13,6,46.15
+Kalman,diagonal,100,30,14,8,57.14
+diff 0.25 s,diagonal,100,30,14,0,0.0
+diff 0.5 s,diagonal,100,30,14,1,7.14
+diff 1 s,diagonal,100,30,14,1,7.14
+diff 2 s,diagonal,100,30,13,2,15.38
+fit 0.25 s,diagonal,100,30,14,0,0.0
+fit 0.5 s,diagonal,100,30,14,4,28.57
+fit 1 s,diagonal,100,30,14,5,35.71
+fit 2 s,diagonal,100,30,13,3,23.08
+Kalman,turning,5,1,15,10,66.67
+diff 0.25 s,turning,5,1,15,5,33.33
+diff 0.5 s,turning,5,1,15,7,46.67
+diff 1 s,turning,5,1,14,7,50.0
+diff 2 s,turning,5,1,13,6,46.15
+fit 0.25 s,turning,5,1,15,7,46.67
+fit 0.5 s,turning,5,1,15,11,73.33
+fit 1 s,turning,5,1,14,9,64.29
+fit 2 s,turning,5,1,13,6,46.15
+Kalman,turning,5,2,15,11,73.33
+diff 0.25 s,turning,5,2,15,9,60.0
+diff 0.5 s,turning,5,2,15,10,66.67
+diff 1 s,turning,5,2,14,8,57.14
+diff 2 s,turning,5,2,13,10,76.92
+fit 0.25 s,turning,5,2,15,9,60.0
+fit 0.5 s,turning,5,2,15,11,73.33
+fit 1 s,turning,5,2,14,11,78.57
+fit 2 s,turning,5,2,13,9,69.23
+Kalman,turning,5,3,15,10,66.67
+diff 0.25 s,turning,5,3,15,5,33.33
+diff 0.5 s,turning,5,3,15,7,46.67
+diff 1 s,turning,5,3,14,8,57.14
+diff 2 s,turning,5,3,13,8,61.54
+fit 0.25 s,turning,5,3,15,9,60.0
+fit 0.5 s,turning,5,3,15,11,73.33
+fit 1 s,turning,5,3,14,8,57.14
+fit 2 s,turning,5,3,13,8,61.54
+Kalman,turning,5,4,15,9,60.0
+diff 0.25 s,turning,5,4,15,3,20.0
+diff 0.5 s,turning,5,4,15,6,40.0
+diff 1 s,turning,5,4,14,10,71.43
+diff 2 s,turning,5,4,13,7,53.85
+fit 0.25 s,turning,5,4,15,8,53.33
+fit 0.5 s,turning,5,4,15,10,66.67
+fit 1 s,turning,5,4,14,10,71.43
+fit 2 s,turning,5,4,13,8,61.54
+Kalman,turning,5,5,15,9,60.0
+diff 0.25 s,turning,5,5,15,6,40.0
+diff 0.5 s,turning,5,5,15,7,46.67
+diff 1 s,turning,5,5,14,9,64.29
+diff 2 s,turning,5,5,13,9,69.23
+fit 0.25 s,turning,5,5,15,10,66.67
+fit 0.5 s,turning,5,5,15,10,66.67
+fit 1 s,turning,5,5,14,9,64.29
+fit 2 s,turning,5,5,13,9,69.23
+Kalman,turning,5,6,15,10,66.67
+diff 0.25 s,turning,5,6,15,3,20.0
+diff 0.5 s,turning,5,6,15,6,40.0
+diff 1 s,turning,5,6,14,8,57.14
+diff 2 s,turning,5,6,13,8,61.54
+fit 0.25 s,turning,5,6,15,7,46.67
+fit 0.5 s,turning,5,6,15,11,73.33
+fit 1 s,turning,5,6,14,11,78.57
+fit 2 s,turning,5,6,13,8,61.54
+Kalman,turning,5,7,15,10,66.67
+diff 0.25 s,turning,5,7,15,5,33.33
+diff 0.5 s,turning,5,7,15,8,53.33
+diff 1 s,turning,5,7,14,9,64.29
+diff 2 s,turning,5,7,13,9,69.23
+fit 0.25 s,turning,5,7,15,10,66.67
+fit 0.5 s,turning,5,7,15,11,73.33
+fit 1 s,turning,5,7,14,10,71.43
+fit 2 s,turning,5,7,13,8,61.54
+Kalman,turning,5,8,15,9,60.0
+diff 0.25 s,turning,5,8,15,6,40.0
+diff 0.5 s,turning,5,8,15,7,46.67
+diff 1 s,turning,5,8,14,7,50.0
+diff 2 s,turning,5,8,13,5,38.46
+fit 0.25 s,turning,5,8,15,9,60.0
+fit 0.5 s,turning,5,8,15,10,66.67
+fit 1 s,turning,5,8,14,9,64.29
+fit 2 s,turning,5,8,13,7,53.85
+Kalman,turning,5,9,15,9,60.0
+diff 0.25 s,turning,5,9,15,4,26.67
+diff 0.5 s,turning,5,9,15,9,60.0
+diff 1 s,turning,5,9,14,10,71.43
+diff 2 s,turning,5,9,13,9,69.23
+fit 0.25 s,turning,5,9,15,7,46.67
+fit 0.5 s,turning,5,9,15,10,66.67
+fit 1 s,turning,5,9,14,11,78.57
+fit 2 s,turning,5,9,13,8,61.54
+Kalman,turning,5,10,15,10,66.67
+diff 0.25 s,turning,5,10,15,3,20.0
+diff 0.5 s,turning,5,10,15,5,33.33
+diff 1 s,turning,5,10,14,10,71.43
+diff 2 s,turning,5,10,13,10,76.92
+fit 0.25 s,turning,5,10,15,7,46.67
+fit 0.5 s,turning,5,10,15,10,66.67
+fit 1 s,turning,5,10,14,11,78.57
+fit 2 s,turning,5,10,13,8,61.54
+Kalman,turning,5,11,15,10,66.67
+diff 0.25 s,turning,5,11,15,5,33.33
+diff 0.5 s,turning,5,11,15,8,53.33
+diff 1 s,turning,5,11,14,9,64.29
+diff 2 s,turning,5,11,13,8,61.54
+fit 0.25 s,turning,5,11,15,9,60.0
+fit 0.5 s,turning,5,11,15,10,66.67
+fit 1 s,turning,5,11,14,10,71.43
+fit 2 s,turning,5,11,13,8,61.54
+Kalman,turning,5,12,15,10,66.67
+diff 0.25 s,turning,5,12,15,7,46.67
+diff 0.5 s,turning,5,12,15,10,66.67
+diff 1 s,turning,5,12,14,9,64.29
+diff 2 s,turning,5,12,13,8,61.54
+fit 0.25 s,turning,5,12,15,8,53.33
+fit 0.5 s,turning,5,12,15,10,66.67
+fit 1 s,turning,5,12,14,11,78.57
+fit 2 s,turning,5,12,13,8,61.54
+Kalman,turning,5,13,15,10,66.67
+diff 0.25 s,turning,5,13,15,5,33.33
+diff 0.5 s,turning,5,13,15,9,60.0
+diff 1 s,turning,5,13,14,11,78.57
+diff 2 s,turning,5,13,13,7,53.85
+fit 0.25 s,turning,5,13,15,10,66.67
+fit 0.5 s,turning,5,13,15,11,73.33
+fit 1 s,turning,5,13,14,10,71.43
+fit 2 s,turning,5,13,13,9,69.23
+Kalman,turning,5,14,15,10,66.67
+diff 0.25 s,turning,5,14,15,6,40.0
+diff 0.5 s,turning,5,14,15,11,73.33
+diff 1 s,turning,5,14,14,9,64.29
+diff 2 s,turning,5,14,13,8,61.54
+fit 0.25 s,turning,5,14,15,8,53.33
+fit 0.5 s,turning,5,14,15,11,73.33
+fit 1 s,turning,5,14,14,9,64.29
+fit 2 s,turning,5,14,13,7,53.85
+Kalman,turning,5,15,15,10,66.67
+diff 0.25 s,turning,5,15,15,4,26.67
+diff 0.5 s,turning,5,15,15,6,40.0
+diff 1 s,turning,5,15,14,9,64.29
+diff 2 s,turning,5,15,13,8,61.54
+fit 0.25 s,turning,5,15,15,8,53.33
+fit 0.5 s,turning,5,15,15,10,66.67
+fit 1 s,turning,5,15,14,11,78.57
+fit 2 s,turning,5,15,13,8,61.54
+Kalman,turning,5,16,15,9,60.0
+diff 0.25 s,turning,5,16,15,4,26.67
+diff 0.5 s,turning,5,16,15,9,60.0
+diff 1 s,turning,5,16,14,10,71.43
+diff 2 s,turning,5,16,13,9,69.23
+fit 0.25 s,turning,5,16,15,6,40.0
+fit 0.5 s,turning,5,16,15,9,60.0
+fit 1 s,turning,5,16,14,11,78.57
+fit 2 s,turning,5,16,13,8,61.54
+Kalman,turning,5,17,15,10,66.67
+diff 0.25 s,turning,5,17,15,9,60.0
+diff 0.5 s,turning,5,17,15,9,60.0
+diff 1 s,turning,5,17,14,7,50.0
+diff 2 s,turning,5,17,13,10,76.92
+fit 0.25 s,turning,5,17,15,10,66.67
+fit 0.5 s,turning,5,17,15,10,66.67
+fit 1 s,turning,5,17,14,11,78.57
+fit 2 s,turning,5,17,13,9,69.23
+Kalman,turning,5,18,15,10,66.67
+diff 0.25 s,turning,5,18,15,3,20.0
+diff 0.5 s,turning,5,18,15,10,66.67
+diff 1 s,turning,5,18,14,7,50.0
+diff 2 s,turning,5,18,13,8,61.54
+fit 0.25 s,turning,5,18,15,8,53.33
+fit 0.5 s,turning,5,18,15,11,73.33
+fit 1 s,turning,5,18,14,10,71.43
+fit 2 s,turning,5,18,13,8,61.54
+Kalman,turning,5,19,15,8,53.33
+diff 0.25 s,turning,5,19,15,4,26.67
+diff 0.5 s,turning,5,19,15,6,40.0
+diff 1 s,turning,5,19,14,9,64.29
+diff 2 s,turning,5,19,13,8,61.54
+fit 0.25 s,turning,5,19,15,8,53.33
+fit 0.5 s,turning,5,19,15,9,60.0
+fit 1 s,turning,5,19,14,9,64.29
+fit 2 s,turning,5,19,13,8,61.54
+Kalman,turning,5,20,15,10,66.67
+diff 0.25 s,turning,5,20,15,8,53.33
+diff 0.5 s,turning,5,20,15,8,53.33
+diff 1 s,turning,5,20,14,10,71.43
+diff 2 s,turning,5,20,13,7,53.85
+fit 0.25 s,turning,5,20,15,8,53.33
+fit 0.5 s,turning,5,20,15,10,66.67
+fit 1 s,turning,5,20,14,10,71.43
+fit 2 s,turning,5,20,13,8,61.54
+Kalman,turning,5,21,15,10,66.67
+diff 0.25 s,turning,5,21,15,7,46.67
+diff 0.5 s,turning,5,21,15,10,66.67
+diff 1 s,turning,5,21,14,7,50.0
+diff 2 s,turning,5,21,13,6,46.15
+fit 0.25 s,turning,5,21,15,8,53.33
+fit 0.5 s,turning,5,21,15,11,73.33
+fit 1 s,turning,5,21,14,10,71.43
+fit 2 s,turning,5,21,13,8,61.54
+Kalman,turning,5,22,15,9,60.0
+diff 0.25 s,turning,5,22,15,6,40.0
+diff 0.5 s,turning,5,22,15,11,73.33
+diff 1 s,turning,5,22,14,8,57.14
+diff 2 s,turning,5,22,13,8,61.54
+fit 0.25 s,turning,5,22,15,8,53.33
+fit 0.5 s,turning,5,22,15,10,66.67
+fit 1 s,turning,5,22,14,10,71.43
+fit 2 s,turning,5,22,13,8,61.54
+Kalman,turning,5,23,15,10,66.67
+diff 0.25 s,turning,5,23,15,8,53.33
+diff 0.5 s,turning,5,23,15,7,46.67
+diff 1 s,turning,5,23,14,10,71.43
+diff 2 s,turning,5,23,13,8,61.54
+fit 0.25 s,turning,5,23,15,8,53.33
+fit 0.5 s,turning,5,23,15,11,73.33
+fit 1 s,turning,5,23,14,10,71.43
+fit 2 s,turning,5,23,13,8,61.54
+Kalman,turning,5,24,15,9,60.0
+diff 0.25 s,turning,5,24,15,5,33.33
+diff 0.5 s,turning,5,24,15,7,46.67
+diff 1 s,turning,5,24,14,11,78.57
+diff 2 s,turning,5,24,13,8,61.54
+fit 0.25 s,turning,5,24,15,9,60.0
+fit 0.5 s,turning,5,24,15,10,66.67
+fit 1 s,turning,5,24,14,11,78.57
+fit 2 s,turning,5,24,13,8,61.54
+Kalman,turning,5,25,15,10,66.67
+diff 0.25 s,turning,5,25,15,3,20.0
+diff 0.5 s,turning,5,25,15,6,40.0
+diff 1 s,turning,5,25,14,8,57.14
+diff 2 s,turning,5,25,13,8,61.54
+fit 0.25 s,turning,5,25,15,7,46.67
+fit 0.5 s,turning,5,25,15,11,73.33
+fit 1 s,turning,5,25,14,11,78.57
+fit 2 s,turning,5,25,13,9,69.23
+Kalman,turning,5,26,15,10,66.67
+diff 0.25 s,turning,5,26,15,8,53.33
+diff 0.5 s,turning,5,26,15,10,66.67
+diff 1 s,turning,5,26,14,9,64.29
+diff 2 s,turning,5,26,13,8,61.54
+fit 0.25 s,turning,5,26,15,8,53.33
+fit 0.5 s,turning,5,26,15,11,73.33
+fit 1 s,turning,5,26,14,11,78.57
+fit 2 s,turning,5,26,13,8,61.54
+Kalman,turning,5,27,15,10,66.67
+diff 0.25 s,turning,5,27,15,7,46.67
+diff 0.5 s,turning,5,27,15,10,66.67
+diff 1 s,turning,5,27,14,8,57.14
+diff 2 s,turning,5,27,13,9,69.23
+fit 0.25 s,turning,5,27,15,7,46.67
+fit 0.5 s,turning,5,27,15,11,73.33
+fit 1 s,turning,5,27,14,11,78.57
+fit 2 s,turning,5,27,13,9,69.23
+Kalman,turning,5,28,15,9,60.0
+diff 0.25 s,turning,5,28,15,6,40.0
+diff 0.5 s,turning,5,28,15,7,46.67
+diff 1 s,turning,5,28,14,8,57.14
+diff 2 s,turning,5,28,13,7,53.85
+fit 0.25 s,turning,5,28,15,6,40.0
+fit 0.5 s,turning,5,28,15,10,66.67
+fit 1 s,turning,5,28,14,8,57.14
+fit 2 s,turning,5,28,13,7,53.85
+Kalman,turning,5,29,15,10,66.67
+diff 0.25 s,turning,5,29,15,9,60.0
+diff 0.5 s,turning,5,29,15,7,46.67
+diff 1 s,turning,5,29,14,8,57.14
+diff 2 s,turning,5,29,13,7,53.85
+fit 0.25 s,turning,5,29,15,9,60.0
+fit 0.5 s,turning,5,29,15,12,80.0
+fit 1 s,turning,5,29,14,9,64.29
+fit 2 s,turning,5,29,13,8,61.54
+Kalman,turning,5,30,15,10,66.67
+diff 0.25 s,turning,5,30,15,8,53.33
+diff 0.5 s,turning,5,30,15,9,60.0
+diff 1 s,turning,5,30,14,11,78.57
+diff 2 s,turning,5,30,13,9,69.23
+fit 0.25 s,turning,5,30,15,9,60.0
+fit 0.5 s,turning,5,30,15,11,73.33
+fit 1 s,turning,5,30,14,10,71.43
+fit 2 s,turning,5,30,13,8,61.54
+Kalman,turning,15,1,15,10,66.67
+diff 0.25 s,turning,15,1,15,2,13.33
+diff 0.5 s,turning,15,1,15,1,6.67
+diff 1 s,turning,15,1,14,7,50.0
+diff 2 s,turning,15,1,13,4,30.77
+fit 0.25 s,turning,15,1,15,7,46.67
+fit 0.5 s,turning,15,1,15,11,73.33
+fit 1 s,turning,15,1,14,7,50.0
+fit 2 s,turning,15,1,13,7,53.85
+Kalman,turning,15,2,15,9,60.0
+diff 0.25 s,turning,15,2,15,3,20.0
+diff 0.5 s,turning,15,2,15,7,46.67
+diff 1 s,turning,15,2,14,6,42.86
+diff 2 s,turning,15,2,13,7,53.85
+fit 0.25 s,turning,15,2,15,3,20.0
+fit 0.5 s,turning,15,2,15,8,53.33
+fit 1 s,turning,15,2,14,10,71.43
+fit 2 s,turning,15,2,13,9,69.23
+Kalman,turning,15,3,15,10,66.67
+diff 0.25 s,turning,15,3,15,2,13.33
+diff 0.5 s,turning,15,3,15,6,40.0
+diff 1 s,turning,15,3,14,4,28.57
+diff 2 s,turning,15,3,13,8,61.54
+fit 0.25 s,turning,15,3,15,4,26.67
+fit 0.5 s,turning,15,3,15,9,60.0
+fit 1 s,turning,15,3,14,8,57.14
+fit 2 s,turning,15,3,13,8,61.54
+Kalman,turning,15,4,15,9,60.0
+diff 0.25 s,turning,15,4,15,3,20.0
+diff 0.5 s,turning,15,4,15,3,20.0
+diff 1 s,turning,15,4,14,5,35.71
+diff 2 s,turning,15,4,13,8,61.54
+fit 0.25 s,turning,15,4,15,0,0.0
+fit 0.5 s,turning,15,4,15,5,33.33
+fit 1 s,turning,15,4,14,8,57.14
+fit 2 s,turning,15,4,13,8,61.54
+Kalman,turning,15,5,15,9,60.0
+diff 0.25 s,turning,15,5,15,1,6.67
+diff 0.5 s,turning,15,5,15,3,20.0
+diff 1 s,turning,15,5,14,6,42.86
+diff 2 s,turning,15,5,13,7,53.85
+fit 0.25 s,turning,15,5,15,5,33.33
+fit 0.5 s,turning,15,5,15,3,20.0
+fit 1 s,turning,15,5,14,8,57.14
+fit 2 s,turning,15,5,13,9,69.23
+Kalman,turning,15,6,15,10,66.67
+diff 0.25 s,turning,15,6,15,2,13.33
+diff 0.5 s,turning,15,6,15,3,20.0
+diff 1 s,turning,15,6,14,7,50.0
+diff 2 s,turning,15,6,13,6,46.15
+fit 0.25 s,turning,15,6,15,3,20.0
+fit 0.5 s,turning,15,6,15,7,46.67
+fit 1 s,turning,15,6,14,8,57.14
+fit 2 s,turning,15,6,13,9,69.23
+Kalman,turning,15,7,15,10,66.67
+diff 0.25 s,turning,15,7,15,3,20.0
+diff 0.5 s,turning,15,7,15,4,26.67
+diff 1 s,turning,15,7,14,5,35.71
+diff 2 s,turning,15,7,13,6,46.15
+fit 0.25 s,turning,15,7,15,1,6.67
+fit 0.5 s,turning,15,7,15,9,60.0
+fit 1 s,turning,15,7,14,8,57.14
+fit 2 s,turning,15,7,13,7,53.85
+Kalman,turning,15,8,15,9,60.0
+diff 0.25 s,turning,15,8,15,2,13.33
+diff 0.5 s,turning,15,8,15,4,26.67
+diff 1 s,turning,15,8,14,7,50.0
+diff 2 s,turning,15,8,13,2,15.38
+fit 0.25 s,turning,15,8,15,4,26.67
+fit 0.5 s,turning,15,8,15,7,46.67
+fit 1 s,turning,15,8,14,7,50.0
+fit 2 s,turning,15,8,13,7,53.85
+Kalman,turning,15,9,15,9,60.0
+diff 0.25 s,turning,15,9,15,2,13.33
+diff 0.5 s,turning,15,9,15,0,0.0
+diff 1 s,turning,15,9,14,4,28.57
+diff 2 s,turning,15,9,13,7,53.85
+fit 0.25 s,turning,15,9,15,3,20.0
+fit 0.5 s,turning,15,9,15,4,26.67
+fit 1 s,turning,15,9,14,11,78.57
+fit 2 s,turning,15,9,13,8,61.54
+Kalman,turning,15,10,15,8,53.33
+diff 0.25 s,turning,15,10,15,1,6.67
+diff 0.5 s,turning,15,10,15,4,26.67
+diff 1 s,turning,15,10,14,8,57.14
+diff 2 s,turning,15,10,13,6,46.15
+fit 0.25 s,turning,15,10,15,4,26.67
+fit 0.5 s,turning,15,10,15,5,33.33
+fit 1 s,turning,15,10,14,11,78.57
+fit 2 s,turning,15,10,13,8,61.54
+Kalman,turning,15,11,15,9,60.0
+diff 0.25 s,turning,15,11,15,3,20.0
+diff 0.5 s,turning,15,11,15,2,13.33
+diff 1 s,turning,15,11,14,3,21.43
+diff 2 s,turning,15,11,13,6,46.15
+fit 0.25 s,turning,15,11,15,7,46.67
+fit 0.5 s,turning,15,11,15,5,33.33
+fit 1 s,turning,15,11,14,10,71.43
+fit 2 s,turning,15,11,13,8,61.54
+Kalman,turning,15,12,15,8,53.33
+diff 0.25 s,turning,15,12,15,3,20.0
+diff 0.5 s,turning,15,12,15,3,20.0
+diff 1 s,turning,15,12,14,6,42.86
+diff 2 s,turning,15,12,13,5,38.46
+fit 0.25 s,turning,15,12,15,3,20.0
+fit 0.5 s,turning,15,12,15,9,60.0
+fit 1 s,turning,15,12,14,8,57.14
+fit 2 s,turning,15,12,13,8,61.54
+Kalman,turning,15,13,15,9,60.0
+diff 0.25 s,turning,15,13,15,3,20.0
+diff 0.5 s,turning,15,13,15,5,33.33
+diff 1 s,turning,15,13,14,6,42.86
+diff 2 s,turning,15,13,13,5,38.46
+fit 0.25 s,turning,15,13,15,3,20.0
+fit 0.5 s,turning,15,13,15,5,33.33
+fit 1 s,turning,15,13,14,10,71.43
+fit 2 s,turning,15,13,13,9,69.23
+Kalman,turning,15,14,15,9,60.0
+diff 0.25 s,turning,15,14,15,2,13.33
+diff 0.5 s,turning,15,14,15,4,26.67
+diff 1 s,turning,15,14,14,4,28.57
+diff 2 s,turning,15,14,13,8,61.54
+fit 0.25 s,turning,15,14,15,5,33.33
+fit 0.5 s,turning,15,14,15,8,53.33
+fit 1 s,turning,15,14,14,10,71.43
+fit 2 s,turning,15,14,13,7,53.85
+Kalman,turning,15,15,15,9,60.0
+diff 0.25 s,turning,15,15,15,1,6.67
+diff 0.5 s,turning,15,15,15,6,40.0
+diff 1 s,turning,15,15,14,3,21.43
+diff 2 s,turning,15,15,13,6,46.15
+fit 0.25 s,turning,15,15,15,3,20.0
+fit 0.5 s,turning,15,15,15,7,46.67
+fit 1 s,turning,15,15,14,9,64.29
+fit 2 s,turning,15,15,13,8,61.54
+Kalman,turning,15,16,15,9,60.0
+diff 0.25 s,turning,15,16,15,1,6.67
+diff 0.5 s,turning,15,16,15,1,6.67
+diff 1 s,turning,15,16,14,7,50.0
+diff 2 s,turning,15,16,13,6,46.15
+fit 0.25 s,turning,15,16,15,4,26.67
+fit 0.5 s,turning,15,16,15,5,33.33
+fit 1 s,turning,15,16,14,10,71.43
+fit 2 s,turning,15,16,13,8,61.54
+Kalman,turning,15,17,15,10,66.67
+diff 0.25 s,turning,15,17,15,2,13.33
+diff 0.5 s,turning,15,17,15,4,26.67
+diff 1 s,turning,15,17,14,3,21.43
+diff 2 s,turning,15,17,13,9,69.23
+fit 0.25 s,turning,15,17,15,3,20.0
+fit 0.5 s,turning,15,17,15,6,40.0
+fit 1 s,turning,15,17,14,10,71.43
+fit 2 s,turning,15,17,13,9,69.23
+Kalman,turning,15,18,15,8,53.33
+diff 0.25 s,turning,15,18,15,3,20.0
+diff 0.5 s,turning,15,18,15,5,33.33
+diff 1 s,turning,15,18,14,3,21.43
+diff 2 s,turning,15,18,13,3,23.08
+fit 0.25 s,turning,15,18,15,0,0.0
+fit 0.5 s,turning,15,18,15,6,40.0
+fit 1 s,turning,15,18,14,9,64.29
+fit 2 s,turning,15,18,13,8,61.54
+Kalman,turning,15,19,15,7,46.67
+diff 0.25 s,turning,15,19,15,3,20.0
+diff 0.5 s,turning,15,19,15,4,26.67
+diff 1 s,turning,15,19,14,6,42.86
+diff 2 s,turning,15,19,13,6,46.15
+fit 0.25 s,turning,15,19,15,4,26.67
+fit 0.5 s,turning,15,19,15,4,26.67
+fit 1 s,turning,15,19,14,7,50.0
+fit 2 s,turning,15,19,13,7,53.85
+Kalman,turning,15,20,15,8,53.33
+diff 0.25 s,turning,15,20,15,4,26.67
+diff 0.5 s,turning,15,20,15,2,13.33
+diff 1 s,turning,15,20,14,4,28.57
+diff 2 s,turning,15,20,13,6,46.15
+fit 0.25 s,turning,15,20,15,2,13.33
+fit 0.5 s,turning,15,20,15,8,53.33
+fit 1 s,turning,15,20,14,7,50.0
+fit 2 s,turning,15,20,13,6,46.15
+Kalman,turning,15,21,15,10,66.67
+diff 0.25 s,turning,15,21,15,2,13.33
+diff 0.5 s,turning,15,21,15,2,13.33
+diff 1 s,turning,15,21,14,4,28.57
+diff 2 s,turning,15,21,13,3,23.08
+fit 0.25 s,turning,15,21,15,2,13.33
+fit 0.5 s,turning,15,21,15,8,53.33
+fit 1 s,turning,15,21,14,10,71.43
+fit 2 s,turning,15,21,13,9,69.23
+Kalman,turning,15,22,15,9,60.0
+diff 0.25 s,turning,15,22,15,2,13.33
+diff 0.5 s,turning,15,22,15,4,26.67
+diff 1 s,turning,15,22,14,5,35.71
+diff 2 s,turning,15,22,13,7,53.85
+fit 0.25 s,turning,15,22,15,3,20.0
+fit 0.5 s,turning,15,22,15,7,46.67
+fit 1 s,turning,15,22,14,8,57.14
+fit 2 s,turning,15,22,13,9,69.23
+Kalman,turning,15,23,15,8,53.33
+diff 0.25 s,turning,15,23,15,3,20.0
+diff 0.5 s,turning,15,23,15,3,20.0
+diff 1 s,turning,15,23,14,4,28.57
+diff 2 s,turning,15,23,13,6,46.15
+fit 0.25 s,turning,15,23,15,5,33.33
+fit 0.5 s,turning,15,23,15,6,40.0
+fit 1 s,turning,15,23,14,9,64.29
+fit 2 s,turning,15,23,13,8,61.54
+Kalman,turning,15,24,15,8,53.33
+diff 0.25 s,turning,15,24,15,3,20.0
+diff 0.5 s,turning,15,24,15,3,20.0
+diff 1 s,turning,15,24,14,6,42.86
+diff 2 s,turning,15,24,13,5,38.46
+fit 0.25 s,turning,15,24,15,5,33.33
+fit 0.5 s,turning,15,24,15,8,53.33
+fit 1 s,turning,15,24,14,10,71.43
+fit 2 s,turning,15,24,13,7,53.85
+Kalman,turning,15,25,15,10,66.67
+diff 0.25 s,turning,15,25,15,2,13.33
+diff 0.5 s,turning,15,25,15,4,26.67
+diff 1 s,turning,15,25,14,5,35.71
+diff 2 s,turning,15,25,13,7,53.85
+fit 0.25 s,turning,15,25,15,3,20.0
+fit 0.5 s,turning,15,25,15,5,33.33
+fit 1 s,turning,15,25,14,9,64.29
+fit 2 s,turning,15,25,13,9,69.23
+Kalman,turning,15,26,15,9,60.0
+diff 0.25 s,turning,15,26,15,1,6.67
+diff 0.5 s,turning,15,26,15,2,13.33
+diff 1 s,turning,15,26,14,4,28.57
+diff 2 s,turning,15,26,13,5,38.46
+fit 0.25 s,turning,15,26,15,2,13.33
+fit 0.5 s,turning,15,26,15,8,53.33
+fit 1 s,turning,15,26,14,10,71.43
+fit 2 s,turning,15,26,13,8,61.54
+Kalman,turning,15,27,15,9,60.0
+diff 0.25 s,turning,15,27,15,4,26.67
+diff 0.5 s,turning,15,27,15,5,33.33
+diff 1 s,turning,15,27,14,3,21.43
+diff 2 s,turning,15,27,13,7,53.85
+fit 0.25 s,turning,15,27,15,0,0.0
+fit 0.5 s,turning,15,27,15,7,46.67
+fit 1 s,turning,15,27,14,9,64.29
+fit 2 s,turning,15,27,13,9,69.23
+Kalman,turning,15,28,15,8,53.33
+diff 0.25 s,turning,15,28,15,4,26.67
+diff 0.5 s,turning,15,28,15,3,20.0
+diff 1 s,turning,15,28,14,4,28.57
+diff 2 s,turning,15,28,13,4,30.77
+fit 0.25 s,turning,15,28,15,2,13.33
+fit 0.5 s,turning,15,28,15,6,40.0
+fit 1 s,turning,15,28,14,6,42.86
+fit 2 s,turning,15,28,13,7,53.85
+Kalman,turning,15,29,15,7,46.67
+diff 0.25 s,turning,15,29,15,3,20.0
+diff 0.5 s,turning,15,29,15,1,6.67
+diff 1 s,turning,15,29,14,6,42.86
+diff 2 s,turning,15,29,13,5,38.46
+fit 0.25 s,turning,15,29,15,3,20.0
+fit 0.5 s,turning,15,29,15,9,60.0
+fit 1 s,turning,15,29,14,7,50.0
+fit 2 s,turning,15,29,13,7,53.85
+Kalman,turning,15,30,15,8,53.33
+diff 0.25 s,turning,15,30,15,3,20.0
+diff 0.5 s,turning,15,30,15,3,20.0
+diff 1 s,turning,15,30,14,8,57.14
+diff 2 s,turning,15,30,13,8,61.54
+fit 0.25 s,turning,15,30,15,4,26.67
+fit 0.5 s,turning,15,30,15,6,40.0
+fit 1 s,turning,15,30,14,10,71.43
+fit 2 s,turning,15,30,13,8,61.54
+Kalman,turning,30,1,15,8,53.33
+diff 0.25 s,turning,30,1,15,0,0.0
+diff 0.5 s,turning,30,1,15,0,0.0
+diff 1 s,turning,30,1,14,3,21.43
+diff 2 s,turning,30,1,13,3,23.08
+fit 0.25 s,turning,30,1,15,0,0.0
+fit 0.5 s,turning,30,1,15,6,40.0
+fit 1 s,turning,30,1,14,6,42.86
+fit 2 s,turning,30,1,13,7,53.85
+Kalman,turning,30,2,15,7,46.67
+diff 0.25 s,turning,30,2,15,2,13.33
+diff 0.5 s,turning,30,2,15,5,33.33
+diff 1 s,turning,30,2,14,2,14.29
+diff 2 s,turning,30,2,13,2,15.38
+fit 0.25 s,turning,30,2,15,2,13.33
+fit 0.5 s,turning,30,2,15,7,46.67
+fit 1 s,turning,30,2,14,9,64.29
+fit 2 s,turning,30,2,13,9,69.23
+Kalman,turning,30,3,15,10,66.67
+diff 0.25 s,turning,30,3,15,1,6.67
+diff 0.5 s,turning,30,3,15,2,13.33
+diff 1 s,turning,30,3,14,1,7.14
+diff 2 s,turning,30,3,13,5,38.46
+fit 0.25 s,turning,30,3,15,3,20.0
+fit 0.5 s,turning,30,3,15,6,40.0
+fit 1 s,turning,30,3,14,7,50.0
+fit 2 s,turning,30,3,13,8,61.54
+Kalman,turning,30,4,15,6,40.0
+diff 0.25 s,turning,30,4,15,2,13.33
+diff 0.5 s,turning,30,4,15,1,6.67
+diff 1 s,turning,30,4,14,5,35.71
+diff 2 s,turning,30,4,13,3,23.08
+fit 0.25 s,turning,30,4,15,0,0.0
+fit 0.5 s,turning,30,4,15,3,20.0
+fit 1 s,turning,30,4,14,4,28.57
+fit 2 s,turning,30,4,13,8,61.54
+Kalman,turning,30,5,15,7,46.67
+diff 0.25 s,turning,30,5,15,0,0.0
+diff 0.5 s,turning,30,5,15,2,13.33
+diff 1 s,turning,30,5,14,2,14.29
+diff 2 s,turning,30,5,13,4,30.77
+fit 0.25 s,turning,30,5,15,2,13.33
+fit 0.5 s,turning,30,5,15,1,6.67
+fit 1 s,turning,30,5,14,7,50.0
+fit 2 s,turning,30,5,13,9,69.23
+Kalman,turning,30,6,15,8,53.33
+diff 0.25 s,turning,30,6,15,0,0.0
+diff 0.5 s,turning,30,6,15,2,13.33
+diff 1 s,turning,30,6,14,6,42.86
+diff 2 s,turning,30,6,13,2,15.38
+fit 0.25 s,turning,30,6,15,1,6.67
+fit 0.5 s,turning,30,6,15,6,40.0
+fit 1 s,turning,30,6,14,8,57.14
+fit 2 s,turning,30,6,13,7,53.85
+Kalman,turning,30,7,15,7,46.67
+diff 0.25 s,turning,30,7,15,1,6.67
+diff 0.5 s,turning,30,7,15,1,6.67
+diff 1 s,turning,30,7,14,6,42.86
+diff 2 s,turning,30,7,13,2,15.38
+fit 0.25 s,turning,30,7,15,1,6.67
+fit 0.5 s,turning,30,7,15,5,33.33
+fit 1 s,turning,30,7,14,6,42.86
+fit 2 s,turning,30,7,13,5,38.46
+Kalman,turning,30,8,15,7,46.67
+diff 0.25 s,turning,30,8,15,1,6.67
+diff 0.5 s,turning,30,8,15,2,13.33
+diff 1 s,turning,30,8,14,5,35.71
+diff 2 s,turning,30,8,13,1,7.69
+fit 0.25 s,turning,30,8,15,2,13.33
+fit 0.5 s,turning,30,8,15,6,40.0
+fit 1 s,turning,30,8,14,4,28.57
+fit 2 s,turning,30,8,13,5,38.46
+Kalman,turning,30,9,15,7,46.67
+diff 0.25 s,turning,30,9,15,2,13.33
+diff 0.5 s,turning,30,9,15,0,0.0
+diff 1 s,turning,30,9,14,4,28.57
+diff 2 s,turning,30,9,13,4,30.77
+fit 0.25 s,turning,30,9,15,0,0.0
+fit 0.5 s,turning,30,9,15,4,26.67
+fit 1 s,turning,30,9,14,9,64.29
+fit 2 s,turning,30,9,13,8,61.54
+Kalman,turning,30,10,15,6,40.0
+diff 0.25 s,turning,30,10,15,1,6.67
+diff 0.5 s,turning,30,10,15,3,20.0
+diff 1 s,turning,30,10,14,5,35.71
+diff 2 s,turning,30,10,13,3,23.08
+fit 0.25 s,turning,30,10,15,2,13.33
+fit 0.5 s,turning,30,10,15,3,20.0
+fit 1 s,turning,30,10,14,7,50.0
+fit 2 s,turning,30,10,13,8,61.54
+Kalman,turning,30,11,15,8,53.33
+diff 0.25 s,turning,30,11,15,2,13.33
+diff 0.5 s,turning,30,11,15,0,0.0
+diff 1 s,turning,30,11,14,2,14.29
+diff 2 s,turning,30,11,13,4,30.77
+fit 0.25 s,turning,30,11,15,6,40.0
+fit 0.5 s,turning,30,11,15,4,26.67
+fit 1 s,turning,30,11,14,8,57.14
+fit 2 s,turning,30,11,13,8,61.54
+Kalman,turning,30,12,15,8,53.33
+diff 0.25 s,turning,30,12,15,2,13.33
+diff 0.5 s,turning,30,12,15,4,26.67
+diff 1 s,turning,30,12,14,2,14.29
+diff 2 s,turning,30,12,13,3,23.08
+fit 0.25 s,turning,30,12,15,3,20.0
+fit 0.5 s,turning,30,12,15,5,33.33
+fit 1 s,turning,30,12,14,6,42.86
+fit 2 s,turning,30,12,13,8,61.54
+Kalman,turning,30,13,15,7,46.67
+diff 0.25 s,turning,30,13,15,3,20.0
+diff 0.5 s,turning,30,13,15,2,13.33
+diff 1 s,turning,30,13,14,2,14.29
+diff 2 s,turning,30,13,13,5,38.46
+fit 0.25 s,turning,30,13,15,0,0.0
+fit 0.5 s,turning,30,13,15,3,20.0
+fit 1 s,turning,30,13,14,10,71.43
+fit 2 s,turning,30,13,13,8,61.54
+Kalman,turning,30,14,15,8,53.33
+diff 0.25 s,turning,30,14,15,2,13.33
+diff 0.5 s,turning,30,14,15,3,20.0
+diff 1 s,turning,30,14,14,3,21.43
+diff 2 s,turning,30,14,13,5,38.46
+fit 0.25 s,turning,30,14,15,1,6.67
+fit 0.5 s,turning,30,14,15,7,46.67
+fit 1 s,turning,30,14,14,6,42.86
+fit 2 s,turning,30,14,13,8,61.54
+Kalman,turning,30,15,15,7,46.67
+diff 0.25 s,turning,30,15,15,1,6.67
+diff 0.5 s,turning,30,15,15,3,20.0
+diff 1 s,turning,30,15,14,3,21.43
+diff 2 s,turning,30,15,13,4,30.77
+fit 0.25 s,turning,30,15,15,2,13.33
+fit 0.5 s,turning,30,15,15,5,33.33
+fit 1 s,turning,30,15,14,4,28.57
+fit 2 s,turning,30,15,13,6,46.15
+Kalman,turning,30,16,15,9,60.0
+diff 0.25 s,turning,30,16,15,1,6.67
+diff 0.5 s,turning,30,16,15,1,6.67
+diff 1 s,turning,30,16,14,3,21.43
+diff 2 s,turning,30,16,13,3,23.08
+fit 0.25 s,turning,30,16,15,2,13.33
+fit 0.5 s,turning,30,16,15,2,13.33
+fit 1 s,turning,30,16,14,7,50.0
+fit 2 s,turning,30,16,13,7,53.85
+Kalman,turning,30,17,15,8,53.33
+diff 0.25 s,turning,30,17,15,0,0.0
+diff 0.5 s,turning,30,17,15,3,20.0
+diff 1 s,turning,30,17,14,1,7.14
+diff 2 s,turning,30,17,13,3,23.08
+fit 0.25 s,turning,30,17,15,5,33.33
+fit 0.5 s,turning,30,17,15,6,40.0
+fit 1 s,turning,30,17,14,9,64.29
+fit 2 s,turning,30,17,13,9,69.23
+Kalman,turning,30,18,15,7,46.67
+diff 0.25 s,turning,30,18,15,0,0.0
+diff 0.5 s,turning,30,18,15,2,13.33
+diff 1 s,turning,30,18,14,3,21.43
+diff 2 s,turning,30,18,13,1,7.69
+fit 0.25 s,turning,30,18,15,0,0.0
+fit 0.5 s,turning,30,18,15,5,33.33
+fit 1 s,turning,30,18,14,5,35.71
+fit 2 s,turning,30,18,13,6,46.15
+Kalman,turning,30,19,15,6,40.0
+diff 0.25 s,turning,30,19,15,2,13.33
+diff 0.5 s,turning,30,19,15,2,13.33
+diff 1 s,turning,30,19,14,1,7.14
+diff 2 s,turning,30,19,13,2,15.38
+fit 0.25 s,turning,30,19,15,2,13.33
+fit 0.5 s,turning,30,19,15,1,6.67
+fit 1 s,turning,30,19,14,7,50.0
+fit 2 s,turning,30,19,13,6,46.15
+Kalman,turning,30,20,15,7,46.67
+diff 0.25 s,turning,30,20,15,3,20.0
+diff 0.5 s,turning,30,20,15,1,6.67
+diff 1 s,turning,30,20,14,3,21.43
+diff 2 s,turning,30,20,13,6,46.15
+fit 0.25 s,turning,30,20,15,1,6.67
+fit 0.5 s,turning,30,20,15,4,26.67
+fit 1 s,turning,30,20,14,6,42.86
+fit 2 s,turning,30,20,13,6,46.15
+Kalman,turning,30,21,15,8,53.33
+diff 0.25 s,turning,30,21,15,1,6.67
+diff 0.5 s,turning,30,21,15,0,0.0
+diff 1 s,turning,30,21,14,3,21.43
+diff 2 s,turning,30,21,13,2,15.38
+fit 0.25 s,turning,30,21,15,2,13.33
+fit 0.5 s,turning,30,21,15,4,26.67
+fit 1 s,turning,30,21,14,9,64.29
+fit 2 s,turning,30,21,13,9,69.23
+Kalman,turning,30,22,15,6,40.0
+diff 0.25 s,turning,30,22,15,1,6.67
+diff 0.5 s,turning,30,22,15,3,20.0
+diff 1 s,turning,30,22,14,1,7.14
+diff 2 s,turning,30,22,13,9,69.23
+fit 0.25 s,turning,30,22,15,2,13.33
+fit 0.5 s,turning,30,22,15,3,20.0
+fit 1 s,turning,30,22,14,6,42.86
+fit 2 s,turning,30,22,13,9,69.23
+Kalman,turning,30,23,15,5,33.33
+diff 0.25 s,turning,30,23,15,1,6.67
+diff 0.5 s,turning,30,23,15,2,13.33
+diff 1 s,turning,30,23,14,2,14.29
+diff 2 s,turning,30,23,13,4,30.77
+fit 0.25 s,turning,30,23,15,3,20.0
+fit 0.5 s,turning,30,23,15,3,20.0
+fit 1 s,turning,30,23,14,6,42.86
+fit 2 s,turning,30,23,13,7,53.85
+Kalman,turning,30,24,15,8,53.33
+diff 0.25 s,turning,30,24,15,0,0.0
+diff 0.5 s,turning,30,24,15,2,13.33
+diff 1 s,turning,30,24,14,4,28.57
+diff 2 s,turning,30,24,13,2,15.38
+fit 0.25 s,turning,30,24,15,2,13.33
+fit 0.5 s,turning,30,24,15,3,20.0
+fit 1 s,turning,30,24,14,8,57.14
+fit 2 s,turning,30,24,13,6,46.15
+Kalman,turning,30,25,15,7,46.67
+diff 0.25 s,turning,30,25,15,1,6.67
+diff 0.5 s,turning,30,25,15,3,20.0
+diff 1 s,turning,30,25,14,3,21.43
+diff 2 s,turning,30,25,13,3,23.08
+fit 0.25 s,turning,30,25,15,3,20.0
+fit 0.5 s,turning,30,25,15,3,20.0
+fit 1 s,turning,30,25,14,6,42.86
+fit 2 s,turning,30,25,13,7,53.85
+Kalman,turning,30,26,15,8,53.33
+diff 0.25 s,turning,30,26,15,0,0.0
+diff 0.5 s,turning,30,26,15,1,6.67
+diff 1 s,turning,30,26,14,1,7.14
+diff 2 s,turning,30,26,13,3,23.08
+fit 0.25 s,turning,30,26,15,3,20.0
+fit 0.5 s,turning,30,26,15,3,20.0
+fit 1 s,turning,30,26,14,6,42.86
+fit 2 s,turning,30,26,13,6,46.15
+Kalman,turning,30,27,15,7,46.67
+diff 0.25 s,turning,30,27,15,2,13.33
+diff 0.5 s,turning,30,27,15,2,13.33
+diff 1 s,turning,30,27,14,2,14.29
+diff 2 s,turning,30,27,13,4,30.77
+fit 0.25 s,turning,30,27,15,0,0.0
+fit 0.5 s,turning,30,27,15,3,20.0
+fit 1 s,turning,30,27,14,8,57.14
+fit 2 s,turning,30,27,13,9,69.23
+Kalman,turning,30,28,15,5,33.33
+diff 0.25 s,turning,30,28,15,1,6.67
+diff 0.5 s,turning,30,28,15,1,6.67
+diff 1 s,turning,30,28,14,2,14.29
+diff 2 s,turning,30,28,13,2,15.38
+fit 0.25 s,turning,30,28,15,2,13.33
+fit 0.5 s,turning,30,28,15,3,20.0
+fit 1 s,turning,30,28,14,3,21.43
+fit 2 s,turning,30,28,13,6,46.15
+Kalman,turning,30,29,15,7,46.67
+diff 0.25 s,turning,30,29,15,1,6.67
+diff 0.5 s,turning,30,29,15,0,0.0
+diff 1 s,turning,30,29,14,3,21.43
+diff 2 s,turning,30,29,13,4,30.77
+fit 0.25 s,turning,30,29,15,1,6.67
+fit 0.5 s,turning,30,29,15,4,26.67
+fit 1 s,turning,30,29,14,7,50.0
+fit 2 s,turning,30,29,13,6,46.15
+Kalman,turning,30,30,15,8,53.33
+diff 0.25 s,turning,30,30,15,1,6.67
+diff 0.5 s,turning,30,30,15,2,13.33
+diff 1 s,turning,30,30,14,2,14.29
+diff 2 s,turning,30,30,13,5,38.46
+fit 0.25 s,turning,30,30,15,1,6.67
+fit 0.5 s,turning,30,30,15,5,33.33
+fit 1 s,turning,30,30,14,6,42.86
+fit 2 s,turning,30,30,13,5,38.46
+Kalman,turning,60,1,15,7,46.67
+diff 0.25 s,turning,60,1,15,0,0.0
+diff 0.5 s,turning,60,1,15,0,0.0
+diff 1 s,turning,60,1,14,3,21.43
+diff 2 s,turning,60,1,13,0,0.0
+fit 0.25 s,turning,60,1,15,0,0.0
+fit 0.5 s,turning,60,1,15,5,33.33
+fit 1 s,turning,60,1,14,3,21.43
+fit 2 s,turning,60,1,13,7,53.85
+Kalman,turning,60,2,15,5,33.33
+diff 0.25 s,turning,60,2,15,1,6.67
+diff 0.5 s,turning,60,2,15,3,20.0
+diff 1 s,turning,60,2,14,1,7.14
+diff 2 s,turning,60,2,13,1,7.69
+fit 0.25 s,turning,60,2,15,1,6.67
+fit 0.5 s,turning,60,2,15,3,20.0
+fit 1 s,turning,60,2,14,6,42.86
+fit 2 s,turning,60,2,13,8,61.54
+Kalman,turning,60,3,15,9,60.0
+diff 0.25 s,turning,60,3,15,1,6.67
+diff 0.5 s,turning,60,3,15,1,6.67
+diff 1 s,turning,60,3,14,1,7.14
+diff 2 s,turning,60,3,13,1,7.69
+fit 0.25 s,turning,60,3,15,1,6.67
+fit 0.5 s,turning,60,3,15,5,33.33
+fit 1 s,turning,60,3,14,6,42.86
+fit 2 s,turning,60,3,13,5,38.46
+Kalman,turning,60,4,15,5,33.33
+diff 0.25 s,turning,60,4,15,2,13.33
+diff 0.5 s,turning,60,4,15,0,0.0
+diff 1 s,turning,60,4,14,2,14.29
+diff 2 s,turning,60,4,13,1,7.69
+fit 0.25 s,turning,60,4,15,0,0.0
+fit 0.5 s,turning,60,4,15,1,6.67
+fit 1 s,turning,60,4,14,2,14.29
+fit 2 s,turning,60,4,13,6,46.15
+Kalman,turning,60,5,15,4,26.67
+diff 0.25 s,turning,60,5,15,0,0.0
+diff 0.5 s,turning,60,5,15,2,13.33
+diff 1 s,turning,60,5,14,1,7.14
+diff 2 s,turning,60,5,13,0,0.0
+fit 0.25 s,turning,60,5,15,1,6.67
+fit 0.5 s,turning,60,5,15,0,0.0
+fit 1 s,turning,60,5,14,4,28.57
+fit 2 s,turning,60,5,13,8,61.54
+Kalman,turning,60,6,15,6,40.0
+diff 0.25 s,turning,60,6,15,0,0.0
+diff 0.5 s,turning,60,6,15,0,0.0
+diff 1 s,turning,60,6,14,2,14.29
+diff 2 s,turning,60,6,13,4,30.77
+fit 0.25 s,turning,60,6,15,0,0.0
+fit 0.5 s,turning,60,6,15,0,0.0
+fit 1 s,turning,60,6,14,6,42.86
+fit 2 s,turning,60,6,13,4,30.77
+Kalman,turning,60,7,15,5,33.33
+diff 0.25 s,turning,60,7,15,0,0.0
+diff 0.5 s,turning,60,7,15,0,0.0
+diff 1 s,turning,60,7,14,4,28.57
+diff 2 s,turning,60,7,13,2,15.38
+fit 0.25 s,turning,60,7,15,2,13.33
+fit 0.5 s,turning,60,7,15,3,20.0
+fit 1 s,turning,60,7,14,4,28.57
+fit 2 s,turning,60,7,13,3,23.08
+Kalman,turning,60,8,15,6,40.0
+diff 0.25 s,turning,60,8,15,1,6.67
+diff 0.5 s,turning,60,8,15,1,6.67
+diff 1 s,turning,60,8,14,1,7.14
+diff 2 s,turning,60,8,13,1,7.69
+fit 0.25 s,turning,60,8,15,1,6.67
+fit 0.5 s,turning,60,8,15,2,13.33
+fit 1 s,turning,60,8,14,2,14.29
+fit 2 s,turning,60,8,13,4,30.77
+Kalman,turning,60,9,15,4,26.67
+diff 0.25 s,turning,60,9,15,1,6.67
+diff 0.5 s,turning,60,9,15,0,0.0
+diff 1 s,turning,60,9,14,3,21.43
+diff 2 s,turning,60,9,13,2,15.38
+fit 0.25 s,turning,60,9,15,0,0.0
+fit 0.5 s,turning,60,9,15,3,20.0
+fit 1 s,turning,60,9,14,6,42.86
+fit 2 s,turning,60,9,13,6,46.15
+Kalman,turning,60,10,15,5,33.33
+diff 0.25 s,turning,60,10,15,0,0.0
+diff 0.5 s,turning,60,10,15,2,13.33
+diff 1 s,turning,60,10,14,2,14.29
+diff 2 s,turning,60,10,13,1,7.69
+fit 0.25 s,turning,60,10,15,2,13.33
+fit 0.5 s,turning,60,10,15,2,13.33
+fit 1 s,turning,60,10,14,3,21.43
+fit 2 s,turning,60,10,13,8,61.54
+Kalman,turning,60,11,15,5,33.33
+diff 0.25 s,turning,60,11,15,0,0.0
+diff 0.5 s,turning,60,11,15,0,0.0
+diff 1 s,turning,60,11,14,1,7.14
+diff 2 s,turning,60,11,13,1,7.69
+fit 0.25 s,turning,60,11,15,4,26.67
+fit 0.5 s,turning,60,11,15,2,13.33
+fit 1 s,turning,60,11,14,4,28.57
+fit 2 s,turning,60,11,13,7,53.85
+Kalman,turning,60,12,15,7,46.67
+diff 0.25 s,turning,60,12,15,0,0.0
+diff 0.5 s,turning,60,12,15,1,6.67
+diff 1 s,turning,60,12,14,2,14.29
+diff 2 s,turning,60,12,13,1,7.69
+fit 0.25 s,turning,60,12,15,1,6.67
+fit 0.5 s,turning,60,12,15,2,13.33
+fit 1 s,turning,60,12,14,5,35.71
+fit 2 s,turning,60,12,13,8,61.54
+Kalman,turning,60,13,15,7,46.67
+diff 0.25 s,turning,60,13,15,0,0.0
+diff 0.5 s,turning,60,13,15,1,6.67
+diff 1 s,turning,60,13,14,1,7.14
+diff 2 s,turning,60,13,13,4,30.77
+fit 0.25 s,turning,60,13,15,0,0.0
+fit 0.5 s,turning,60,13,15,2,13.33
+fit 1 s,turning,60,13,14,9,64.29
+fit 2 s,turning,60,13,13,5,38.46
+Kalman,turning,60,14,15,8,53.33
+diff 0.25 s,turning,60,14,15,1,6.67
+diff 0.5 s,turning,60,14,15,0,0.0
+diff 1 s,turning,60,14,14,2,14.29
+diff 2 s,turning,60,14,13,4,30.77
+fit 0.25 s,turning,60,14,15,0,0.0
+fit 0.5 s,turning,60,14,15,4,26.67
+fit 1 s,turning,60,14,14,3,21.43
+fit 2 s,turning,60,14,13,5,38.46
+Kalman,turning,60,15,15,3,20.0
+diff 0.25 s,turning,60,15,15,0,0.0
+diff 0.5 s,turning,60,15,15,2,13.33
+diff 1 s,turning,60,15,14,2,14.29
+diff 2 s,turning,60,15,13,2,15.38
+fit 0.25 s,turning,60,15,15,1,6.67
+fit 0.5 s,turning,60,15,15,3,20.0
+fit 1 s,turning,60,15,14,3,21.43
+fit 2 s,turning,60,15,13,4,30.77
+Kalman,turning,60,16,15,6,40.0
+diff 0.25 s,turning,60,16,15,1,6.67
+diff 0.5 s,turning,60,16,15,1,6.67
+diff 1 s,turning,60,16,14,2,14.29
+diff 2 s,turning,60,16,13,1,7.69
+fit 0.25 s,turning,60,16,15,2,13.33
+fit 0.5 s,turning,60,16,15,0,0.0
+fit 1 s,turning,60,16,14,4,28.57
+fit 2 s,turning,60,16,13,6,46.15
+Kalman,turning,60,17,15,6,40.0
+diff 0.25 s,turning,60,17,15,0,0.0
+diff 0.5 s,turning,60,17,15,2,13.33
+diff 1 s,turning,60,17,14,1,7.14
+diff 2 s,turning,60,17,13,1,7.69
+fit 0.25 s,turning,60,17,15,4,26.67
+fit 0.5 s,turning,60,17,15,1,6.67
+fit 1 s,turning,60,17,14,8,57.14
+fit 2 s,turning,60,17,13,9,69.23
+Kalman,turning,60,18,15,5,33.33
+diff 0.25 s,turning,60,18,15,0,0.0
+diff 0.5 s,turning,60,18,15,0,0.0
+diff 1 s,turning,60,18,14,0,0.0
+diff 2 s,turning,60,18,13,0,0.0
+fit 0.25 s,turning,60,18,15,0,0.0
+fit 0.5 s,turning,60,18,15,3,20.0
+fit 1 s,turning,60,18,14,2,14.29
+fit 2 s,turning,60,18,13,4,30.77
+Kalman,turning,60,19,15,6,40.0
+diff 0.25 s,turning,60,19,15,1,6.67
+diff 0.5 s,turning,60,19,15,0,0.0
+diff 1 s,turning,60,19,14,1,7.14
+diff 2 s,turning,60,19,13,1,7.69
+fit 0.25 s,turning,60,19,15,1,6.67
+fit 0.5 s,turning,60,19,15,0,0.0
+fit 1 s,turning,60,19,14,4,28.57
+fit 2 s,turning,60,19,13,6,46.15
+Kalman,turning,60,20,15,3,20.0
+diff 0.25 s,turning,60,20,15,2,13.33
+diff 0.5 s,turning,60,20,15,0,0.0
+diff 1 s,turning,60,20,14,2,14.29
+diff 2 s,turning,60,20,13,2,15.38
+fit 0.25 s,turning,60,20,15,0,0.0
+fit 0.5 s,turning,60,20,15,1,6.67
+fit 1 s,turning,60,20,14,4,28.57
+fit 2 s,turning,60,20,13,2,15.38
+Kalman,turning,60,21,15,9,60.0
+diff 0.25 s,turning,60,21,15,0,0.0
+diff 0.5 s,turning,60,21,15,1,6.67
+diff 1 s,turning,60,21,14,1,7.14
+diff 2 s,turning,60,21,13,0,0.0
+fit 0.25 s,turning,60,21,15,1,6.67
+fit 0.5 s,turning,60,21,15,3,20.0
+fit 1 s,turning,60,21,14,6,42.86
+fit 2 s,turning,60,21,13,6,46.15
+Kalman,turning,60,22,15,8,53.33
+diff 0.25 s,turning,60,22,15,1,6.67
+diff 0.5 s,turning,60,22,15,2,13.33
+diff 1 s,turning,60,22,14,1,7.14
+diff 2 s,turning,60,22,13,3,23.08
+fit 0.25 s,turning,60,22,15,0,0.0
+fit 0.5 s,turning,60,22,15,1,6.67
+fit 1 s,turning,60,22,14,3,21.43
+fit 2 s,turning,60,22,13,6,46.15
+Kalman,turning,60,23,15,4,26.67
+diff 0.25 s,turning,60,23,15,1,6.67
+diff 0.5 s,turning,60,23,15,1,6.67
+diff 1 s,turning,60,23,14,1,7.14
+diff 2 s,turning,60,23,13,3,23.08
+fit 0.25 s,turning,60,23,15,2,13.33
+fit 0.5 s,turning,60,23,15,0,0.0
+fit 1 s,turning,60,23,14,4,28.57
+fit 2 s,turning,60,23,13,5,38.46
+Kalman,turning,60,24,15,8,53.33
+diff 0.25 s,turning,60,24,15,0,0.0
+diff 0.5 s,turning,60,24,15,2,13.33
+diff 1 s,turning,60,24,14,3,21.43
+diff 2 s,turning,60,24,13,1,7.69
+fit 0.25 s,turning,60,24,15,2,13.33
+fit 0.5 s,turning,60,24,15,2,13.33
+fit 1 s,turning,60,24,14,6,42.86
+fit 2 s,turning,60,24,13,4,30.77
+Kalman,turning,60,25,15,6,40.0
+diff 0.25 s,turning,60,25,15,1,6.67
+diff 0.5 s,turning,60,25,15,3,20.0
+diff 1 s,turning,60,25,14,2,14.29
+diff 2 s,turning,60,25,13,3,23.08
+fit 0.25 s,turning,60,25,15,1,6.67
+fit 0.5 s,turning,60,25,15,3,20.0
+fit 1 s,turning,60,25,14,5,35.71
+fit 2 s,turning,60,25,13,5,38.46
+Kalman,turning,60,26,15,7,46.67
+diff 0.25 s,turning,60,26,15,0,0.0
+diff 0.5 s,turning,60,26,15,1,6.67
+diff 1 s,turning,60,26,14,1,7.14
+diff 2 s,turning,60,26,13,2,15.38
+fit 0.25 s,turning,60,26,15,2,13.33
+fit 0.5 s,turning,60,26,15,2,13.33
+fit 1 s,turning,60,26,14,3,21.43
+fit 2 s,turning,60,26,13,4,30.77
+Kalman,turning,60,27,15,5,33.33
+diff 0.25 s,turning,60,27,15,1,6.67
+diff 0.5 s,turning,60,27,15,0,0.0
+diff 1 s,turning,60,27,14,2,14.29
+diff 2 s,turning,60,27,13,1,7.69
+fit 0.25 s,turning,60,27,15,0,0.0
+fit 0.5 s,turning,60,27,15,1,6.67
+fit 1 s,turning,60,27,14,5,35.71
+fit 2 s,turning,60,27,13,6,46.15
+Kalman,turning,60,28,15,1,6.67
+diff 0.25 s,turning,60,28,15,2,13.33
+diff 0.5 s,turning,60,28,15,0,0.0
+diff 1 s,turning,60,28,14,2,14.29
+diff 2 s,turning,60,28,13,3,23.08
+fit 0.25 s,turning,60,28,15,1,6.67
+fit 0.5 s,turning,60,28,15,4,26.67
+fit 1 s,turning,60,28,14,2,14.29
+fit 2 s,turning,60,28,13,2,15.38
+Kalman,turning,60,29,15,6,40.0
+diff 0.25 s,turning,60,29,15,0,0.0
+diff 0.5 s,turning,60,29,15,0,0.0
+diff 1 s,turning,60,29,14,1,7.14
+diff 2 s,turning,60,29,13,2,15.38
+fit 0.25 s,turning,60,29,15,1,6.67
+fit 0.5 s,turning,60,29,15,1,6.67
+fit 1 s,turning,60,29,14,4,28.57
+fit 2 s,turning,60,29,13,6,46.15
+Kalman,turning,60,30,15,5,33.33
+diff 0.25 s,turning,60,30,15,1,6.67
+diff 0.5 s,turning,60,30,15,2,13.33
+diff 1 s,turning,60,30,14,0,0.0
+diff 2 s,turning,60,30,13,1,7.69
+fit 0.25 s,turning,60,30,15,2,13.33
+fit 0.5 s,turning,60,30,15,3,20.0
+fit 1 s,turning,60,30,14,5,35.71
+fit 2 s,turning,60,30,13,4,30.77
+Kalman,turning,100,1,15,4,26.67
+diff 0.25 s,turning,100,1,15,0,0.0
+diff 0.5 s,turning,100,1,15,0,0.0
+diff 1 s,turning,100,1,14,1,7.14
+diff 2 s,turning,100,1,13,0,0.0
+fit 0.25 s,turning,100,1,15,0,0.0
+fit 0.5 s,turning,100,1,15,4,26.67
+fit 1 s,turning,100,1,14,1,7.14
+fit 2 s,turning,100,1,13,5,38.46
+Kalman,turning,100,2,15,3,20.0
+diff 0.25 s,turning,100,2,15,0,0.0
+diff 0.5 s,turning,100,2,15,1,6.67
+diff 1 s,turning,100,2,14,1,7.14
+diff 2 s,turning,100,2,13,0,0.0
+fit 0.25 s,turning,100,2,15,0,0.0
+fit 0.5 s,turning,100,2,15,2,13.33
+fit 1 s,turning,100,2,14,3,21.43
+fit 2 s,turning,100,2,13,7,53.85
+Kalman,turning,100,3,15,8,53.33
+diff 0.25 s,turning,100,3,15,1,6.67
+diff 0.5 s,turning,100,3,15,1,6.67
+diff 1 s,turning,100,3,14,1,7.14
+diff 2 s,turning,100,3,13,1,7.69
+fit 0.25 s,turning,100,3,15,0,0.0
+fit 0.5 s,turning,100,3,15,3,20.0
+fit 1 s,turning,100,3,14,3,21.43
+fit 2 s,turning,100,3,13,4,30.77
+Kalman,turning,100,4,15,5,33.33
+diff 0.25 s,turning,100,4,15,1,6.67
+diff 0.5 s,turning,100,4,15,0,0.0
+diff 1 s,turning,100,4,14,0,0.0
+diff 2 s,turning,100,4,13,1,7.69
+fit 0.25 s,turning,100,4,15,0,0.0
+fit 0.5 s,turning,100,4,15,1,6.67
+fit 1 s,turning,100,4,14,1,7.14
+fit 2 s,turning,100,4,13,5,38.46
+Kalman,turning,100,5,15,5,33.33
+diff 0.25 s,turning,100,5,15,1,6.67
+diff 0.5 s,turning,100,5,15,1,6.67
+diff 1 s,turning,100,5,14,1,7.14
+diff 2 s,turning,100,5,13,0,0.0
+fit 0.25 s,turning,100,5,15,0,0.0
+fit 0.5 s,turning,100,5,15,0,0.0
+fit 1 s,turning,100,5,14,3,21.43
+fit 2 s,turning,100,5,13,6,46.15
+Kalman,turning,100,6,15,2,13.33
+diff 0.25 s,turning,100,6,15,0,0.0
+diff 0.5 s,turning,100,6,15,0,0.0
+diff 1 s,turning,100,6,14,2,14.29
+diff 2 s,turning,100,6,13,2,15.38
+fit 0.25 s,turning,100,6,15,0,0.0
+fit 0.5 s,turning,100,6,15,0,0.0
+fit 1 s,turning,100,6,14,4,28.57
+fit 2 s,turning,100,6,13,3,23.08
+Kalman,turning,100,7,15,5,33.33
+diff 0.25 s,turning,100,7,15,1,6.67
+diff 0.5 s,turning,100,7,15,0,0.0
+diff 1 s,turning,100,7,14,1,7.14
+diff 2 s,turning,100,7,13,1,7.69
+fit 0.25 s,turning,100,7,15,1,6.67
+fit 0.5 s,turning,100,7,15,2,13.33
+fit 1 s,turning,100,7,14,3,21.43
+fit 2 s,turning,100,7,13,4,30.77
+Kalman,turning,100,8,15,3,20.0
+diff 0.25 s,turning,100,8,15,1,6.67
+diff 0.5 s,turning,100,8,15,0,0.0
+diff 1 s,turning,100,8,14,0,0.0
+diff 2 s,turning,100,8,13,1,7.69
+fit 0.25 s,turning,100,8,15,1,6.67
+fit 0.5 s,turning,100,8,15,0,0.0
+fit 1 s,turning,100,8,14,2,14.29
+fit 2 s,turning,100,8,13,4,30.77
+Kalman,turning,100,9,15,2,13.33
+diff 0.25 s,turning,100,9,15,1,6.67
+diff 0.5 s,turning,100,9,15,0,0.0
+diff 1 s,turning,100,9,14,1,7.14
+diff 2 s,turning,100,9,13,2,15.38
+fit 0.25 s,turning,100,9,15,0,0.0
+fit 0.5 s,turning,100,9,15,1,6.67
+fit 1 s,turning,100,9,14,3,21.43
+fit 2 s,turning,100,9,13,7,53.85
+Kalman,turning,100,10,15,3,20.0
+diff 0.25 s,turning,100,10,15,0,0.0
+diff 0.5 s,turning,100,10,15,1,6.67
+diff 1 s,turning,100,10,14,0,0.0
+diff 2 s,turning,100,10,13,0,0.0
+fit 0.25 s,turning,100,10,15,1,6.67
+fit 0.5 s,turning,100,10,15,1,6.67
+fit 1 s,turning,100,10,14,2,14.29
+fit 2 s,turning,100,10,13,9,69.23
+Kalman,turning,100,11,15,5,33.33
+diff 0.25 s,turning,100,11,15,0,0.0
+diff 0.5 s,turning,100,11,15,0,0.0
+diff 1 s,turning,100,11,14,0,0.0
+diff 2 s,turning,100,11,13,1,7.69
+fit 0.25 s,turning,100,11,15,2,13.33
+fit 0.5 s,turning,100,11,15,2,13.33
+fit 1 s,turning,100,11,14,2,14.29
+fit 2 s,turning,100,11,13,6,46.15
+Kalman,turning,100,12,15,6,40.0
+diff 0.25 s,turning,100,12,15,0,0.0
+diff 0.5 s,turning,100,12,15,0,0.0
+diff 1 s,turning,100,12,14,2,14.29
+diff 2 s,turning,100,12,13,0,0.0
+fit 0.25 s,turning,100,12,15,0,0.0
+fit 0.5 s,turning,100,12,15,1,6.67
+fit 1 s,turning,100,12,14,4,28.57
+fit 2 s,turning,100,12,13,7,53.85
+Kalman,turning,100,13,15,6,40.0
+diff 0.25 s,turning,100,13,15,0,0.0
+diff 0.5 s,turning,100,13,15,1,6.67
+diff 1 s,turning,100,13,14,0,0.0
+diff 2 s,turning,100,13,13,2,15.38
+fit 0.25 s,turning,100,13,15,0,0.0
+fit 0.5 s,turning,100,13,15,1,6.67
+fit 1 s,turning,100,13,14,5,35.71
+fit 2 s,turning,100,13,13,3,23.08
+Kalman,turning,100,14,15,6,40.0
+diff 0.25 s,turning,100,14,15,1,6.67
+diff 0.5 s,turning,100,14,15,2,13.33
+diff 1 s,turning,100,14,14,1,7.14
+diff 2 s,turning,100,14,13,3,23.08
+fit 0.25 s,turning,100,14,15,0,0.0
+fit 0.5 s,turning,100,14,15,2,13.33
+fit 1 s,turning,100,14,14,2,14.29
+fit 2 s,turning,100,14,13,4,30.77
+Kalman,turning,100,15,15,2,13.33
+diff 0.25 s,turning,100,15,15,0,0.0
+diff 0.5 s,turning,100,15,15,0,0.0
+diff 1 s,turning,100,15,14,1,7.14
+diff 2 s,turning,100,15,13,2,15.38
+fit 0.25 s,turning,100,15,15,1,6.67
+fit 0.5 s,turning,100,15,15,2,13.33
+fit 1 s,turning,100,15,14,1,7.14
+fit 2 s,turning,100,15,13,2,15.38
+Kalman,turning,100,16,15,5,33.33
+diff 0.25 s,turning,100,16,15,1,6.67
+diff 0.5 s,turning,100,16,15,0,0.0
+diff 1 s,turning,100,16,14,2,14.29
+diff 2 s,turning,100,16,13,1,7.69
+fit 0.25 s,turning,100,16,15,0,0.0
+fit 0.5 s,turning,100,16,15,0,0.0
+fit 1 s,turning,100,16,14,2,14.29
+fit 2 s,turning,100,16,13,5,38.46
+Kalman,turning,100,17,15,5,33.33
+diff 0.25 s,turning,100,17,15,0,0.0
+diff 0.5 s,turning,100,17,15,0,0.0
+diff 1 s,turning,100,17,14,0,0.0
+diff 2 s,turning,100,17,13,0,0.0
+fit 0.25 s,turning,100,17,15,3,20.0
+fit 0.5 s,turning,100,17,15,1,6.67
+fit 1 s,turning,100,17,14,5,35.71
+fit 2 s,turning,100,17,13,4,30.77
+Kalman,turning,100,18,15,4,26.67
+diff 0.25 s,turning,100,18,15,0,0.0
+diff 0.5 s,turning,100,18,15,0,0.0
+diff 1 s,turning,100,18,14,0,0.0
+diff 2 s,turning,100,18,13,0,0.0
+fit 0.25 s,turning,100,18,15,0,0.0
+fit 0.5 s,turning,100,18,15,2,13.33
+fit 1 s,turning,100,18,14,2,14.29
+fit 2 s,turning,100,18,13,3,23.08
+Kalman,turning,100,19,15,5,33.33
+diff 0.25 s,turning,100,19,15,0,0.0
+diff 0.5 s,turning,100,19,15,0,0.0
+diff 1 s,turning,100,19,14,1,7.14
+diff 2 s,turning,100,19,13,0,0.0
+fit 0.25 s,turning,100,19,15,1,6.67
+fit 0.5 s,turning,100,19,15,0,0.0
+fit 1 s,turning,100,19,14,3,21.43
+fit 2 s,turning,100,19,13,5,38.46
+Kalman,turning,100,20,15,2,13.33
+diff 0.25 s,turning,100,20,15,1,6.67
+diff 0.5 s,turning,100,20,15,0,0.0
+diff 1 s,turning,100,20,14,0,0.0
+diff 2 s,turning,100,20,13,2,15.38
+fit 0.25 s,turning,100,20,15,0,0.0
+fit 0.5 s,turning,100,20,15,1,6.67
+fit 1 s,turning,100,20,14,1,7.14
+fit 2 s,turning,100,20,13,2,15.38
+Kalman,turning,100,21,15,7,46.67
+diff 0.25 s,turning,100,21,15,0,0.0
+diff 0.5 s,turning,100,21,15,0,0.0
+diff 1 s,turning,100,21,14,0,0.0
+diff 2 s,turning,100,21,13,0,0.0
+fit 0.25 s,turning,100,21,15,2,13.33
+fit 0.5 s,turning,100,21,15,2,13.33
+fit 1 s,turning,100,21,14,5,35.71
+fit 2 s,turning,100,21,13,6,46.15
+Kalman,turning,100,22,15,6,40.0
+diff 0.25 s,turning,100,22,15,0,0.0
+diff 0.5 s,turning,100,22,15,0,0.0
+diff 1 s,turning,100,22,14,2,14.29
+diff 2 s,turning,100,22,13,1,7.69
+fit 0.25 s,turning,100,22,15,0,0.0
+fit 0.5 s,turning,100,22,15,0,0.0
+fit 1 s,turning,100,22,14,0,0.0
+fit 2 s,turning,100,22,13,4,30.77
+Kalman,turning,100,23,15,2,13.33
+diff 0.25 s,turning,100,23,15,1,6.67
+diff 0.5 s,turning,100,23,15,0,0.0
+diff 1 s,turning,100,23,14,1,7.14
+diff 2 s,turning,100,23,13,2,15.38
+fit 0.25 s,turning,100,23,15,2,13.33
+fit 0.5 s,turning,100,23,15,1,6.67
+fit 1 s,turning,100,23,14,2,14.29
+fit 2 s,turning,100,23,13,5,38.46
+Kalman,turning,100,24,15,6,40.0
+diff 0.25 s,turning,100,24,15,0,0.0
+diff 0.5 s,turning,100,24,15,1,6.67
+diff 1 s,turning,100,24,14,2,14.29
+diff 2 s,turning,100,24,13,1,7.69
+fit 0.25 s,turning,100,24,15,1,6.67
+fit 0.5 s,turning,100,24,15,2,13.33
+fit 1 s,turning,100,24,14,6,42.86
+fit 2 s,turning,100,24,13,3,23.08
+Kalman,turning,100,25,15,5,33.33
+diff 0.25 s,turning,100,25,15,1,6.67
+diff 0.5 s,turning,100,25,15,1,6.67
+diff 1 s,turning,100,25,14,1,7.14
+diff 2 s,turning,100,25,13,1,7.69
+fit 0.25 s,turning,100,25,15,1,6.67
+fit 0.5 s,turning,100,25,15,1,6.67
+fit 1 s,turning,100,25,14,4,28.57
+fit 2 s,turning,100,25,13,4,30.77
+Kalman,turning,100,26,15,6,40.0
+diff 0.25 s,turning,100,26,15,1,6.67
+diff 0.5 s,turning,100,26,15,0,0.0
+diff 1 s,turning,100,26,14,0,0.0
+diff 2 s,turning,100,26,13,2,15.38
+fit 0.25 s,turning,100,26,15,2,13.33
+fit 0.5 s,turning,100,26,15,3,20.0
+fit 1 s,turning,100,26,14,1,7.14
+fit 2 s,turning,100,26,13,3,23.08
+Kalman,turning,100,27,15,4,26.67
+diff 0.25 s,turning,100,27,15,0,0.0
+diff 0.5 s,turning,100,27,15,0,0.0
+diff 1 s,turning,100,27,14,2,14.29
+diff 2 s,turning,100,27,13,0,0.0
+fit 0.25 s,turning,100,27,15,0,0.0
+fit 0.5 s,turning,100,27,15,0,0.0
+fit 1 s,turning,100,27,14,3,21.43
+fit 2 s,turning,100,27,13,6,46.15
+Kalman,turning,100,28,15,1,6.67
+diff 0.25 s,turning,100,28,15,1,6.67
+diff 0.5 s,turning,100,28,15,0,0.0
+diff 1 s,turning,100,28,14,2,14.29
+diff 2 s,turning,100,28,13,3,23.08
+fit 0.25 s,turning,100,28,15,2,13.33
+fit 0.5 s,turning,100,28,15,2,13.33
+fit 1 s,turning,100,28,14,2,14.29
+fit 2 s,turning,100,28,13,1,7.69
+Kalman,turning,100,29,15,5,33.33
+diff 0.25 s,turning,100,29,15,0,0.0
+diff 0.5 s,turning,100,29,15,0,0.0
+diff 1 s,turning,100,29,14,0,0.0
+diff 2 s,turning,100,29,13,2,15.38
+fit 0.25 s,turning,100,29,15,0,0.0
+fit 0.5 s,turning,100,29,15,1,6.67
+fit 1 s,turning,100,29,14,2,14.29
+fit 2 s,turning,100,29,13,4,30.77
+Kalman,turning,100,30,15,3,20.0
+diff 0.25 s,turning,100,30,15,1,6.67
+diff 0.5 s,turning,100,30,15,0,0.0
+diff 1 s,turning,100,30,14,0,0.0
+diff 2 s,turning,100,30,13,2,15.38
+fit 0.25 s,turning,100,30,15,0,0.0
+fit 0.5 s,turning,100,30,15,3,20.0
+fit 1 s,turning,100,30,14,3,21.43
+fit 2 s,turning,100,30,13,2,15.38
