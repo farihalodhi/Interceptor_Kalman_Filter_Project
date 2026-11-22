@@ -1,58 +1,42 @@
+# screens.py
 import math
 import random
+
 import pygame
-from settings import WIDTH, HEIGHT, HUD_HEIGHT, FPS, DRONE_RADIUS, LEVELS
-from ui import TextBox, Button, TEXT, ACCENT, BUTTON, BUTTON_HOVER, TRACK
-from overlay import PLAYER_COLOR, RAW_COLOR, KALMAN_COLOR
+
+from settings import WIDTH, HEIGHT, HUD_HEIGHT, FPS, LEVELS
+from theme import (SCREEN_H, SPACE, PANEL, PANEL_LIGHT, OUTLINE, WHITE, MUTED,
+                   GOLD, CYAN, GREEN, ORANGE, RED, PURPLE, BLUE, blend,
+                   draw_text, draw_outlined_text, draw_panel, draw_scanlines,
+                   wrap_text, Starfield, background, poll_events)
+from ui import TextBox, Button
+from sprites import draw_drone, draw_turret
 from scores import load_scores
 
-BACKGROUND = (20, 20, 30)
-MUTED = (150, 155, 180)
-GOLD = (255, 210, 80)
-SCREEN_H = HEIGHT + HUD_HEIGHT
-LEVEL_COLORS = {"Easy": (80, 200, 120),
-                "Medium": (240, 170, 60),
-                "Hard": (230, 80, 80),
-                "Lab": (200, 120, 255)}
-
-
-def make_fonts():
-    return {"title": pygame.font.Font(None, 120),
-            "big": pygame.font.Font(None, 52),
-            "normal": pygame.font.Font(None, 32),
-            "small": pygame.font.Font(None, 24)}
-
-
-def draw_text(screen, font, text, color, center):
-    label = font.render(text, True, color)
-    screen.blit(label, label.get_rect(center=center))
-
-
-def draw_title(screen, fonts, y=110):
-    text = fonts["title"].render("INTERCEPTOR", True, ACCENT)
-    shadow = fonts["title"].render("INTERCEPTOR", True, (60, 30, 90))
-    rect = text.get_rect(center=(WIDTH // 2, y))
-    screen.blit(shadow, rect.move(5, 5))
-    screen.blit(text, rect)
-    draw_text(screen, fonts["normal"], "Hitting moving targets with a Kalman filter",
-              MUTED, (WIDTH // 2, y + 62))
+LEVEL_COLORS = {"Easy": GREEN, "Medium": ORANGE, "Hard": RED, "Lab": PURPLE}
+BLURB = {"Easy": "WARM UP", "Medium": "STEP UP", "Hard": "NO MERCY",
+         "Lab": "FREE PLAY"}
 
 
 class Backdrop:
-    """A small demo at the bottom of every page: the drone (red), the noisy
-    radar dots (blue) and the Kalman estimate (purple ring)."""
+    """Space background with a demo flight at the bottom: the drone, its
+    noisy radar dots and the Kalman estimate ring."""
 
     def __init__(self):
-        self.x = -DRONE_RADIUS
+        self.stars = Starfield(WIDTH, SCREEN_H, 110, seed=5)
+        self.x = -40.0
         self.y = SCREEN_H - 55
         self.dots = []
         self.timer = 0.0
+        self.time = 0.0
         self.rng = random.Random(7)
 
     def update(self, dt):
+        self.time += dt
+        self.stars.update(dt)
         self.x += 110 * dt
-        if self.x > WIDTH + DRONE_RADIUS:
-            self.x = -DRONE_RADIUS
+        if self.x > WIDTH + 40:
+            self.x = -40.0
             self.dots = []
         self.timer += dt
         if self.timer >= 0.05:
@@ -62,26 +46,35 @@ class Backdrop:
             self.dots = self.dots[-25:]
 
     def draw(self, screen):
+        screen.blit(background(), (0, 0))
+        self.stars.draw(screen)
         for dot_x, dot_y in self.dots:
-            pygame.draw.circle(screen, (90, 160, 255),
+            pygame.draw.circle(screen, blend(SPACE, BLUE, 0.7),
                                (int(dot_x), int(dot_y)), 3)
-        pygame.draw.circle(screen, (220, 60, 60),
-                           (int(self.x), int(self.y)), DRONE_RADIUS)
-        pygame.draw.circle(screen, (200, 120, 255),
-                           (int(self.x), int(self.y)), DRONE_RADIUS + 4, 2)
+        draw_drone(screen, self.x, self.y, self.time)
+        pygame.draw.circle(screen, PURPLE, (int(self.x), int(self.y)), 24, 2)
+
+
+def draw_title(screen, t, y=100, size=64):
+    bob = int(math.sin(t * 2) * 3)
+    draw_outlined_text(screen, "INTERCEPTOR", size, PURPLE,
+                       (WIDTH // 2 + 3, y + bob + 6), thickness=4)
+    draw_outlined_text(screen, "INTERCEPTOR", size, WHITE,
+                       (WIDTH // 2, y + bob), thickness=4)
 
 
 def show_menu(screen, clock, name=""):
     """Title page. Returns the entered name, or None if the window is closed."""
-    fonts = make_fonts()
     backdrop = Backdrop()
-    box = TextBox(WIDTH // 2 - 210, 330, 420, 54, 14, name)
-    start = Button(WIDTH // 2 - 80, 410, 160, 44, "Start")
+    box = TextBox(WIDTH // 2 - 220, 320, 440, 56, 14, name)
+    start = Button(WIDTH // 2 - 100, 400, 200, 48, "START", 24)
     warning = 0.0
+    elapsed = 0.0
 
     while True:
         dt = clock.tick(FPS) / 1000
-        for event in pygame.event.get():
+        elapsed += dt
+        for event in poll_events():
             if event.type == pygame.QUIT:
                 return None
             pressed_enter = box.handle_event(event)
@@ -94,31 +87,35 @@ def show_menu(screen, clock, name=""):
         backdrop.update(dt)
         warning = max(0.0, warning - dt)
 
-        screen.fill(BACKGROUND)
         backdrop.draw(screen)
-        draw_title(screen, fonts)
-        draw_text(screen, fonts["big"], "Enter your name", TEXT, (WIDTH // 2, 290))
-        box.draw(screen, fonts["big"])
-        start.draw(screen, fonts["normal"])
+        draw_title(screen, elapsed, 100)
+        draw_text(screen, "HITTING MOVING TARGETS WITH A KALMAN FILTER", 12,
+                  MUTED, (WIDTH // 2, 168))
+        draw_text(screen, "ENTER YOUR NAME", 24, WHITE, (WIDTH // 2, 290))
+        box.draw(screen)
+        start.draw(screen)
         if warning > 0:
-            draw_text(screen, fonts["small"], "Please type a name first",
-                      (230, 80, 80), (WIDTH // 2, 478))
-        else:
-            draw_text(screen, fonts["small"], "Press Enter or click Start",
-                      MUTED, (WIDTH // 2, 478))
+            draw_text(screen, "PLEASE TYPE A NAME FIRST", 12, RED,
+                      (WIDTH // 2, 478))
+        elif int(elapsed * 2) % 2 == 0:
+            draw_text(screen, "PRESS ENTER OR CLICK START", 12, GOLD,
+                      (WIDTH // 2, 478))
+        draw_text(screen, "F11: FULL SCREEN", 12, MUTED, (WIDTH - 12, 12),
+                  anchor="topright", shadow=False)
+        draw_scanlines(screen)
         pygame.display.flip()
 
 
 def show_loading(screen, clock, name, duration=3.0):
-    """Loading bar. Returns True when finished, False if the window is closed."""
-    fonts = make_fonts()
+    """Task-bar style loading screen. Returns True when finished, False if
+    the window is closed."""
     backdrop = Backdrop()
-    bar = pygame.Rect(WIDTH // 2 - 250, 350, 500, 28)
+    bar = pygame.Rect(WIDTH // 2 - 260, 360, 520, 36)
     elapsed = 0.0
 
     while elapsed < duration + 0.4:
         dt = clock.tick(FPS) / 1000
-        for event in pygame.event.get():
+        for event in poll_events():
             if event.type == pygame.QUIT:
                 return False
         elapsed += dt
@@ -127,57 +124,114 @@ def show_loading(screen, clock, name, duration=3.0):
         x = min(1.0, elapsed / duration)
         progress = x * x * (3 - 2 * x)            # starts and ends slowly
         if progress < 0.3:
-            message = "Calibrating radar..."
+            message = "CALIBRATING RADAR..."
         elif progress < 0.6:
-            message = "Initializing Kalman filter..."
+            message = "INITIALIZING KALMAN FILTER..."
         elif progress < 0.95:
-            message = "Arming turrets..."
+            message = "ARMING TURRETS..."
         else:
-            message = "Ready!"
+            message = "READY!"
 
-        screen.fill(BACKGROUND)
         backdrop.draw(screen)
-        draw_title(screen, fonts)
-        draw_text(screen, fonts["big"], f"Welcome, {name}", TEXT, (WIDTH // 2, 290))
-        pygame.draw.rect(screen, TRACK, bar, border_radius=8)
-        filled = pygame.Rect(bar.x, bar.y, int(bar.width * progress), bar.height)
-        pygame.draw.rect(screen, ACCENT, filled, border_radius=8)
-        draw_text(screen, fonts["normal"], f"{int(progress * 100)}%", TEXT,
-                  (WIDTH // 2, 405))
-        draw_text(screen, fonts["small"], message, MUTED, (WIDTH // 2, 435))
+        draw_title(screen, elapsed, 100)
+        draw_text(screen, f"WELCOME, {name.upper()}", 24, WHITE,
+                  (WIDTH // 2, 290))
+        draw_text(screen, "TOTAL TASKS COMPLETED", 12, WHITE,
+                  (WIDTH // 2, 336))
+        frame = bar.inflate(10, 10)
+        pygame.draw.rect(screen, OUTLINE, frame, border_radius=8)
+        pygame.draw.rect(screen, (60, 64, 90), bar, border_radius=4)
+        filled = pygame.Rect(bar.x, bar.y, int(bar.width * progress),
+                             bar.height)
+        if filled.width > 0:
+            pygame.draw.rect(screen, GREEN, filled, border_radius=4)
+        for i in range(1, 5):                     # segments, like the task bar
+            seg_x = bar.x + bar.width * i // 5
+            pygame.draw.line(screen, OUTLINE, (seg_x, bar.y),
+                             (seg_x, bar.bottom), 4)
+        pygame.draw.rect(screen, WHITE, frame, 3, border_radius=8)
+        draw_text(screen, f"{int(progress * 100)}%", 24, GOLD,
+                  (WIDTH // 2, 424))
+        draw_text(screen, message, 12, MUTED, (WIDTH // 2, 458))
+        draw_scanlines(screen)
         pygame.display.flip()
     return True
 
 
-def wrap_text(font, text, max_width):
-    # split text into lines that each fit inside max_width pixels
-    lines = []
-    current = ""
-    for word in text.split():
-        trial = word if not current else current + " " + word
-        if font.size(trial)[0] <= max_width:
-            current = trial
+def _path_points(pattern, box):
+    left, right = box.left + 10, box.right - 10
+    if pattern == "diagonal":
+        return [(left, box.top + 10), (right, box.bottom - 10)]
+    if pattern == "turning":
+        mid = left + int((right - left) * 0.45)
+        return [(left, box.top + 14), (mid, box.top + 14),
+                (right, box.bottom - 10)]
+    return [(left, box.centery), (right, box.centery)]
+
+
+def draw_level_card(screen, level, cfg, card, hovered, index, record):
+    color = LEVEL_COLORS[level]
+    locked = cfg.get("locked", True)
+    r = card.move(0, -6 if hovered else 0)
+    pygame.draw.rect(screen, OUTLINE, r.move(0, 6), border_radius=14)
+    draw_panel(screen, r, fill=PANEL, border=color, radius=14,
+               border_width=4 if hovered else 3)
+
+    strip = pygame.Rect(r.x + 8, r.y + 8, r.width - 16, 38)
+    pygame.draw.rect(screen, color, strip, border_radius=8)
+    draw_text(screen, level.upper(), 24, OUTLINE, strip.center, shadow=False)
+    draw_text(screen, BLURB[level], 12, MUTED, (r.centerx, r.y + 62),
+              shadow=False)
+
+    box = pygame.Rect(r.x + 16, r.y + 78, r.width - 32, 56)
+    pygame.draw.rect(screen, SPACE, box, border_radius=8)
+    pygame.draw.rect(screen, PANEL_LIGHT, box, 2, border_radius=8)
+    if locked:
+        points = _path_points(cfg["pattern"], box)
+        pygame.draw.lines(screen, color, False, points, 3)
+        pygame.draw.circle(screen, RED, points[-1], 5)
+        pygame.draw.circle(screen, WHITE, points[0], 3)
+    else:
+        draw_text(screen, "?", 32, color, box.center)
+
+    if locked:
+        rows = (("PATH", cfg["pattern"].upper()), ("SPEED", str(cfg["speed"])),
+                ("NOISE", str(cfg["noise"])), ("TIME", f"{cfg['time']} S"))
+    else:
+        rows = (("PATH", "ANY"), ("SPEED", str(cfg["speed"])),
+                ("NOISE", "ANY"), ("TIME", "FREE"))
+    for i, (label, value) in enumerate(rows):
+        row_y = r.y + 154 + i * 22
+        draw_text(screen, label, 12, MUTED, (r.x + 16, row_y),
+                  anchor="midleft", shadow=False)
+        draw_text(screen, value, 12, WHITE, (r.right - 16, row_y),
+                  anchor="midright", shadow=False)
+
+    if cfg.get("time"):
+        draw_text(screen, "HI-SCORE", 12, MUTED, (r.centerx, r.y + 246),
+                  shadow=False)
+        if record:
+            best = f"{record.get('hits', 0)}  {str(record.get('name', ''))[:8].upper()}"
+            draw_text(screen, best, 16, GOLD, (r.centerx, r.y + 268))
         else:
-            lines.append(current)
-            current = word
-    if current:
-        lines.append(current)
-    return lines
+            draw_text(screen, "---", 16, MUTED, (r.centerx, r.y + 268))
+    draw_text(screen, f"[{index + 1}]", 12, MUTED, (r.centerx, r.bottom - 12),
+              shadow=False)
 
 
 def show_levels(screen, clock, name):
-    """Level select. Returns "Easy"/"Medium"/"Hard"/"Lab", "back" or None (quit)."""
-    fonts = make_fonts()
+    """Level select. Returns "Easy"/"Medium"/"Hard"/"Lab", "back" or None."""
     backdrop = Backdrop()
     scores = load_scores()
     names = list(LEVELS)
-    cards = []
-    for i, level in enumerate(names):
-        cards.append(pygame.Rect(27 + i * 215, 270, 200, 270))
+    cards = [pygame.Rect(27 + i * 215, 185, 200, 300)
+             for i in range(len(names))]
+    elapsed = 0.0
 
     while True:
         dt = clock.tick(FPS) / 1000
-        for event in pygame.event.get():
+        elapsed += dt
+        for event in poll_events():
             if event.type == pygame.QUIT:
                 return None
             if event.type == pygame.KEYDOWN:
@@ -191,62 +245,18 @@ def show_levels(screen, clock, name):
                         return level
         backdrop.update(dt)
 
-        screen.fill(BACKGROUND)
         backdrop.draw(screen)
-        draw_title(screen, fonts)
-        draw_text(screen, fonts["big"], f"{name}, choose your level", TEXT,
-                  (WIDTH // 2, 235))
-
+        draw_title(screen, elapsed, 62, 48)
+        draw_text(screen, f"{name.upper()}, CHOOSE YOUR LEVEL", 16, WHITE,
+                  (WIDTH // 2, 138))
         mouse = pygame.mouse.get_pos()
         for i, (level, card) in enumerate(zip(names, cards)):
-            cfg = LEVELS[level]
-            locked = cfg.get("locked", True)
-            color = LEVEL_COLORS[level]
-            hovered = card.collidepoint(mouse)
-            pygame.draw.rect(screen, BUTTON_HOVER if hovered else BUTTON,
-                             card, border_radius=12)
-            pygame.draw.rect(screen, color, card, 4 if hovered else 2,
-                             border_radius=12)
-            draw_text(screen, fonts["big"], level.upper(), color,
-                      (card.centerx, card.y + 38))
-
-            info_lines = wrap_text(fonts["small"], cfg["info"], card.width - 20)
-            for j, line in enumerate(info_lines):
-                draw_text(screen, fonts["small"], line, MUTED,
-                          (card.centerx, card.y + 78 + j * 20))
-
-            if locked:
-                lines = [f"Path: {cfg['pattern'].capitalize()}",
-                         f"Speed: {cfg['speed']}",
-                         f"Noise: {cfg['noise']}",
-                         f"Time: {cfg['time']} s"]
-            else:
-                lines = ["Path: your choice",
-                         f"Speed: {cfg['speed']}",
-                         "Noise: your choice",
-                         "Time: unlimited"]
-            for j, line in enumerate(lines):
-                draw_text(screen, fonts["small"], line, TEXT,
-                          (card.centerx, card.y + 130 + j * 24))
-
-            if cfg.get("time"):
-                record = scores.get(level)
-                if record:
-                    best_text = (f"Best: {record.get('hits', 0)} - "
-                                 f"{str(record.get('name', ''))[:8]}")
-                    best_color = GOLD
-                else:
-                    best_text = "Best: none yet"
-                    best_color = MUTED
-                draw_text(screen, fonts["small"], best_text, best_color,
-                          (card.centerx, card.y + 226))
-
-            draw_text(screen, fonts["small"], f"Press {i + 1}", MUTED,
-                      (card.centerx, card.bottom - 16))
-
-        draw_text(screen, fonts["small"],
-                  f"Click a level or press 1-{len(names)}     Esc: change name",
-                  MUTED, (WIDTH // 2, 562))
+            draw_level_card(screen, level, LEVELS[level], card,
+                            card.collidepoint(mouse), i, scores.get(level))
+        draw_text(screen, f"CLICK A LEVEL OR PRESS 1-{len(names)}     "
+                          "ESC: CHANGE NAME", 12, MUTED, (WIDTH // 2, 512),
+                  shadow=False)
+        draw_scanlines(screen)
         pygame.display.flip()
 
 
@@ -265,33 +275,48 @@ def verdict_text(player, raw, kalman):
     return "The automated turrets won this round. Try again!"
 
 
+def result_headline(player, raw, kalman):
+    if player == 0 and raw == 0 and kalman == 0:
+        return "NO CONTACT", MUTED
+    if player > kalman:
+        return "VICTORY", GOLD
+    if player == kalman and player > 0:
+        return "DRAW", WHITE
+    if player > raw or (player == raw and player > 0):
+        return "GOOD TRY", CYAN
+    return "DEFEAT", RED
+
+
 def show_results(screen, clock, name, level, result, record, best):
     """Shown when the timer runs out. result holds (hits, shots) for the
     player, the raw turret and the Kalman turret. Returns "again", "levels"
     or None (window closed)."""
-    fonts = make_fonts()
     backdrop = Backdrop()
-    again = Button(WIDTH // 2 - 190, 500, 170, 44, "Play again")
-    back = Button(WIDTH // 2 + 20, 500, 170, 44, "Level select")
-    entries = (("YOU", PLAYER_COLOR, "player"),
-               ("RAW RADAR", RAW_COLOR, "raw"),
-               ("KALMAN", KALMAN_COLOR, "kalman"))
-    cards = [pygame.Rect(80 + i * 255, 190, 230, 200) for i in range(3)]
+    again = Button(WIDTH // 2 - 250, 545, 240, 48, "PLAY AGAIN", 16)
+    back = Button(WIDTH // 2 + 10, 545, 240, 48, "LEVEL SELECT", 16)
+    entries = (("YOU", GREEN, "player"), ("RAW RADAR", ORANGE, "raw"),
+               ("KALMAN", PURPLE, "kalman"))
+    cards = [pygame.Rect(80 + i * 255, 200, 230, 210) for i in range(3)]
 
     player_hits = result["player"][0]
     raw_hits = result["raw"][0]
     kalman_hits = result["kalman"][0]
     most = max(player_hits, raw_hits, kalman_hits)
-    verdict = verdict_text(player_hits, raw_hits, kalman_hits)
-    verdict_color = GOLD if player_hits >= kalman_hits and player_hits > 0 else TEXT
+    headline, headline_color = result_headline(player_hits, raw_hits,
+                                               kalman_hits)
+    verdict_lines = wrap_text(verdict_text(player_hits, raw_hits, kalman_hits),
+                              16, 780)
+    verdict_color = GOLD if player_hits >= kalman_hits and player_hits > 0 \
+        else WHITE
 
     while True:
         dt = clock.tick(FPS) / 1000
-        for event in pygame.event.get():
+        for event in poll_events():
             if event.type == pygame.QUIT:
                 return None
             if event.type == pygame.KEYDOWN:
-                if event.key in (pygame.K_RETURN, pygame.K_KP_ENTER, pygame.K_r):
+                if event.key in (pygame.K_RETURN, pygame.K_KP_ENTER,
+                                 pygame.K_r):
                     return "again"
                 if event.key == pygame.K_ESCAPE:
                     return "levels"
@@ -301,46 +326,46 @@ def show_results(screen, clock, name, level, result, record, best):
                 return "levels"
         backdrop.update(dt)
 
-        screen.fill(BACKGROUND)
         backdrop.draw(screen)
-        draw_text(screen, fonts["title"], "TIME'S UP", ACCENT, (WIDTH // 2, 75))
-        draw_text(screen, fonts["normal"], f"{name}  |  {level}",
-                  LEVEL_COLORS[level], (WIDTH // 2, 140))
+        draw_outlined_text(screen, headline, 64, headline_color,
+                           (WIDTH // 2, 70), thickness=4)
+        draw_text(screen, f"{name.upper()}  |  {level.upper()}", 16,
+                  LEVEL_COLORS[level], (WIDTH // 2, 134))
 
         for card, (label, color, key) in zip(cards, entries):
             hits, shots = result[key]
             accuracy = 100 * hits / shots if shots > 0 else 0.0
             winner = hits == most and most > 0
-            pygame.draw.rect(screen, BUTTON, card, border_radius=12)
-            pygame.draw.rect(screen, color, card, 4 if winner else 2,
-                             border_radius=12)
-            draw_text(screen, fonts["normal"], label, color,
-                      (card.centerx, card.y + 28))
-            draw_text(screen, fonts["title"], str(hits), TEXT,
-                      (card.centerx, card.y + 95))
-            draw_text(screen, fonts["small"], "hits", MUTED,
+            draw_panel(screen, card, fill=PANEL, border=color, radius=14,
+                       border_width=4 if winner else 2)
+            draw_turret(screen, card.centerx, card.y + 52, -math.pi / 2,
+                        color)
+            draw_text(screen, label, 16, color, (card.centerx, card.y + 106))
+            draw_text(screen, str(hits), 48, WHITE,
                       (card.centerx, card.y + 148))
-            draw_text(screen, fonts["small"],
-                      f"{hits}/{shots} shots ({accuracy:.0f}%)", TEXT,
-                      (card.centerx, card.y + 175))
+            draw_text(screen, "HITS", 12, MUTED, (card.centerx, card.y + 182),
+                      shadow=False)
+            draw_text(screen, f"{hits}/{shots} SHOTS  {accuracy:.0f}%", 12,
+                      WHITE, (card.centerx, card.y + 198), shadow=False)
             if winner:
-                draw_text(screen, fonts["small"], "MOST HITS", color,
+                draw_text(screen, "MOST HITS", 12, GOLD,
                           (card.centerx, card.y - 12))
 
-        draw_text(screen, fonts["normal"], verdict, verdict_color,
-                  (WIDTH // 2, 425))
+        for i, line in enumerate(verdict_lines):
+            draw_text(screen, line, 16, verdict_color,
+                      (WIDTH // 2, 448 + i * 24))
+        record_y = 448 + len(verdict_lines) * 24 + 14
         if record:
-            draw_text(screen, fonts["small"], f"New best score on {level}!",
-                      GOLD, (WIDTH // 2, 458))
+            draw_text(screen, f"NEW BEST SCORE ON {level.upper()}!", 12, GOLD,
+                      (WIDTH // 2, record_y))
         elif best:
-            draw_text(screen, fonts["small"],
-                      f"Best on {level}: {best.get('hits', 0)} hits "
-                      f"({str(best.get('name', ''))[:14]})",
-                      MUTED, (WIDTH // 2, 458))
+            draw_text(screen, f"BEST ON {level.upper()}: {best.get('hits', 0)} "
+                              f"HITS ({str(best.get('name', ''))[:14].upper()})",
+                      12, MUTED, (WIDTH // 2, record_y), shadow=False)
 
-        again.draw(screen, fonts["normal"], active=True)
-        back.draw(screen, fonts["normal"])
-        draw_text(screen, fonts["small"],
-                  "R or Enter: play again     Esc: level select",
-                  MUTED, (WIDTH // 2, 570))
+        again.draw(screen, active=True)
+        back.draw(screen)
+        draw_text(screen, "R OR ENTER: PLAY AGAIN     ESC: LEVEL SELECT", 12,
+                  MUTED, (WIDTH // 2, 652), shadow=False)
+        draw_scanlines(screen)
         pygame.display.flip()
