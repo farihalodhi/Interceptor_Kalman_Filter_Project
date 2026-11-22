@@ -15,15 +15,6 @@ The game shows the true drone (red), the noisy radar dots (blue), the Kalman
 estimate (purple ring) and the predicted aim point (white cross). Hit rate and
 position error are measured with fixed-seed experiments.
 
-## Screenshots
-
-| Title page | Level select |
-|---|---|
-| ![Title page](report_assets/ui_menu.png) | ![Level select](report_assets/ui_levels.png) |
-
-| Easy level (straight path, noise 15) | Hard level (turning path, noise 80) |
-|---|---|
-| ![Easy level](report_assets/ui_game_easy.png) | ![Hard level](report_assets/ui_game_hard.png) |
 
 In the game, the red drone is the true target, blue dots are the noisy radar readings, the purple ring is the
 Kalman estimate and the white cross is the predicted aim point.
