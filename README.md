@@ -15,6 +15,25 @@ The game shows the true drone (red), the noisy radar dots (blue), the Kalman
 estimate (purple ring) and the predicted aim point (white cross). Hit rate and
 position error are measured with fixed-seed experiments.
 
+## Screenshots
+
+| Title page | Level select |
+|---|---|
+| ![Title page](report_assets/ui_menu.png) | ![Level select](report_assets/ui_levels.png) |
+
+| Easy level (straight path, noise 15) | Hard level (turning path, noise 80) |
+|---|---|
+| ![Easy level](report_assets/ui_game_easy.png) | ![Hard level](report_assets/ui_game_hard.png) |
+
+In the game, the red drone is the true target, blue dots are the noisy radar readings, the purple ring is the
+Kalman estimate and the white cross is the predicted aim point.
+
+## Course connection
+
+This project applies the filtering topic of Lab 7 (Dynamic Bayesian Networks, HMM and Kalman filters) of
+AL-2002 Artificial Intelligence Lab. The Kalman filter keeps a belief about the hidden state of the drone
+(position and velocity) and updates it with every noisy radar reading.
+
 ## Requirements
 
 - Python 3.10 or newer
@@ -24,6 +43,9 @@ position error are measured with fixed-seed experiments.
 pip install -r requirements.txt
 ```
 
+Install `pygame-ce`, not `pygame`. If both are installed the game may fail to start; run
+`pip uninstall pygame` first.
+
 ## Run the game
 
 ```bash
@@ -31,7 +53,7 @@ python main.py
 ```
 
 Flow: title page (enter your name) -> loading bar -> level select -> game ->
-results screen.
+results screen. The game opens in full screen; press `F11` to switch to a window.
 
 | Level | Path | Drone speed | Radar noise | Time |
 |---|---|---|---|---|
@@ -40,8 +62,10 @@ results screen.
 | Hard | turning (sudden turn) | 180 | 80 | 60 s |
 | Lab | free play | adjustable | adjustable | untimed |
 
-Your score is the number of hits in 60 seconds. The top 5 players of each timed level are saved locally in
-`scores.json` and shown on the **leaderboard** (press `L` on the level-select page).
+Your score is the number of hits in 60 seconds. The top 5 players of each timed level (one line per player,
+best score only) are shown on the **leaderboard** (press `L` on the level-select page). Scores are saved in
+`scores.json` on your own computer; the file is not part of the repository, so the leaderboard starts empty
+on a fresh clone.
 
 ### Controls
 
@@ -52,7 +76,10 @@ Your score is the number of hits in 60 seconds. The top 5 players of each timed 
 | P | Pause or resume (timed levels) |
 | M | Mute or unmute sound |
 | L (level select page) | Open the leaderboard (top 5 players per level) |
+| F11 | Switch between full screen and a window |
 | Esc | Back to level select |
+| Results screen: Enter or R | Play the level again |
+| Results screen: Esc | Back to level select |
 | Lab only: slider, Up / Down | Change radar noise |
 | Lab only: Trajectory buttons, T | Change drone path |
 
@@ -84,7 +111,7 @@ proposal.
 ## Experiments
 
 All experiments run without a window, use a fixed time step and fixed seeds
-(1 to 30), and can be reproduced.
+(1 to 30), and can be reproduced. Each script takes from a few seconds to about two minutes.
 
 ```bash
 python experiments.py    # 3 paths x 5 noise levels x 30 runs x 2 turrets -> results/results.csv
@@ -119,13 +146,13 @@ python test_kalman.py    # quick test plot: true, noisy and estimated path
 
 ### Main results (30 runs per setting)
 
-| Path | Noise | Raw hit rate | Kalman hit rate | Raw RMSE (px) | Kalman RMSE (px) |
-|---|---|---|---|---|---|
-| Straight | 15 | 0.0% | 72.6% | 21.2 | 4.4 |
-| Straight | 100 | 5.0% | 39.5% | 141.5 | 23.0 |
-| Diagonal | 15 | 0.0% | 87.1% | 21.2 | 4.4 |
-| Turning | 15 | 0.0% | 58.9% | 21.2 | 6.1 |
-| Turning | 100 | 4.9% | 29.1% | 141.5 | 28.6 |
+| Path | Noise | Raw hit rate | Kalman hit rate | Raw RMSE (px) | Kalman RMSE (px) | Raw pred. error (px) | Kalman pred. error (px) |
+|---|---|---|---|---|---|---|---|
+| Straight | 15 | 0.0% | 72.6% | 21.2 | 4.4 | 165.4 | 14.3 |
+| Straight | 100 | 5.0% | 39.5% | 141.5 | 23.0 | 204.5 | 63.5 |
+| Diagonal | 15 | 0.0% | 87.1% | 21.2 | 4.4 | 137.0 | 12.3 |
+| Turning | 15 | 0.0% | 58.9% | 21.2 | 6.1 | 158.4 | 25.3 |
+| Turning | 100 | 4.9% | 29.1% | 141.5 | 28.6 | 199.3 | 79.3 |
 
 The full table, with prediction error and response time, is in `results/summary.txt`.
 
@@ -164,17 +191,19 @@ See `results/control_window_summary.txt`.
 | `game_manager.py` | Game state, turrets, drone, radar and Kalman filter wiring |
 | `drone.py`, `radar_sensor.py`, `turret.py`, `projectile.py` | Game objects |
 | `kalman_filter.py` | Kalman filter |
+| `test_kalman.py` | Quick test plot of the filter (true, noisy and estimated path) |
 | `overlay.py`, `ui.py` | Trails, live stats, sliders, buttons |
 | `sounds.py`, `music.py` | Sound effects and background music |
 | `scores.py` | Saved scores and the top-5 leaderboard |
 | `theme.py`, `sprites.py` | Arcade look: colours, fonts, drone and turret sprites |
 | `settings.py` | Constants and level settings |
 | `experiments.py`, `charts.py`, `sweep.py`, `control.py`, `control_window.py` | Experiments and charts |
-| `results/`, `report_assets/` | Experiment outputs and screenshots |
+| `assets/` | Pixel font used by the interface |
+| `results/`, `report_assets/` | Experiment outputs (CSV, summaries, charts) and screenshots |
 
 ## Team
 
-| Name | Roll number | 
-|---|---|
-| Fariha Nasir | [24K-3058] | 
-| Hira Bashir | [24K-3064] |
+| Name | Roll number | Role |
+|---|---|---|
+| Hira Bashir | 24K-3064 | Game loop, interface, drone, player controls, projectiles |
+| Fariha Nasir | 24K-3058 | Kalman filter, radar-noise model, baselines, metrics, charts |
