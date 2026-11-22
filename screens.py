@@ -11,7 +11,7 @@ from theme import (SCREEN_H, SPACE, PANEL, PANEL_LIGHT, OUTLINE, WHITE, MUTED,
                    wrap_text, Starfield, background, poll_events)
 from ui import TextBox, Button
 from sprites import draw_drone, draw_turret
-from scores import load_scores
+from scores import load_scores, load_leaderboard
 
 LEVEL_COLORS = {"Easy": GREEN, "Medium": ORANGE, "Hard": RED, "Lab": PURPLE}
 BLURB = {"Easy": "WARM UP", "Medium": "STEP UP", "Hard": "NO MERCY",
@@ -219,6 +219,96 @@ def draw_level_card(screen, level, cfg, card, hovered, index, record):
               shadow=False)
 
 
+RANK_COLORS = (GOLD, (205, 212, 230), (214, 140, 80), WHITE, WHITE)
+
+
+def show_leaderboard(screen, clock, name, level="Easy"):
+    """Top 5 players of each timed level (names and scores only).
+    Returns "back" (Esc) or None (window closed)."""
+    backdrop = Backdrop()
+    levels = [lv for lv in LEVELS if LEVELS[lv].get("time")]
+    tabs = [pygame.Rect(WIDTH // 2 - 195 + i * 135, 158, 125, 36)
+            for i in range(len(levels))]
+    table = pygame.Rect(WIDTH // 2 - 250, 212, 500, 280)
+    current = levels.index(level) if level in levels else 0
+    boards = {lv: load_leaderboard(lv) for lv in levels}
+    elapsed = 0.0
+
+    while True:
+        dt = clock.tick(FPS) / 1000
+        elapsed += dt
+        for event in poll_events():
+            if event.type == pygame.QUIT:
+                return None
+            if event.type == pygame.KEYDOWN:
+                if event.key in (pygame.K_ESCAPE, pygame.K_l):
+                    return "back"
+                if pygame.K_1 <= event.key < pygame.K_1 + len(levels):
+                    current = event.key - pygame.K_1
+                if event.key == pygame.K_LEFT:
+                    current = (current - 1) % len(levels)
+                if event.key == pygame.K_RIGHT:
+                    current = (current + 1) % len(levels)
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                for i, tab in enumerate(tabs):
+                    if tab.collidepoint(event.pos):
+                        current = i
+        backdrop.update(dt)
+
+        backdrop.draw(screen)
+        draw_title(screen, elapsed, 62, 48)
+        draw_text(screen, "LEADERBOARD", 22, GOLD, (WIDTH // 2, 130))
+
+        for i, (lv, tab) in enumerate(zip(levels, tabs)):
+            color = LEVEL_COLORS[lv]
+            if i == current:
+                pygame.draw.rect(screen, color, tab, border_radius=8)
+                draw_text(screen, lv.upper(), 14, OUTLINE, tab.center,
+                          shadow=False)
+            else:
+                draw_panel(screen, tab, fill=PANEL, border=color, radius=8,
+                           border_width=2)
+                draw_text(screen, lv.upper(), 14, color, tab.center,
+                          shadow=False)
+
+        level_name = levels[current]
+        draw_panel(screen, table, fill=PANEL, border=LEVEL_COLORS[level_name],
+                   radius=14, border_width=3)
+        draw_text(screen, "RANK", 12, MUTED, (table.x + 40, table.y + 26),
+                  anchor="midleft", shadow=False)
+        draw_text(screen, "PLAYER", 12, MUTED, (table.x + 130, table.y + 26),
+                  anchor="midleft", shadow=False)
+        draw_text(screen, "HITS", 12, MUTED, (table.right - 40, table.y + 26),
+                  anchor="midright", shadow=False)
+
+        entries = boards[level_name]
+        for rank in range(5):
+            row_y = table.y + 70 + rank * 44
+            color = RANK_COLORS[rank]
+            if rank < len(entries):
+                player = str(entries[rank].get("name", ""))[:14].upper()
+                hits = str(entries[rank]["hits"])
+                if player == name.upper():
+                    row = pygame.Rect(table.x + 14, row_y - 18,
+                                      table.width - 28, 36)
+                    pygame.draw.rect(screen, PANEL_LIGHT, row, border_radius=8)
+            else:
+                player, hits = "---", "---"
+                color = MUTED
+            draw_text(screen, f"{rank + 1}.", 18, color,
+                      (table.x + 40, row_y), anchor="midleft")
+            draw_text(screen, player, 18, color, (table.x + 130, row_y),
+                      anchor="midleft")
+            draw_text(screen, hits, 18, color, (table.right - 40, row_y),
+                      anchor="midright")
+
+        draw_text(screen, f"1-{len(levels)} OR LEFT/RIGHT: LEVEL     "
+                          "ESC: BACK", 12, MUTED, (WIDTH // 2, 520),
+                  shadow=False)
+        draw_scanlines(screen)
+        pygame.display.flip()
+
+
 def show_levels(screen, clock, name):
     """Level select. Returns "Easy"/"Medium"/"Hard"/"Lab", "back" or None."""
     backdrop = Backdrop()
@@ -226,6 +316,7 @@ def show_levels(screen, clock, name):
     names = list(LEVELS)
     cards = [pygame.Rect(27 + i * 215, 185, 200, 300)
              for i in range(len(names))]
+    board_link = pygame.Rect(WIDTH // 2 - 130, 524, 260, 22)
     elapsed = 0.0
 
     while True:
@@ -237,9 +328,15 @@ def show_levels(screen, clock, name):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     return "back"
+                if event.key == pygame.K_l:
+                    if show_leaderboard(screen, clock, name) is None:
+                        return None
                 if pygame.K_1 <= event.key < pygame.K_1 + len(names):
                     return names[event.key - pygame.K_1]
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                if board_link.collidepoint(event.pos):
+                    if show_leaderboard(screen, clock, name) is None:
+                        return None
                 for level, card in zip(names, cards):
                     if card.collidepoint(event.pos):
                         return level
@@ -256,6 +353,9 @@ def show_levels(screen, clock, name):
         draw_text(screen, f"CLICK A LEVEL OR PRESS 1-{len(names)}     "
                           "ESC: CHANGE NAME", 12, MUTED, (WIDTH // 2, 512),
                   shadow=False)
+        draw_text(screen, "L: LEADERBOARD", 12,
+                  GOLD if board_link.collidepoint(mouse) else CYAN,
+                  board_link.center, shadow=False)
         draw_scanlines(screen)
         pygame.display.flip()
 

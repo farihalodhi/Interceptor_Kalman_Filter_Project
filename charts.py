@@ -29,6 +29,8 @@ def load_results():
                 "noise": int(r["noise"]),
                 "hit_rate": float(r["hit_rate"]),
                 "rmse": float(r["rmse"]),
+                "pred_error": (float(r["pred_error"])
+                               if r.get("pred_error") else None),
             })
     return rows
 
@@ -37,7 +39,8 @@ def grouped(rows, pattern, turret, field):
     # collect the 30 per-seed values at each noise level
     groups = {}
     for r in rows:
-        if r["trajectory"] == pattern and r["turret"] == turret:
+        if (r["trajectory"] == pattern and r["turret"] == turret
+                and r[field] is not None):
             groups.setdefault(r["noise"], []).append(r[field])
     noises = sorted(groups)
     means = np.array([np.mean(groups[n]) for n in noises])
@@ -149,13 +152,16 @@ def main():
     plot_metric(rows, "hit_rate", "Hit rate (%)",
                 "Hit rate vs sensor noise",
                 "chart2_hit_rate_vs_noise.png", ylim=(0, 100))
+    plot_metric(rows, "pred_error", "Prediction error (pixels)",
+                "Future-position prediction error vs sensor noise",
+                "chart9_prediction_error_vs_noise.png")
 
     pattern, noise, seed = "turning", 30, 1
     trace = record_trial(pattern, noise, seed)
     save_trace(trace, "trace_turning.csv")
     plot_trace(trace, pattern, noise, seed)
 
-    print("saved 4 charts and trace_turning.csv to", OUTPUT_DIR)
+    print("saved 5 charts and trace_turning.csv to", OUTPUT_DIR)
 
 
 if __name__ == "__main__":
